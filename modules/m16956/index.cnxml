@@ -1,0 +1,224 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Summary of Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16956</md:content-id>
+  <md:title>Summary of Formulas</md:title>
+  <md:abstract/>
+  <md:uuid>9e1790c5-67da-4eb6-8265-a08b9bd387c9</md:uuid>
+</metadata>
+  <content>
+<rule id="rule-1" type="Formula"><label>Formula</label><title>Central Limit Theorem for Sample Means</title><statement id="id6337619">
+<para id="element-1"><m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply></m:math> ~
+<m:math>
+<m:mn>N</m:mn>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>,</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+<m:mspace width="35pt"/>
+</m:math>
+<emphasis>
+The Mean
+<m:math>
+<m:mo>(</m:mo>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+<m:mo>)</m:mo>
+</m:math>:
+</emphasis>
+<m:math>
+<m:mspace width="10pt"/>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:math></para></statement>
+</rule><rule id="rule-1_5" type="Formula"><label>Formula</label><title>Central Limit Theorem for Sample Means  Z-Score and Standard Error of the Mean</title><statement id="id6532768">
+<para id="element-984"><m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+<m:mo>-</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:mrow>
+
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="25pt"/>
+</m:math>
+<emphasis>
+Standard Error of the Mean (Standard Deviation
+<m:math><m:mo>(</m:mo><m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply><m:mo>)</m:mo></m:math>):</emphasis>
+
+<m:math>
+<m:mspace width="10pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:math>
+
+</para></statement>
+</rule><rule id="rule-2" type="Formula"><label>Formula</label><title>Central Limit Theorem for Sums</title><statement id="id6417476">
+<para id="element-2"><m:math>
+
+<m:mi>ΣX</m:mi></m:math> ~
+<m:math>
+<m:mi>N</m:mi>
+<m:mo>[</m:mo>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>)</m:mo>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>,</m:mo>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>]</m:mo>
+<m:mspace width="10pt"/>
+</m:math>
+<emphasis>
+Mean for Sums
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>ΣX</m:mi>
+<m:mo>)</m:mo>
+</m:math>:
+</emphasis>
+<m:math>
+<m:mspace width="10pt"/>
+<m:mi>n</m:mi>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:math>
+
+</para>
+</statement>
+
+</rule>
+
+<rule id="rule-4" type="Formula"><label>Formula</label><title>Central Limit Theorem for Sums Z-Score and Standard Deviation for Sums</title><statement id="id1309978">
+
+<para id="element-513"><m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>Σx</m:mi>
+<m:mo>−</m:mo>
+<m:mi>n</m:mi>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="25pt"/>
+</m:math>
+<emphasis>
+Standard Deviation for Sums
+<m:math>
+<m:mo>(</m:mo>
+<m:mi>ΣX</m:mi>
+<m:mo>)</m:mo>
+</m:math>:
+</emphasis>
+<m:math>
+<m:mspace width="25pt"/>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:math></para>
+</statement>
+</rule>
+     
+  </content>
+  
+</document>

@@ -1,0 +1,321 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="lab">
+  <title>Lab: Probability Topics</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16841</md:content-id>
+  <md:title>Lab: Probability Topics</md:title>
+  <md:abstract>This module presents students with a lab exercise allowing them to apply their understanding of Probability.  In an experiment using M&amp;Ms candies, students will calculate and compare the theoretical and empirical probabilities of drawing particular color candies at random, with and without replacement.</md:abstract>
+  <md:uuid>dfbd2f35-4077-44d8-8702-c6f62b9131bb</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Probability Topics- Lab I.doc" strength="3">Download handout (.doc)</link>
+      <link url="Probability Topics- Lab I.pdf" strength="1">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="element-281">Class time: </para><para id="element-279">Names: </para><section id="element-243"><title>Student Learning Outcomes:</title>
+<list id="element-180" list-type="bulleted"><item>The student will use theoretical and empirical methods to estimate probabilities.</item>
+<item>The student will appraise the differences between the two estimates.</item>
+<item>The student will demonstrate an understanding of long-term relative frequencies.</item></list></section><section id="id39791924"><title>Do the Experiment:</title>
+
+<para id="element-410">Count out 40 mixed-color M&amp;M’s® which is approximately 1 small bag’s worth (distance learning classes using the virtual lab would want to count out 25 M&amp;M’s®). Record the number of each color in the "Population" table. Use the information from this table to complete the theoretical probability questions. Next, put the M&amp;M’s in a cup. The experiment is to pick 2 M&amp;M’s, one at a time. Do  <emphasis>not</emphasis> look at them as you pick them. The first time through, replace the first M&amp;M before picking the second one. Record the results in the “With Replacement” column of the empirical table. Do this 24 times. The second time through, after picking the first M&amp;M, do <emphasis>not</emphasis> replace it before picking the second one. Then, pick the second one. Record the results in the “Without Replacement” column section of the "Empirical Results" table. After you record the pick, put <emphasis>both</emphasis> M&amp;M’s back. Do this a total of 24 times, also. Use the data from the "Empirical Results" table to calculate the empirical probability questions. Leave your answers in unreduced fractional form. Do <emphasis>not</emphasis> multiply out any fractions.
+</para>
+
+<table id="element-885" summary="Partially filled theoretical data table. The first column lists the color (6 rows) and the blank second column lists the quantity values.">
+
+<title>Population</title>
+<tgroup cols="2"><thead>
+  <row>
+    <entry>Color</entry>
+    <entry>Quantity</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>Yellow (Y)</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Green (G)</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Blue (BL)</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Brown (B)</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Orange (O)</entry>
+    <entry/>
+  </row>
+
+  <row>
+    <entry>Red (R)</entry>
+    <entry/>
+  </row>
+</tbody>
+
+</tgroup>
+</table>
+
+
+<table id="element-881" summary="">
+<title>Theoretical Probabilities</title>
+<tgroup cols="3"><thead>
+  <row>
+    <entry/>
+    <entry>With Replacement</entry>
+    <entry>Without Replacement</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mtext>2 reds</m:mtext><m:mo>)</m:mo></m:math></entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><m:math>
+      <m:mi>P</m:mi>
+      <m:mo>(</m:mo>
+      <m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub>
+      <m:msub><m:mi>B</m:mi><m:mn>2</m:mn></m:msub>
+      <m:mtext> OR </m:mtext>
+      <m:msub><m:mi>B</m:mi><m:mn>1</m:mn></m:msub>
+      <m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub>
+      <m:mo>)</m:mo></m:math></entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><m:math>
+      <m:mi>P</m:mi>
+      <m:mo>(</m:mo>
+      <m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub>
+      <m:mtext> AND </m:mtext>
+      <m:msub><m:mi>G</m:mi><m:mn>2</m:mn></m:msub>
+      <m:mo>)</m:mo></m:math></entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><m:math>
+      <m:mi>P</m:mi>
+      <m:mo>(</m:mo>
+      <m:msub><m:mi>G</m:mi><m:mn>2</m:mn></m:msub>
+      <m:mtext> | </m:mtext>
+      <m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub>
+      <m:mo>)</m:mo></m:math></entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mtext>no yellows</m:mtext><m:mo>)</m:mo></m:math></entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mtext>doubles</m:mtext><m:mo>)</m:mo></m:math></entry>
+    <entry/>
+    <entry/>
+  </row>
+
+  <row>
+    <entry><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mtext>no doubles</m:mtext><m:mo>)</m:mo></m:math></entry>
+    <entry/>
+    <entry/>
+  </row>
+</tbody>
+
+
+</tgroup>
+<caption>Note: <m:math><m:msub><m:mn>G</m:mn>
+<m:mn>2</m:mn></m:msub></m:math> = green on second pick;
+
+<m:math><m:msub><m:mn>R</m:mn><m:mn>1</m:mn></m:msub></m:math> = red on first pick;
+
+<m:math><m:msub><m:mn>B</m:mn><m:mn>1</m:mn></m:msub></m:math> = brown on first pick;
+
+<m:math><m:msub><m:mn>B</m:mn><m:mn>2</m:mn></m:msub></m:math> = brown on second pick;
+
+doubles = both picks are the same colour.</caption>
+</table>
+
+<table id="element-419" summary="Blank empirical results table with the first column designated for with replacement and the second column listed for without replacement. 24 empty cells.">
+
+<title>Empirical Results</title>
+<tgroup cols="2"><thead>
+  <row>
+    <entry>With Replacement</entry>
+    <entry>Without Replacement</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>( __ , __ ) ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+  <row>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+    <entry>( __ , __ )   ( __ , __ )</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table>
+
+<table id="element-846" summary="">
+<title>Empirical Probabilities</title>
+<tgroup cols="3"><thead>
+  <row>
+    <entry/>
+    <entry>With Replacement</entry>
+    <entry>Without Replacement</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mtext>2 reds</m:mtext><m:mo>)</m:mo></m:math></entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><m:math>
+      <m:mi>P</m:mi>
+      <m:mo>(</m:mo>
+      <m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub>
+      <m:msub><m:mi>B</m:mi><m:mn>2</m:mn></m:msub>
+      <m:mtext> OR </m:mtext>
+      <m:msub><m:mi>B</m:mi><m:mn>1</m:mn></m:msub>
+      <m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub>
+      <m:mo>)</m:mo></m:math></entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><m:math>
+      <m:mi>P</m:mi>
+      <m:mo>(</m:mo>
+      <m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub>
+      <m:mtext> AND </m:mtext>
+      <m:msub><m:mi>G</m:mi><m:mn>2</m:mn></m:msub>
+      <m:mo>)</m:mo></m:math></entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><m:math>
+      <m:mi>P</m:mi>
+      <m:mo>(</m:mo>
+      <m:msub><m:mi>G</m:mi><m:mn>2</m:mn></m:msub>
+      <m:mtext> | </m:mtext>
+      <m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub>
+      <m:mo>)</m:mo></m:math></entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mtext>no yellows</m:mtext><m:mo>)</m:mo></m:math></entry>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mtext>doubles</m:mtext><m:mo>)</m:mo></m:math></entry>
+    <entry/>
+    <entry/>
+  </row>
+
+  <row>
+    <entry><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mtext>no doubles</m:mtext><m:mo>)</m:mo></m:math></entry>
+    <entry/>
+    <entry/>
+  </row>
+</tbody>
+
+</tgroup>
+<caption>Note:  </caption>
+</table>
+</section>
+<section id="element-59"><title>Discussion Questions</title>
+<list id="element-148" mark-suffix="." list-type="enumerated"><item>Why are the “With Replacement” and “Without Replacement” probabilities different?</item>
+<item>Convert <m:math><m:mtext>P(no yellows)</m:mtext></m:math> to decimal format for both Theoretical “With Replacement” and for Empirical “With Replacement”.  Round to 4 decimal places.
+<list id="sublist1" list-type="labeled-item" mark-suffix="."> <item><label>a</label>Theoretical “With Replacement”: <m:math><m:mtext>P(no yellows)</m:mtext><m:mo>=</m:mo></m:math>
+</item>
+<item><label>b</label>Empirical “With Replacement”: <m:math><m:mtext>P(no yellows)</m:mtext><m:mo>=</m:mo></m:math> </item>
+<item><label>c</label>Are the decimal values “close”? Did you expect them to be closer together or farther apart? Why?</item></list></item>
+<item>If you increased the number of times you picked 2 M&amp;M’s to 240 times, why would empirical probability values change?</item>
+<item>Would this change (see (3) above) cause the empirical probabilities and theoretical probabilities to be closer together or farther apart?  How do you know? </item>
+<item>Explain the differences in what 
+
+
+<m:math>
+ <m:mi>P</m:mi>
+ <m:mo>(</m:mo>
+ <m:msub><m:mi>G</m:mi><m:mn>1</m:mn></m:msub>
+ <m:mtext> AND </m:mtext><m:mspace width="2pt"/>
+ <m:msub><m:mi>R</m:mi><m:mn>2</m:mn></m:msub>
+ <m:mo>)</m:mo>
+</m:math> and <m:math>
+ <m:mi>P</m:mi>
+ <m:mo>(</m:mo>
+ <m:msub><m:mi>R</m:mi><m:mn>1</m:mn></m:msub>
+ <m:mtext> | </m:mtext>
+ <m:msub><m:mi>G</m:mi><m:mn>2</m:mn></m:msub>
+ <m:mo>)</m:mo>
+</m:math> represent. Hint:  Think about the sample space for each probability.</item> 
+</list></section>   
+  </content>
+  
+</document>

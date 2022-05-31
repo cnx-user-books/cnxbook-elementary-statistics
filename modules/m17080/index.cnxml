@@ -1,0 +1,117 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="lab">
+  <title>Lab 1: Regression (Distance from School)</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17080</md:content-id>
+  <md:title>Lab 1: Regression (Distance from School)</md:title>
+  <md:abstract>This module provides a lab of Linear Regression and Correlation as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>39aacd72-5284-4870-bd17-5b28f74b2399</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Linear Regression and Correlation Lab I.doc" strength="3">Download handout (.doc)</link>
+      <link url="Linear Regression and Correlation Lab I.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id7766414">Class Time: </para>
+    <para id="id7717848">Names:</para>
+    <section id="id-877017306257">
+      <title>Student Learning Outcomes: </title>
+      <list id="id4900601" list-type="bulleted">
+        <item>The student will calculate and construct the line of best fit between two variables.</item>
+        <item>The student will evaluate the relationship between two variables to determine if that relationship is significant. </item>
+      </list>
+    </section>
+    <section id="element-377"><title>Collect the Data</title><para id="element-7">
+Use 8 members of your class for the sample. Collect bivariate data (distance an individual lives
+from school, the cost of supplies for the current term).
+</para>
+<list id="list-238765865" list-type="enumerated"><item>Complete the table.
+<table id="id7895697570" summary="Blank table with distance from school in the first column and cost of supplies this term in the second column. 16 empty cells">
+
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+					<colspec colnum="2" colname="c2"/>
+					<thead>
+						<row>
+							<entry>Distance from school</entry>
+							<entry>Cost of supplies this term</entry>
+						</row>
+</thead>
+<tbody>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+					</tbody>
+				
+</tgroup>
+</table></item>
+	<item>Which variable should be the dependent variable and which should be the independent
+variable? Why?</item>
+	<item>Graph “distance” vs. “cost.” Plot the points on the graph. Label both axes with
+words. Scale both axes.<figure id="id6749459"><media id="id6749463" alt="Blank graph with vertical and horizontal axes."><image src="../../media/graph12.PNG" mime-type="image/png" print-width="4in"/></media></figure></item>
+</list></section><section id="element-10"><title>Analyze the Data</title><para id="element-765474">
+Enter your data into your calculator or computer.
+Write the linear equation below, rounding to 4 decimal places.</para>
+
+<list id="list-863524" list-type="enumerated" mark-suffix="."><item> Calculate the following:
+<list id="list-7528634" list-type="labeled-item" mark-suffix=".">
+			<item><label>a</label><m:math>
+					<m:mi>a</m:mi></m:math> =</item>
+			<item><label>b</label>
+				<m:math><m:mi>b</m:mi>
+				</m:math>=</item>
+			<item><label>c</label> correlation =</item>
+			<item><label>d</label>
+				<m:math><m:mi>n</m:mi></m:math> =</item>
+			<item><label>e</label> equation: <m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:math>
+=</item>
+			<item><label>f</label> Is the correlation significant?
+Why or why not? (Answer in 1-3 complete sentences.)</item>
+		 </list></item>
+	<item>Supply an answer for the following senarios:
+<list id="list-986234" list-type="labeled-item" mark-suffix=".">
+			<item><label>a</label>For a person who lives 8 miles from campus, predict the total cost of supplies this term:</item>
+			<item><label>b</label>For a person who lives 80 miles from campus, predict the total cost of supplies this term:</item>
+		</list></item>
+	<item>Obtain the graph on your calculator or computer. Sketch the regression line below.<figure id="id6749694"><media id="id6749698" alt="Blank graph with vertical and horizontal axes."><image src="../../media/graph12.PNG" mime-type="image/png" print-width="4in"/></media></figure></item>
+</list></section><section id="element-414"><title>Discussion Questions</title><list id="list-74763" list-type="enumerated" mark-suffix="."><item>Answer each with 1-3 complete sentences. <list id="list2524" list-type="labeled-item" mark-suffix=".">
+			<item><label>a</label>Does the line seem to fit the data? Why?</item>
+			<item><label>b</label>What does the correlation imply about the relationship between the distance and the cost?</item></list></item>
+	<item>
+			Are there any outliers? If so, which point is an outlier? </item>
+	<item>Should the outlier, if it exists, be removed? Why or why not?</item></list></section>
+  </content>
+</document>

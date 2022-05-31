@@ -1,0 +1,106 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="practice">
+  <title>Practice 3: Poisson Distribution</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17109</md:content-id>
+  <md:title>Practice 3: Poisson Distribution</md:title>
+  <md:abstract>This module provides further practices and exercises on Poisson Distribution in statistics.</md:abstract>
+  <md:uuid>8f046fbd-e80b-497d-883e-19d5ce8f983c</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="chap 4.3 practice.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="chap 4.3 practice.doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="element-975"><title>Student Learning Outcomes</title><list id="element-09876" list-type="bulleted"><item>The student will analyze the properties of a Poisson distribution.</item>
+</list></section><section id="element-838"><title>Given</title>
+<para id="element-668">On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result,
+states across the country are debating raising the driving age. 
+
+(<cite><cite-title>Source: http://www.cdc.gov/Motorvehiclesafety/Teen_Drivers/teendrivers_factsheet.html) </cite-title></cite>)</para></section><section id="element-569"><title>Interpret the Data</title><exercise id="exerciseone">
+<problem id="id10004804">
+<para id="prob_1">Assume the event occurs independently in any given day.  
+
+In words, define the Random Variable <m:math><m:mi>X</m:mi></m:math>.</para>
+</problem>
+</exercise>
+
+<exercise id="exercisetwo"><problem id="id10004833">
+<para id="prob_2"><m:math><m:mi>X</m:mi></m:math> ~<m:math><m:mtext>______________</m:mtext></m:math></para>
+</problem>
+<solution id="id10004855">
+<para id="element-88758234">P(8)</para></solution></exercise>
+
+<exercise id="exercisethree"><problem id="id10020224">
+<para id="prob_3">What values does <m:math>
+<m:mi>X</m:mi>
+</m:math>
+take on?
+</para>
+</problem>
+<solution id="id10020246">
+<para id="element-88758324234">0,1,2,3,4,...</para>
+</solution></exercise>
+
+<exercise id="exercisefour">
+<problem id="id10020274">
+<para id="prob_4">For the given values of the random variable <m:math><m:mi>X</m:mi></m:math>, fill in the corresponding probabilities.<table id="element-222" summary="">
+<tgroup cols="2"><thead>
+  <row>
+    <entry><m:math><m:mi>x</m:mi></m:math></entry>
+    <entry><m:math><m:mtext>P(x)</m:mtext></m:math></entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>0</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>8</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>10</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>11</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>15</entry>
+    <entry/>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table>  </para></problem>
+</exercise>
+
+<exercise id="exercisefive"><problem id="id10039817">
+<para id="prob_5">Is it likely that there will be no teens killed in the U.S. from motor vehicle injuries on any given day?  Justify your answer numerically.</para></problem>
+<solution id="id10039834">
+<para id="element-887532428234">No</para>
+</solution></exercise>
+
+<exercise id="exercisesix"><problem id="id10039858">
+<para id="prob_6">Is it likely that there will be more than 20 teens killed in the U.S. from motor vehicle injuries on any given day?  Justify your answer numerically.</para></problem>
+<solution id="id10039877">
+<para id="element-88758232434">No</para>
+</solution></exercise>
+</section>
+  </content>
+  
+</document>

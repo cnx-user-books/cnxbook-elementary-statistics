@@ -1,0 +1,39 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Rare Events</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16994</md:content-id>
+  <md:title>Rare Events</md:title>
+  <md:abstract/>
+  <md:uuid>383ddb60-5466-4835-af6b-d45ef00c00c3</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">Suppose you make an assumption about a property of the population (this assumption
+is the <emphasis><term target-id="hypothesis">null hypothesis</term></emphasis>). Then you gather sample data randomly. If the sample has
+properties that would be very <emphasis>unlikely</emphasis> to occur if the assumption is true, then you
+would conclude that your assumption about the population is probably incorrect.
+(Remember that your assumption is just an <emphasis>assumption</emphasis> - it is not a fact and it may or
+may not be true. But your sample data are real and the data are showing you a fact that seems to
+contradict your assumption.)</para><para id="element-969">For example, Didi and Ali are at a birthday party of a very wealthy friend. They hurry
+to be first in line to grab a prize from a tall basket that they cannot see inside because
+they will be blindfolded. There are 200 plastic bubbles in the basket and Didi and Ali
+have been told that there is only one with a $100 bill. Didi is the first person to reach
+into the basket and pull out a bubble. Her bubble contains a $100 bill. The
+probability of this happening is <m:math><m:mfrac><m:mn>1</m:mn><m:mn>200</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0.005</m:mn></m:math>. Because this is so unlikely, Ali is hoping
+that what the two of them were told is wrong and there are more $100 bills in the
+basket. A "rare event" has occurred (Didi getting the $100 bill) so Ali doubts the
+assumption about only one $100 bill being in the basket.</para>   
+  </content>
+
+  <glossary>
+<definition id="hypothesis">
+    <term>Hypothesis</term>
+    <meaning id="id1168218799446">
+   A statement about the value of a population parameter. In case of two hypotheses, the statement assumed to be true is called the null hypothesis (notation 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>) and the contradictory statement is called the alternate hypothesis (notation 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } } {}</m:annotation></m:semantics></m:math>).
+    </meaning>
+  </definition>
+
+</glossary>
+</document>

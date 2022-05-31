@@ -1,0 +1,104 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="lab">
+  <title>Lab 2: Chi-Square Test for Independence</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17050</md:content-id>
+  <md:title>Lab 2: Chi-Square Test for Independence</md:title>
+  <md:abstract>This module provides a lab on Chi-Square Distribution as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>6f8ccd25-36d3-4f54-9190-5cf8f0974209</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="The Chi-Square Distribution- Lab II.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="The Chi-Square Distribution- Lab II.doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id8363924">Class Time: </para>
+    <para id="id7668722">Names:</para>
+    <section id="id-266643074289">
+      <title>Student Learning Outcome: </title>
+      <list id="id3831121" list-type="bulleted">
+        <item>The student will evaluate if there is a significant relationship between favorite type of snack and gender. </item>
+      </list>
+    </section>
+    <section id="element-304"><title>Collect the Data</title><list id="list-8652384" list-type="enumerated">
+
+	<item>Using your class as a sample, complete the following chart. 
+<note id="eip-998">You may need to combine two
+food categories so that each cell has an expected value of at least 5</note><table id="id89871qw3984l8" summary="This table presents the favorite type of snack in columns 2-5 and the total in the sixth column. The first row is male, the second row is female, and the third row is total.">
+
+<title>Favorite type of snack</title>
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+	<colspec colnum="2" colname="c2"/>
+	<colspec colnum="3" colname="c3"/>
+	<colspec colnum="4" colname="c4"/>
+	<colspec colnum="5" colname="c5"/>
+	<colspec colnum="6" colname="c6"/>
+	<thead>
+		<row>
+			<entry/>
+			<entry>sweets (candy &amp; baked goods)</entry>
+			<entry>ice cream</entry>
+			<entry>chips &amp; pretzels</entry>
+			<entry>fruits &amp; vegetables</entry>
+			<entry>Total</entry>
+		</row>
+	</thead>
+	<tbody>
+		<row>
+			<entry>male</entry>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+		</row>
+		<row>
+			<entry>female</entry>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+		</row>
+		<row>
+			<entry>Total</entry>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+			<entry/>
+		</row>
+	</tbody>
+
+</tgroup>
+</table></item>
+	<item>Looking at the above chart, does it appear to you that there is dependence between gender and favorite type of snack food? Why or why not?</item>
+</list>
+</section><section id="element-528"><title>Hypothesis Test</title><para id="element-52">
+Conduct a hypothesis test to determine if the factors are independent
+</para>
+<list id="list-76474" list-type="enumerated">
+	<item> <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math>:
+</item>
+<item>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } } {}</m:annotation></m:semantics></m:math>:</item>
+	<item>What distribution should you use for a hypothesis test? </item>
+	<item>Why did you choose this distribution? </item>
+	<item>Calculate the test statistic.</item>
+	<item>Find the 
+p-value.</item>
+	<item>Sketch a graph of the situation. Label and scale the x-axis. Shade the area corresponding to the 
+p-value. <figure id="id3390530"><media id="id3497794" alt="Blank graph with vertical and horizontal axes."><image src="../../media/graph12.PNG" mime-type="image/png" print-width="4in"/></media></figure>
+	</item>
+	<item>State your decision. </item>
+	<item>State your conclusion in a complete sentence. </item>
+</list></section><section id="element-523"><title>Discussion Questions</title><list id="list-87578324" list-type="enumerated">
+<item> Is the conclusion of your study the same as or different from your answer to (I2) above?</item>
+<item> Why do you think that occurred?</item></list></section>
+  </content>
+</document>

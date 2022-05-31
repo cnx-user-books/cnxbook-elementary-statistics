@@ -1,0 +1,1559 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="homework">
+  <title>Homework</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16807</md:content-id>
+  <md:title>Homework</md:title>
+  <md:abstract>This module provides a number of homework exercises related to Continuous Random Variables.</md:abstract>
+  <md:uuid>1ad97f6d-0013-451a-8de0-0d2998511c87</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Continuous Random Variables.doc" strength="3">Download handout (.doc)</link>
+      <link url="Continuous Random Variables.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="delete_me"><emphasis>For each probability and percentile problem, DRAW THE PICTURE!</emphasis>
+    </para><exercise id="element-987"><problem id="id9296654">
+  <para id="element-152">Consider the following experiment.  You are one of 100 people enlisted to take part in a study to determine the percent of nurses in America with an R.N. (registered nurse) degree.  You ask nurses if they have an R.N. degree.  The nurses answer “yes” or “no.”  You then calculate the percentage of nurses with an R.N. degree.  You give that percentage to your supervisor.
+  </para><list id="element-835" list-type="labeled-item" mark-suffix="."><item><label>a</label>What part of the experiment will yield discrete data?</item>
+<item><label>b</label> What part of the experiment will yield continuous data?</item></list>
+</problem>
+
+</exercise><exercise id="element-195"><problem id="id6275719">
+  <para id="element-689">
+  When age is rounded to the nearest year, do the data stay continuous, or do they become discrete?  Why?
+  </para>
+</problem>
+
+
+</exercise><exercise id="element-588"><problem id="id6276189">
+  <para id="element-943">
+Births are approximately uniformly distributed between the 52 weeks of the year.  They can be said to follow a Uniform Distribution from 1 – 53 (spread of 52 weeks).
+  </para><list id="element-844" mark-suffix="." list-type="labeled-item"><item><label>a</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>X</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation>
+        </m:semantics>
+      <m:mo>~</m:mo></m:math>
+     </item>
+<item><label>b</label> Graph the probability distribution.</item>
+<item><label>c</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation>
+        </m:semantics>
+      <m:mo>=</m:mo></m:math>
+    </item>
+<item><label>d</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>μ</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{μ} {}</m:annotation>
+        </m:semantics>
+      <m:mo>=</m:mo></m:math>
+    </item>
+<item><label>e</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>σ</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{σ} {}</m:annotation>
+        </m:semantics>
+      <m:mo>=</m:mo></m:math>
+    </item>
+<item><label>f</label> Find the probability that a person is born at the exact moment week 19 starts.  That is, find 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>19</m:mtext>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( X="19" \) } {}</m:annotation>
+        </m:semantics>
+      <m:mo>=</m:mo></m:math>
+    </item>
+<item><label>g</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mtext>31</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( 2&lt;X&lt;"31" \) ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>h</label> Find the probability that a person is born after week 40.</item>
+<item><label>i</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow/>
+          <m:annotation encoding="StarMath 5.0">{}</m:annotation>
+        </m:semantics>
+      </m:math>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mtext>12</m:mtext>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mo stretchy="false">∣</m:mo>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mtext>28</m:mtext>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( "12"&lt;X \lline X&lt;"28" \) } {}</m:annotation>
+        </m:semantics>
+      <m:mo>=</m:mo></m:math>
+    </item>
+<item><label>j</label> Find the 70th percentile.</item>
+<item><label>k</label> Find the minimum for the upper quarter. </item></list></problem>
+
+<solution id="id6298316">
+  <list id="element-781" list-type="labeled-item" mark-suffix="."><item><label>a</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mtext>~</m:mtext>
+                  <m:mi>U</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>1,</m:mn>
+                  <m:mtext>53</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X " ~ " U \( 1,"53" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     
+    </item>
+
+
+
+<item><label>c</label> <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mtext>52</m:mtext></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) = {  {1}  over  { \( b - a \) } } = {  {1}  over  { \( "53" - 1 \) } } = {  {1}  over  {"52"} } } {}</m:annotation></m:semantics></m:math> where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">≤</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">≤</m:mo><m:mtext>53</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 &lt;= x &lt;= "53"} {}</m:annotation></m:semantics></m:math></item>
+
+
+<item><label>d</label> 27 </item>
+
+<item><label>e</label>15.01</item>
+
+<item><label>f</label> 
+     0
+    </item>
+
+<item><label>g</label> 
+<m:math><m:semantics><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mtext>29</m:mtext><m:mtext>52</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle></m:semantics></m:math></item>
+
+
+<item><label>h</label> 
+<m:math><m:semantics><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mtext>13</m:mtext><m:mtext>52</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle></m:semantics></m:math></item>
+
+
+<item><label>i</label> 
+<m:math><m:semantics><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mtext>16</m:mtext><m:mtext>27</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle></m:semantics></m:math></item> 
+<item><label>j</label> 37.4</item>
+<item><label>k</label> 40</item></list>
+</solution>
+</exercise><exercise id="element-903"><problem id="id8944144">
+  <para id="element-818">
+   A random number generator picks a number from 1 to 9 in a uniform manner.
+  </para><list id="element-710" mark-suffix="." list-type="labeled-item"><item><label>a</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mtext>~</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>b</label> Graph the probability distribution.</item>
+<item><label>c</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f \( x \) ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>d</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>μ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{μ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>e</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>σ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{σ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>f</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>25</m:mtext>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( 3 "." 5&lt;X&lt;7 "." "25" \) ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>g</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">&gt;</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>67</m:mtext>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( X&gt;5 "." "67" \) ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>h</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">&gt;</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">∣</m:mo>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">&gt;</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( X&gt;5 \lline X&gt;3 \) ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>i</label> Find the 90th percentile.</item></list></problem>
+</exercise><exercise id="element-185"><problem id="id6284143">
+  <para id="element-19"><emphasis>The time (in minutes) until the next bus departs a major bus depot</emphasis> follows a distribution with 
+  <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mtext>20</m:mtext></m:mfrac></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:semantics></m:math> where 
+<m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math>
+goes from 25 to 45 minutes.</para><list id="element-134" mark-suffix="." list-type="labeled-item"><item><label>a</label>Define the random variable.  
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>b</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mtext>~</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>c</label> Graph the probability distribution.</item>
+<item><label>d</label> 
+The distribution is ______________ (name of distribution). It is _____________ (discrete or continuous).</item>
+<item><label>e</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>μ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{μ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>f</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>σ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{σ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>g</label> Find the probability that the time is at most 30 minutes.  Sketch and label a graph of the distribution.  Shade the area of interest.  Write the answer in a probability statement.</item>
+<item><label>h</label> Find the probability that the time is between 30 and 40 minutes.  Sketch and label a graph of the distribution.  Shade the area of interest.  Write the answer in a probability statement.</item>
+<item><label>i</label> <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mo stretchy="false">&lt;</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mtext>55</m:mtext></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( "25"&lt;X&lt;"55" \) ={}} {}</m:annotation></m:semantics></m:math> _________. State this in a probability statement (similar to <emphasis>g</emphasis> and <emphasis>h</emphasis> ), draw the picture, and find the probability.</item>
+<item><label>j</label> Find the 90th percentile. This means that 90% of the time, the time is less than _____ minutes.</item>
+<item><label>k</label> Find the 75th percentile.   In a complete sentence, state what this means.  (See <emphasis>j</emphasis>.)</item>
+<item><label>l</label> Find the probability that the time is more than 40 minutes given (or knowing that) it is at least 30 minutes.  </item></list></problem>
+
+<solution id="id8903633">
+  <list id="element-264" mark-suffix="." list-type="labeled-item"><item><label>b</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mtext>~</m:mtext>
+                  <m:mi>U</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>25</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mtext>45</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X "~" U \( "25","45" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+      
+    </item>
+
+<item><label>d</label> uniform; continuous</item>
+
+
+<item><label>e</label> 35 minutes</item>
+
+
+<item><label>f</label> 5.8 minutes</item>
+
+<item><label>g</label> 0.25 </item>
+
+<item><label>h</label> 0.5 </item>
+
+<item><label>i</label> 1 </item>
+
+<item><label>j</label> 43 minutes</item>
+<item><label>k</label> 40 minutes</item>
+<item><label>l</label> 0.3333</item>
+</list>
+</solution>
+</exercise><exercise id="element-505"><problem id="id5468989">
+  <para id="element-17">According to a study by Dr. John McDougall of his live-in weight loss program at St. Helena Hospital, the people who follow his program lose between 6 and 15 pounds a month until they approach trim body weight.  Let’s suppose that the weight loss is uniformly distributed.  We are interested in the weight loss of a randomly selected individual following the program for one month.  (Source:  <emphasis> The McDougall Program for Maximum Weight Loss</emphasis> by John A. McDougall, M.D.)</para><list id="element-711" mark-suffix="." list-type="labeled-item"><item><label>a</label>Define the random variable. 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>b</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mtext>~</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>c</label> Graph the probability distribution.</item>
+<item><label>d</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f \( x \) ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>e</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>μ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{μ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>f</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>σ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{σ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>g</label> Find the probability that the individual lost more than 10 pounds in a month.</item>
+<item><label>h</label> Suppose it is known that the individual lost more than 10 pounds in a month.  Find the probability that he lost less than 12 pounds in the month.</item>
+<item><label>i</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>7</m:mn>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">&lt;</m:mo>
+                    <m:mtext>13</m:mtext>
+                  </m:mrow>
+                  <m:mo stretchy="false">∣</m:mo>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">&gt;</m:mo>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( 7&lt;X&lt;"13" \lline X&gt;9 \) ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     __________. State this in a probability question (similar to g and h), draw the picture, and find the probability.</item>
+</list></problem>
+</exercise><exercise id="element-372"><problem id="id9304340">
+  <para id="element-464">A subway train on the Red Line arrives every 8 minutes during rush hour.  We are interested in the length of time a commuter must wait for a train to arrive.  The time follows a uniform distribution.</para><list id="element-9" mark-suffix="." list-type="labeled-item"><item><label>a</label>Define the random variable.
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>b</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mtext>~</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>c</label> Graph the probability distribution.</item>
+<item><label>d</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f \( x \) ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>e</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>μ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{μ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>f</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>σ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{σ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>g</label> Find the probability that the commuter waits less than one minute.</item>
+<item><label>h</label> Find the probability that the commuter waits between three and four minutes.</item>
+<item><label>i</label> 60% of commuters wait more than how long for the train? State this in a probability question (similar to <emphasis>g</emphasis> and <emphasis>h</emphasis>), draw the picture, and find the probability.
+</item>
+</list></problem>
+
+<solution id="id6310146">
+  <list id="element-911" mark-suffix="." list-type="labeled-item"><item><label>b</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mtext>~</m:mtext>
+                  <m:mi>U</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0,8</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X "~" U \( 0,8 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     
+    </item>
+
+<item><label>d</label> <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mtext>8</m:mtext></m:mfrac></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:semantics></m:math> where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>0</m:mtext><m:mo stretchy="false">≤</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">≤</m:mo><m:mtext>8</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle></m:mrow></m:semantics></m:math></item>
+
+<item><label>e</label> 4</item>
+<item><label>f</label> 2.31</item>
+<item><label>g</label> 
+      <m:math><m:semantics><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mtext>1</m:mtext><m:mtext>8</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle></m:semantics></m:math>
+    </item>
+<item><label>h</label> 
+      <m:math><m:semantics><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mtext>1</m:mtext><m:mtext>8</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle></m:semantics></m:math>
+    </item>
+<item><label>i</label> 
+     3.2
+    </item>
+
+</list></solution>
+</exercise><exercise id="element-347"><problem id="id9305405">
+  <para id="element-87">The age of a first grader on September 1 at Garden Elementary School is uniformly distributed from 5.8 to 6.8 years.  We randomly select one first grader from the class.</para><list id="element-556" mark-suffix="." list-type="labeled-item"><item><label>a</label>Define the random variable.   
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>b</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mtext>~</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>c</label> Graph the probability distribution.</item>
+<item><label>d</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f \( x \) ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>e</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>μ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{μ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>f</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>σ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{σ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>g</label> Find the probability that she is over 6.5 years.</item>
+<item><label>h</label> Find the probability that she is between 4 and 6 years.</item>
+<item><label>i</label> Find the 70th percentile for the age of first graders on September 1 at Garden Elementary School.</item>
+</list></problem>
+</exercise><exercise id="element-919"><problem id="id8866012">
+  <para id="element-175">Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mtext>~</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation></m:semantics></m:math>Exp(0.1)</para><list id="element-681" mark-suffix="." list-type="labeled-item"><item><label>a</label> decay rate=</item>
+<item><label>b</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>μ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{μ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>c</label> Graph the probability distribution function.</item>
+<item><label>d</label> On the above graph, shade the area corresponding to 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( X&lt;6 \) } {}</m:annotation></m:semantics></m:math> and find the probability.</item>
+<item><label>e</label> Sketch a new graph, shade the area corresponding to 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">&lt;</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( 3&lt;X&lt;6 \) } {}</m:annotation></m:semantics></m:math> and find the probability.</item>
+<item><label>f</label> Sketch a new graph, shade the area corresponding to
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>7</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( X&gt;7 \) } {}</m:annotation></m:semantics></m:math> and find the probability.</item>
+<item><label>g</label> Sketch a new graph, shade the area corresponding to the 40th percentile and find the value.</item>
+<item><label>h</label> Find the average value of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math>.</item>
+</list></problem>
+
+<solution id="id9313177">
+  <list id="element-743" list-type="labeled-item" mark-suffix="."><item><label>a</label> 
+     0.1
+    </item>
+<item><label>b</label> 10</item>
+
+<item><label>d</label> 0.4512</item>
+
+<item><label>e</label> 0.1920</item>
+
+<item><label>f</label>0.4966</item>
+
+<item><label>g</label>5.11</item>
+<item><label>h</label> 10</item>
+</list>
+</solution>
+</exercise><exercise id="element-167"><problem id="id9633105">
+  <para id="element-729">Suppose that the length of long distance phone calls, measured in minutes, is known to have an exponential distribution with the average length of a call equal to 8 minutes.</para><list id="element-231" mark-suffix="." list-type="labeled-item"><item><label>a</label>Define the random variable.  
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>b</label> Is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> continuous or discrete?</item>
+<item><label>c</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mtext>~</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>d</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>μ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{μ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>e</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>σ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{σ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>f</label> Draw a graph of the probability distribution.  Label the axes.</item>
+<item><label>g</label> Find the probability that a phone call lasts less than 9 minutes.</item>
+<item><label>h</label> Find the probability that a phone call lasts more than 9 minutes.</item>
+<item><label>i</label> Find the probability that a phone call lasts between 7 and 9 minutes.</item>
+<item><label>j</label> If 25 phone calls are made one after another, on average, what would you expect the total to be?  Why?</item></list></problem>
+</exercise><exercise id="element-860"><problem id="id9310611">
+  <para id="element-297">Suppose that the useful life of a particular car battery, measured in months, decays with parameter 0.025.  We are interested in the life of the battery.</para><list id="element-613" mark-suffix="." list-type="labeled-item"><item><label>a</label>Define the random variable.  
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>b</label> Is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> continuous or discrete?</item>
+<item><label>c</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mtext>~</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>d</label> On average, how long would you expect 1 car battery to last?</item>
+<item><label>e</label> On average, how long would you expect 9 car batteries to last, if they are used one after another?</item>
+<item><label>f</label> Find the probability that a car battery lasts more than 36 months.</item>
+<item><label>g</label> 70% of the batteries last at least how long?</item>
+</list></problem>
+
+<solution id="id9534085">
+  <list id="element-38" list-type="labeled-item" mark-suffix="."><item><label>c</label> 
+       <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mtext>~</m:mtext>
+                  <m:mtext>Exp</m:mtext>
+                  <m:mo stretchy="false">(</m:mo>
+               <m:mi>0.025</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X "~" "Exp" \(  {  {1}  over  {5} }  \) } {}</m:annotation>
+        </m:semantics>
+      </m:math></item>
+<item><label>d</label> 40 months</item>
+<item><label>e</label> 360 months</item>
+
+<item><label>f</label>0.4066</item>
+
+<item><label>g</label> 14.27</item>
+</list>
+</solution>
+</exercise><exercise id="element-99"><problem id="id9298353">
+  <para id="element-643">The percent of persons (ages 5 and older) in each state who speak a language at home other than English is approximately exponentially distributed with a mean of 9.848 .  Suppose we randomly pick a state.  (Source:  Bureau of the Census, U.S. Dept. of Commerce)</para><list id="element-697" mark-suffix="." list-type="labeled-item"><item><label>a</label>Define the random variable.  
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>b</label> Is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> continuous or discrete?</item>
+<item><label>c</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mtext>~</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>d</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>μ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{μ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>e</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>σ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{σ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>f</label> Draw a graph of the probability distribution.  Label the axes.</item>
+<item><label>g</label> Find the probability that the percent is less than 12.</item>
+<item><label>h</label> Find the probability that the percent is between 8 and 14.</item>
+<item><label>i</label> The percent of all individuals living in the United States who speak a language at home other than English is 13.8 .  <list id="sublist1" list-type="labeled-item" mark-suffix="."><item><label>i</label> Why is this number different from 9.848%?</item> 
+<item><label>ii</label> What would make this number higher than 9.848%?</item></list>
+</item>
+</list></problem>
+</exercise><exercise id="element-49"><problem id="id3520030">
+  <para id="element-811">The time (in years) <emphasis>after</emphasis> reaching age 60 that it takes an individual to retire is approximately exponentially distributed with a mean of about 5 years.  Suppose we randomly pick one retired individual.  We are interested in the time after age 60 to retirement.</para><list id="element-948" mark-suffix="." list-type="labeled-item"><item><label>a</label>Define the random variable.  
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>b</label> Is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> continuous or discrete?</item>
+<item><label>c</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mtext>~</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>d</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>μ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{μ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>e</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>σ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{σ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>f</label> Draw a graph of the probability distribution.  Label the axes.</item>
+<item><label>g</label> Find the probability that the person retired after age 70.</item>
+<item><label>h</label> Do more people retire before age 65 or after age 65?</item>
+<item><label>i</label> In a room of 1000 people over age 80, how many do you expect will NOT have retired yet?</item>
+</list></problem>
+
+<solution id="id6715994">
+  <list id="element-32" list-type="labeled-item" mark-suffix="."><item><label>c</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mtext>~</m:mtext>
+                  <m:mtext>Exp</m:mtext>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>5</m:mn>
+                  </m:mfrac>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X "~" "Exp" \(  {  {1}  over  {5} }  \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>d</label> 5 </item>
+<item><label>e</label>  5 </item>
+
+<item><label>g</label>0.1353</item>
+
+
+<item><label>h</label> Before</item>
+<item><label>i</label> 18.3</item>
+</list>
+</solution>
+</exercise><exercise id="element-199"><problem id="id3644478">
+  <para id="element-304">The cost of all maintenance for a car during its first year is approximately exponentially distributed with a mean of $150.</para><list id="element-712" mark-suffix="." list-type="labeled-item"><item><label>a</label>Define the random variable. 
+       <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{σ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+
+<item><label>b</label> 
+     <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>X</m:mi>
+                  <m:mtext>~</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>c</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>μ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{μ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>d</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>σ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{σ={}} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>e</label> Draw a graph of the probability distribution.  Label the axes.</item>
+<item><label>f</label> Find the probability that a car required over $300 for maintenance during its first year.</item>
+</list></problem>
+</exercise>
+
+
+
+<section id="element-323"><title>Try these multiple choice problems</title>
+<para id="element-463"><emphasis>The next three questions refer to the following information.</emphasis> The average lifetime of a certain new cell phone is 3 years. The manufacturer will replace any cell phone failing within 2 years of the date of purchase.   The lifetime of these cell phones is known to follow an exponential distribution.</para><exercise id="element-432"><problem id="id9306252">
+  <para id="element-239">
+  The decay rate is
+  </para><list id="element-275" list-type="labeled-item" mark-suffix="."><item><label>A</label> 0.3333</item>
+<item><label>B</label> 0.5000</item>
+<item><label>C</label> 2.0000</item>
+<item><label>D</label> 3.0000</item>
+</list>
+</problem>
+
+<solution id="id8893547">
+  <para id="element-337">
+   A
+  </para>
+</solution>
+</exercise><exercise id="element-307"><problem id="id9311290">
+  <para id="element-170">What is the probability that a phone will fail within 2 years of the date of purchase?
+  </para><list id="element-512" list-type="labeled-item" mark-suffix="."><item><label>A</label>  0.8647	</item>
+<item><label>B</label> 0.4866	</item>
+<item><label>C</label> 0.2212	</item>
+<item><label>d</label>   0.9997</item>
+</list>
+</problem>
+
+<solution id="id5593883">
+  <para id="element-863">
+   B
+  </para>
+</solution>
+</exercise><exercise id="element-457"><problem id="id5686657">
+  <para id="element-86">
+  What is the median lifetime of these phones (in years)?
+  </para><list id="element-495" list-type="labeled-item" mark-suffix="."><item><label>A</label> 0.1941	</item>
+<item><label>B</label> 1.3863	</item>
+<item><label>C</label> 2.0794</item>
+<item><label>D</label> 5.5452</item>
+</list>
+</problem>
+
+<solution id="id8932997">
+  <para id="element-47">
+    C
+  </para>
+</solution>
+</exercise><para id="element-91"><emphasis>The next three questions refer to the following information.</emphasis>  The Sky Train from the terminal to the rental car and long term parking center is supposed to arrive every 8 minutes.   The waiting times for the train are known to follow a uniform distribution.</para><exercise id="element-354"><problem id="id8865780">
+  <para id="element-709">
+    What is the average waiting time (in minutes)?
+  </para><list id="element-840" list-type="labeled-item" mark-suffix="."><item><label>A</label>   0.0000	</item>
+<item><label>B</label>   2.0000	</item>
+<item><label>C</label>   3.0000	</item>
+<item><label>D</label> 4.0000</item>
+</list>
+</problem>
+
+<solution id="id9335994">
+  <para id="element-262">
+   D
+  </para>
+</solution>
+</exercise><exercise id="element-53"><problem id="id3965834">
+  <para id="element-83">
+    Find the 30th percentile for the waiting times (in minutes).
+  </para><list id="element-558" list-type="labeled-item" mark-suffix="."><item><label>A</label>  2.0000	</item>
+<item><label>B</label> 2.4000</item>
+<item><label>C</label> 2.750	</item>
+<item><label>D</label> 3.000</item>
+
+</list>
+</problem>
+
+<solution id="id8872104">
+  <para id="element-6">
+    B
+  </para>
+</solution>
+</exercise><exercise id="element-319"><problem id="id6314978">
+  <para id="element-514">
+  The probability of waiting more than 7 minutes given a person has waited more than 4 minutes is?
+  </para><list id="element-54" list-type="labeled-item" mark-suffix="."><item><label>A</label> 0.1250	</item>
+<item><label>B</label> 0.2500</item>
+<item><label>C</label> 0.5000</item>
+<item><label>D</label> 0.7500</item></list>
+</problem>
+
+<solution id="id8921727">
+  <para id="element-954">
+    B
+  </para>
+</solution>
+</exercise> 
+</section>  
+  </content>
+  
+</document>

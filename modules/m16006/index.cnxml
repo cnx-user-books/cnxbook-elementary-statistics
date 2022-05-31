@@ -1,0 +1,13 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Answers and Rounding Off</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16006</md:content-id>
+  <md:title>Answers and Rounding Off</md:title>
+  <md:abstract>This module briefly explains the correct way to round off answers when working with statistical data.</md:abstract>
+  <md:uuid>47bfc0ed-0a3b-45df-af48-3e4770b19d97</md:uuid>
+</metadata>
+  <content>
+      <para id="id5602419">A simple way to round off answers is to carry your final answer one more decimal place than was present in the original data. Round only the final answer. Do not round any intermediate results, if possible. If it becomes necessary to round intermediate results, carry them to at least twice as many decimal places as the final answer. For example, the average of the three quiz scores 4, 6, 9 is 6.3, rounded to the nearest tenth, because the data are whole numbers. Most answers will be rounded in this manner. </para>
+      <para id="id5164237">It is not necessary to reduce most fractions in this course. Especially in <link document="m16838">Probability Topics</link>, the chapter on probability, it is more helpful to leave an answer as an unreduced fraction.</para>
+  </content>
+</document>

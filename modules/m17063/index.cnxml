@@ -1,0 +1,775 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="homework">
+  <title>Homework</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17063</md:content-id>
+  <md:title>Homework</md:title>
+  <md:abstract>This module provides a homework of F Distribution and One-Way ANOVA as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>02280ab7-7990-493e-8498-49c413367afc</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="F Distribution and ANOVA.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="F Distribution and ANOVA.doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+
+<note id="id19304300" type="directions"><label>Directions</label>Use a solution sheet to conduct the following hypothesis tests. The solution sheet can be found in the Table of Contents 14. Appendix.</note><exercise id="element-240"><problem id="id19304316">
+  <para id="element-106">Three students, Linda, Tuan, and Javier, are given 5 laboratory rats each for a nutritional experiment. Each rat's weight is recorded in grams. Linda feeds her rats Formula A, Tuan feeds his rats Formula B, and Javier feeds his rats Formula C. At the end of a specified time period, each rat is weighed again and the net gain in grams is recorded. Using a significance level of 10%, test the hypothesis that the three formulas produce the same mean weight gain.
+  </para><para id="element-800"><table id="id348a5492" summary="This table presents the net weight in grams of each rat with Linda's rats in the first column, Tuan's rats in the second column, and Javier's rats in the third column.">
+
+<title>Weights of Student Lab Rats</title>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>Linda's rats</entry>
+            <entry>Tuan's rats</entry>
+            <entry>Javier's rats</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry align="center">43.5</entry>
+            <entry align="center">47.0</entry>
+            <entry align="center">51.2</entry>
+          </row>
+          <row>
+            <entry align="center">39.4</entry>
+            <entry align="center">40.5</entry>
+            <entry align="center">40.9</entry>
+          </row>
+          <row>
+            <entry align="center">41.3</entry>
+            <entry align="center">38.9</entry>
+            <entry align="center">37.9</entry>
+          </row>
+          <row>
+            <entry align="center">46.0</entry>
+            <entry align="center">46.3</entry>
+            <entry align="center">45.0</entry>
+          </row>
+          <row>
+            <entry align="center">38.2</entry>
+            <entry align="center">44.2</entry>
+            <entry align="center">48.6</entry>
+          </row>
+        </tbody>
+      
+
+
+</tgroup>
+</table></para>
+</problem>
+
+<solution id="id18508040">
+  <list id="element-410" mark-suffix="." list-type="labeled-item"><item><label>a</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math>: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>L</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>J</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{L} } =μ rSub { size 8{T} } =μ rSub { size 8{J} } } {}</m:annotation></m:semantics></m:math></item>
+<item><label>c</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>df</m:mtext></m:mrow></m:mstyle><m:mrow><m:mfenced open="(" close=")"><m:mi>n</m:mi></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "df" left (n right )=2} {}</m:annotation></m:semantics></m:math>; 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>df</m:mtext></m:mrow></m:mstyle><m:mrow><m:mfenced open="(" close=")"><m:mi>d</m:mi></m:mfenced><m:mo stretchy="false">=</m:mo><m:mtext>12</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "df" left (d right )="12"} {}</m:annotation></m:semantics></m:math></item>
+<item><label>e</label>0.67</item>
+<item><label>f</label>0.5305</item>
+<item><label>h</label>Decision: Do not reject null; Conclusion: There is insufficient evidence to conclude that the means are different.</item>
+</list></solution>
+</exercise>
+    
+    
+    <exercise id="element-60"><problem id="id18508281">
+  <para id="element-987">A grassroots group opposed to a proposed increase in the gas tax claimed that the increase would hurt working-class people the most, since they commute the farthest to work. Suppose that the group randomly surveyed 24 individuals and asked them their daily one-way commuting mileage. The results are below.  Using a 5% significance level, test the hypothesis that the 3 mean commuting mileages are the same.
+  </para><para id="element-719"><table id="idgh7333173" summary="">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>working-class</entry>
+            <entry>professional (middle incomes)</entry>
+            <entry>professional (wealthy)</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry align="center">17.8</entry>
+            <entry align="center">16.5</entry>
+            <entry align="center">8.5</entry>
+          </row>
+          <row>
+            <entry align="center">26.7</entry>
+            <entry align="center">17.4</entry>
+            <entry align="center">6.3</entry>
+          </row>
+          <row>
+            <entry align="center">49.4</entry>
+            <entry align="center">22.0</entry>
+            <entry align="center">4.6</entry>
+          </row>
+          <row>
+            <entry align="center">9.4</entry>
+            <entry align="center">7.4</entry>
+            <entry align="center">12.6</entry>
+          </row>
+          <row>
+            <entry align="center">65.4</entry>
+            <entry align="center">9.4</entry>
+            <entry align="center">11.0</entry>
+          </row>
+          <row>
+            <entry align="center">47.1</entry>
+            <entry align="center">2.1</entry>
+            <entry align="center">28.6</entry>
+          </row>
+          <row>
+            <entry align="center">19.5</entry>
+            <entry align="center">6.4</entry>
+            <entry align="center">15.4</entry>
+          </row>
+          <row>
+            <entry align="center">51.2</entry>
+            <entry align="center">13.9</entry>
+            <entry align="center">9.3</entry>
+          </row>
+        </tbody>
+      
+
+
+</tgroup>
+</table></para>
+</problem>
+
+
+</exercise>
+    
+    <exercise id="element-721"><problem id="id19296259">
+  <para id="element-363">Refer to <link target-id="#element-240"> Exercise 13.8.1</link>. Determine whether or not the variance in weight gain is statistically the same among Javier’s and Linda’s rats.
+  </para>
+</problem>
+
+<solution id="id19296291">
+  <list id="element-895" mark-suffix="." list-type="labeled-item"><item><label>c</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>df</m:mtext></m:mrow></m:mstyle><m:mrow><m:mfenced open="(" close=")"><m:mi>n</m:mi></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "df" left (n right )=4} {}</m:annotation></m:semantics></m:math>; 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>df</m:mtext></m:mrow></m:mstyle><m:mrow><m:mfenced open="(" close=")"><m:mi>d</m:mi></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "df" left (d right )=4} {}</m:annotation></m:semantics></m:math></item>
+<item><label>e</label>3.00</item>
+<item><label>f</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mrow>
+                    <m:mfenced open="(" close=")">
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>1563</m:mtext>
+                      </m:mrow>
+                    </m:mfenced>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>3126</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{2 left (0 "." "1563" right )=0 "." "3126"} {}</m:annotation>
+        </m:semantics>
+      </m:math>. 
+Using the TI-83+/84+ function 2-SampFtest, you get the the test statistic as 2.9986 and p-value directly as 0.3127.  If you input the lists in a different order, you get a test statistic of 0.3335 but the p-value is the same because this is a two-tailed test.
+    </item>
+<item><label>h</label>Decision: Do not reject null; Conclusion: There is insufficient evidence to conclude that the variances are different.</item></list></solution>
+</exercise><exercise id="element-958"><problem id="id19296523">
+  <para id="element-421">Refer to <link target-id="element-60">Exercise 13.8.2 above</link>. Determine whether or not the variance in mileage driven is statistically the same among the working class and professional (middle income) groups.
+  </para>
+</problem>
+
+
+</exercise>
+    
+    <para id="id7458312"><emphasis>For the next two problems, refer to the data from Terri Vogel’s Log Book.</emphasis>
+<newline/>
+<cite><cite-title/></cite><link url="http://cnx.org/content/m17132/latest/?collection=col10522/latest/"><cite><cite-title>http://cnx.org/content/m17132/latest/?collection=col10522/latest/</cite-title></cite></link></para><exercise id="element-46"><problem id="id18638828">
+  <para id="element-640">Examine the 7 practice laps. Determine whether the mean lap time is statistically the same for the 7 practice laps, or if there is at least one lap that has a different mean time from the others.
+  </para></problem>
+
+<solution id="id18638851">
+  <list id="element-38" mark-suffix="." list-type="labeled-item"><item><label>c</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>df</m:mtext></m:mrow></m:mstyle><m:mrow><m:mfenced open="(" close=")"><m:mi>n</m:mi></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "df" left (n right )=6} {}</m:annotation></m:semantics></m:math>; 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>df</m:mtext></m:mrow></m:mstyle><m:mrow><m:mfenced open="(" close=")"><m:mi>d</m:mi></m:mfenced><m:mo stretchy="false">=</m:mo><m:mtext>98</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "df" left (d right )="98"} {}</m:annotation></m:semantics></m:math></item>
+<item><label>e</label>1.69</item>
+<item><label>f</label>0.1319</item>
+<item><label>h</label>Decision: Do not reject null; Conclusion: There is insufficient evidence to conclude that the mean lap times are different.</item></list></solution>
+</exercise>
+    <exercise id="element-197"><problem id="id18639010">
+  <para id="element-612">
+    Examine practice laps 3 and 4. Determine whether or not the variance in lap time is statistically the same for those practice laps.
+  </para>
+</problem>
+
+</exercise>
+    <para id="id7032519"><emphasis>For the next four problems, refer to the following data.</emphasis></para>
+    
+    
+    <para id="element-333">The following table lists the number of pages in four different types of magazines.</para><table id="id7236751" summary="This table presents the number of pages in some types of magazines with home decorating in the first column, news in the second column, health in the third column, and computer in the fourth column.">
+
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <thead>
+          <row>
+            <entry>home decorating</entry>
+            <entry>news</entry>
+            <entry>health</entry>
+            <entry>computer</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry align="center">172</entry>
+            <entry align="center">87</entry>
+            <entry align="center">82</entry>
+            <entry align="center">104</entry>
+          </row>
+          <row>
+            <entry align="center">286</entry>
+            <entry align="center">94</entry>
+            <entry align="center">153</entry>
+            <entry align="center">136</entry>
+          </row>
+          <row>
+            <entry align="center">163</entry>
+            <entry align="center">123</entry>
+            <entry align="center">87</entry>
+            <entry align="center">98</entry>
+          </row>
+          <row>
+            <entry align="center">205</entry>
+            <entry align="center">106</entry>
+            <entry align="center">103</entry>
+            <entry align="center">207</entry>
+          </row>
+          <row>
+            <entry align="center">197</entry>
+            <entry align="center">101</entry>
+            <entry align="center">96</entry>
+            <entry align="center">146</entry>
+          </row>
+        </tbody>
+      
+
+
+</tgroup>
+</table>
+    <exercise id="element-781"><problem id="id19316785">
+  <para id="element-632">Using a significance level of 5%, test the hypothesis that the four magazine types have the same mean length. 
+  </para></problem>
+
+<solution id="id19316806">
+  <list id="element-821" mark-suffix="." list-type="labeled-item"><item><label>a</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math>: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>d</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{d} } =μ rSub { size 8{n} } =μ rSub { size 8{h} } =μ rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math></item>
+<item><label>b</label>Alternate Hypothesis: At least one pair of means is different</item>
+<item><label>c</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>df</m:mtext></m:mrow></m:mstyle><m:mrow><m:mfenced open="(" close=")"><m:mi>n</m:mi></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "df" left (n right )=3} {}</m:annotation></m:semantics></m:math>; 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>df</m:mtext></m:mrow></m:mstyle><m:mrow><m:mfenced open="(" close=")"><m:mi>d</m:mi></m:mfenced><m:mo stretchy="false">=</m:mo><m:mtext>16</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "df" left (d right )="16"} {}</m:annotation></m:semantics></m:math></item>
+<item><label>e</label>8.69</item>
+<item><label>f</label>0.0012</item>
+<item><label>h</label>Decision: Reject null; Conclusion: There is sufficient evidence to conclude that the mean lengths are different.</item>
+
+
+</list></solution>
+</exercise><exercise id="element-219"><problem id="id19317090">
+  <para id="element-384">Eliminate one magazine type that you now feel has a mean length different than the others. Redo the hypothesis test, testing that the remaining three means are statistically the same. Use a new solution sheet. Based on this test, are the mean lengths for the remaining three magazines statistically the same?
+  </para></problem>
+
+
+</exercise><exercise id="element-54"><problem id="id19317123">
+  <para id="element-346">
+   Which two magazine types do you think have the same variance in length?
+  </para>
+</problem>
+
+</exercise><exercise id="element-577"><problem id="id19317152">
+  <para id="element-937">
+    Which two magazine types do you think have different variances in length?
+  </para>
+</problem>
+
+</exercise><exercise id="eip-431"><problem id="eip-515">
+  <para id="eip-629">A researcher wants to know if the mean time (in minutes) that people watch their favorite news station are the same. Suppose that the table below shows the results of a study.
+  </para><para id="eip-id1164310783619">
+<table id="eip-id2754369" summary="The Table consists of 3 columns: CNN, Fox and Local. The table entries are the mean time, in minutes, that people watch their favorite news station on CNN, Fox or the local station.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>CNN</entry>
+            <entry>FOX</entry>
+            <entry>Local</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry align="center">45</entry>
+            <entry align="center">15</entry>
+            <entry align="center">72</entry>
+          </row>
+          <row>
+            <entry align="center">12</entry>
+            <entry align="center">43</entry>
+            <entry align="center">37</entry>
+          </row>
+          <row>
+            <entry align="center">18</entry>
+            <entry align="center">68</entry>
+            <entry align="center">56</entry>
+          </row>
+          <row>
+            <entry align="center">38</entry>
+            <entry align="center">50</entry>
+            <entry align="center">60</entry>
+          </row>
+          <row>
+            <entry align="center">23</entry>
+            <entry align="center">31</entry>
+            <entry align="center">51</entry>
+          </row>
+          <row>
+            <entry align="center">35</entry>
+            <entry align="center">22</entry>
+            <entry align="center"/>
+          </row>
+          
+            
+        </tbody>
+      
+
+
+
+</tgroup>
+</table>
+
+Assume that all distributions are normal, the four population standard deviations are approximately the same, and the data were collected independently and randomly. Use a level of significance of 0.05. 
+
+
+
+
+</para>
+
+
+</problem>
+
+<solution id="eip-402">
+  <para id="eip-492"><list id="eip-id1164425515802" list-type="labeled-item"><item><label>c</label>df(n) = 2; df(d) = 14</item>
+<item><label>d</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>2,14</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math></item>
+<item><label>e</label>4.08</item>
+<item><label>f</label>0.0401</item>
+<item><label>h</label></item>
+<item><label>ii</label>Reject the null hypothesis</item>
+<item><label>iv</label>There is sufficient evidence to conclude that the mean times are different.</item>
+</list></para></solution>
+</exercise><exercise id="eip-1000"><problem id="eip-311">
+  <para id="eip-13">
+    Are the means for the final exams the same for all statistics class delivery types? The table below shows the scores on final exams from several randomly selected classes that used the different delivery types. 
+  </para>
+<para id="eip-id1169679605848">
+
+<table id="eip-id1164473001430" summary="The Table consists of 3 columns: Online, Hybrid and Face-to-Face. The table entries are the mean scores on the final exam for Online, Hybrid and Face-to-Face delivery types for statistics.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>Online</entry>
+            <entry>Hybrid</entry>
+            <entry>Face-to-Face</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry align="center">72</entry>
+            <entry align="center">83</entry>
+            <entry align="center">80</entry>
+          </row>
+          <row>
+            <entry align="center">84</entry>
+            <entry align="center">73</entry>
+            <entry align="center">78</entry>
+          </row>
+          <row>
+            <entry align="center">77</entry>
+            <entry align="center">84</entry>
+            <entry align="center">84</entry>
+          </row>
+          <row>
+            <entry align="center">80</entry>
+            <entry align="center">81</entry>
+            <entry align="center">81</entry>
+          </row>
+          <row>
+            <entry align="center">81</entry>
+            <entry align="center"/>
+            <entry align="center">86</entry>
+          </row>
+          <row>
+            <entry align="center"/>
+            <entry align="center"/>
+            <entry align="center">79</entry>
+          </row>
+          <row>
+            <entry align="center"/>
+            <entry align="center"/>
+            <entry align="center">82</entry>
+          </row>
+          
+            
+        </tbody>
+      
+
+
+
+
+
+</tgroup>
+</table>
+
+Assume that all distributions are normal, the four population standard deviations are approximately the same, and the data were collected independently and randomly. Use a level of significance of 0.05. 
+
+
+
+</para>
+
+</problem>
+
+</exercise><exercise id="eip-155"><problem id="eip-519">
+  <para id="eip-301">Are the mean number of times a month a person eats out same for whites, blacks, Hispanics and Asians? Suppose that the table below shows the results of a study.
+  </para>
+
+<para id="eip-id1164432992225">
+
+<table id="eip-id1164416119836" summary="The Table consists of 4 columns: White, Black, Hispanic and Asian. The table entries are the mean number of times a month that people who are White, Black, Hispanic and Asian eat out."><tgroup cols="4"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>White</entry>
+            <entry>Black</entry>
+            <entry>Hispanic</entry>
+            <entry>Asian</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry align="center">6</entry>
+            <entry align="center">4</entry>
+            <entry align="center">7</entry>
+            <entry align="center">8</entry>
+
+          </row>
+          <row>
+            <entry align="center">8</entry>
+            <entry align="center">1</entry>
+            <entry align="center">3</entry>
+            <entry align="center">3</entry>    
+          </row>
+          <row>
+            <entry align="center">2</entry>
+            <entry align="center">5</entry>
+            <entry align="center">5</entry>
+            <entry align="center">5</entry>
+          </row>
+          <row>
+            <entry align="center">4</entry>
+            <entry align="center">2</entry>
+            <entry align="center">4</entry>
+            <entry align="center">1</entry>
+          </row>
+          <row>
+            <entry align="center">6</entry>
+            <entry align="center"/>
+            <entry align="center">6</entry>
+            <entry align="center">7</entry>
+          </row>
+          
+            
+        </tbody>
+      
+
+
+</tgroup>
+</table>
+
+Assume that all distributions are normal, the four population standard deviations are approximately the same, and the data were collected independently and randomly. Use a level of significance of 0.05. 
+
+
+</para>
+
+</problem>
+
+<solution id="eip-920">
+  <para id="eip-395"><list id="eip-id1573140" list-type="labeled-item"><item><label>c</label>df(n) = 3; df(d) = 15</item>
+<item><label>d</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>3,15</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math></item>
+<item><label>e</label>0.8853</item>
+<item><label>f</label>0.4711</item>
+<item><label>h</label></item>
+<item><label>ii</label>Do not reject the null hypothesis</item>
+<item><label>iv</label>There is insufficient evidence to conclude that the mean number of times  are different.</item>
+</list></para></solution>
+</exercise><exercise id="eip-681"><problem id="eip-118">
+  <para id="eip-75">Are the mean number of daily visitors to a ski resort the same for the three types of snow conditions? Suppose that the table below shows the results of a study.
+  </para>
+
+<para id="eip-id1169961626517">
+<table id="eip-id1169961041747" summary="The Table consists of 3 columns with snow conditions Powder, Machine Made and Hard Packed. The table entries are the mean number of visitors to a ski resort for the 3 types of snow conditions.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>Powder</entry>
+            <entry>Machine Made</entry>
+            <entry>Hard Packed</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry align="center">1210</entry>
+            <entry align="center">2107</entry>
+            <entry align="center">2846</entry>
+          </row>
+          <row>
+            <entry align="center">1080</entry>
+            <entry align="center">1149</entry>
+            <entry align="center">1638</entry>
+          </row>
+          <row>
+            <entry align="center">1537</entry>
+            <entry align="center">862</entry>
+            <entry align="center">2019</entry>
+          </row>
+          <row>
+            <entry align="center">941</entry>
+            <entry align="center">1870</entry>
+            <entry align="center">1178</entry>
+          </row>
+          <row>
+            <entry align="center"/>
+            <entry align="center">1528</entry>
+            <entry align="center">2233</entry>
+          </row>
+          <row>
+            <entry align="center"/>
+            <entry align="center">1382</entry>
+            <entry align="center"/>
+          </row>
+          
+            
+        </tbody>
+      
+
+
+
+
+</tgroup>
+</table>
+
+Assume that all distributions are normal, the four population standard deviations are approximately the same, and the data were collected independently and randomly. Use a level of significance of 0.05. 
+
+
+
+
+</para>
+
+
+
+
+
+</problem>
+
+</exercise><exercise id="eip-743"><problem id="eip-76">
+  <para id="eip-744">Is the variance for the amount of money, in dollars, that shoppers spend on Saturdays at the mall the same as the variance for the amount of money that shoppers spend on Sundays at the mall? Suppose that the table below shows the results of a study.
+
+<table id="eip-id1164421796243" summary="The Table contains the amount of money shoppers spend on Saturday (first column) and Sunday (second column).">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        
+        <thead>
+          <row>
+            <entry>Saturday</entry>
+            <entry>Sunday</entry>
+            
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry align="center">75</entry>
+            <entry align="center">44</entry>
+            
+          </row>
+          <row>
+            <entry align="center">62</entry>
+            <entry align="center">137</entry>
+            
+          </row>
+          <row>
+            <entry align="center">18</entry>
+            <entry align="center">58</entry>
+            
+          </row>
+          <row>
+            <entry align="center">0</entry>
+            <entry align="center">82</entry>
+            
+          </row>
+          <row>
+            <entry align="center">150</entry>
+            <entry align="center">61</entry>
+            
+          </row>
+          <row>
+            <entry align="center">124</entry>
+            <entry align="center">39</entry>
+           
+          </row>
+          <row>
+            <entry align="center">94</entry>
+            <entry align="center">19</entry>
+            
+          </row>
+          <row>
+            <entry align="center">50</entry>
+            <entry align="center">127</entry>
+            
+          </row>
+          <row>
+            <entry align="center">62</entry>
+            <entry align="center">99</entry>
+          </row>
+          <row>
+            <entry align="center">31</entry>
+            <entry align="center">141</entry> 
+          </row>     
+          <row>
+            <entry align="center">73</entry>
+            <entry align="center">60</entry>  
+          </row>      
+          <row>
+            <entry align="center">118</entry>
+            <entry align="center">73</entry> 
+          </row>     
+          <row>
+            <entry align="center"/>
+            <entry align="center">89</entry>  
+          </row>      
+
+        </tbody>
+      
+
+</tgroup>
+</table>
+
+Assume that both distributions are normal. Use a level of significance of 0.05. 
+</para></problem>
+
+<solution id="eip-610">
+  <para id="eip-244"><list id="eip-id1164647140601" list-type="labeled-item"><item><label>c</label>df(n) = 11; df(d) = 12</item>
+<item><label>d</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>11,12</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math></item>
+<item><label>e</label>1.35</item>
+<item><label>f</label>0.6090</item>
+<item><label>h</label></item>
+<item><label>ii</label>Do not reject the null hypothesis</item>
+<item><label>iv</label>There is insufficient evidence to conclude that the variances are different.</item>
+
+
+</list></para></solution>
+</exercise><exercise id="eip-578"><problem id="eip-310">
+  <para id="eip-31">Are the variances for incomes on the East Coast and the West Coast the same? Suppose that the table below shows the results of a study. Income is shown in thousands of dollars. 
+  </para>
+
+<para id="eip-id1170641108518">
+<table id="eip-id1170625876754" summary="The Table contains the amount of money shoppers spend on Saturday (first column) and Sunday (second column).">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        
+        <thead>
+          <row>
+            <entry>East</entry>
+            <entry>West</entry>
+            
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry align="center">38</entry>
+            <entry align="center">71</entry>
+            
+          </row>
+          <row>
+            <entry align="center">47</entry>
+            <entry align="center">126</entry>
+            
+          </row>
+          <row>
+            <entry align="center">30</entry>
+            <entry align="center">42</entry>
+            
+          </row>
+          <row>
+            <entry align="center">82</entry>
+            <entry align="center">51</entry>
+            
+          </row>
+          <row>
+            <entry align="center">75</entry>
+            <entry align="center">44</entry>
+            
+          </row>
+          <row>
+            <entry align="center">52</entry>
+            <entry align="center">90</entry>
+           
+          </row>
+          <row>
+            <entry align="center">115</entry>
+            <entry align="center">88</entry>
+            
+          </row>
+          <row>
+            <entry align="center">67</entry>
+            <entry align="center"/>
+            
+          </row>
+         
+         
+          
+            
+
+        </tbody>
+      
+
+
+
+
+
+
+
+</tgroup>
+</table>
+
+Assume that both distributions are normal. Use a level of significance of 0.05. 
+
+</para>
+
+
+</problem>
+
+
+</exercise><para id="eip-904">**Exercises 11 - 16 were contributed by Dr. Larry Green</para></content>
+</document>

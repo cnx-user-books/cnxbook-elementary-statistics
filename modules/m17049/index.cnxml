@@ -1,0 +1,270 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="lab">
+  <title>Lab 1: Chi-Square Goodness-of-Fit</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17049</md:content-id>
+  <md:title>Lab 1: Chi-Square Goodness-of-Fit</md:title>
+  <md:abstract>This module provides a lab on Chi-Square Distribution as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>6b9ed049-d2e1-484a-946f-ae6d41fa9583</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="The Chi-Square Distribution- Lab I.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="The Chi-Square Distribution- Lab I.doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id5380446">Class Time: </para>
+    <para id="id5380454">Names:</para>
+    <section id="id-68245180303">
+      <title>Student Learning Outcome: </title>
+      <list id="id5380464" list-type="bulleted">
+        <item>The student will evaluate data collected to determine if they fit either the uniform or exponential distributions. </item>
+      </list>
+    </section>
+    <section id="element-608"><title>Collect the Data</title><note id="eip-665">You may need to combine two 
+categories so that each cell has an expected value of at least 5.</note><para id="element-875862734">
+	Go to your local supermarket. Ask 30 people as they leave for the total amount on their grocery receipts. (Or, ask 3 cashiers for the last 10 amounts. Be sure to include the express lane, if it is open.) </para>
+
+<list id="list-87585" list-type="enumerated" mark-suffix=".">
+<item>Record the values.
+<table id="table023865" summary="Blank table with 30 empty cells.">
+
+<tgroup cols="5">
+<tbody>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+<row>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+<entry>__________</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+	
+
+<item>Construct a histogram of the data. Make 5 - 6 intervals. Sketch the graph using a ruler and pencil. Scale the axes. <figure id="id42008923"><media id="id42008927" alt="Blank graph with relative frequency on vertical"><image src="../../media/graph11.PNG" mime-type="image/png" print-width="4in"/></media></figure>
+		</item>
+<item> Calculate the following:
+<list id="list3242" list-type="labeled-item" mark-suffix=".">
+
+<item><label>a</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>=</m:mo></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math></item>
+
+<item><label>b</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s} {}</m:annotation></m:semantics></m:math></item>
+
+<item><label>c</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>s</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo>=</m:mo></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></item>
+		</list></item>
+</list></section><section id="element-490"><title>Uniform Distribution</title><para id="element-755">
+Test to see if grocery receipts follow the uniform distribution.
+</para>
+<list id="list-897576324" list-type="enumerated" mark-suffix=".">
+	<item>Using your lowest and highest values, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:semantics></m:math> ~ <m:math><m:semantics><m:mrow><m:mstyle><m:mrow><m:mrow><m:mi>U</m:mi><m:mfenced open="(" close=")"><m:mtext>_______,_______</m:mtext></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X "~" U left ("_______, _______" right )} {}</m:annotation></m:semantics></m:math></item>
+	
+<item>Divide the distribution above into fifths.</item>
+<item>Calculate the following: 
+<list id="list45865" list-type="labeled-item" mark-suffix=".">
+			<item><label>a</label>Lowest value = </item>
+			<item><label>b</label>20th percentile = </item>
+			<item><label>c</label>40th percentile = </item>
+			<item><label>d</label>60th percentile = </item>
+			<item><label>e</label>80th percentile = </item>
+			<item><label>f</label>Highest value = </item>
+		</list></item>
+
+<item>For each fifth, count the observed number of receipts and record it. Then determine the expected number of receipts and record that.
+
+<table id="id58758asdfa533062" summary="The partially filled table presents each fifth in the first column, observed in the blank second column, and expected in the blank third column. There are 5 rows.">
+
+			<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+				<colspec colnum="2" colname="c2"/>
+				<colspec colnum="3" colname="c3"/>
+				<thead>
+					<row>
+						<entry>Fifth </entry>
+						<entry>Observed</entry>
+						<entry>Expected</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>1st</entry>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>2nd</entry>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>3rd</entry>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>4th</entry>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>5th</entry>
+						<entry/>
+						<entry/>
+					</row>
+				</tbody>
+			</tgroup>
+		</table></item>
+	
+<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math>:</item>
+<item> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } } {}</m:annotation></m:semantics></m:math>:</item>
+	
+<item>What distribution should you use for a hypothesis test? </item>
+<item>Why did you choose this distribution? </item>
+<item>Calculate the test statistic.</item>
+<item>Find the p-value.</item>
+<item>Sketch a graph of the situation. Label and scale the x-axis. Shade the area corresponding to the 
+p-value. <figure id="id40469669"><media id="id40469674" alt="Blank graph with vertical and horizontal axes."><image src="../../media/graph12.PNG" mime-type="image/png" print-width="4in"/></media></figure>
+	</item>
+	
+<item>State your decision. </item>
+<item>State your conclusion in a complete sentence. </item>
+</list></section><section id="element-883"><title>Exponential Distribution</title><para id="element-875">
+Test to see if grocery receipts follow the exponential distribution with decay
+parameter <m:math>
+		<m:mfrac>
+			<m:mrow>
+				<m:mn>1</m:mn>
+			</m:mrow>
+			<m:mrow>
+				<m:apply>
+					<m:conjugate/>
+					<m:ci>x</m:ci>
+				</m:apply>
+			</m:mrow>
+		</m:mfrac>
+	</m:math>
+.</para>
+
+<list id="list-86872534" list-type="enumerated" mark-suffix=".">
+	<item>Using 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { {overline  {x}} } } } {}</m:annotation></m:semantics></m:math> as the decay parameter, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow></m:mrow></m:mstyle></m:mrow></m:semantics></m:math> ~ <m:math><m:semantics><m:mrow><m:mstyle><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Exp</m:mtext></m:mrow></m:mstyle><m:mfenced open="(" close=")"><m:mtext>_______</m:mtext></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X "~"  ital "Exp" left ("_______" right )} {}</m:annotation></m:semantics></m:math>.</item>
+	
+<item>Calculate the following:
+
+<list id="list3248" list-type="labeled-item" mark-suffix=".">
+			<item><label>a</label>Lowest value = </item>
+			<item><label>b</label>First quartile = </item>
+			<item><label>c</label>37th percentile = </item>
+			<item><label>d</label>Median = </item>
+			<item><label>e</label>63rd percentile = </item>
+			<item><label>f</label>3rd quartile = </item>
+			<item><label>g</label>Highest value = </item>
+		</list></item>
+	<item>For each cell, count the observed number of receipts and record it. Then determine the expected number of receipts and record that.<table id="id5asd875fasssff533783" summary="The partially filled table presents the cell in the first column, observed in the blank second column, and the expected in the blank third column. There are 6 rows.">
+
+		<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+				<colspec colnum="2" colname="c2"/>
+				<colspec colnum="3" colname="c3"/>
+				<thead>
+					<row>
+						<entry>Cell</entry>
+						<entry>Observed</entry>
+						<entry>Expected</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>1st</entry>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>2nd</entry>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>3rd</entry>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>4th</entry>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>5th</entry>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>6th</entry>
+						<entry/>
+						<entry/>
+					</row>
+				</tbody>
+			</tgroup>
+		</table></item>
+	<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math>
+</item>
+<item>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } } {}</m:annotation></m:semantics></m:math></item>
+	<item>What distribution should you use for a hypothesis test? </item>
+	<item>Why did you choose this distribution? </item>
+	<item>Calculate the test statistic.</item>
+	<item>Find the p-value.</item>
+	<item>Sketch a graph of the situation. Label and scale the x-axis. Shade the area corresponding to the 
+p-value. <figure id="id42004364"><media id="id42004370" alt="Blank graph with vertical and horizontal axes."><image src="../../media/graph12.PNG" mime-type="image/png" print-width="4in"/></media></figure>
+	</item>
+	<item>State your decision. </item>
+	<item>State your conclusion in a complete sentence. </item>
+</list></section><section id="element-11"><title>Discussion Questions</title><list id="list-8658234" list-type="enumerated">
+	<item>Did your data fit either distribution? If so, which? </item>
+	<item>In general, do you think it’s likely that data could fit more than one distribution? In complete sentences, explain why or why not.</item>
+</list></section>
+  </content>
+</document>

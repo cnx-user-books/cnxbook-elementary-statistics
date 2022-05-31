@@ -1,0 +1,54 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" class="lab">
+  <title>Solution Sheet: Hypothesis Testing for Single Mean and Single Proportion</title>
+  <metadata>
+  <md:content-id>m17134</md:content-id><md:title>Solution Sheet: Hypothesis Testing for Single Mean and Single Proportion</md:title>
+  <md:abstract>This module provides a solution sheet for the Hypothesis Testing: Single Mean and Single Proportion chapter of the Collaborative Statistics textbook/collection.</md:abstract>
+  <md:uuid>5f310c9a-459c-4c06-82af-b2c62db378a9</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Solution Sheets-Hypothesis Testing for Single Mean and Single Proportion.doc" strength="3">Download handout (.doc)</link>
+      <link url="Solution Sheets-Hypothesis Testing for Single Mean and Single Proportion.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id46712476">Class Time:</para>
+    <para id="id46712482">Name:</para>
+    
+    <list id="id46712495" list-type="labeled-item" mark-suffix="."><item><label>a</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math>: </item>
+      <item><label>b</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } } {}</m:annotation></m:semantics></m:math>: </item>
+      <item><label>c</label>In words, <emphasis>CLEARLY</emphasis> state what your random variable
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {X}} } {}</m:annotation></m:semantics></m:math> or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mi>'</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P'} {}</m:annotation></m:semantics></m:math> represents.</item>
+      <item><label>d</label>State the distribution to use for the test. </item>
+      <item><label>e</label>What is the test statistic? </item>
+      <item><label>f</label>What is the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math>-value? In 1 – 2 complete sentences, explain what the <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math>-value means for this problem. </item>
+      <item><label>g</label>Use the previous information to sketch a picture of this situation. CLEARLY, label and scale the horizontal axis and shade the region(s) corresponding to the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math>-value. <figure id="id13552252"><media id="id13552256" alt=""><image src="../../media/wave.PNG" mime-type="image/png"/></media></figure></item>
+
+      <item><label>h</label>Indicate the correct decision (“reject” or “do not reject” the null hypothesis), the reason for it, and write an appropriate conclusion, using <emphasis>complete sentences</emphasis>.
+
+<list id="list1" list-type="labeled-item" mark-suffix="."><item><label>i</label>Alpha:</item>
+      <item><label>ii</label>Decision:</item>
+      <item><label>iii</label>Reason for decision: </item>
+      <item><label>iv</label>Conclusion: </item></list></item>
+
+
+      <item><label>i</label>Construct a 95% Confidence Interval for the true mean or proportion. Include a sketch of the graph of the situation. Label the point estimate and the lower and upper bounds of the Confidence Interval.<figure id="id13552369"><media id="id13552374" alt=""><image src="../../media/wave.PNG" mime-type="image/png"/></media></figure></item>
+    
+    
+    </list>
+    
+    
+    
+    
+    
+    
+    
+  </content>
+</document>

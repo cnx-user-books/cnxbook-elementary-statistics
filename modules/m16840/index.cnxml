@@ -1,0 +1,140 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="practice">
+  <title>Practice 2: Calculating Probabilities</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16840</md:content-id>
+  <md:title>Practice 2: Calculating Probabilities</md:title>
+  <md:abstract>This module allows students to practice using what they've learned about Probability.  Students will apply their understanding of basic probability terms, calculate probabilities based on the data provided, and determine whether events are independent or mutually exclusive.</md:abstract>
+  <md:uuid>b6ff32b9-d858-4ced-9a33-0ac0f972f5a8</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="chap 3.2 practice.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="chap 3.2 practice.doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="element-490"><title>Student Learning Outcomes</title><list id="objlist" list-type="bulleted"><item>Students will define basic probability terms.</item>	
+<item>Students will calculate probabilities.</item>
+<item>Students will determine whether two events are mutually exclusive or whether two events are independent.</item>
+</list></section><note id="id12702118">Use probability rules to solve the problems below.  Show your work.</note><section id="element-553"><title>Given</title>
+<para id="element-540">48% of all Californians registered voters prefer life in prison without parole over the death penalty for a person convicted of first degree murder. Among Latino California registered voters, 55% prefer life in prison without parole over the death penalty for a person convicted of first degree murder. (<cite><cite-title>Source: http://field.com/fieldpollonline/subscribers/Rls2393.pdf </cite-title></cite>). 
+<newline/>
+37.6% of all Californians are Latino (<cite><cite-title>Source: U.S. Census Bureau</cite-title></cite>).</para><para id="element-40">In this problem, let:
+<list id="element-448" list-type="bulleted"><item><m:math><m:mi>C = Californians (registered voters) preferring life in prison without parole over the death penalty for a person convicted of first degree murder</m:mi></m:math></item>
+
+<item><m:math><m:mi>L = Latino Californians</m:mi></m:math></item>
+
+</list></para>
+<para id="element-198">Suppose that one Californian is randomly selected.</para></section><section id="element-665"><title>Analyze the Data</title>
+<exercise id="exercise1">
+<problem id="id13144382">
+<para id="exercise1p">
+<m:math>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>C</m:mi>
+<m:mo>)</m:mo>
+</m:math> = </para>
+</problem>
+<solution id="id13144417">
+ <para id="exercise1s">0.48</para></solution>
+</exercise>
+
+<exercise id="exercise2"><problem id="id13144446">
+<para id="exercise2p">
+<m:math>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>L</m:mi>
+<m:mo>)</m:mo>
+</m:math> = </para>
+</problem>
+<solution id="id13144481">
+ <para id="exercise2s">0.376</para>
+</solution>
+</exercise><exercise id="exercise3"><problem id="id13144510">
+<para id="exercise3p">
+<m:math>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>C</m:mi>
+<m:mo>|</m:mo>
+<m:mi>L</m:mi>
+<m:mo>)</m:mo>   
+</m:math> = </para>
+</problem>
+<solution id="id13144551">
+ <para id="exercise3s">0.55</para>
+</solution>
+</exercise><exercise id="exercise4"><problem id="id13144579">
+<para id="exercise4p">
+In words, what is " 
+<m:math>
+<m:mi>C</m:mi>
+<m:mo> | </m:mo>
+<m:mi>L </m:mi>
+</m:math>"?</para>
+</problem>
+
+</exercise><exercise id="exercise5"><problem id="id13153551">
+<para id="exercise5p"><m:math>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>L</m:mi> 
+<m:mtext> AND </m:mtext>
+<m:mi>C</m:mi>
+<m:mo>)</m:mo>
+</m:math> = </para>
+</problem>
+
+<solution id="id13153591">
+ <para id="exercise4s">0.2068</para>
+</solution></exercise><exercise id="exercise6"><problem id="id13153618">
+<para id="exercise6p">In words, what is “<m:math><m:mi>L</m:mi></m:math> and <m:math><m:mi>C</m:mi></m:math>”?</para></problem>
+
+</exercise>
+
+
+<exercise id="exercise7">
+<problem id="id13153658">
+<para id="exercise7p">Are <m:math><m:mi>L</m:mi></m:math> and <m:math><m:mi>C</m:mi></m:math> independent events? Show why or why not.</para></problem>
+<solution id="id13153686">
+ <para id="exercise7s">No</para>
+</solution>
+</exercise>
+
+<exercise id="exercise8"><problem id="id13153716">
+<para id="exercise8p"><m:math>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>L</m:mi>
+<m:mtext> OR </m:mtext>
+<m:mi>C</m:mi>
+<m:mo>)</m:mo>
+
+</m:math> =    </para>
+</problem>
+<solution id="id13153756">
+ <para id="exercise8s">0.6492</para></solution>
+</exercise><exercise id="exercise9"><problem id="id13153785">
+<para id="exercise9p">In words, what is “<m:math><m:mi>L</m:mi></m:math> or <m:math><m:mi>C</m:mi></m:math>”?</para></problem>
+
+</exercise>
+
+<exercise id="exercise10">
+<problem id="id11298886">
+<para id="exercise10p">Are <m:math><m:mi>L</m:mi></m:math> and <m:math><m:mi>C</m:mi></m:math> mutually exclusive events? Show why or why not.</para></problem>
+<solution id="id11298914">
+ <para id="exercise10s">No</para>
+</solution>
+</exercise>
+
+
+</section>   
+  </content>
+  
+</document>

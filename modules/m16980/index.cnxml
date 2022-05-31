@@ -1,0 +1,133 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="lab">
+  <title>Lab 2: Normal Distribution (Pinkie Length)</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16980</md:content-id>
+  <md:title>Lab 2: Normal Distribution (Pinkie Length)</md:title>
+  <md:abstract/>
+  <md:uuid>3504ae0f-7709-4f22-a1ea-227058308d8b</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Normal Distribution- Lab II.doc" strength="3">Download handout (.doc)</link>
+      <link url="Normal Distribution- Lab II.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id10270690">Class Time: </para>
+    <para id="id9706632">Names:</para>
+    <section id="id-372323788432">
+      <title>Student Learning Outcomes:</title>
+      <list id="id10998330" list-type="bulleted"><item>The student will compare empirical data and a theoretical distribution to determine if data from the experiment follow a continuous distribution. </item>
+
+</list></section>
+    <section id="element-12"><title>Collect the Data</title><para id="element-967">Measure the length of your pinkie finger (in cm.)</para><list id="list-32487618725" list-type="enumerated" mark-suffix="."><item>Randomly  survey 30 adults. Round to the nearest 0.5 cm.
+<table id="element-2352564535" summary="Blank table with 30 blank cells.">
+
+			<tgroup cols="5">
+				<tbody>
+					<row>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+					</row>
+					<row>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+					</row>
+					<row>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+					</row>
+					<row>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+					</row>
+					<row>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+					</row>
+					<row>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+					</row></tbody>
+			</tgroup>
+		</table>
+	</item>
+	<item> Construct a histogram. Make 5-6 intervals. Sketch the graph using a ruler and pencil. Scale the axes.
+<media id="id5490004" alt="Blank graph with frequency on the vertical axis and length of finger on the horizontal axis."><image src="../../media/graph7.PNG" mime-type="image/png" print-width="4in"/></media>
+	</item>
+<item>Calculate the Following
+<list id="list-98752438" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label> 
+<m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+<m:mo>=</m:mo>
+</m:math></item>
+<item><label>b</label>
+<m:math><m:mi>s</m:mi>
+<m:mo>=</m:mo>
+</m:math></item>
+</list>
+</item>	
+<item>Draw a smooth curve  through the top of the bars of the histogram. Use 1-2 complete sentences to describe the general shape of the curve. (Keep it simple. Does the graph go straight across, does it have a V-shape, does it have a hump in the middle or at either end, etc.?)</item></list></section><section id="element-526"><title>Analyze the Distribution</title><para id="element-492">Using your sample mean, sample standard deviation, and histogram to help, what was the approximate theoretical distribution of the data from the section titled "Collect the Data"?
+<list id="list-2342345" list-type="bulleted"><item><m:math>
+<m:mi>X</m:mi>
+</m:math> ~</item>
+<item>How does the histogram help you arrive at the approximate distribution?</item> 
+</list>
+</para></section><section id="element-981"><title>Describe the Data</title><para id="element-298">Using the data in the section titled "Collect the Data" complete the following statements. (Hint: order the data)
+</para><note id="id5390377" type="Remember"><label>Remember</label><m:math><m:mo>(</m:mo>
+		<m:mi>IQR</m:mi>
+		<m:mo>=</m:mo>
+		<m:mi>Q</m:mi>
+		<m:mn>3</m:mn>
+		<m:mo>-</m:mo>
+		<m:mi>Q</m:mi>
+		<m:mn>1</m:mn>
+		<m:mo>)</m:mo>
+	</m:math>
+</note>
+<list id="list-98723985" list-type="bulleted"><item>IQR = </item>
+<item>15th percentile is: </item>
+<item>85th percentile is: </item>
+<item>Median is: </item>
+<item>What is the empirical probability that a randomly chosen pinkie length is more than 6.5 cm? </item>
+<item>Explain the meaning the 85th percentile of this data.</item>
+</list>
+</section><section id="element-791"><title>Theoretical Distribution</title><para id="element-935">Using the Theoretical Distribution in the section titled "Analyze the Distribution"
+</para>
+<list id="list-98436723985" list-type="bulleted"><item>IQR = </item>
+<item>15th percentile is: </item>
+<item>85th percentile is: </item>
+<item>Median is: </item>
+<item>What is the theoretical probability that a randomly chosen pinkie length is more than 6.5 cm? </item>
+<item>Explain the meaning of the 85th percentile of this data.</item>
+</list></section><section id="element-277"><title>Discussion Questions</title><list id="list-87786762544" list-type="bulleted"><item>Do the data from the section entitled "Collect the Data" give a  close approximation to the theoretical distribution in "Analyze the Distribution."
+	In complete sentences and comparing the results in the sections titled "Describe the Data" and "Theoretical Distribution", explain why or why not.</item>
+</list></section>
+  </content>
+</document>

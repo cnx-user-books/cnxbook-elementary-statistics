@@ -1,0 +1,236 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="practice">
+  <title>Practice 1: Goodness-of-Fit Test</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17054</md:content-id>
+  <md:title>Practice 1: Goodness-of-Fit Test</md:title>
+  <md:abstract>This module provides a practice on Chi-Square Distribution as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>cf07e0a1-e01c-46da-8d1e-c22dff72cba6</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="chap 11.1 practice.doc" strength="3">Download handout (.doc)</link>
+      <link url="chap 11.1 practice.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="element-838"><title>Student Learning Outcomes</title>
+<list id="list-2356124" list-type="bulleted"><item>
+
+The student will conduct a goodness-of-fit test.</item>
+
+
+</list></section><section id="element-902"><title>Given</title>
+<para id="element-666">The following data are real.
+The cumulative number of AIDS cases reported for Santa Clara County is broken down by ethnicity as follows:
+
+(Source: <cite><cite-title>HIV/AIDS Epidemiology Santa Clara County, Santa Clara County Public Health Department, May 2011</cite-title></cite>)</para><table id="element-974" summary="This table shows the ethnicity in the first column and the number of cases in the second column. There are 5 rows.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>
+              Ethnicity
+            </entry>
+            <entry>
+              Number of Cases
+            </entry>
+          </row>
+</thead>
+<tfoot>
+          <row>
+            <entry/>
+            <entry>Total = 4075</entry>
+          </row>
+</tfoot>
+<tbody>  
+        <row>
+            <entry>White</entry>
+            <entry>2229</entry>
+          </row>
+          <row>
+            <entry>Hispanic</entry>
+            <entry>1157</entry>
+          </row>
+          <row>
+            <entry>Black/African-American</entry>
+            <entry>457</entry>
+          </row>
+          <row>
+            <entry>Asian, Pacific Islander</entry>
+            <entry>232</entry>
+          </row>
+          
+
+        </tbody>
+      
+
+
+
+
+
+</tgroup>
+</table><para id="element-726">The percentage of each ethnic group in Santa Clara County is as follows:</para>
+
+<table id="element-174" summary="This is a partially filled table with ethnicity in the first column, percentage of total county population in the second column, and expected number in the third column. Only the first row of the third column is filled up.">
+<tgroup cols="3"><colspec colnum="1" colname="header_c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>
+              Ethnicity
+            </entry>
+            <entry>
+              Percentage of total county population
+            </entry>
+            <entry>
+              Number
+              expected (round to 2 decimal places)
+            </entry>
+          </row>
+</thead>
+<tfoot>
+          <row>
+            <entry/>
+            <entry> Total = 100%</entry>
+            <entry/>
+          </row>
+</tfoot>
+<tbody>
+          <row>
+            <entry>White</entry>
+            <entry>42.9%</entry>
+            <entry>1748.18</entry>
+          </row>
+          <row>
+            <entry>Hispanic</entry>
+            <entry>26.7%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Black/African-American</entry>
+            <entry>2.6%</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Asian, Pacific Islander</entry>
+            <entry>27.8%</entry>
+            <entry/>
+          </row>
+          
+
+        </tbody>
+      
+
+
+
+
+
+</tgroup>
+</table></section><section id="element-8"><title>Expected Results</title>
+<para id="element-308">If the ethnicity of AIDS victims followed the ethnicity of the total county population, fill in the expected number of cases per ethnic group.
+
+  
+  </para>
+</section><section id="element-782"><title>Goodness-of-Fit Test</title>
+<para id="element-743">Perform a goodness-of-fit test to determine whether the make-up of AIDS cases follows the ethnicity of the general population of Santa Clara County.
+</para><exercise id="element-806"><problem id="id45907502">
+  <para id="element-80"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>o</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi>:</m:mi>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{O} } :μ rSub { size 8{W} } =μ rSub { size 8{ ital "NW"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+  </para>
+</problem>
+</exercise><exercise id="element-694"><problem id="id45907589">
+  <para id="element-117"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi>:</m:mi>
+                 </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :μ rSub { size 8{W} }  &lt;&gt; μ rSub { size 8{ ital "NW"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    
+  </para>
+</problem>
+</exercise><exercise id="element-502"><problem id="id45907668">
+  <para id="element-56">Is this a right-tailed, left-tailed, or two-tailed test? 
+  </para>
+</problem>
+</exercise><exercise id="element-619"><problem id="id45907696">
+  <para id="element-422">degrees of freedom = </para>
+</problem>
+
+<solution id="id42755463">
+  <para id="element-139">degrees of freedom = 3
+  </para></solution>
+</exercise><exercise id="element-575"><problem id="id42755491">
+  <para id="element-840"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>Chi</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Chi" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> test statistic = </para>
+</problem>
+
+<solution id="id42755538">
+  <para id="element-448">2016.14</para></solution>
+</exercise><exercise id="element-64"><problem id="id42755565">
+  <para id="element-836">p-value = </para>
+</problem>
+
+<solution id="id42755583">
+  <para id="element-629">Rounded to 4 decimal places, the p-value is 0.0000.
+  </para>
+</solution>
+</exercise><exercise id="element-86"><problem id="id42755611">
+  <para id="element-947">Graph the situation. Label and scale the horizontal axis. Mark the mean and test statistic. Shade in the region corresponding to the p-value.
+
+
+  
+  </para><para id="element-476"><media id="id42755639" alt=""><image src="../../media/9-2695.png" mime-type="image/png" print-width="4in"/></media></para><para id="element-996">Let <m:math><m:mi>α</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0.05</m:mn>
+</m:math></para><para id="element-369">Decision:</para><para id="element-116">Reason for the Decision:</para><para id="element-355">Conclusion (write out in complete sentences):</para>
+</problem>
+</exercise></section><section id="element-961"><title>Discussion Question</title><exercise id="exerciseoneserd">
+<problem id="id42755737">
+<para id="element-493">
+Does it appear that the pattern of AIDS cases in Santa Clara County corresponds to the distribution of ethnic groups in this county? Why or why not?
+</para></problem></exercise></section>   
+  </content>
+  
+</document>

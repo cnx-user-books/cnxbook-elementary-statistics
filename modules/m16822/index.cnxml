@@ -1,0 +1,306 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Geometric (optional)</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16822</md:content-id>
+  <md:title>Geometric (optional)</md:title>
+  <md:abstract>This module describes the geometric experiment and the geometric probability distribution.  This module is included in the Collaborative Statistics textbook/collection as an optional lesson.</md:abstract>
+  <md:uuid>ad6393e1-2442-488a-8817-f8a01a8bbe5e</md:uuid>
+</metadata>
+
+<content>
+    <para id="element-456">The characteristics of a geometric experiment are:
+
+<list id="geometricexperiment" list-type="enumerated"><item>There are one or more Bernoulli trials with all failures except the last one, which is a
+success. In other words, you keep repeating what you are doing until the first success.
+Then you stop. For example, you throw a dart at a bull's eye until you hit the bull's eye.
+The first time you hit the bull's eye is a "success" so you stop throwing the dart. It might
+take you 6 tries until you hit the bull's eye. You can think of the trials as failure, failure,
+failure, failure, failure, success. STOP.</item>
+<item>In theory, the number of trials could go on forever. There must be at least one trial.</item>
+<item>The probability,<m:math><m:mi>p</m:mi></m:math>, of a success and the probability, <m:math><m:mi>q</m:mi></m:math>, of a failure is the same for each
+trial. 
+<m:math><m:reln><m:eq/>
+<m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow>
+<m:mrow><m:mn>1</m:mn></m:mrow>
+</m:reln></m:math>
+and 
+
+<m:math><m:reln><m:eq/>
+<m:mrow><m:mi>q</m:mi></m:mrow>
+<m:mrow><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>p</m:mi></m:mrow>
+</m:reln></m:math>.
+
+For example, the probability of rolling a 3 when you
+throw one fair die is <m:math><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:math>. This is true no matter how many times you roll the die.
+Suppose you want to know the probability of getting the first 3 on the fifth roll. On rolls
+1, 2, 3, and 4, you do not get a face with a 3. The probability for each of rolls 1, 2, 3,
+and 4 is 
+<m:math><m:reln><m:eq/>
+<m:mrow><m:mi>q</m:mi></m:mrow>
+<m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow>
+</m:reln></m:math>, 
+
+
+the probability of a failure. The probability of getting a 3 on the fifth
+roll is
+<m:math><m:reln><m:eq/>
+<m:mrow>
+<m:mfrac>
+<m:mn>5</m:mn><m:mn>6</m:mn>
+</m:mfrac>
+<m:mo>⋅</m:mo>
+<m:mfrac>
+<m:mn>5</m:mn><m:mn>6</m:mn>
+</m:mfrac>
+<m:mo>⋅</m:mo>
+<m:mfrac>
+<m:mn>5</m:mn><m:mn>6</m:mn>
+</m:mfrac>
+<m:mo>⋅</m:mo>
+<m:mfrac>
+<m:mn>5</m:mn><m:mn>6</m:mn>
+</m:mfrac>
+<m:mo>⋅</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn><m:mn>6</m:mn>
+</m:mfrac>
+
+</m:mrow>
+<m:mrow><m:mn>0.0804</m:mn></m:mrow>
+</m:reln></m:math>
+<!-- Needs touch up!-->
+</item>
+</list><m:math><m:mi>X</m:mi><m:mo>=</m:mo></m:math> the number of independent trials until the first success. The mean and
+variance are in the summary in this chapter. </para><example id="element-328"><para id="element-341">You play a game of chance that you can either win or lose (there are no
+other possibilities) <emphasis>until</emphasis> you lose. Your probability of losing is <m:math><m:mi>p = 0.57</m:mi></m:math>. What is the
+probability that it takes 5 games until you lose? Let <m:math><m:mi>X</m:mi></m:math> = the number of games you play until
+you lose (includes the losing game). Then <m:math><m:mi>X</m:mi></m:math> takes on the values 1, 2, 3, ... (could go on
+indefinitely). The probability question is
+<m:math><m:reln><m:eq/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow>
+</m:reln></m:math>.
+</para></example><example id="element-15"><para id="element-320">A safety engineer feels that 35% of all industrial accidents in her plant
+are caused by failure of employees to follow instructions. She decides to look at the
+accident reports (selected randomly and replaced in the pile after reading) <emphasis>until</emphasis> she finds one that shows an accident caused by failure of
+employees to follow instructions. On the average, how many reports would the safety
+engineer <emphasis>expect</emphasis> to look at until she finds a report showing an accident caused by
+employee failure to follow instructions? What is the probability that the safety engineer
+will have to examine at least 3 reports until she finds a report showing an accident caused
+by employee failure to follow instructions?
+</para><para id="element-112">Let <m:math><m:mi>X</m:mi></m:math> = the number of accidents the safety engineer must examine <emphasis>until</emphasis> she finds a
+report showing an accident caused by employee failure to follow instructions. <m:math><m:mi>X</m:mi></m:math> takes
+on the values 1, 2, 3, .... The first question asks you to find the <emphasis>expected value</emphasis> or the
+mean. The second question asks you to find 
+<m:math><m:reln><m:geq/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow>
+</m:reln></m:math>.
+
+
+
+("At least" translates as a
+"greater than or equal to" symbol).</para></example><example id="element-616"><para id="element-741">Suppose that you are looking for a student at your college who lives within five miles of you. You know that 55% of the 25,000 students do live within five miles of you. You randomly contact students from the college <emphasis>until</emphasis> one says he/she lives within five miles of you. What is the probability that you need to contact four people?
+</para><para id="element-724">This is a geometric problem because you may have a number of failures before you have the
+one success you desire. Also, the probability of a success stays the same each time you ask a
+student if he/she lives within five miles of you. There is no definite number of trials (number of times
+you ask a student).</para><exercise id="element-823"><problem id="id27319141">
+  
+  <para id="element-4422">Let <m:math><m:mi>X</m:mi></m:math> = the number of ____________ you must ask ____________ one says yes.</para>
+</problem>
+
+<solution id="id27319163">
+  <para id="element-153">Let <m:math><m:mi>X</m:mi></m:math> = the number of <emphasis>students</emphasis> you must ask <emphasis>until</emphasis> one says yes.</para>
+</solution>
+</exercise><exercise id="element-766">
+<problem id="id27319211">
+  <para id="element-789">
+    What values does <m:math><m:mi>X</m:mi></m:math> take on?
+  </para>
+</problem>
+
+<solution id="id27319232" print-placement="end">
+  <para id="element-140">1, 2, 3, …, (total number of students)
+  </para></solution>
+</exercise><exercise id="element-208"><problem id="id27319259">
+  <para id="element-884">
+    What are <m:math><m:mi>p</m:mi></m:math> and <m:math><m:mi>q</m:mi></m:math>?
+  </para>
+</problem>
+
+<solution id="id27319284" print-placement="end">
+  <list id="element-887">
+    <item>
+    <m:math><m:mi>p</m:mi></m:math> = 0.55</item>
+    <item>
+    <m:math><m:mi>q</m:mi></m:math> = 0.45</item>
+  </list>
+</solution>
+</exercise><exercise id="element-413"><problem id="id27319331">
+  <para id="element-458">
+    The probability question is P(_______).
+  </para>
+</problem>
+
+<solution id="id27319348" print-placement="end">
+  <para id="element-996"><m:math><m:mi>P</m:mi>
+     <m:mo>(</m:mo>
+     <m:mi>x</m:mi>
+     <m:mo> = </m:mo>
+     <m:mn>4</m:mn>
+     <m:mo>)</m:mo></m:math>
+  </para></solution>
+</exercise>
+</example><section id="element-125"><title>Notation for the Geometric: G = Geometric Probability Distribution Function</title>
+<para id="element-156"><m:math><m:mi>X</m:mi></m:math> ~ <m:math><m:mi>G(p)</m:mi></m:math>
+</para><para id="element-953">Read this as "<m:math><m:mi>X</m:mi></m:math> is a random variable with a geometric distribution."
+The parameter is <m:math><m:mi>p</m:mi></m:math>. <m:math><m:mi>p</m:mi></m:math> = the probability of a success for each trial.</para>
+
+</section>
+<example id="element-340"><para id="element-38">Assume that the probability of a defective computer
+component is 0.02. Components are randomly selected. Find the probability that the first defect is caused by the 7th component
+tested. How many components do you expect to test until one is found to be defective?
+</para><para id="element-20">Let <m:math><m:mi>X</m:mi></m:math> = the number of computer components tested until the first defect is found.</para><para id="element-857"><m:math><m:mi>X</m:mi></m:math> takes on the values 1, 2, 3, ... where <m:math><m:mi>p</m:mi> <m:mo>=</m:mo><m:mn> 0.02</m:mn></m:math>. <m:math><m:mi>X</m:mi></m:math> ~ <m:math><m:mtext>G(0.02)</m:mtext></m:math></para><para id="element-826">Find 
+
+<m:math><m:reln><m:eq/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>7</m:mn><m:mo>)</m:mo></m:mrow>
+</m:reln></m:math>.
+
+<m:math><m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>7</m:mn><m:mo>)</m:mo></m:mrow>
+</m:reln>
+<m:mrow><m:mn>0.0177</m:mn></m:mrow>
+</m:reln></m:math>.
+
+(calculator or computer)</para><para id="element-452">TI-83+ and TI-84: <emphasis>For a general discussion, see <link document="m16820" target-id="#element-678">this example</link> (binomial)</emphasis>. The syntax
+is similar. The geometric parameter list is (p, number) If "number" is left out, the result is the
+geometric probability table. For this problem:
+<emphasis>After you are in 2nd DISTR, arrow down to D:geometpdf. Press ENTER.
+Enter .02,7). The result is <m:math><m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>7</m:mn><m:mo>)</m:mo></m:mrow>
+</m:reln>
+<m:mrow><m:mn>0.0177</m:mn></m:mrow>
+</m:reln></m:math>.</emphasis></para><para id="element-833">The probability that the 7th component is the first defect is 0.0177.</para><para id="element-223">The graph of <m:math><m:mi>X</m:mi></m:math> ~ <m:math><m:mtext>G(0.02)</m:mtext></m:math> is:</para><para id="element-96"><media id="id26371923" alt="The geometric probability distribution function graph consists of bars sloping downwards with each successive bar to the right. The x-axis is from 1-∞ and the y-axis is from 0-0.02 in increments of 0.005. The x-axis is equal to the number of computer components tested until the defect is found."><image src="../../media/disc_rv_graph2_bw.png" mime-type="image/png" print-width="4in"/></media>
+
+</para><para id="element-802">The <m:math><m:mi>y</m:mi></m:math>-axis contains the probability of
+<m:math><m:mi>x</m:mi></m:math>, where 
+<m:math><m:mi>X</m:mi></m:math> = the number of
+computer components tested.</para><para id="element-785">The number of components that you would expect to test until you find the first defective
+one is the mean, 
+<m:math><m:mi>μ</m:mi></m:math> = 50.</para><para id="element-261">The formula for the mean is 
+<m:math><m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:mrow><m:mi>μ</m:mi></m:mrow>
+<m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>p</m:mi></m:mfrac></m:mrow>
+</m:reln>
+<m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>0.02</m:mn></m:mfrac></m:mrow>
+</m:reln>
+<m:mrow><m:mn>50</m:mn></m:mrow>
+</m:reln></m:math></para><para id="element-782">The formula for the variance is
+
+<m:math>
+<m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:mrow><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup></m:mrow>
+<m:mrow>
+<m:mfrac><m:mn>1</m:mn><m:mi>p</m:mi></m:mfrac>
+<m:mo>⋅</m:mo>
+<m:mo>(</m:mo>
+<m:mfrac><m:mn>1</m:mn><m:mi>p</m:mi></m:mfrac>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+<m:mrow>
+<m:mfrac><m:mn>1</m:mn><m:mn>0.02</m:mn></m:mfrac>
+<m:mo>⋅</m:mo>
+<m:mo>(</m:mo>
+<m:mfrac><m:mn>1</m:mn><m:mn>0.02</m:mn></m:mfrac>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+<m:mrow><m:mn>2450</m:mn></m:mrow>
+</m:reln>
+</m:math></para><para id="element-443">The standard deviation is
+<m:math>
+<m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:mrow><m:mi>σ</m:mi></m:mrow>
+
+<m:mrow>
+<m:msqrt>
+<m:mfrac><m:mn>1</m:mn><m:mi>p</m:mi></m:mfrac>
+<m:mo>⋅</m:mo>
+<m:mo>(</m:mo>
+<m:mfrac><m:mn>1</m:mn><m:mi>p</m:mi></m:mfrac>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:msqrt>
+</m:mrow>
+</m:reln>
+
+<m:mrow>
+<m:msqrt>
+<m:mfrac><m:mn>1</m:mn><m:mn>0.02</m:mn></m:mfrac>
+<m:mo>⋅</m:mo>
+<m:mo>(</m:mo>
+<m:mfrac><m:mn>1</m:mn><m:mn>0.02</m:mn></m:mfrac>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:msqrt>
+</m:mrow>
+</m:reln>
+
+<m:mrow>
+<m:mn>49.5</m:mn>
+</m:mrow>
+</m:reln>
+</m:math></para>
+</example> 
+  </content>
+
+<glossary>
+
+<definition id="geodist">
+    <term>Geometric Distribution</term>
+    <meaning id="id14905098">
+    A discrete random variable (RV) which arises from the Bernoulli trials. The trials are repeated until the first success. The geometric variable <m:math><m:mi>X</m:mi></m:math> is defined as the number of trials until the first success. Notation: <emphasis><m:math><m:mi>X</m:mi></m:math>∼
+
+<m:math><m:mi>G</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>p</m:mi>
+  <m:mo>)</m:mo></m:math></emphasis>.  
+
+The mean is 
+<m:math><m:mi>μ</m:mi>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mi>p</m:mi>
+  </m:mfrac></m:math> and 
+
+the standard deviation is 
+<m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>p</m:mi></m:mfrac><m:mo>⋅</m:mo><m:mo>(</m:mo></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>p</m:mi></m:mfrac><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:msqrt></m:math> 
+
+
+The probability of exactly x failures before the first success is given by the formula: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>p</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mi>p</m:mi></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( X=x \) =p \( 1 - p \)  rSup { size 8{x - 1} } } {}</m:annotation></m:semantics></m:math>.
+    </meaning>
+  </definition>
+</glossary>
+
+  
+</document>

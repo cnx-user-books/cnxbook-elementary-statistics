@@ -1,0 +1,531 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Matched or Paired Samples</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17033</md:content-id>
+  <md:title>Matched or Paired Samples</md:title>
+  <md:abstract>This module provides an overview of Hypothesis Testing: Matched or Paired Samples as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>ba88db59-9b8f-40df-8c0c-e6566c5822e6</md:uuid>
+</metadata>
+  <content>
+    <list id="element-139" list-type="enumerated"><item>Simple random sampling is used.</item>
+<item>Sample sizes are often small.</item>
+<item>Two measurements (samples) are drawn from the same pair of individuals or objects.</item>
+<item>Differences are calculated from the matched or paired samples.</item>
+<item>The differences form the sample that is used for the hypothesis test.</item>
+<item>The matched pairs have differences that either come from a population that is
+normal or the number of differences is sufficiently large so the distribution of the sample mean of differences is approximately normal.</item>
+
+</list><para id="delete_me">In a hypothesis test for matched or paired samples, subjects are matched in
+pairs and differences are calculated. The differences are the data. The
+population mean for the differences, 
+<m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+</m:math>, is then tested using a Student-t test
+for a single population mean with <m:math><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:math> degrees of freedom where <m:math><m:mi>n</m:mi></m:math> is the
+number of differences. 
+</para><equation id="element-403"><title>The test statistic (t-score) is:</title><m:math>
+  <m:mi>t</m:mi>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mrow>
+      <m:mover>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mi>d</m:mi>
+        </m:msub>
+        <m:mo>¯</m:mo>
+      </m:mover>
+      <m:mo>−</m:mo>
+      <m:msub>
+        <m:mi>μ</m:mi>
+        <m:mi>d</m:mi>
+      </m:msub>
+    </m:mrow>
+    <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mfrac>
+        <m:msub>
+          <m:mi>s</m:mi>
+          <m:mi>d</m:mi>
+        </m:msub>
+        <m:msqrt>
+          <m:mi>n</m:mi>
+        </m:msqrt>
+      </m:mfrac>
+      <m:mo>)</m:mo>
+    </m:mrow>
+  </m:mfrac>
+</m:math></equation><example id="element-457"><title>Matched or paired samples</title><para id="element-889"><emphasis/> A study was conducted to
+investigate the effectiveness of hypnotism in reducing pain. Results for
+randomly selected subjects are shown in the table. The "before" value is
+matched to an "after" value and the differences are calculated. The differences have a normal distribution.</para><table id="table-2345" summary="This table presents results of subjects and effect of hypnotism in reducing pain. The second through ninth column are all subjects. The first row is for before and the second row is for after.">
+<tgroup cols="9"><colspec colnum="1" colname="header_c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<colspec colnum="9" colname="c9"/>
+<thead>
+<row>
+<entry>Subject:</entry>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+<entry>D</entry>
+<entry>E</entry>
+<entry>F</entry>
+<entry>G</entry>
+<entry>H</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry>Before</entry>
+<entry>6.6</entry>
+<entry>6.5</entry>
+<entry>9.0</entry>
+<entry>10.3</entry>
+<entry>11.3</entry>
+<entry>8.1</entry>
+<entry>6.3</entry>
+<entry>11.6</entry>
+</row>
+<row>
+<entry>After</entry>
+<entry>6.8</entry>
+<entry>2.4</entry>
+<entry>7.4</entry>
+<entry>8.5</entry>
+<entry>8.1</entry>
+<entry>6.1</entry>
+<entry>3.4</entry>
+<entry>2.0</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><exercise id="element-366"><problem id="id24601264">
+  <para id="element-892">
+Are the sensory measurements, on average, lower after hypnotism? Test at a 5%
+significance level.
+  </para>
+</problem>
+
+<solution id="id24601284">
+  <para id="element-215">Corresponding "before" and "after" values form matched pairs.  (Calculate "sfter" - "before").
+  </para><table id="table-25832" summary="This table shows the after data in the first column, before data in the second column, and the difference in the third column.">
+
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>After Data</entry>
+<entry>Before Data</entry>
+<entry>Difference</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>6.8</entry>
+<entry>6.6</entry>
+<entry>0.2</entry>
+</row>
+<row>
+<entry>2.4</entry>
+<entry>6.5</entry>
+<entry>-4.1</entry>
+</row>
+<row>
+<entry>7.4</entry>
+<entry>9</entry>
+<entry>-1.6</entry>
+</row>
+<row>
+<entry>8.5</entry>
+<entry>10.3</entry>
+<entry>-1.8</entry>
+</row>
+<row>
+<entry>8.1</entry>
+<entry>11.3</entry>
+<entry>-3.2</entry>
+</row>
+<row>
+<entry>6.1</entry>
+<entry>8.1</entry>
+<entry>-2</entry>
+</row>
+<row>
+<entry>3.4</entry>
+<entry>6.3</entry>
+<entry>-2.9</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>11.6</entry>
+<entry>-9.6</entry>
+</row>
+</tbody>
+</tgroup>
+</table><para id="element-445">The data <emphasis>for the test</emphasis> are the
+differences:
+{0.2, -4.1, -1.6, -1.8, -3.2, -2, -2.9, -9.6}</para><para id="element-214">The sample mean and sample standard
+deviation of the differences are:
+<m:math>
+<m:mspace width="20pt"/> 
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>x</m:ci>
+<m:mi>d</m:mi>
+</m:msub>
+</m:apply>
+<m:mo>=</m:mo>
+<m:mn>-3.13</m:mn>
+</m:math>
+and
+<m:math>
+<m:msub>
+<m:mi>s</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mn>2.91</m:mn>
+</m:math>
+Verify these values.</para><para id="element-700">Let 
+<m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+</m:math> be the population mean for the differences. We use the subscript <m:math><m:mi>d</m:mi></m:math> to denote
+"differences."</para><para id="element-354"><emphasis>Random Variable:</emphasis>
+<m:math>
+
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>X</m:ci>
+<m:mi>d</m:mi>
+</m:msub>
+</m:apply>
+</m:math>
+
+= the mean difference of the sensory measurements</para><para id="element-805"><equation id="uid98325">
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+<m:mo>:</m:mo> 
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+<m:mo>≥</m:mo>
+<m:mn>0</m:mn>
+</m:math>
+</equation>
+
+There is no improvement.
+(<m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+</m:math> is the population mean
+of the differences.)</para><para id="element-102"><equation id="uid988825">
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>a</m:mi>
+</m:msub>
+<m:mo>:</m:mo> 
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+<m:mo>&lt;</m:mo>
+<m:mn>0</m:mn>
+</m:math>
+</equation>
+There is improvement. The score should be lower
+after hypnotism so the difference ought to be negative
+to indicate improvement.</para><para id="element-543"><emphasis>Distribution for the test:</emphasis> The distribution is a student-t with <m:math>
+<m:mi>df</m:mi>
+<m:mo>=</m:mo>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>=</m:mo>
+<m:mn>8</m:mn>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>=</m:mo>
+<m:mn>7</m:mn>
+</m:math>. Use 
+<emphasis><m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>7</m:mn>
+</m:msub>
+</m:math>. (Notice that the test is for a single population mean.)</emphasis></para><para id="element-94"><emphasis>Calculate the p-value using the Student-t distribution:</emphasis> <m:math><m:mtext>p-value</m:mtext> <m:mo>=</m:mo> <m:mn>0.0095</m:mn></m:math></para><para id="element-562"><emphasis>Graph:</emphasis></para><para id="element-629"><figure id="hyptest22_samp1"><media id="id11476386" alt="Normal distribution curve of the average difference of sensory measurements with values of -3.13 and 0. A vertical upward line extends from -3.13 to the curve, and the p-value is indicated in the area to the left of this value."><image src="../../media/hyptest22_samp1.png" mime-type="image/png" print-width="3in"/></media></figure></para><para id="element-281"><m:math>
+
+<m:msub>
+<m:apply>
+  <m:conjugate/>  <m:ci>X</m:ci></m:apply>
+<m:mi>d</m:mi>
+</m:msub>
+
+</m:math>
+
+is the random
+variable for the
+differences.</para><para id="element-213">The sample mean and
+sample standard
+deviation of the
+differences are:</para><para id="element-357"><m:math>
+
+<m:msub>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+<m:mi>d</m:mi>
+</m:msub>
+
+<m:mo>=</m:mo>
+<m:mn>-3.13</m:mn>
+</m:math></para><para id="element-909"><m:math>
+
+<m:msub>
+<m:apply>
+  <m:conjugate/>  <m:ci>s</m:ci></m:apply>
+<m:mi>d</m:mi>
+</m:msub>
+
+<m:mo>=</m:mo>
+<m:mn>2.91</m:mn>
+</m:math>
+
+</para><para id="element-172"><emphasis>Compare <m:math><m:mi>α</m:mi></m:math> and the p-value:</emphasis> <m:math><m:mi>α</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0.05</m:mn></m:math> and <m:math><m:mtext>p-value</m:mtext>
+<m:mo>=</m:mo>
+<m:mn>0.0095</m:mn>
+</m:math>.
+ <m:math><m:mi>α</m:mi>
+<m:mo>&gt;</m:mo>
+<m:mtext>p-value</m:mtext></m:math>.</para><para id="element-269"><emphasis>Make a decision:</emphasis> Since <m:math><m:mi>α</m:mi><m:mo>&gt;</m:mo> <m:mtext>p-value</m:mtext></m:math>,
+ reject
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math>.</para><para id="element-143">This means that 
+<m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+<m:mo>&lt;</m:mo>
+<m:mn>0</m:mn>
+</m:math> and there is improvement.</para><para id="element-795"><emphasis>Conclusion:</emphasis> At a 5% level of significance, from the sample data, there is sufficient
+evidence to conclude that the sensory measurements, on average, are lower after
+hypnotism. Hypnotism appears to be effective in reducing pain.</para><note id="id11476665">For the TI-83+ and TI-84 calculators, you can either calculate the differences ahead
+of time (<emphasis>after - before</emphasis>) and put the differences into a list or you can put the <emphasis>after</emphasis> data
+into a first list and the <emphasis>before</emphasis> data into a second list. Then go to a third list
+and arrow up to the name. Enter 1st list name - 2nd list name. The calculator
+will do the subtraction and you will have the differences in the third list.</note><note id="id11476702">TI-83+ and TI-84: Use your list of differences as the data. Press <code>STAT</code>
+and arrow over to <code>TESTS</code>. Press <code>2:T-Test</code>. Arrow over to <code>Data</code> and press
+<code>ENTER</code>. Arrow down and enter <code>0</code> for <m:math><m:msub><m:mi>μ</m:mi><m:mi>0</m:mi></m:msub></m:math>, the name of the list where you put
+the data, and <code>1</code> for Freq:. Arrow down to <code>μ</code>: and arrow over to <code>&lt;</code> <m:math><m:msub><m:mi>μ</m:mi><m:mi>0</m:mi></m:msub></m:math>. Press
+<code>ENTER</code>. Arrow down to <code>Calculate</code> and press <code>ENTER</code>. The p-value is
+0.0094 and the test statistic is -3.04. Do these instructions again except
+arrow to <code>Draw</code> (instead of <code>Calculate</code>). Press <code>ENTER</code>.
+</note>
+</solution>
+</exercise>
+</example><example id="element-752"><para id="element-486">A college football coach was interested in whether the college's
+strength development class increased his players' maximum lift (in pounds) on the bench
+press exercise. He asked 4 of his players to participate in a study. The amount of
+weight they could each lift was recorded before they took the strength development
+class. After completing the class, the amount of weight they could each lift was again
+measured. The data are as follows:
+<table id="table-234678" summary="This table shows players and the amount of weight they are able to lift. The first column is the weight lifted and the second through the sixth columns represent the players. The first row is the amount of weight lifted before the class and the second row is the amount of weight lifted after the class.">
+
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row>
+	<entry align="center">Weight (in pounds)</entry>
+	<entry align="center">Player 1</entry>
+	<entry align="center">Player 2</entry>
+	<entry align="center">Player 3</entry>
+<entry align="center">Player 4</entry>
+      </row>
+</thead>
+<tbody>
+<row>
+<entry>Amount of weighted lifted prior to the class</entry>
+<entry>205</entry>
+<entry>241</entry>
+<entry>338</entry>
+<entry>368</entry>
+</row>
+<row>
+<entry>Amount of weight lifted after the class</entry>
+<entry>295</entry>
+<entry>252</entry>
+<entry>330</entry>
+<entry>360</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table>
+</para><para id="element-651"><emphasis>The coach wants to know if the strength development class makes his players
+stronger, on average.</emphasis></para>
+<exercise id="examp_6"><problem id="id12104086">
+<para id="element-170">Record the <emphasis>differences</emphasis> data. Calculate the differences by subtracting the amount of
+weight lifted prior to the class from the weight lifted after completing the class. The
+data for the differences are:
+{90, 11, -8, -8}.  The differences have a normal distribution.</para><para id="element-120">Using the differences data, calculate the sample mean and the sample standard deviation.</para><para id="element-258"><m:math>
+<m:msub>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+<m:mi>d</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mn>21.3</m:mn>
+<m:mspace width="40pt"/>
+<m:msub>
+<m:mi>s</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mn>46.7</m:mn>
+</m:math>
+</para><para id="element-990">Using the difference data, this becomes a test of a single __________ (fill in the blank).</para><para id="element-208"><emphasis>Define the random variable:</emphasis> 
+<m:math>
+<m:msub>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+
+</m:apply>
+<m:mi>d</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+</m:math>
+mean difference in the maximum lift per
+player.</para><para id="element-320">The distribution for the hypothesis test is <m:math><m:msub>
+<m:mi>t</m:mi>
+<m:mi>3</m:mi>
+</m:msub></m:math>.</para><para id="element-3201"><m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+<m:mo>:</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+<m:mo>≤</m:mo>
+<m:mn>0</m:mn>
+<m:mspace width="40pt"/>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>a</m:mi>
+</m:msub>
+<m:mo>:</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>d</m:mi>
+</m:msub>
+<m:mo>&gt;</m:mo>
+<m:mn>0</m:mn>
+</m:math></para><para id="element-811"><emphasis>Graph:</emphasis></para><para id="element-13"><figure id="hyptest22_samp2"><media id="id11476943" alt="Normal distribution curve with values of 0 and 21.3. A vertical upward line extends from 21.3 to the curve and the p-value is indicated in the area to the right of this value."><image src="../../media/hyptest22_samp2.png" mime-type="image/png" print-width="3in"/></media></figure></para><para id="element-147"><emphasis>Calculate the p-value:</emphasis> The p-value is 0.2150</para><para id="element-931"><emphasis>Decision:</emphasis> If the level of significance is 5%, the decision is to not reject the null
+hypothesis because 
+<m:math>
+<m:mi>α</m:mi>
+<m:mo>&lt;</m:mo> 
+<m:mtext>p-value</m:mtext>
+</m:math>.</para><para id="element-802"><emphasis>What is the conclusion?</emphasis></para></problem>
+<solution id="id11477036" print-placement="end"><para id="e106soln"> means; At a 5% level of significance, from the sample data, there is not sufficient evidence to conclude that the strength development class helped to make the players stronger, on average.</para></solution></exercise></example><example id="element-241"><para id="element-70">
+  
+Seven eighth graders at Kennedy Middle School measured how far
+they could push the shot-put with their dominant (writing) hand and their weaker
+(non-writing) hand. They thought that they could push equal distances with either
+hand. The following data was collected.</para>
+<table id="table-2535678" summary="This table presents the students shot-put distances by their dominant and non-dominant hand. The first column lists the hand type and the second through the eighth column represent the students. The first row is for the dominant hand and the second row is for the weaker hand.">
+
+<tgroup cols="8"><colspec colnum="1" colname="header_c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<thead valign="top">
+<row>
+<entry align="center">Distance (in feet) using</entry>
+<entry>Student 1</entry>
+<entry>Student 2</entry>
+<entry>Student 3</entry>
+<entry>Student 4</entry>
+<entry>Student 5</entry>
+<entry>Student 6</entry>
+<entry>Student 7</entry>
+</row>
+</thead>
+<tbody valign="top">
+
+<row>
+<entry>Dominant Hand</entry>
+<entry>30</entry>
+<entry>26</entry>
+<entry>34</entry>
+<entry>17</entry>
+<entry>19</entry>
+<entry>26</entry>
+<entry>20</entry>
+</row>
+<row>
+<entry>Weaker Hand</entry>
+<entry>28</entry>
+<entry>14</entry>
+<entry>27</entry>
+<entry>18</entry>
+<entry>17</entry>
+<entry>26</entry>
+<entry>16</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><exercise id="ex107"><problem id="id11477425"><para id="element-722"><emphasis>Conduct a hypothesis test</emphasis> to determine whether the mean difference in distances between the children's
+dominant versus weaker hands is significant. <note id="id11651056" type="hint"><label>Hint</label>use a t-test on the difference data. Assume the differences have a normal distribution.  The random variable is the mean difference.</note></para><note id="id11651066" type="Check"><label>Check</label>The test statistic is 2.18 and the p-value is 0.0716.</note><para id="element-663"><emphasis>What is your conclusion?</emphasis></para></problem><solution id="id11651092" print-placement="end"><para id="ex107soln"><m:math><m:msub><m:mi>H</m:mi><m:mi>0</m:mi></m:msub></m:math>:
+<m:math><m:msub><m:mi>μ</m:mi><m:mi>d</m:mi></m:msub></m:math> equals 0; <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math>:
+<m:math><m:msub><m:mi>μ</m:mi><m:mi>d</m:mi></m:msub></m:math> does not equal 0; Do not reject the null; At a 5% significance level, from the sample data, there is not sufficient evidence to conclude that the mean  difference in distances between the children's dominant versus weaker hands is significant (there is not sufficient evidence to show that the children could push the shot-put further with their dominant hand). Alpha and the p-value are close so the test is not strong.
+</para></solution></exercise></example>   
+  </content>
+  
+</document>

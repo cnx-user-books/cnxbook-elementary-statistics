@@ -1,0 +1,481 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Tree Diagrams (optional)</title>
+  <metadata>
+  <md:content-id>m16846</md:content-id><md:title>Tree Diagrams (optional)</md:title>
+  <md:abstract>This module introduces tree diagrams as a method for making some probability problems easier to solve.  This module is included in the Elementary Statistics textbook/collection as an optional lesson.</md:abstract>
+  <md:uuid>afacc68a-3ab8-401d-bbcf-e758c6a2986d</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">A <term target-id="treediagram">tree diagram</term> is a special type of graph used to determine the outcomes of an experiment.  It consists of  "branches" that are labeled with either frequencies or probabilities.  Tree diagrams can make some probability problems easier to visualize and solve.  The following example illustrates  how to use a tree diagram.</para><example id="element-192"><para id="element-200">In an urn, there are 11 balls.  Three balls are red (<m:math><m:mi>R</m:mi></m:math>) and 8 balls are blue (<m:math><m:mi>B</m:mi></m:math>).  Draw two balls, one at a time, <emphasis>with replacement</emphasis>.  "With replacement" means that you put the first ball back in the urn before you select the second ball.  The tree diagram using frequencies that show all the possible outcomes follows.
+</para>
+
+<figure id="element-325"><media id="id47069242" alt="Tree diagram consisting of the first draw for the first branch and the second draw for the second branch. The first branch consists of 2 lines, 3R and 8B, and the second branch consists of 2 sets of 2 lines of 3R and 8B each. The lines produce 9RR, 24RB, 24BR, and 64BB."><image src="../../media/prob_tpcs_treedia1.png" mime-type="image/png" width="400" print-width="4in"/></media><caption><m:math><m:mtext> Total</m:mtext><m:mo>=</m:mo><m:mn>64</m:mn><m:mo>+</m:mo><m:mn>24</m:mn><m:mo>+</m:mo><m:mn>24</m:mn>
+<m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo>
+<m:mn>121</m:mn></m:math></caption></figure>
+<para id="element-54">The first set of branches represents the first draw.  The second set of branches represents the second draw.  Each of the outcomes is distinct.   In fact, we can list each red ball as <m:math><m:mi>R1</m:mi></m:math>, <m:math><m:mi>R2</m:mi></m:math>, and <m:math><m:mi>R3</m:mi></m:math> and each blue ball as 
+<m:math><m:mi>B1</m:mi></m:math>, 
+<m:math><m:mi>B2</m:mi></m:math>, 
+<m:math><m:mi>B3</m:mi></m:math>, 
+<m:math><m:mi>B4</m:mi></m:math>, 
+<m:math><m:mi>B5</m:mi></m:math>, 
+<m:math><m:mi>B6</m:mi></m:math>, 
+<m:math><m:mi>B7</m:mi></m:math>, and 
+<m:math><m:mi>B8</m:mi></m:math>.  Then the 9 <m:math><m:mi>RR</m:mi></m:math> outcomes can be written as:</para>
+<para id="element-1255"> 
+<list list-type="labeled-item" display="inline" id="set-54_1">
+ <item><m:math><m:mi>R1R1</m:mi></m:math></item>
+<item><m:math><m:mi>R1R2</m:mi></m:math></item>
+<item><m:math><m:mi>R1R3</m:mi></m:math></item>
+<item><m:math><m:mi>R2R1</m:mi></m:math></item>
+<item><m:math><m:mi>R2R2</m:mi></m:math></item>
+<item><m:math><m:mi>R2R3</m:mi></m:math></item>
+<item><m:math><m:mi>R3R1</m:mi></m:math></item>
+<item><m:math><m:mi>R3R2</m:mi></m:math></item>
+<item><m:math><m:mi>R3R3</m:mi></m:math></item>
+</list>
+</para>
+<para id="element-5235">
+The other outcomes are similar.</para><para id="element-767">There are a total of 11 balls in the urn.  Draw two balls, one at a time, and with replacement. There are 
+<m:math>
+ <m:mn>11</m:mn>
+ <m:mo> ⋅ </m:mo>
+ <m:mn>11</m:mn>
+ <m:mo> = </m:mo>
+ <m:mn>121</m:mn>
+</m:math>
+ outcomes, the size of the <term target-id="samplesp">sample space</term>.</para><exercise id="element-135">
+<problem id="id47069535">
+  <para id="element-638">
+    List the 24 <m:math><m:mi>BR</m:mi></m:math> outcomes: <m:math><m:mi>B1R1</m:mi></m:math>, <m:math><m:mi>B1R2</m:mi></m:math>, <m:math><m:mi>B1R3</m:mi></m:math>, ...
+  </para>
+</problem>
+
+<solution id="id47069675" print-placement="end">
+<para id="element-63435">
+<list id="element-12351" list-type="labeled-item" display="inline">
+
+<item><m:math><m:mi>B1R1</m:mi></m:math></item>
+<item><m:math><m:mi>B1R2</m:mi></m:math></item>
+<item><m:math><m:mi>B1R3</m:mi></m:math></item>
+<item><m:math><m:mi>B2R1</m:mi></m:math></item>
+<item><m:math><m:mi>B2R2</m:mi></m:math></item>
+<item><m:math><m:mi>B2R3</m:mi></m:math></item>
+<item><m:math><m:mi>B3R1</m:mi></m:math></item>
+<item><m:math><m:mi>B3R2</m:mi></m:math></item>
+<item><m:math><m:mi>B3R3</m:mi></m:math></item>
+<item><m:math><m:mi>B4R1</m:mi></m:math></item>
+<item><m:math><m:mi>B4R2</m:mi></m:math></item>
+<item><m:math><m:mi>B4R3</m:mi></m:math></item>
+<item><m:math><m:mi>B5R1</m:mi></m:math></item>
+<item><m:math><m:mi>B5R2</m:mi></m:math></item>
+<item><m:math><m:mi>B5R3</m:mi></m:math></item>
+<item><m:math><m:mi>B6R1</m:mi></m:math></item>
+<item><m:math><m:mi>B6R2</m:mi></m:math></item>
+<item><m:math><m:mi>B6R3</m:mi></m:math></item>
+<item><m:math><m:mi>B7R1</m:mi></m:math></item>
+<item><m:math><m:mi>B7R2</m:mi></m:math></item>
+<item><m:math><m:mi>B7R3</m:mi></m:math></item>
+<item><m:math><m:mi>B8R1</m:mi></m:math></item>
+<item><m:math><m:mi>B8R2</m:mi></m:math></item>
+<item><m:math><m:mi>B8R3</m:mi></m:math></item>
+</list>
+</para>
+</solution>
+</exercise><exercise id="element-38"><problem id="id47069956">
+  <para id="element-909">
+    Using the tree diagram, calculate <m:math><m:mtext>P(RR)</m:mtext></m:math>.
+  </para>
+</problem>
+
+<solution id="id47069979">
+  <para id="element-913"><m:math><m:mtext>P(RR)</m:mtext><m:mo> =</m:mo><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>11</m:mn>
+  </m:mfrac> <m:mo> ⋅</m:mo> <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>11</m:mn>
+  </m:mfrac><m:mo> =</m:mo><m:mfrac>
+    <m:mn>9</m:mn>
+    <m:mn>121</m:mn>
+  </m:mfrac></m:math></para>
+</solution>
+</exercise><exercise id="element-492"><problem id="id47070044">
+  <para id="element-865">
+    Using the tree diagram, calculate <m:math><m:mtext>P(RB OR BR)</m:mtext></m:math>.
+  </para>
+</problem>
+
+<solution id="id47070067">
+  <para id="element-968"><m:math><m:mtext>P(RB OR BR)</m:mtext><m:mo> =</m:mo><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>11</m:mn>
+  </m:mfrac><m:mo> ⋅</m:mo><m:mfrac>
+    <m:mn>8</m:mn>
+    <m:mn>11</m:mn>
+  </m:mfrac><m:mo> +</m:mo><m:mfrac>
+    <m:mn>8</m:mn>
+    <m:mn>11</m:mn>
+  </m:mfrac><m:mo> ⋅</m:mo><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>11</m:mn>
+  </m:mfrac><m:mo> =</m:mo><m:mfrac>
+    <m:mn>48</m:mn>
+    <m:mn>121</m:mn>
+  </m:mfrac></m:math></para>
+</solution>
+</exercise><exercise id="element-603"><problem id="id46124799">
+  <para id="element-972">
+    Using the tree diagram, calculate <m:math><m:mtext>P(R on 1st draw AND B on 2nd draw)</m:mtext></m:math>.
+  </para>
+</problem>
+
+<solution id="id46124822">
+  <para id="element-989"><m:math><m:mtext>P(R on 1st draw AND B on 2nd draw)</m:mtext><m:mo> =</m:mo>  <m:mtext>P(RB)</m:mtext> <m:mo> =</m:mo><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>11</m:mn>
+  </m:mfrac> <m:mo> ⋅</m:mo><m:mfrac>
+    <m:mn>8</m:mn>
+    <m:mn>11</m:mn>
+  </m:mfrac><m:mo> =</m:mo><m:mfrac>
+    <m:mn>24</m:mn>
+    <m:mn>121</m:mn>
+  </m:mfrac></m:math></para>
+</solution>
+</exercise><exercise id="element-59"><problem id="id46124893">
+  <para id="element-239">
+    Using the tree diagram, calculate <m:math><m:mtext>P(R on 2nd draw given B on 1st draw)</m:mtext></m:math>.
+  </para>
+</problem>
+
+<solution id="id46124917">
+  <para id="element-70"><m:math><m:mtext>P(R on 2nd draw given B on 1st draw)</m:mtext><m:mo>  =</m:mo>  <m:mtext>P(R on 2nd | B on 1st)</m:mtext>  <m:mo>=</m:mo> <m:mfrac>
+    <m:mn>24</m:mn>
+    <m:mn>88</m:mn>
+  </m:mfrac><m:mo> =</m:mo><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>11</m:mn>
+  </m:mfrac></m:math></para><para id="element-307">This problem is a conditional.  The sample space has been reduced to those outcomes that already have a blue on the first draw.  There are <m:math>
+ <m:mn>24</m:mn>
+ <m:mo> + </m:mo>
+ <m:mn>64</m:mn>
+ <m:mo> = </m:mo>
+ <m:mn>88</m:mn>
+</m:math> possible outcomes (24 <m:math><m:mi>BR</m:mi></m:math> and 64 <m:math><m:mi>BB</m:mi></m:math>).  Twenty-four of the 88 possible outcomes are <m:math><m:mi>BR</m:mi></m:math>.   <m:math><m:mfrac>
+    <m:mn>24</m:mn>
+    <m:mn>88</m:mn>
+  </m:mfrac><m:mo>=</m:mo><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>11</m:mn>
+  </m:mfrac></m:math>.</para>
+</solution>
+</exercise><exercise id="element-946">
+<problem id="id46125047">
+  <para id="element-42">
+    Using the tree diagram, calculate <m:math><m:mtext>P(BB)</m:mtext></m:math>.
+  </para>
+</problem>
+
+<solution id="id46125071" print-placement="end">
+  <para id="element-925"><m:math><m:mtext>P(BB)</m:mtext><m:mo> = </m:mo><m:mfrac><m:mn>64</m:mn><m:mn>121</m:mn></m:mfrac></m:math>
+  </para>
+</solution>
+</exercise><exercise id="element-285">
+<problem id="id46125112">
+  <para id="element-189">
+    Using the tree diagram, calculate <m:math><m:mtext>P(B on the 2nd draw given R on the first draw)</m:mtext></m:math>.
+  </para>
+</problem>
+
+<solution id="id46125136" print-placement="end">
+  <para id="element-602"><m:math><m:mtext>P(B on 2nd draw | R on 1st draw)</m:mtext>
+ <m:mo> = </m:mo>
+<m:mfrac>
+ <m:mn>8</m:mn>
+ <m:mn>11</m:mn>
+</m:mfrac>
+
+</m:math></para><para id="element-892">There are  <m:math>
+ <m:mn>9</m:mn>
+ <m:mo> + </m:mo>
+ <m:mn>24</m:mn></m:math> outcomes that have <m:math>
+ <m:mi>R
+ </m:mi>
+</m:math> on the first draw (9 <m:math>
+ <m:mi>RR
+ </m:mi>
+</m:math> and 24 <m:math>
+ <m:mi>RB
+ </m:mi>
+</m:math>).  The sample space is then <m:math>
+ <m:mn>9</m:mn>
+ <m:mo> + </m:mo>
+ <m:mn>24</m:mn>
+ <m:mo> = </m:mo>
+ <m:mn>33</m:mn>
+</m:math>.  Twenty-four of the 33 outcomes have <m:math>
+ <m:mi>B
+ </m:mi>
+</m:math> on the second draw.  The probability is then  <m:math><m:mfrac>
+    <m:mn>24</m:mn>
+    <m:mn>33</m:mn>
+  </m:mfrac></m:math>. </para>
+</solution>
+</exercise>
+</example><example id="element-841"><para id="element-308">An urn has 3 red marbles and 8 blue marbles in it.  Draw two marbles, one at a time, this time without replacement from the urn.  <emphasis>"Without replacement"</emphasis> means that you do not put the first ball back before you select the second ball.  Below is a tree diagram.  The branches are labeled with probabilities instead of frequencies. The numbers at the ends of the branches are calculated by multiplying the numbers on the two corresponding branches, for example, <m:math><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>11</m:mn>
+  </m:mfrac><m:mo>⋅</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>10</m:mn>
+  </m:mfrac><m:mo>=</m:mo><m:mfrac>
+    <m:mn>6</m:mn>
+    <m:mn>110</m:mn>
+  </m:mfrac></m:math>.
+</para>
+
+<figure id="element-325a"><media id="id47078287" alt="Tree diagram consisting of the first draw for the first branch and the second draw for the second branch. The first branch consists of 2 lines, B 8/11 and R 3/11, and the second branch consists of 2 sets of 2 lines with B 7/10 and R 3/10 extending from line B 8/11 and B 8/10 and R 2/10 coming from line R 3/11. These 4 lines produce BB 56/110, BR 24/110, RB 24/110, and RR 6/10."><image src="../../media/prob_tpcs_treedia2.png" mime-type="image/png" width="400" print-width="4in"/></media><caption><m:math>
+ <m:mtext>
+  Total
+ </m:mtext>
+  <m:mo> = </m:mo>
+<m:mfrac>
+ <m:mrow>
+   <m:mn>56</m:mn>
+ <m:mo> + </m:mo>
+ <m:mn>24</m:mn>
+ <m:mo> + </m:mo>
+ <m:mn>24</m:mn>
+ <m:mo> + </m:mo>
+ <m:mn>6</m:mn>
+ </m:mrow>
+ <m:mn>110</m:mn>
+</m:mfrac>
+  <m:mo> = </m:mo>
+<m:mfrac>
+ <m:mn>110</m:mn>
+ <m:mn>110</m:mn>
+</m:mfrac>
+  <m:mo> = </m:mo>
+<m:mn>1</m:mn>
+</m:math></caption></figure>
+
+<note id="id47078390">If you draw a red on the first draw from the 3 red possibilities, there are 2 red left to draw on the second draw.  You do not put back or replace the first ball after you have drawn it.  You draw <emphasis>without replacement</emphasis>, so that on the second draw there are 10 marbles left in the urn.</note><para id="element-993">Calculate the following probabilities using the tree diagram.  </para><exercise id="element-366"><problem id="id47078429">
+  <para id="element-452">
+    <m:math><m:mtext>P(RR)</m:mtext></m:math> =
+  </para>
+</problem>
+
+<solution id="id47078452">
+  <para id="element-659a"><m:math><m:mtext>P(RR)</m:mtext> <m:mo>=</m:mo>  <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>11</m:mn>
+  </m:mfrac><m:mo> ⋅</m:mo>  <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>10</m:mn>
+  </m:mfrac><m:mo> =</m:mo> <m:mfrac>
+ <m:mn>6</m:mn>
+ <m:mn>110</m:mn>
+</m:mfrac></m:math>
+  </para>
+</solution>
+</exercise><exercise id="element-238">
+<problem id="id47078522">
+  <para id="element-608">Fill in the blanks:</para><para id="element-545"><m:math><m:mtext>P(RB OR BR)</m:mtext> <m:mo>=</m:mo> <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>11</m:mn>
+  </m:mfrac><m:mo> ⋅</m:mo> <m:mfrac>
+    <m:mn>8</m:mn>
+    <m:mn>10</m:mn>
+  </m:mfrac><m:mo> +</m:mo> <m:mtext>(___)(___)</m:mtext> <m:mo>=</m:mo>  <m:mfrac>
+    <m:mn>48</m:mn>
+    <m:mn>110</m:mn>
+  </m:mfrac></m:math>
+  </para>
+</problem>
+
+<solution id="id47078597" print-placement="end">
+  <para id="element-224"><m:math><m:mtext>P(RB or BR)</m:mtext> <m:mo>=</m:mo> <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>11</m:mn>
+  </m:mfrac><m:mo> ⋅</m:mo> <m:mfrac>
+    <m:mn>8</m:mn>
+    <m:mn>10</m:mn>
+  </m:mfrac><m:mo> +</m:mo> </m:math>
+<emphasis>
+<m:math>
+<m:mo>(</m:mo>
+
+<m:mfrac><m:mn>8</m:mn><m:mn>11</m:mn></m:mfrac>
+
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mfrac><m:mn>3</m:mn><m:mn>10</m:mn></m:mfrac>
+<m:mo>)</m:mo>
+</m:math>
+</emphasis>
+ <m:math><m:mo>=</m:mo>  <m:mfrac>
+    <m:mn>48</m:mn>
+    <m:mn>110</m:mn>
+  </m:mfrac></m:math></para>
+</solution>
+</exercise><exercise id="element-921">
+<problem id="id46086278">
+  <para id="element-8295">
+   <m:math><m:mtext>P(R on 2d | B on 1st)</m:mtext></m:math> =
+  </para>
+</problem>
+
+<solution id="id46086303" print-placement="end">
+  <para id="element-43"><m:math><m:mtext>P(R on 2d | B on 1st)</m:mtext><m:mo> = </m:mo>
+    <m:mfrac>
+ <m:mn>3</m:mn>
+ <m:mn>10</m:mn>
+</m:mfrac>
+</m:math>
+  </para>
+</solution>
+</exercise><exercise id="element-761">
+<problem id="id46086349">
+  <para id="element-363">Fill in the blanks:</para><para id="element-400">
+    <m:math><m:mtext>P(R on 1st and B on 2nd)</m:mtext>
+ <m:mo> = </m:mo>
+ <m:mtext>P(RB)</m:mtext>
+ <m:mo> = </m:mo>
+ <m:mtext>(___)(___)</m:mtext>
+ <m:mo> = </m:mo>
+<m:mfrac>
+ <m:mn>24</m:mn>
+ <m:mn>110</m:mn>
+</m:mfrac>
+</m:math>
+  </para>
+</problem>
+
+<solution id="id46086410" print-placement="end">
+  <para id="element-411"><m:math><m:mtext>P(R on 1st and B on 2nd)</m:mtext>
+ <m:mo> = </m:mo>
+ <m:mtext>P(RB)</m:mtext>
+ <m:mo> = </m:mo>
+ </m:math>
+<emphasis>
+<m:math>
+ <m:mo>(</m:mo>
+ 
+<m:mfrac>
+ <m:mn>3</m:mn>
+ <m:mn>11</m:mn>
+</m:mfrac>
+<m:mo>)</m:mo>
+ <m:mo>(</m:mo>
+<m:mfrac>
+ <m:mn>8</m:mn>
+ <m:mn>10</m:mn>
+</m:mfrac>
+
+ <m:mo>)</m:mo>
+</m:math>
+</emphasis>
+<m:math>
+ <m:mo> = </m:mo>
+<m:mfrac>
+ <m:mn>24</m:mn>
+ <m:mn>110</m:mn>
+</m:mfrac>
+</m:math>
+
+  </para>
+</solution>
+</exercise><exercise id="element-874">
+<problem id="id46086515">
+  <para id="element-413">
+    <m:math><m:mtext>P(BB)</m:mtext></m:math> =
+  </para>
+</problem>
+
+<solution id="id46086539" print-placement="end">
+  <para id="element-547">
+    <m:math><m:mtext>P(BB)</m:mtext> <m:mo> = </m:mo>
+<m:mfrac>
+ <m:mn>8</m:mn>
+ <m:mn>11</m:mn>
+</m:mfrac>
+<m:mo> ⋅ </m:mo>
+<m:mfrac>
+ <m:mn>7</m:mn>
+ <m:mn>10</m:mn>
+</m:mfrac></m:math>
+  </para>
+</solution>
+</exercise><exercise id="element-861"><problem id="id46086597">
+  <para id="element-64">
+    <m:math><m:mtext>P(B on 2nd | R on 1st)</m:mtext> </m:math> =
+  </para>
+</problem>
+
+<solution id="id46086622">
+  <para id="element-851">There are  <m:math> <m:mn>6</m:mn>
+ <m:mo> + </m:mo>
+ <m:mn>24</m:mn></m:math> outcomes that have <m:math><m:mi>R</m:mi></m:math> on the first draw (6 <m:math><m:mi>RR</m:mi></m:math> and 24 <m:math><m:mi>RB</m:mi></m:math>).  The 6 and the 24 are frequencies.  They are also the numerators of the fractions <m:math>
+ <m:mfrac>
+    <m:mn>6</m:mn>
+    <m:mn>110</m:mn>
+  </m:mfrac>
+</m:math>  and  <m:math>
+ <m:mfrac>
+    <m:mn>24</m:mn>
+    <m:mn>110</m:mn>
+  </m:mfrac>
+</m:math>.  The sample space is no longer 110 but <m:math>
+ <m:mn>6</m:mn>
+ <m:mo> + </m:mo>
+ <m:mn>24</m:mn>
+ <m:mo> = </m:mo>
+ <m:mn>30</m:mn>
+</m:math>.  Twenty-four of the 30 outcomes have <m:math><m:mi>B</m:mi></m:math> on the second draw.  The probability is then  <m:math>
+ <m:mfrac>
+    <m:mn>24</m:mn>
+    <m:mn>30</m:mn>
+  </m:mfrac>
+</m:math>.  Did you get this answer?</para>
+</solution>
+</exercise>
+
+
+<para id="element-47">If we are using probabilities, we can label the tree in the following general way.</para>
+
+
+<media id="id46086747" alt="Tree diagram consisting of a first branch and a second branch. The first branch consists of 2 lines, P(R) and P(B), and the second branch consists of 2 sets of 2 lines with one set of P(B)(B) and P(R)(B) from line P(B) and one set of P(B)(R) and P(R)(R) from line P(R). P(B)(B) and P(R)(B) produce P(B and B)=P(BB) and P(B and R)=P(BR) and P(B)(R) and P(R)(R) produce P(R and B)=P(RB) and P(R and R)=P(RR)." display="block"><image src="../../media/prob_tpcs_treedia3.png" mime-type="image/png" width="400" print-width="4in"/></media>
+
+<list id="element-425" list-type="bulleted">
+
+<item><m:math><m:mtext>P(R|R)</m:mtext></m:math> here means <m:math><m:mtext>P(R on 2nd | R on 1st)</m:mtext></m:math></item>
+
+<item id="element-847"><m:math><m:mtext>P(B|R)</m:mtext></m:math> here means <m:math><m:mtext>P(B on 2nd | R on 1st)</m:mtext></m:math></item>
+
+<item id="element-186"><m:math><m:mtext>P(R|B)</m:mtext></m:math> here means <m:math><m:mtext>P(R on 2nd | B on 1st)</m:mtext></m:math></item>
+
+<item id="element-635"><m:math><m:mtext>P(B|B)</m:mtext></m:math> here means <m:math><m:mtext>P(B on 2nd | B on 1st)</m:mtext></m:math></item>
+</list>
+</example>
+  </content>
+  
+<glossary>
+
+<definition id="samplesp">
+    <term>Sample Space</term>
+    <meaning id="id46086895">
+The set of all possible outcomes of an experiment.
+    </meaning>
+  </definition>
+
+<definition id="treediagram">
+    <term>Tree Diagram</term>
+    <meaning id="id18749941">
+The useful visual representation of a sample space and events in the form of a “tree” with branches marked by possible outcomes simultaneously with associated probabilities (frequencies, relative frequencies).
+    </meaning>
+  </definition>
+
+
+</glossary>
+</document>

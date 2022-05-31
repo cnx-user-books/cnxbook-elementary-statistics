@@ -1,0 +1,89 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Venn Diagrams (optional)</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16848</md:content-id>
+  <md:title>Venn Diagrams (optional)</md:title>
+  <md:abstract>This module introduces Venn diagrams as a method for solving some probability problems.  This module is included in the Elementary Statistics textbook/collection as an optional lesson.</md:abstract>
+  <md:uuid>f15a2d0e-e003-4435-8722-281a69b53b2d</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">A <term target-id="vendiagram">Venn diagram</term> is a picture that represents the outcomes of an experiment.  It generally consists of a box that represents the sample space S together with circles or ovals.  The circles or ovals represent events.</para><example id="element-513"><para id="element-756">Suppose an experiment has the outcomes 1, 2, 3, ... , 12 where each outcome has an equal chance of occurring.  Let event <m:math><m:mi>A</m:mi><m:mo> = </m:mo><m:mtext>
+  {1, 2, 3, 4, 5, 6}</m:mtext></m:math>
+
+
+ and event <m:math><m:mi>B</m:mi><m:mo> = </m:mo><m:mtext>
+  {6, 7, 8, 9}</m:mtext></m:math>.  Then <m:math><m:mi>A AND B</m:mi><m:mo> = </m:mo><m:mtext>
+  {6}</m:mtext></m:math> and <m:math><m:mi>A OR B</m:mi><m:mo> = </m:mo><m:mtext>
+  {1, 2, 3, 4, 5, 6, 7, 8, 9}</m:mtext></m:math>.  The Venn diagram is as follows:
+</para>
+
+<media id="id18119489" alt="A Venn diagram. An oval representing set A contains the values 1, 2, 3, 4, 5, and 6. An oval representing set B also contains the 6, along with 7, 8, and 9. The values 10, 11, and 12 are present but not contained in either set." display="block"><image src="../../media/prob_tpcs_venn1.png" mime-type="image/png" width="400" print-width="4in"/></media>
+</example><example id="element-872"><para id="element-491">Flip 2 fair coins.  Let <m:math><m:mi>A</m:mi></m:math> = tails on the first coin.   Let <m:math><m:mi>B</m:mi></m:math> = tails on the second coin. Then <m:math><m:mi> A</m:mi> <m:mo>=</m:mo> <m:mo>{</m:mo><m:mi>TT</m:mi><m:mo>,</m:mo> <m:mi>TH</m:mi><m:mo>}</m:mo></m:math> and <m:math> <m:mi>B</m:mi> <m:mo>=</m:mo> <m:mo>{</m:mo><m:mi>TT</m:mi><m:mo>,</m:mo> <m:mi>HT</m:mi><m:mo>}</m:mo></m:math>.  
+
+Therefore, <m:math><m:mtext>A AND B</m:mtext><m:mo> = </m:mo> <m:mo>{</m:mo><m:mi>TT</m:mi><m:mo>}</m:mo></m:math>.   
+<m:math><m:mtext>A OR B</m:mtext><m:mo> = </m:mo> <m:mo>{</m:mo><m:mi>TH</m:mi><m:mo>,</m:mo> <m:mi>TT</m:mi><m:mo>,</m:mo> <m:mi>HT</m:mi><m:mo>}</m:mo></m:math>.
+</para><para id="element-245">The sample space when you flip two fair coins is <m:math><m:mi>S </m:mi> <m:mo>=</m:mo>  <m:mo>{</m:mo><m:mi>HH</m:mi><m:mo>,</m:mo> <m:mi>HT</m:mi><m:mo>,</m:mo><m:mi> TH</m:mi><m:mo>,</m:mo> <m:mi>TT</m:mi><m:mo>}</m:mo></m:math>.  The outcome <m:math><m:mi>HH</m:mi></m:math> is in neither <m:math><m:mi>A</m:mi></m:math> nor <m:math><m:mi>B</m:mi></m:math>.  The Venn diagram is as follows: </para><media id="id18154607" alt="Venn diagram with set A containing Tails + Heads and Tails + Tails, and set B containing Tails + Tails and Head + Tails. Head + Heads is contained in neither set, and set A and set B share Tails + Tails." display="block"><image src="../../media/prob_tpcs_venn2.png" mime-type="image/png" width="400" print-width="4in"/></media>
+</example><example id="element-554"><para id="element-383"><emphasis>Forty percent</emphasis> of the students at a local college belong to a club and <emphasis>50%</emphasis> work part time.  <emphasis>Five percent</emphasis> of the students work part time and belong to a club.  Draw a Venn diagram showing the relationships.  Let <m:math><m:mi>C</m:mi></m:math> = student belongs to a club and <m:math><m:mi> PT</m:mi></m:math> = student works part time.
+</para><para id="element-508"><media id="id18154697" alt="Venn diagram with one set containing students in clubs and students in clubs and working part-time and another set containing C/PT and students working part-time. Both sets share  C/PT."><image src="../../media/prob_tpcs_venn3.png" mime-type="image/png" width="400" print-width="4in"/></media></para><para id="eip-827">If a student is selected at random find</para><list id="element-621" list-type="bulleted"><item>The probability that the student belongs to a club. <m:math><m:mtext>P(C)</m:mtext> <m:mo>= </m:mo><m:mn>0.40</m:mn></m:math>.</item>
+<item>The probability that the student works part time. <m:math><m:mtext>P(PT)</m:mtext> <m:mo>=</m:mo> <m:mn>0.50</m:mn></m:math>.</item>
+<item>The probability that the student belongs to a club AND works part time. <m:math><m:mtext>P(C AND PT)</m:mtext> <m:mo>= </m:mo><m:mn>0.05</m:mn></m:math>.</item>
+<item>The probability that the student belongs to a club <emphasis>given</emphasis> that the student works part time.
+
+<equation id="element-12498">
+ <m:math>
+  <m:mtext>P(C|PT)</m:mtext>
+  <m:mo> = </m:mo>
+  <m:mfrac>
+   <m:mtext>P(C AND PT)</m:mtext>
+   <m:mtext>P(PT)</m:mtext>
+  </m:mfrac>
+  <m:mo> = </m:mo>
+  <m:mfrac>
+   <m:mn>0.05</m:mn>
+   <m:mn>0.50</m:mn>
+  </m:mfrac>
+  <m:mo> = </m:mo>
+  <m:mn>0.1</m:mn>
+ </m:math>
+</equation>
+</item>
+
+
+<item>The probability that the student belongs to a club <emphasis>OR</emphasis> works part time.
+
+<equation id="element-1248">
+ <m:math>
+  <m:mtext>P(C OR PT)</m:mtext>
+  <m:mo> = </m:mo>
+  <m:mtext>P(C)</m:mtext>
+  <m:mo> + </m:mo>
+  <m:mtext>P(PT)</m:mtext>
+  <m:mo> - </m:mo>
+  <m:mtext>P(C AND PT)</m:mtext>
+  <m:mo> = </m:mo>
+  <m:mn>0.40</m:mn>
+  <m:mo> + </m:mo>
+  <m:mn>0.50</m:mn>
+  <m:mo> - </m:mo>
+  <m:mn>0.05</m:mn>
+  <m:mo> = </m:mo>
+  <m:mn>0.85</m:mn>
+
+ </m:math>
+</equation>
+</item>
+</list></example>   
+  </content>
+  
+<glossary>
+
+<definition id="vendiagram">
+    <term>Venn Diagram</term>
+    <meaning id="id18154967">
+The visual representation of a sample space and events in the form of circles or ovals showing their intersections.
+    </meaning>
+  </definition>
+
+</glossary>
+</document>

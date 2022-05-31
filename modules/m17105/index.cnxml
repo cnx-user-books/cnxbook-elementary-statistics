@@ -1,0 +1,143 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="practice">
+  <title>Practice 2: Spread of the Data</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17105</md:content-id>
+  <md:title>Practice 2: Spread of the Data</md:title>
+  <md:abstract>Practice exercise for Descriptive Statistics</md:abstract>
+  <md:uuid>69eb64bc-1178-41fc-87c0-3b3512988583</md:uuid>
+</metadata>
+
+<content>
+<section id="element-266"><title>Student Learning Outcomes</title><list id="element-864" list-type="bulleted"><item>The student will calculate measures of the center of the data.</item>
+<item>The student will calculate the spread of the data.</item></list></section><section id="element-532"><title>Given</title>
+<para id="element-920">The population parameters below describe the full-time equivalent number of students (FTES) each year at Lake Tahoe Community College from 1976-77 through 2004-2005. (<cite><cite-title>Source: Graphically Speaking by Bill King, LTCC Institutional Research, December 2005</cite-title></cite>). </para>
+
+
+<para id="element-123456">Use these values to answer the following questions:
+</para>
+
+<list id="element-479" list-type="bulleted"><item><m:math><m:ci>μ</m:ci></m:math> = 1000 FTES</item>
+<item>Median = 1014 FTES</item>
+<item><m:math><m:ci>σ</m:ci></m:math> = 474 FTES</item>
+<item>First quartile = 528.5 FTES</item>
+<item>Third quartile = 1447.5 FTES</item>
+<item><m:math><m:mi>n</m:mi></m:math> = 29 years</item>
+</list></section>
+
+<section id="element-826"><title>Calculate the Values</title>
+
+<exercise id="exercisetwenty"><problem id="id8123889">
+<para id="prob_20">A sample of 11 years is taken. About how many are expected to have a FTES of 1014 or above? Explain how you determined your answer.</para></problem>
+
+<solution id="id8123906">
+ <para id="element-236">
+  6
+ </para>
+</solution></exercise>
+
+<exercise id="exercisetwentyone"><problem id="id8123930">
+<para id="prob_21">75% of all years have a FTES:
+<list id="element-123123" list-type="labeled-item" mark-suffix=".">
+ <item><label>a</label>At or below:</item>
+<item><label>b</label>At or above:</item>
+</list>
+</para></problem>
+
+<solution id="id8123988">
+ <list id="element-2536" list-type="labeled-item" mark-suffix=".">
+  <item><label>a</label>1447.5</item>  
+  <item><label>b</label>528.5</item>
+
+ </list>
+</solution></exercise>
+
+<exercise id="exercisetwentytwo"><problem id="id8181793">
+<para id="prob_22">The population standard deviation =</para></problem>
+
+<solution id="id8181808">
+ <para id="element-23356">
+  474 FTES
+ </para>
+</solution></exercise>
+
+<exercise id="exercisetwentythree"><problem id="id8181834">
+<para id="prob_23">What percent of the FTES were from 528.5 to 1447.5?  How do you know?</para></problem>
+
+<solution id="id8181851">
+ <para id="element-23623">
+  50%
+ </para>
+</solution></exercise>
+
+<exercise id="exercisetwentyfour"><problem id="id8181876">
+<para id="prob_24">What is the <m:math><m:mi>IQR</m:mi></m:math>? What does the <m:math><m:mi>IQR</m:mi></m:math> represent?</para></problem>
+
+<solution id="id8181901">
+ <para id="element-2236">919
+ </para>
+</solution></exercise>
+
+<exercise id="exercisetwentyfive"><problem id="id8181927">
+<para id="prob_25">How many standard deviations away from the mean is the median?</para></problem>
+
+<solution id="id8211731">
+ <para id="element-23624">
+  0.03
+ </para>
+</solution></exercise><para id="eip-4"><emphasis>Additional Information:</emphasis> The population FTES for 2005-2006 through 2010-2011 was given in an updated report. (Source: http://www.ltcc.edu/data/ResourcePDF/LTCC_FactBook_2010-11.pdf). The data are reported here.</para><table id="eip-395" summary="This is a table of FTES for 2005-06 through 2010-2011.">
+<tgroup cols="7"><tbody>
+
+  <row>
+    <entry><emphasis>Year</emphasis></entry>
+    <entry>2005-06</entry>
+    <entry>2006-07</entry>
+    <entry>2007-08</entry>
+    <entry>2008-09</entry>
+    <entry>2009-10</entry>
+    <entry>2010-11</entry>
+  </row>
+  <row>
+    <entry><emphasis>Total FTES</emphasis></entry>
+    <entry>1585</entry>
+    <entry>1690</entry>
+    <entry>1735</entry>
+    <entry>1935</entry>
+    <entry>2021</entry>
+    <entry>1890</entry>
+  </row>
+
+</tbody>
+
+
+</tgroup>
+</table><exercise id="eip-746"><problem id="eip-481">
+  <para id="eip-363">Calculate the mean, median, standard deviation, first quartile, the third quartile and the IQR. Round to one decimal place.</para></problem>
+
+<solution id="eip-407">
+  <para id="eip-517">mean = 1809.3
+<newline/>
+median = 1812.5
+<newline/>
+standard deviation = 151.2
+<newline/>
+First quartile = 1690
+<newline/>
+Third quartile = 1935
+<newline/>
+IQR = 245
+  </para></solution>
+</exercise><exercise id="eip-279"><problem id="eip-876">
+  <para id="eip-36">
+    Construct a boxplot for the FTES for 2005-2006 through 2010-2011 and a boxplot for the FTES for 1976-1977 through 2004-2005.
+  </para>
+</problem>
+
+
+</exercise><exercise id="eip-975"><problem id="eip-748">
+  <para id="eip-507">Compare the  IQR for the FTES for 1976-77 through 2004-2005 with the IQR for the FTES for 2005-2006 through 2010-2011.  Why do you suppose the IQRs are so different?</para></problem>
+
+<solution id="eip-602">
+  <para id="eip-165">Hint: Think about the number of years covered by each time period and what happened to higher education during those periods.
+  </para></solution>
+</exercise></section></content>
+</document>

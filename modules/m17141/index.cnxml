@@ -1,0 +1,253 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" class="lab">
+  <title>Group Project: Continuous Distributions and Central Limit Theorem</title>
+  <metadata>
+  <md:content-id>m17141</md:content-id><md:title>Group Project: Continuous Distributions and Central Limit Theorem</md:title>
+  <md:abstract>In this project, students will identify and analyze a continuous data set, determine which distribution model most closely describes the data, and calculate probabilities.</md:abstract>
+  <md:uuid>5d891024-446f-4f95-bcd5-cd95c68b911a</md:uuid>
+</metadata>
+
+<content>
+    <section id="element-958"><title>Student Learning Objectives</title>
+<list id="element-721" list-type="bulleted"><item>The student will collect a sample of continuous data.</item>
+<item>The student will attempt to fit the data sample to various distribution models.</item>
+<item>The student will validate the Central Limit Theorem.</item></list></section><section id="element-463"><title>Instructions</title>
+<para id="element-419">
+As you complete each task below, check it off.  Answer all questions in your summary.
+</para></section>
+
+<section id="element-727"><title>Part I: Sampling</title>
+<list id="element-168" list-type="labeled-item" mark-suffix=""><item><label>____</label>Decide what <emphasis>continuous</emphasis> data you are going to study. (Here are two examples, but you may NOT use them: the amount of money a student spends on college supplies this term or the length of a long distance telephone call.)  </item>
+<item><label>____</label>Describe your sampling technique in detail.  Use cluster, stratified, systematic, or simple random (using a random number generator) sampling.  Do not use convenience sampling. What method did you use? Why did you pick that method?</item>
+<item><label>____</label>Conduct your survey.  Gather <emphasis>at least 150 pieces of continuous quantitative data</emphasis>.</item>
+<item><label>____</label>Define (in words) the random variable for your data.  <m:math><m:mi>X</m:mi></m:math> = _______</item>
+<item><label>____</label>Create 2 lists of your data:  (1) unordered data, (2) in order of smallest to largest. </item>
+<item><label>____</label>Find the sample mean and the sample standard deviation (rounded to 2 decimal places).
+<list id="list-168" list-type="labeled-item" mark-suffix="."><item><label>1</label><m:math><m:mover><m:mi>x</m:mi><m:mo>-</m:mo></m:mover></m:math> = </item>
+<item><label>2</label><m:math><m:mi>s</m:mi></m:math> = </item>
+
+</list>
+
+
+</item>
+<item><label>____</label>Construct a histogram of your data containing 5 - 10 intervals of equal width.  The histogram should be a representative display of your data.  Label and scale it.</item>
+</list>
+</section>
+<section id="element-747"><title>Part II: Possible Distributions</title>
+<list id="element-581" list-type="labeled-item" mark-suffix=""><item><label>____</label>Suppose that <m:math><m:mi>X</m:mi></m:math> followed the theoretical distributions below.  Set up each distribution using the appropriate information from your data.</item>
+
+<item><label>____</label>Uniform:  <m:math><m:mtext>X ~ U</m:mtext></m:math> ____________ Use the lowest and highest values as <m:math><m:mi>a</m:mi></m:math> and <m:math><m:mi>b</m:mi></m:math>.</item>
+
+<item><label>____</label>Exponential:  <m:math><m:mtext>X ~ Exp</m:mtext></m:math> ____________Use <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math> to estimate <m:math><m:mi>μ</m:mi></m:math> .</item>
+
+<item><label>____</label>Normal: <m:math><m:mtext>X ~ N</m:mtext></m:math> ____________ Use  <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math> to estimate for <m:math><m:mi>μ</m:mi></m:math> and <m:math><m:mi>s</m:mi></m:math> to estimate for <m:math><m:mi>σ</m:mi></m:math>.</item>
+
+<item><label>____</label><emphasis>Must</emphasis> your data fit one of the above distributions?  Explain why or why not.</item>
+
+<item><label>____</label><emphasis>Could</emphasis> the data fit 2 or 3 of the above distributions (at the same time)?  Explain.</item>
+
+<item><label>____</label>Calculate the value <m:math><m:mi>k </m:mi></m:math>(an <m:math><m:mi>X</m:mi></m:math> value) that is 1.75 standard deviations above the sample mean.
+<m:math><m:mi>k </m:mi></m:math> =  _________ (rounded to 2 decimal places)  	Note:  <m:math><m:mi>k</m:mi> <m:mo>=</m:mo>  <m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+ <m:mo>+</m:mo> <m:mo>(</m:mo><m:mn>1.75</m:mn><m:mo>)</m:mo><m:mo>*</m:mo><m:mi>s</m:mi></m:math></item>
+<item><label>____</label>Determine the relative frequencies (<m:math><m:mi>RF</m:mi></m:math>) rounded to 4 decimal places. <list id="list-581" list-type="labeled-item" mark-suffix="."><item><label>1</label><m:math><m:mi>RF</m:mi> <m:mi>=</m:mi> <m:mfrac><m:mtext>frequency</m:mtext><m:mtext>total number surveyed</m:mtext></m:mfrac></m:math></item>
+
+<item><label>2</label><m:math><m:mi>RF</m:mi><m:mo>(</m:mo><m:mi>X</m:mi> <m:mo>&lt;</m:mo> <m:mi>k</m:mi><m:mo>)</m:mo></m:math>  =  </item>
+
+
+
+<item><label>3</label><m:math><m:mi>RF</m:mi><m:mo>(</m:mo><m:mi>X</m:mi> <m:mo>&gt;</m:mo> <m:mi>k</m:mi><m:mo>)</m:mo></m:math>  =  </item>
+<item><label>4</label><m:math><m:mi>RF</m:mi><m:mo>(</m:mo><m:mi>X</m:mi> <m:mo>=</m:mo> <m:mi>k</m:mi><m:mo>)</m:mo></m:math>  = </item></list>
+
+</item>
+
+
+
+
+
+</list><para id="element-566"><emphasis>Use a separate piece of paper for EACH distribution (uniform, exponential, normal) to respond to the following questions.</emphasis></para><note id="id16765214">You should have one page for the uniform, one page for the exponential, and one page for the normal</note><list id="element-297" list-type="labeled-item" mark-suffix=""><item><label>____</label>State the distribution:  <m:math><m:mtext>X </m:mtext></m:math> ~ _________</item>
+<item><label>____</label>Draw a graph for each of the three theoretical distributions.  Label the axes and mark them appropriately.</item>
+<item><label>____</label>Find the following theoretical probabilities (rounded to 4 decimal places). 
+<list id="list-297" list-type="labeled-item" mark-suffix=".">
+<item><label>1</label><m:math><m:mtext>P(X &lt; k ) </m:mtext></m:math> =   </item>
+<item><label>2</label><m:math><m:mtext>P(X &gt; k ) </m:mtext></m:math>=  </item>
+<item><label>3</label><m:math><m:mtext>P(X = k )</m:mtext></m:math> = </item>
+</list></item>
+<item><label>____</label>Compare the relative frequencies to the corresponding probabilities.  Are the values close?  </item>
+<item><label>____</label>Does it appear that the data fit the distribution well?  Justify your answer by comparing the probabilities to the relative frequencies, and the histograms to the theoretical graphs.</item>
+</list>
+</section>
+<section id="element-442"><title>Part III: CLT Experiments</title>
+<list id="element-12" list-type="labeled-item" mark-suffix=""><item><label>______</label>From your original data (before ordering), use a random number generator to pick 40 samples of size 5.  For each sample, calculate the average.</item>
+<item><label>______</label>On a separate page, attached to the summary, include the 40 samples of size 5, along with the 40 sample averages.</item>
+<item><label>______</label>List the 40 averages in order from smallest to largest.</item>
+<item><label>______</label>Define the random variable, <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:math> , in words.    <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:math>    =  </item>
+<item><label>______</label>State the approximate theoretical distribution of  <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:math>.   <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply><m:mi>~</m:mi>
+</m:math> </item>
+<item><label>______</label>Base this on the mean and standard deviation from your original data.</item>
+<item><label>______</label>Construct a histogram displaying your data.  Use 5 to 6 intervals of equal width.  Label and scale it.</item>
+
+
+
+
+<item>Calculate the value  <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>k</m:ci>
+</m:apply>
+</m:math> (an <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:math>  value) that is 1.75 standard deviations above the sample mean.
+  <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>k</m:ci>
+</m:apply>
+</m:math>=  _____ (rounded to 2 decimal places)</item>
+
+<item>
+Determine the relative frequencies (RF) rounded to 4 decimal places.
+<list id="list-12-1" list-type="labeled-item" mark-suffix=".">
+<item><label>1</label>RF( <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+<m:mi>&lt;</m:mi>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>k</m:ci>
+</m:apply>
+</m:math> 
+)  =  </item>
+
+<item><label>2</label>RF(<m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:math> &gt; <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>k</m:ci>
+</m:apply>
+</m:math> )  =  </item>
+
+
+<item><label>3</label>RF(<m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:math> = <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>k</m:ci>
+</m:apply>
+</m:math> )  =  </item></list></item>
+
+<item>Find the following theoretical probabilities (rounded to 4 decimal places).
+<list id="list-12-2" list-type="bulleted" mark-suffix=".">
+<item><label>1</label>P(<m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:math> &lt; <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>k</m:ci>
+</m:apply>
+</m:math> ) =  </item>
+
+<item><label>2</label>P(<m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:math> &gt; <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>k</m:ci>
+</m:apply>
+</m:math> ) = </item>
+
+<item><label>3</label>P(<m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>X</m:ci>
+</m:apply>
+</m:math> = <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>k</m:ci>
+</m:apply>
+</m:math> ) = </item>
+
+
+
+
+</list></item>
+
+<item><label>______</label>Draw the graph of the theoretical distribution of <m:math><m:mi>X</m:mi></m:math>.</item>
+<item><label>______</label>Answer the questions below.</item>
+<item><label>______</label>Compare the relative frequencies to the probabilities. Are the values close?</item>
+<item><label>______</label>Does it appear that the data of averages fit the distribution of <m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:math> well? Justify your answer
+by comparing the probabilities to the relative frequencies, and the histogram to the
+theoretical graph.</item>
+<item><label>______</label>In 3 - 5 complete sentences for each, answer the following questions. Give thoughtful
+explanations.</item>
+<item><label>______</label>In summary, do your original data seem to fit the uniform, exponential, or normal
+distributions? Answer why or why not for each distribution. If the data do not fit any of
+those distributions, explain why.</item>
+<item><label>______</label>What happened to the shape and distribution when you averaged your data? <emphasis>In theory,</emphasis>
+what should have happened? In theory, would “it” always happen? Why or why not?</item>
+<item><label>______</label>Were the relative frequencies compared to the theoretical probabilities closer when
+comparing the <m:math><m:mi>X</m:mi></m:math> or <m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:math> distributions? Explain your answer.</item>
+
+</list>
+</section>
+<section id="element-413"><title>Assignment Checklist</title>
+<para id="element-394">You need to turn in the following typed and stapled packet, with pages in the following order:</para><list id="element-613" list-type="labeled-item" mark-suffix=""><item><label>____</label><emphasis>Cover sheet</emphasis>:  name, class time, and name of your study</item>
+<item><label>____</label><emphasis>Summary pages</emphasis>:  These should contain several paragraphs written with complete sentences that describe the experiment, including what you studied and your sampling technique, as well as answers to all of the questions above.</item>
+<item><label>____</label><emphasis>URL</emphasis> for data, if your data are from the World Wide Web.</item>
+<item><label>____</label><emphasis>Pages, one for each theoretical distribution</emphasis>, with the distribution stated, the graph, and the probability questions answered</item>
+<item><label>____</label><emphasis>Pages of the data requested</emphasis></item>
+<item><label>____</label><emphasis>All graphs required</emphasis></item>
+</list>   </section>
+  </content>
+  
+</document>

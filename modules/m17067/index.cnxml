@@ -1,0 +1,283 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="practice">
+  <title>Practice: One-Way ANOVA</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17067</md:content-id>
+  <md:title>Practice: One-Way ANOVA</md:title>
+  <md:abstract>This module provides a practice on F Distribution and One-Way ANOVA as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>54f7ff1d-6a7a-4ceb-a4ff-7114a48fb11c</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="chap 13 practice.doc" strength="3">Download handout (.doc)</link>
+      <link url="chap 13 practice.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="element-130"><title>Student Learning Outcome</title>
+<list id="list-2535" list-type="bulleted"><item> The student will conduct a One-Way ANOVA hypothesis test.</item>
+</list></section>
+    <section id="element-224"><title>Given</title>
+<para id="element-577">Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country.
+Suppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.
+</para><table id="element-25" summary="">
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <thead>
+          <row>
+            <entry/>
+            <entry>
+              Northeast
+            </entry>
+            <entry>
+              South
+            </entry>
+            <entry>
+              West
+            </entry>
+            <entry>
+              Central
+            </entry>
+            <entry>
+             East
+            </entry>
+          </row>
+</thead>
+<tbody>         
+
+ <row>
+            <entry/>
+            <entry>16.3</entry>
+            <entry>16.9</entry>
+            <entry>16.4</entry>
+            <entry>16.2</entry>
+            <entry>17.1</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>16.1</entry>
+            <entry>16.5</entry>
+            <entry>16.5</entry>
+            <entry>16.6</entry>
+            <entry>17.2</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>16.4</entry>
+            <entry>16.4</entry>
+            <entry>16.6</entry>
+            <entry>16.5</entry>
+            <entry>16.6</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>16.5</entry>
+            <entry>16.2</entry>
+            <entry>16.1</entry>
+            <entry>16.4</entry>
+            <entry>16.8</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mover accent="true">
+                            <m:mi>x</m:mi>
+                            <m:mo>¯</m:mo>
+                          </m:mover>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} ={}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>________</entry>
+            <entry>________</entry>
+            <entry>________</entry>
+            <entry>________</entry>
+            <entry>________</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>s</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{s rSup { size 8{2} } ={}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>________</entry>
+            <entry>________</entry>
+            <entry>________</entry>
+            <entry>________</entry>
+            <entry>________</entry>
+          </row>
+        </tbody>
+      
+
+</tgroup>
+</table></section>
+    
+    
+    <section id="element-714"><title>Hypothesis</title>
+<exercise id="element-615"><problem id="id47643113">
+  <para id="element-736">
+  State the hypotheses.
+  </para><para id="element-740"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{O} } } {}</m:annotation></m:semantics></m:math>:</para><para id="element-571"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } } {}</m:annotation></m:semantics></m:math>: </para>
+</problem>
+</exercise></section>
+    
+    
+    <section id="element-546"><title>Data Entry</title>
+
+  <para id="element-749">
+Enter the data into your calculator or computer.
+  </para>
+
+<exercise id="exerciseone"><problem id="id47643237"> 
+<para id="element-341">degrees of freedom - numerator: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>df</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "df" \( n \) ={}} {}</m:annotation></m:semantics></m:math> </para></problem>
+
+<solution id="id47591269">
+<para id="element-2452145">
+<m:math>
+<m:mi>d</m:mi>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>4</m:mn>
+</m:math>
+</para>
+</solution></exercise>
+
+<exercise id="exercisetwo"><problem id="id47591322">
+<para id="element-242">degrees of freedom - denominator: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>df</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "df" \( d \) ={}} {}</m:annotation></m:semantics></m:math> </para>
+</problem>
+<solution id="id47591380">
+<para id="element-124"><m:math>
+<m:mi>d</m:mi>
+<m:mi>f</m:mi>
+<m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>15</m:mn>
+</m:math></para>
+</solution>
+</exercise>
+
+<exercise id="element-115"><problem id="id47591432">
+  <para id="element-677">F test statistic = 
+
+  </para>
+</problem>
+
+<solution id="id47591451">
+  <para id="element-518">Test statistic <m:math>
+<m:mo>=</m:mo>
+<m:mi>F</m:mi>
+<m:mo>=</m:mo>
+<m:mn>4.22</m:mn></m:math></para>
+</solution>
+</exercise><exercise id="exercisethree"><problem id="id47591494">
+<para id="element-801"><m:math><m:mtext>p-value</m:mtext></m:math> = </para></problem><solution id="id47591513">
+<para id="element-155">0.017</para></solution>
+
+</exercise>
+</section>
+    
+    
+    
+    
+    
+    
+    
+    
+    <section id="element-750"><title>Decisions and Conclusions </title>
+
+  <para id="element-48">State the decisions and conclusions (in complete sentences) for the following preconceived levels of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>α</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation></m:semantics></m:math> . 
+
+  </para>
+<exercise id="exerciseten">
+<problem id="id47591590">
+<para id="element-506"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>05</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α=0 "." "05"} {}</m:annotation></m:semantics></m:math></para>
+<para id="element-950">Decision:</para>
+<para id="element-2384687">
+Conclusion:
+</para>
+</problem>
+</exercise>
+<exercise id="exercisemern">
+<problem id="id47591672">
+<para id="element-768"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>α</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>01</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{α=0 "." "01"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para><para id="element-354">Decision:</para>
+<para id="element-2307872938759">
+Conclusion:
+</para>
+</problem>
+</exercise></section>
+    
+    
+    
+    
+    
+  </content>
+</document>

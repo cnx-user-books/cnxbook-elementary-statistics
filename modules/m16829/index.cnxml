@@ -1,0 +1,196 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Poisson</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16829</md:content-id>
+  <md:title>Poisson</md:title>
+  <md:abstract>This module describes the characteristics of a Poisson experiment and the Poisson probability distribution.  This module is included in the Elementary Statistics textbook/collection as an optional lesson.</md:abstract>
+  <md:uuid>e4c0c3d2-de11-4118-9261-8c372d3b3072</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">Characteristics of a Poisson experiment:
+<list id="element-1" list-type="enumerated"><item>The Poisson gives the probability of a number of events occurring in a <emphasis>fixed interval</emphasis> of time or space if these events happen with a known average rate and independently of the time since the last event. 
+
+For
+example, a book editor might be interested in the number of words spelled incorrectly in a
+particular book. It might be that, on the average, there are 5 words spelled incorrectly in
+100 pages. The interval is the 100 pages.</item>
+<item>The Poisson may be used to approximate the binomial if the probability of success is "small"
+(such as 0.01) and the number of trials is "large" (such as 1000). You will verify the
+relationship in the homework exercises. <emphasis><m:math><m:mi>n</m:mi></m:math></emphasis> is the number of trials and <emphasis><m:math><m:mi>p</m:mi></m:math></emphasis> is the probability of
+a "success."</item>
+</list><term target-id="poisson">Poisson probability distribution</term>.
+The random variable <m:math><m:mi>X</m:mi><m:mo>=</m:mo></m:math> the number of occurrences in the interval of interest. 
+The mean and variance are given in the summary.</para><example id="element-743"><para id="element-746">The average number of loaves of bread put on a shelf in a bakery in a
+half-hour period is 12. Of interest is the number of loaves of bread put on the shelf in 5 minutes. The
+time interval of interest is 5 minutes. What is the probability that the number of loaves, selected randomly, put on the shelf in 5
+minutes is 3? 
+</para><para id="element-747">Let <m:math><m:mi>X</m:mi></m:math> = the number of loaves of bread put on the shelf in 5 minutes. If the average number
+of loaves put on the shelf in 30 minutes (half-hour) is 12, <emphasis>then the average number of loaves
+put on the shelf in 5 minutes is</emphasis>
+</para>
+<para id="element-748"><m:math><m:reln><m:eq/>
+<m:mrow><m:mo>(</m:mo>
+<m:mfrac><m:mn>5</m:mn><m:mn>30</m:mn></m:mfrac>
+<m:mo>)</m:mo><m:mo>⋅</m:mo><m:mn>12</m:mn></m:mrow>
+<m:mrow><m:mn>2</m:mn></m:mrow>
+</m:reln></m:math> loaves of bread
+</para>
+<para id="element-749">The probability question asks you to find <m:math><m:mi>P(x = 3)</m:mi></m:math>.
+</para></example><example id="element-403"><para id="element-244">A certain bank expects to receive 6 bad checks per day, on average. What is the
+probability of the bank getting fewer than 5 bad checks on any given day? Of interest
+is the number of checks the bank receives in 1 day, so the time interval of
+interest is 1 day. Let <m:math><m:mi>X</m:mi></m:math> = the number of bad checks the bank receives in one day. If
+the bank expects to receive 6 bad checks per day then the average is 6 checks per day.
+The probability question asks for 
+<m:math><m:reln><m:lt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow>
+</m:reln>
+</m:math>.
+</para></example><example id="element-774"><para id="element-234">You notice that a news reporter says "uh", on average, 2 times per broadcast. What is the probability that the news reporter says "uh" more than 2 times per broadcast.
+
+</para><para id="element-235">This is a Poisson problem because you are interested in knowing the number of
+times the news reporter says "uh" during a broadcast.</para><exercise id="element-895"><problem id="id18394368">
+  <para id="element-734">
+What is the interval of interest?
+  </para>
+</problem>
+
+<solution id="id18394386" print-placement="end">
+  <para id="element-227">One broadcast
+  </para></solution>
+</exercise><exercise id="element-485"><problem id="id18394413">
+  <para id="element-10">What is the average number of times the news reporter says "uh" during one broadcast?
+  </para></problem>
+
+<solution id="id18394432" print-placement="end">
+  <para id="element-40">
+2
+  </para>
+</solution>
+</exercise><exercise id="element-497"><problem id="id18394461">
+  <para id="element-817">
+Let <m:math><m:mi>X</m:mi></m:math> = ____________. What values does <m:math><m:mi>X</m:mi></m:math> take on?
+  </para>
+</problem>
+
+<solution id="id18394489" print-placement="end">
+  <para id="element-112">Let <m:math><m:mi>X</m:mi></m:math> = <emphasis>the number of times the news reporter says "uh" during one broadcast</emphasis>.
+<newline/>
+<m:math><m:mi>x</m:mi></m:math> = 0, 1, 2, 3, ...
+  </para></solution>
+</exercise><exercise id="element-544"><problem id="id18394534">
+  <para id="element-423">
+    The probability question is <m:math><m:mtext>P(______)</m:mtext></m:math>.
+  </para>
+</problem>
+
+<solution id="id18394557" print-placement="end">
+  <para id="element-683"><m:math><m:mtext>P(x &gt; 2)</m:mtext></m:math>
+  </para></solution>
+</exercise>
+</example><section id="element-210"><title>Notation for the Poisson: P = Poisson Probability Distribution Function</title>
+<para id="element-272"><m:math><m:mi>
+
+X</m:mi></m:math> ~ <m:math><m:mtext>P(μ) </m:mtext></m:math></para>
+<para id="element-273">Read this as "<m:math><m:mi>X</m:mi></m:math> is a random variable with a Poisson distribution."
+The parameter is <m:math><m:mi>μ</m:mi></m:math> (or <m:math><m:mi>λ</m:mi></m:math>). <m:math><m:mi>μ</m:mi></m:math> (or <m:math><m:mi>λ</m:mi></m:math>) = the mean for the interval of interest.
+
+</para>
+
+</section>
+<example id="element-784"><para id="element-690">
+Leah's answering machine receives about 6 telephone calls
+between 8 a.m. and 10 a.m. What is the probability that Leah receives more than 1 call <emphasis>in
+the next 15 minutes?</emphasis>
+</para>
+<para id="element-691">Let <m:math><m:mi>X</m:mi></m:math> = the number of calls Leah receives in 15 minutes. (The <emphasis>interval of interest</emphasis> is 15
+minutes or <m:math><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:math> hour.)
+</para>
+<para id="element-692"><m:math><m:mi>x</m:mi></m:math> = 0, 1, 2, 3, ...
+</para><para id="element-693">
+If Leah receives, on the average, 6 telephone calls in 2 hours, and there are eight 15
+minutes intervals in 2 hours, then Leah receives
+</para>
+<para id="element-694"><m:math><m:reln><m:eq/>
+<m:mrow>
+<m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac>
+<m:mo>⋅</m:mo><m:mn>6</m:mn>
+</m:mrow>
+<m:mrow><m:mn>0.75</m:mn></m:mrow>
+</m:reln></m:math></para>
+<para id="element-695">calls in 15 minutes, on the average. So, <m:math><m:mi>μ</m:mi></m:math> = 0.75 for this problem.
+</para>
+<para id="element-696"><m:math><m:mi>X</m:mi></m:math> ~ <m:math><m:mtext>P(0.75)</m:mtext></m:math>
+</para>
+<para id="element-697">Find
+<m:math><m:reln><m:gt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:reln>
+</m:math>.
+
+<m:math><m:reln><m:eq/>
+<m:reln><m:gt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mn>0.1734</m:mn></m:mrow></m:reln>
+</m:math> (calculator or computer)
+</para><para id="element-698">TI-83+ and TI-84: For a general discussion, see <emphasis><link document="element-678" target-id="element-678"> this example (Binomial)</link></emphasis>. The syntax
+is similar. The Poisson parameter list is (<m:math><m:mi>μ</m:mi></m:math> for the interval of interest, number). <emphasis>For this
+problem:</emphasis>
+</para>
+<para id="element-699"><emphasis>Press 1- and then press 2nd DISTR. Arrow down to C:poissoncdf. Press
+ENTER. Enter .75,1). The result is <m:math><m:reln><m:eq/>
+<m:reln><m:gt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi></m:mrow>
+<m:mrow><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mn>0.1734</m:mn></m:mrow></m:reln>
+</m:math>.
+NOTE: The TI calculators use <m:math><m:mi>λ</m:mi></m:math> (lambda) for the mean.</emphasis>
+</para><para id="element-886">The probability that Leah receives more than 1 telephone call in the next fifteen minutes is
+about 0.1734.</para><para id="element-89">The graph of <m:math><m:mi>X</m:mi></m:math> ~ <m:math><m:mtext>P(0.75)</m:mtext></m:math> is:</para><para id="element-145"><media id="id18951496" alt="The poisson probability distribution function graph has 5 bars decreasing from left to right with an x-axis of 0-∞ and a y-axis of 0-0.5 in increments of 0.1. The x-axis is equal to the number of calls Leah receives within 15 minutes."><image src="../../media/disc_rv_poisson1.png" mime-type="image/png" width="450" print-width="4.5in"/></media></para><para id="element-869">The y-axis contains the
+probability of <m:math><m:mi>x</m:mi></m:math> where
+<m:math><m:mi>X</m:mi></m:math> = the number of calls in
+15 minutes.</para></example>   
+  </content>
+
+
+  <glossary>
+
+<definition id="poisson">
+    <term>Poisson Distribution</term>
+    <meaning id="id14162739">
+ A discrete random variable (RV) that counts the number of times a certain event will occur in a specific interval. Characteristics of the variable: 
+
+<list id="fs-id44682301">
+<item>The probability that the event occurs in a given interval is the same for all intervals.</item>
+<item>The events occur with a known mean and independently of the time since the last event.</item>
+</list>
+
+The distribution is defined by the mean <m:math><m:mi>μ</m:mi></m:math> of the event in the interval. Notation:   
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mtext>~</m:mtext><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>μ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X "~" P \( μ \) } {}</m:annotation></m:semantics></m:math>. 
+The mean is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>μ</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>np</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ= ital "np"} {}</m:annotation></m:semantics></m:math>.  
+The standard deviation is 
+
+  
+<m:math>
+<m:mi>σ</m:mi>
+<m:mo>=</m:mo>
+<m:msqrt>
+<m:mi>μ</m:mi>
+</m:msqrt>
+</m:math>. 
+
+
+The probability of having exactly <m:math><m:mi>x</m:mi></m:math>  successes in <m:math><m:mi>r</m:mi></m:math>  trials is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>μ</m:mi></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow><m:mfrac><m:msup><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mrow><m:mi>x</m:mi><m:mi>!</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( X=x \) =e rSup { size 8{ - μ} }  {  {μ rSup { size 8{x} } }  over  {x!} } } {}</m:annotation></m:semantics></m:math>. 
+
+The Poisson distribution is often used to approximate the binomial distribution when <m:math><m:mi>n</m:mi></m:math> is “large” and <m:math><m:mi>p</m:mi></m:math> is “small” (a general rule is that <m:math><m:mi>n</m:mi></m:math> should be greater than or equal to 20 and <m:math><m:mi>p</m:mi></m:math>    should be less than or equal to .05).
+    </meaning>
+  </definition>
+
+
+</glossary>
+</document>

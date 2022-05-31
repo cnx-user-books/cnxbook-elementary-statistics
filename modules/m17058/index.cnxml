@@ -1,0 +1,181 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Summary of Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17058</md:content-id>
+  <md:title>Summary of Formulas</md:title>
+  <md:abstract>This module provides a summary on formulas used in Chi-Square Distribution as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>25516319-e85e-46ce-bebf-f703f4c0e501</md:uuid>
+</metadata>
+
+<content>
+<para id="eip-214"><title>The Chi-Square Probability Distribution</title><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mtext>df</m:mtext></m:math> and <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mn>2</m:mn><m:mo>⋅</m:mo><m:mtext>df</m:mtext></m:msqrt></m:math>
+</para><list id="eip-889"><title>Goodness-of-Fit Hypothesis Test</title><item>Use goodness-of-fit to test whether a data set fits a particular
+probability distribution.</item>
+<item>The degrees of freedom are <m:math><m:mtext>number of cells or categories - 1</m:mtext></m:math>.</item>
+<item>The test statistic is 
+
+<m:math>
+<m:munder>
+<m:mo>Σ</m:mo>
+<m:mi>k</m:mi>
+</m:munder>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>O</m:mi>
+<m:mo>−</m:mo>
+<m:mi>E</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi>E</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+, where
+<m:math><m:mi>O</m:mi></m:math> = observed values (data),
+<m:math><m:mi>E</m:mi></m:math> = expected values (from theory), and
+<m:math><m:mi>k</m:mi></m:math> = the number of different data cells
+or categories.
+</item>
+<item>The test is right-tailed.</item>
+</list><list id="eip-958"><title>Test of Independence</title><item>Use the test of independence to test whether two factors are
+independent or not.</item>
+<item>The degrees of freedom are equal to
+<m:math><m:mtext>(number of columns - 1)(number of rows - 1)</m:mtext></m:math>.</item>
+<item>The test statistic is
+
+<m:math>
+<m:munder>
+<m:mi>Σ</m:mi>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>i</m:mi>
+<m:mo>⋅</m:mo>
+<m:mi>j</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:munder>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>O</m:mi>
+<m:mo>-</m:mo>
+<m:mi>E</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi>E</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math> where
+<m:math><m:mi>O</m:mi></m:math> = observed values,
+<m:math><m:mi>E</m:mi></m:math> = expected values,
+<m:math><m:mi>i</m:mi></m:math> = the number of rows in the
+table, and 
+<m:math><m:mi>j</m:mi></m:math> = the number of columns in
+the table.
+</item>
+<item>The test is right-tailed.</item>
+<item>If the null hypothesis is true, the expected number 
+<m:math>
+<m:mi>E</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mtext>(row total)(column total)</m:mtext>
+<m:mtext>total surveyed</m:mtext>
+</m:mfrac>
+</m:math>.
+
+</item>
+</list><list id="eip-237"><title>Test of Homogeneity</title><item>Use the test for homogeneity to decide if two populations with unknown distributions have the same distribution as each other.</item>
+<item>The degrees of freedom are equal to 
+<m:math><m:mtext>number of columns - 1</m:mtext></m:math>.</item>
+<item>The test statistic is
+
+<m:math>
+<m:munder>
+<m:mi>Σ</m:mi>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>i</m:mi>
+<m:mo>⋅</m:mo>
+<m:mi>j</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:munder>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>O</m:mi>
+<m:mo>-</m:mo>
+<m:mi>E</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi>E</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math> where
+<m:math><m:mi>O</m:mi></m:math> = observed values,
+<m:math><m:mi>E</m:mi></m:math> = expected values,
+<m:math><m:mi>i</m:mi></m:math> = the number of rows in the
+table, and 
+<m:math><m:mi>j</m:mi></m:math> = the number of columns in
+the table.
+</item>
+<item>The test is right-tailed.</item>
+<item>If the null hypothesis is true, the expected number 
+<m:math>
+<m:mi>E</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mtext>(row total)(column total)</m:mtext>
+<m:mtext>total surveyed</m:mtext>
+</m:mfrac>
+</m:math>.
+
+</item>
+</list><note id="eip-697">The expected value for each cell needs to be at least 5 in order to
+use the Goodness-of-Fit, Independence and Homogeneity tests.</note><list id="eip-29"><title>Test of a Single Variance</title><item>Use the test to determine variation.</item>
+<item>The degrees of freedom are the number of samples - 1.</item>
+<item>The test statistic is
+
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+<m:mo>⋅</m:mo>
+<m:msup>
+<m:mi>s</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi>σ</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:math>
+
+, where <m:math><m:mi>n</m:mi></m:math> = the total number of data, <m:math><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:math> = sample variance, and <m:math><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup></m:math> = population variance.
+</item>
+<item>The test may be left, right, or two-tailed.</item>
+</list></content>
+  
+</document>

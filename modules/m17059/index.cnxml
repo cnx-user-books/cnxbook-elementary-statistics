@@ -1,0 +1,185 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Test of a Single Variance</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17059</md:content-id>
+  <md:title>Test of a Single Variance</md:title>
+  <md:abstract>This module provides an overview on Chi-Square Distribution Tests of Variance as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>fd576299-1869-497a-a83c-80c0f6acab84</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-194">A test of a single variance assumes that the underlying distribution is <emphasis>normal</emphasis>. The null and alternate hypotheses are stated in terms of the <emphasis>population variance</emphasis> (or population standard deviation). The test statistic is:
+
+</para><equation id="element-740"><m:math>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+<m:mo>⋅</m:mo>
+<m:msup>
+<m:mi>s</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi>σ</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:math>
+</equation>
+
+<para id="element-706">where:</para>
+<list id="element-706l" list-type="bulleted">
+<item> <m:math><m:mi>n</m:mi></m:math> = the total number of data </item>
+<item id="element-646"><m:math><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:math> = sample variance </item>
+<item id="element-502"><m:math><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup></m:math> = population variance</item>
+</list>
+<para id="element-416">You may think of <m:math><m:mi>s</m:mi></m:math> as the random variable in this test. The degrees of freedom are
+<m:math><m:mtext>df</m:mtext><m:mo>=</m:mo><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:math>.</para><para id="element-260"><emphasis>A test of a single variance may be right-tailed, left-tailed, or two-tailed.</emphasis></para><para id="element-446">The following example will show you how to set up the null and alternate hypotheses.
+The null and alternate hypotheses contain statements about the population variance.</para><example id="element-174"><exercise id="element-514"><problem id="id1168324983513">
+<para id="element-687">Math instructors are not only interested in how their students do on
+exams, on average, but how the exam scores vary. To many instructors, the variance
+(or standard deviation) may be more important than the average.</para>
+  <para id="element-485">Suppose a math
+instructor believes that the standard deviation for his final exam is 5 points. 
+ One of his
+best students thinks otherwise. The student claims that the standard deviation is more
+than 5 points. If the student were to conduct a hypothesis test, what would the null and
+alternate hypotheses be?
+  </para>
+</problem>
+
+<solution id="id1168323245019">
+  <para id="element-219">Even though we are given the population standard deviation, we can set
+the test up using the population variance as follows.
+</para>
+
+<list id="element-660" list-type="bulleted">
+<item>
+<m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math>: <m:math><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup></m:math>
+</item>
+<item>
+
+<m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math>: <m:math><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>&gt;</m:mo><m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup></m:math></item></list>
+</solution>
+</exercise>
+</example><example id="element-28"><exercise id="element-853"><problem id="id2871589"><para id="element-271">
+With individual lines at its various
+windows, a post office finds that the standard deviation for normally distributed waiting
+times for customers on Friday afternoon is 7.2 minutes. The post office experiments
+with a single main waiting line and finds that for a random sample of 25 customers, the
+waiting times for customers have a standard deviation of 3.5 minutes.
+</para>
+  <para id="element-677">With a significance level of 5%, test the claim that <emphasis>a single line causes lower variation
+among waiting times (shorter waiting times) for customers</emphasis>.
+  </para>
+</problem>
+
+<solution id="id1168321500398">
+  <para id="element-628">
+Since the claim is that a single line causes lower variation, this is a test of a single variance.
+The parameter is the population variance, <m:math><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup></m:math>, or the population standard deviation, <m:math><m:mi>σ</m:mi></m:math>.
+  </para><para id="element-16"><emphasis>Random Variable:</emphasis> The sample standard deviation, <m:math><m:mi>s</m:mi></m:math>, is the random variable.
+Let <m:math><m:mi>s</m:mi></m:math> = standard deviation for the waiting times.</para>
+
+<list id="element-227">
+
+<item><m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math>: <m:math><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mn>7.2</m:mn><m:mn>2</m:mn></m:msup>
+</m:math></item>
+
+<item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math>: <m:math><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup></m:math><m:math><m:reln><m:lt/></m:reln></m:math><m:math><m:msup><m:mn>7.2</m:mn><m:mn>2</m:mn></m:msup></m:math></item>
+</list>
+
+<para id="element-789">The word <emphasis>"lower"</emphasis> tells you this is a left-tailed test.</para><para id="element-760"><emphasis>Distribution for the test:</emphasis> <m:math><m:msubsup><m:mi>χ</m:mi><m:mn>24</m:mn><m:mn>2</m:mn></m:msubsup></m:math>, where:
+
+<list id="element-12421" list-type="bulleted">
+<item><m:math><m:mi>n</m:mi></m:math> = the number of customers sampled</item>
+<item><m:math><m:mtext>df</m:mtext><m:mo>=</m:mo><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>25 </m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>24</m:mn></m:math>
+</item>
+</list></para><para id="element-85"><emphasis>Calculate the test statistic:</emphasis>
+</para><para id="element-10"><m:math>
+<m:msup>
+<m:mi>χ</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+<m:mo>⋅</m:mo>
+<m:msup>
+<m:mi>s</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi>σ</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mn>25</m:mn>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+<m:mo>⋅</m:mo>
+<m:msup>
+<m:mn>3.5</m:mn>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mn>7.2</m:mn>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>5.67</m:mn>
+</m:math>
+</para><para id="element-801">where <m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>25</m:mn></m:math>, <m:math><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>3.5</m:mn></m:math>, and <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>7.2</m:mn></m:math>.</para><para id="element-607"><emphasis>Graph:</emphasis></para>
+  <media id="id1168325355960" alt="Nonsymmetrical chi-square curve with values of 0 and 5.67 on the x-axis representing the test statistic of waiting times at the post office. A vertical upward line extends from 5.67 to the curve and the area to the left of this is equal to the p-value." display="block"><image src="../../media/chisq_uses5-3c10.png" mime-type="image/png" print-width="3in"/></media>
+<para id="element-970"><emphasis>Probability statement: </emphasis>
+
+<m:math>
+  <m:mtext>p-value</m:mtext>
+  <m:mo>=</m:mo>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:msup>
+   <m:mi>χ</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo> &lt; </m:mo>
+  <m:mn>5.67</m:mn>
+  <m:mo>)</m:mo>
+  <m:mo> = </m:mo>
+  <m:mn>0.000042</m:mn>
+</m:math> </para><para id="element-684"><emphasis>Compare <m:math><m:mi>α</m:mi></m:math> and the p-value: </emphasis><m:math><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>0.05</m:mn><m:mspace width="20pt"/><m:mtext>p-value</m:mtext><m:mo>=</m:mo><m:mn>0.000042</m:mn><m:mspace width="20pt"/><m:mi>α</m:mi><m:mo>&gt;</m:mo><m:mtext>p-value</m:mtext></m:math></para><para id="element-726"><emphasis>Make a decision:</emphasis> Since <m:math><m:mi>α</m:mi><m:mo>&gt;</m:mo><m:mtext>p-value</m:mtext></m:math>, reject <m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math>.</para><para id="element-786">This means that you reject <m:math><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mn>7.2</m:mn><m:mn>2</m:mn></m:msup></m:math>. In other words, you do not think the variation in
+waiting times is 7.2 minutes, but lower.</para><para id="element-952"><emphasis>Conclusion:</emphasis> At a 5% level of significance, from the data, there is sufficient evidence to
+conclude that a single line causes a lower variation among the waiting times <emphasis>or</emphasis> with a single
+line, the customer waiting times vary less than 7.2 minutes.</para><para id="element-528"><emphasis>TI-83+ and TI-84 calculators</emphasis>: In <code>2nd DISTR</code>, use <code>7:χ2cdf</code>. The syntax is
+<code>(lower, upper, df)</code> for the parameter list.
+For Example 11-9, <code>χ2cdf(-1E99,5.67,24)</code>. The <m:math><m:mtext>p-value</m:mtext><m:mo>=</m:mo><m:mn>0.000042</m:mn></m:math>.</para>
+</solution>
+</exercise>
+</example>
+  </content>
+  
+</document>

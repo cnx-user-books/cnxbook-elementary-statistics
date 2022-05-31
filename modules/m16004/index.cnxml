@@ -1,0 +1,245 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" class="lab">
+  <title>Lab 1: Data Collection</title>
+  <metadata>
+  <md:content-id>m16004</md:content-id><md:title>Lab 1: Data Collection</md:title>
+  <md:abstract>This lab allows students to practice and demonstrate techniques used to generate systematic samples.  Students will have the opportunity to create relative frequency tables and interpret results based on different data groupings.</md:abstract>
+  <md:uuid>c70a3efa-e4de-4c42-9ed3-0c766019c02c</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="m16004_Lab_I_download.doc" strength="3">Download handout (.doc)</link>
+      <link url="m16004_Lab_I_download.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id11029318">Class Time:</para>
+    
+    <para id="element-194">Names:</para>
+    
+    <section id="id-655020631728">
+      
+      
+      <title>Student Learning Outcomes</title>
+      
+      <list id="element-293" list-type="bulleted"><item>The student will demonstrate the systematic sampling technique.</item>
+	<item>The student will construct Relative Frequency Tables.</item>
+	<item>The student will interpret results and their differences from different data groupings.</item></list>
+
+</section>
+
+
+<section id="element-353"><title>Movie Survey</title><para id="element-972">
+Ask five classmates from a different class how many movies they saw last month at the theater. Do not include rented movies.
+</para>
+<list id="list-92836987265" list-type="enumerated">
+<item>Record the data</item>
+<item>In class, randomly pick one person. On the class list, mark that person's name. Move down four people's names on the class list. Mark that person's name. Continue doing this until you have marked 12 people's names. You may need to go back to the start of the list. For each marked name record below the five data values. You now have a total of 60 data values.</item>
+<item>For each name marked, record the data:
+<table id="table-234986" summary="">
+<tgroup cols="10"><tbody>
+		<row>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+		</row>
+		<row>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+		</row>
+		<row>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+		</row>
+		<row>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+		</row>
+		<row>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+		</row>
+		<row>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+			<entry>______</entry>
+		</row>
+	</tbody>
+
+
+</tgroup>
+</table>
+</item>
+</list></section><section id="element-647"><title>Order the Data</title><para id="element-6">
+Complete the two relative frequency tables below using your class data.
+</para><table id="id9610791234" summary="This table provides a blank template for recording the results of the previously conducted survey.  The first column contains the exact number of movies watched, the second column contains the frequency, the third column contains the relative frequency, and the fourth column contains the cumulative relative frequency.  Only the first column is completed.">
+
+	<title>Frequency of Number of Movies Viewed</title>
+	<tgroup cols="4"><colspec colnum="1" colname="header_c1"/>
+		<colspec colnum="2" colname="c2"/>
+		<colspec colnum="3" colname="c3"/>
+		<colspec colnum="4" colname="c4"/>
+		<thead>
+			<row>
+				<entry>Number of Movies</entry>
+				<entry>Frequency</entry>
+				<entry>Relative Frequency</entry>
+				<entry>Cumulative Relative Frequency</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry>0</entry>
+				<entry/>
+				<entry/>
+				<entry/>
+			</row>
+			<row>
+				<entry>1</entry>
+				<entry/>
+				<entry/>
+				<entry/>
+			</row>
+			<row>
+				<entry>2</entry>
+				<entry/>
+				<entry/>
+				<entry/>
+			</row>
+			<row>
+				<entry>3</entry>
+				<entry/>
+				<entry/>
+				<entry/>
+			</row>
+			<row>
+				<entry>4</entry>
+				<entry/>
+				<entry/>
+				<entry/>
+			</row>
+			<row>
+				<entry>5</entry>
+				<entry/>
+				<entry/>
+				<entry/>
+			</row>
+			<row>
+				<entry>6</entry>
+				<entry/>
+				<entry/>
+				<entry/>
+			</row>
+			<row>
+				<entry>7+</entry>
+				<entry/>
+				<entry/>
+				<entry/>
+			</row>
+		</tbody>
+	</tgroup>
+</table><table id="id10778923248" summary="Similar to the previous table, this is a blank template for recording the results of the previously conducted survey.  The first column presents a range of number of movies watched, the second column contains the frequency, the third column contains the relative frequency, and the fourth column contains the cumulative relative frequency.  Only the first column is completed. ">
+
+	<title>Frequency of Number of Movies Viewed</title>
+	<tgroup cols="4"><colspec colnum="1" colname="header_c1"/>
+		<colspec colnum="2" colname="c2"/>
+		<colspec colnum="3" colname="c3"/>
+		<colspec colnum="4" colname="c4"/>
+		<thead>
+			<row>
+				<entry>Number of Movies</entry>
+				<entry>Frequency</entry>
+				<entry>Relative Frequency</entry>
+				<entry>Cumulative Relative Frequency</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry>0-1</entry>
+				<entry/>
+				<entry/>
+				<entry/>
+			</row>
+			<row>
+				<entry>2-3</entry>
+				<entry/>
+				<entry/>
+				<entry/>
+			</row>
+			<row>
+				<entry>4-5</entry>
+				<entry/>
+				<entry/>
+				<entry/>
+			</row>
+			<row>
+				<entry>6-7+</entry>
+				<entry/>
+				<entry/>
+				<entry/>
+			</row>
+		</tbody>
+	</tgroup>
+</table>
+<list id="list-2349875" list-type="enumerated">
+<item>Using the tables, find the percent of data that is at most 2. Which table did you use and why?</item>
+<item>Using the tables, find the percent of data that is at most 3. Which table did you use and why?</item>
+<item>Using the tables, find the percent of data that is more than 2. Which table did you use and why?</item>
+<item>Using the tables, find the percent of data that is more than 3. Which table did you use and why?</item>
+
+</list></section><section id="element-627"><title>Discussion Questions</title><list id="list-23497695" list-type="enumerated">
+<item>Is one of the tables above "more correct" than the other? Why or why not?</item>
+<item>In general, why would someone group the data in different ways? Are there any advantages to either way of grouping the data?</item>
+<item>Why did you switch between tables, if you did, when answering the question above?</item>
+</list></section>
+  </content>
+</document>

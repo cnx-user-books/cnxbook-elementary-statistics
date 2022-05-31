@@ -1,0 +1,584 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="review">
+  <title>Review</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16972</md:content-id>
+  <md:title>Review</md:title>
+  <md:abstract/>
+  <md:uuid>424de53d-d97b-45af-975f-b274c611f582</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Confidence Intervals (review).doc" strength="3">Download handout (.doc)</link>
+      <link url="Continuous Random Variables _review.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id8674950"><emphasis>The next three problems refer to the following situation:</emphasis> Suppose that a sample of 15 randomly chosen people were put on a special weight loss diet. The amount of weight lost, in pounds, follows an unknown distribution with mean equal to 12 pounds and standard deviation equal to 3 pounds.  Assume that the distribution for the weight loss is normal.</para><para id="id12239766"><exercise id="exer1"><problem id="id8517336"><para id="paragraph">To find the probability that the mean amount of weight lost by 15 people is no more than 14 pounds, the random variable should be:</para><list id="list1" mark-suffix="." list-type="labeled-item"><item><label>A</label> The number of people who lost weight on the special weight loss diet</item>
+
+<item><label>B</label>The number of people who were on the diet</item>
+<item><label>C</label>The mean amount of weight lost by 15 people on the special weight loss diet</item>
+<item><label>D</label>The total amount of weight lost by 15 people on the special weight loss diet</item></list></problem>
+
+<solution id="id8517169"><para id="solution">C</para></solution></exercise></para>
+    
+    
+    
+    
+    <para id="id12674166"><exercise id="exer2"><problem id="id8517118"><para id="paragraph3">Find the probability asked for in the previous problem.</para></problem>
+
+<solution id="id8517056"><para id="solutionff">0.9951</para></solution></exercise></para>
+    <para id="id13486998"><exercise id="exer3"><problem id="id8516988"><para id="paragraph4">Find the 90th percentile for the mean amount of weight lost by 15 people.</para></problem>
+
+<solution id="id8516965"><para id="solutiond">12.99</para></solution></exercise></para>
+    <para id="id14431224"><emphasis>The next three questions refer to the following situation:</emphasis> The time of occurrence of the first accident during rush-hour traffic at a major intersection is uniformly distributed between the three hour interval 4 p.m. to 7 p.m. Let 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>X</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     = the amount of time (hours) it takes for the first accident to occur.
+
+<list id="list234526243523"><item> So, if an accident occurs at 4 p.m., the amount of time, in hours, it took for the accident to occur is _______.</item>
+     <item> <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>μ</m:mi>
+<m:mo>=</m:mo>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{μ} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+      _______</item>
+<item>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:msup>
+                  <m:mi>σ</m:mi>
+                  <m:mstyle fontsize="8pt">
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+
+                    </m:mrow>
+                  </m:mstyle>
+                </m:msup>
+<m:mo>=</m:mo>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{σ rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     _______ </item></list></para>
+    <para id="id13905221"><exercise id="exer4"><problem id="id8512170"><para id="paragraph5">What is the probability that the time of occurrence is within the first half-hour or the last hour of the period from 4 to 7 p.m.? </para>
+<list id="list3" list-type="labeled-item" mark-suffix="."><item><label>A</label>Cannot be determined from the information given</item><item><label>B</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mstyle fontsize="8pt">
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mstyle fontsize="8pt">
+                    <m:mrow>
+                      <m:mn>6</m:mn>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{1} }  over  { size 8{6} } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     </item><item><label>C</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mstyle fontsize="8pt">
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mstyle fontsize="8pt">
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{1} }  over  { size 8{2} } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item><item><label>D</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mstyle fontsize="8pt">
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mstyle fontsize="8pt">
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{1} }  over  { size 8{3} } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list>
+</problem>
+
+<solution id="id8511653"><para id="solutioasfsdfn">C</para></solution></exercise></para>
+    
+    <para id="id12748265"><exercise id="exer5"><problem id="id8511602"><para id="paragraph7">The 20th percentile occurs after how many hours?</para>
+
+<list id="list4" list-type="labeled-item" mark-suffix="."><item><label>A</label> 0.20</item><item><label>B</label>  0.60 </item><item><label>C</label> 0.50 </item><item><label>D</label> 1</item></list>
+</problem>
+
+
+
+<solution id="id8511425"><para id="solutionsdfff">B</para></solution></exercise></para>
+    
+    <para id="id9889403"><exercise id="exer6"><problem id="id8511376"><para id="paragraph9">Assume Ramon has kept track of the times for the first accidents to occur for 40 different days. Let 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>C</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     = the total cumulative time. Then 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>C</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     follows which distribution?</para>
+
+<para id="paragraph10"><list id="list10" mark-suffix="." list-type="labeled-item"><item><label>A</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>U</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0,3</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{U \( 0,3 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>B</label>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>Exp</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mfrac>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mfrac>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "Exp" \(  {  { size 8{1} }  over  { size 8{3} } }  \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>C</label>
+
+
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>N</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>60</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mtext>5.477</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{N \( "60","30" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>D</label>
+
+
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>N</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>5,0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>01875</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{N \( 1 "." 5,0 "." "01875" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list></para>
+</problem>
+
+
+<solution id="id8510522"><para id="solutionfs">C</para></solution></exercise></para>
+    
+    <para id="id3459637"><exercise id="exer7"><problem id="id8510455"><para id="paragraph11"> Using the information in question #6, find the probability that the total time for all first accidents to occur is more than 43 hours. </para></problem>
+
+
+<solution id="id8510432"><para id="solutionsss">0.9990</para></solution></exercise></para>
+    <para id="id6906956"><emphasis>The next two questions refer to the following situation: </emphasis>The length of time a parent must wait for his children to clean their rooms is uniformly distributed in the time interval from 1 to 15 days.</para>
+    <para id="id14354638"><exercise id="exer8"><problem id="id8510322"><para id="paragraph12">How long must a parent expect to wait for his children to clean their rooms?</para>
+
+<para id="paragraph13"><list id="list13" list-type="labeled-item" mark-suffix="."><item><label>A</label> 8 days</item><item><label>B</label> 3 days</item><item><label>C</label> 14 days </item><item><label>D</label> 6 days</item></list></para>
+</problem>
+
+
+<solution id="id8510152"><para id="solutiasdfadsfon">A</para></solution></exercise></para>
+    
+    <para id="id5167441"><exercise id="exer13"><problem id="id8510048"><para id="paragraph15">What is the probability that a parent will wait more than 6 days given that the parent has already waited more than 3 days?</para>
+
+<para id="paragraph16"><list id="list15" list-type="labeled-item" mark-suffix="."><item><label>A</label> 0.5174</item><item><label>B</label> 0.0174</item><item><label>C</label> 0.7500</item><item><label>D</label> 0.2143</item></list></para></problem>
+
+
+<solution id="id8509876"><para id="solusdfdstion">C</para></solution></exercise></para>
+    
+    <para id="id9622505"><emphasis>The next five problems refer to the following study:</emphasis> Twenty percent of the students at a local community college live in within five miles of the campus. Thirty percent of the students at the same community college receive some kind of financial aid. Of those who live within five miles of the campus, 75% receive some kind of financial aid.</para>
+    <para id="id9152895"><exercise id="exer10"><problem id="id8509771"><para id="paragraph17">Find the probability that a randomly chosen student at the local community college does not live within five miles of the campus.</para>
+
+<para id="paragraph18"><list id="list16" list-type="labeled-item" mark-suffix="."><item><label>A</label> 80%</item><item><label>B</label> 20%</item><item><label>C</label> 30%</item><item><label>D</label> Cannot be determined</item>
+
+</list></para></problem>
+
+
+<solution id="id8509602"><para id="solutsdfdsion">A</para></solution></exercise></para>
+    
+    <para id="id3318292"><exercise id="exer16"><problem id="id8509554"><para id="paragraph19">Find the probability that a randomly chosen student at the local community college lives within five miles of the campus or receives some kind of financial aid.</para>
+
+<para id="paragraph20"><list id="list17" list-type="labeled-item" mark-suffix="."><item><label>A</label> 50%</item><item><label>B</label> 35%</item><item><label>C</label> 27.5%</item><item><label>D</label> 75%</item></list></para></problem>
+
+
+<solution id="id8509346"><para id="solasdfution">B</para></solution></exercise></para>
+    
+    <para id="id9622503"><exercise id="exer18"><problem id="id8509279"><para id="paragraph21">Based upon the above information, are living in student housing within five miles of the campus and receiving some kind of financial aid mutually exclusive?</para>
+
+<para id="paragraph22"><list id="list18" list-type="labeled-item" mark-suffix="."><item><label>A</label> Yes</item><item><label>B</label> No</item><item><label>C</label> Cannot be determined</item></list></para></problem>
+
+
+<solution id="id8509154"><para id="soasdasfution">B</para></solution></exercise></para>
+    
+    <para id="id10738938"><exercise id="exer12343125123"><problem id="id8509052"><para id="paragraph23">The interest rate charged on the financial aid is _______ data.</para>
+
+<para id="paragraph24"><list id="list19" list-type="labeled-item" mark-suffix="."><item><label>A</label> quantitative discrete</item><item><label>B</label> quantitative continuous</item><item><label>C</label>qualitative discrete </item><item><label>D</label> qualitative</item></list></para></problem>
+
+
+<solution id="id8508882"><para id="solutasdfaion">B</para></solution></exercise></para>
+    
+    
+    <para id="id12941118"><exercise id="exxxercise"><problem id="id8508835"><para id="paragraph25">What follows is information about the students who receive financial aid at the local community college. </para>
+
+<list id="list12325135213423"><item>1st quartile = $250 </item><item>2nd quartile = $700 </item><item>3rd quartile = $1200</item></list>
+
+<para id="mondo">(These amounts are for the school year.) If a sample of 200 students is taken, how many are expected to receive $250 or more?</para>
+
+<para id="paragraph26"><list id="list20" list-type="labeled-item" mark-suffix="."><item><label>A</label> 50</item><item><label>B</label> 250</item><item><label>C</label> 150 </item><item><label>D</label> Cannot be determined</item>
+
+</list></para></problem>
+
+
+<solution id="id8508550"><para id="soasdfeeelution"><list id="lasdfaist2" list-type="labeled-item" mark-suffix="."><item><label>C</label> 150</item></list></para></solution></exercise></para>
+    
+    
+    <para id="id13859286"><emphasis>The next two problems refer to the following information: </emphasis>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>A</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( A \) =0 "." 2} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    , 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>B</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( B \) =0 "." 3} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    , 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>A</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     and 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>B</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     are independent events.</para>
+    <para id="id3953278"><exercise id="exerrly1"><problem id="id8507974"><para id="para1"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mspace width="2pt"/><m:mtext>AND</m:mtext><m:mspace width="2pt"/><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( A} {}</m:annotation></m:semantics></m:math></para>
+
+<para id="paragraphh"><list id="listular" list-type="labeled-item" mark-suffix="."><item><label>A</label> 0.5</item><item><label>B</label> 0.6</item><item><label>C</label>0</item><item><label>D</label>0.06</item></list></para>
+</problem>
+
+
+<solution id="id8507707"><para id="solutiafdsson">D</para></solution></exercise></para>
+    
+    <para id="id6377085"><exercise id="exerrcisely"><problem id="id8507657"><para id="paragram"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mspace width="2pt"/><m:mtext>OR</m:mtext><m:mspace width="2pt"/><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( A} {}</m:annotation></m:semantics></m:math></para>
+
+<para id="paragraphzz"><list id="listulation" list-type="labeled-item" mark-suffix="."><item><label>A</label> 0.56</item><item><label>B</label> 
+0.5</item><item><label>C</label>0.44</item><item><label>D</label>1</item></list></para>
+
+</problem>
+
+
+<solution id="id8507407"><para id="soluasdfation">C</para></solution></exercise></para>
+    
+    <para id="id5352906"><exercise id="exerrrly"><problem id="id8507343"><para id="parrra">If 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>H</m:mi>
+
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     and 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>D</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     are mutually exclusive events, 
+      <m:math>
+        <m:semantics>
+          <m:mrow/>
+          <m:annotation encoding="StarMath 5.0">{}</m:annotation>
+        </m:semantics>
+      </m:math>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>H</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>25</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( H \) =0 "." "25"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    , 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>D</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>15</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( D \) =0 "." "15"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    , then <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>H</m:mi><m:mo>|</m:mo>
+<m:mi>D</m:mi>
+<m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( H} {}</m:annotation></m:semantics></m:math>
+</para>
+
+
+<para id="paaara"><list id="list243566" list-type="labeled-item" mark-suffix="."><item><label>A</label> 1</item><item><label>B</label> 0</item><item><label>C</label> 0.40</item><item><label>D</label> 0.0375</item></list></para>
+</problem>
+
+
+<solution id="id8506633"><para id="solasdfaeeesaution">B</para></solution></exercise></para>
+    
+  </content>
+</document>

@@ -1,0 +1,191 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Summary of the Uniform and Exponential Probability Distributions</title>
+  <metadata>
+  <md:content-id>m16813</md:content-id><md:title>Summary of the Uniform and Exponential Probability Distributions</md:title>
+  <md:abstract>This module provides a summary of formulas and definitions related to Continuous Random Variables.</md:abstract>
+  <md:uuid>71956486-10b9-4956-8007-5a29bb6278e0</md:uuid>
+</metadata>
+  <content>
+    <rule id="uniform-1" type="formula"><label>Formula</label><title>Uniform</title>
+<statement id="id30664963">
+ <para id="delete_me"><m:math><m:mi>X</m:mi></m:math> = a real number between <m:math><m:mi>a</m:mi></m:math>  and <m:math><m:mi>b</m:mi></m:math> 
+(in some instances, <m:math><m:mi>X</m:mi></m:math> can take on the
+values <m:math><m:mi>a</m:mi></m:math>  and <m:math><m:mi>b</m:mi></m:math>).
+<m:math><m:mi>a</m:mi></m:math>  = smallest <m:math><m:mi>X</m:mi></m:math> ; <m:math><m:mi>b</m:mi></m:math>  = largest <m:math><m:mi>X</m:mi></m:math> </para><para id="element-912"><emphasis><m:math><m:mi>X</m:mi></m:math> ~ <m:math><m:mi>U</m:mi><m:mo>(</m:mo><m:mi>a,</m:mi> <m:mi>b</m:mi><m:mo>)</m:mo></m:math></emphasis></para><para id="element-429">The mean is 
+<m:math><m:reln><m:eq/>
+<m:mrow><m:mi>μ</m:mi></m:mrow>
+<m:mrow><m:mfrac><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow>
+<m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:reln></m:math>
+</para><para id="element-311">The standard deviation is
+
+<m:math><m:reln><m:eq/>
+<m:mrow><m:mi>σ</m:mi></m:mrow>
+<m:mrow><m:msqrt><m:mfrac>
+<m:mrow><m:mo>(</m:mo><m:mi>b</m:mi><m:mo>-</m:mo><m:mi>a</m:mi><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
+<m:mrow><m:mn>12</m:mn></m:mrow>
+</m:mfrac></m:msqrt></m:mrow>
+</m:reln></m:math></para><para id="element-104"><emphasis>Probability density function:</emphasis>
+<m:math>
+<m:apply>
+<m:ci type="fn">f</m:ci><m:ci>X</m:ci></m:apply>
+<m:mo>=</m:mo>
+<m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>b</m:mi><m:mo>-</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac>
+</m:math>
+for 
+
+<m:math><m:reln><m:leq/><m:reln><m:leq/>
+<m:mrow><m:mi>a</m:mi></m:mrow>
+<m:mrow><m:mi>X</m:mi></m:mrow></m:reln>
+<m:mrow><m:mi>b</m:mi></m:mrow></m:reln></m:math></para><para id="element-636"><emphasis>Area to the Left of x:</emphasis>
+<m:math><m:reln><m:eq/>
+<m:reln><m:lt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>X</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mtext>(base)</m:mtext><m:mtext>(height)</m:mtext></m:mrow></m:reln>
+</m:math>
+</para><para id="element-84"><emphasis>Area to the Right of x:</emphasis>
+<m:math><m:reln><m:eq/>
+<m:reln><m:gt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>X</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mtext>(base)</m:mtext><m:mtext>(height)</m:mtext></m:mrow></m:reln>
+</m:math></para><para id="element-315"><emphasis>Area Between c and d:</emphasis>
+<m:math>
+
+<m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:reln><m:lt/>
+<m:reln><m:lt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>c</m:mi></m:mrow>
+<m:mrow><m:mi>X</m:mi></m:mrow></m:reln>
+<m:mrow><m:mi>d</m:mi><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(</m:mo><m:mtext>height</m:mtext><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mo>(</m:mo><m:mi>d</m:mi><m:mo>-</m:mo><m:mi>c</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:mtext>height</m:mtext><m:mo>)</m:mo></m:mrow></m:reln>
+</m:math>. </para>
+</statement>
+</rule>
+
+
+    <rule id="exponential-1" type="formula"><label>Formula</label><title>Exponential</title>
+<statement id="id31014017">
+<para id="element-812"><emphasis><m:math><m:mi>X</m:mi></m:math> ~ <m:math><m:mi>Exp</m:mi>
+<m:mo>(</m:mo><m:mi>m</m:mi><m:mo>)</m:mo></m:math></emphasis></para><para id="element-852"><m:math><m:mi>X</m:mi></m:math> = a real number, 0 or larger.
+<m:math><m:mi>m</m:mi></m:math> = the parameter that controls
+the rate of decay or decline
+</para><para id="element-864">The mean and standard deviation <emphasis>are the same.</emphasis></para><para id="element-486"><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>σ</m:mi><m:mo>=</m:mo>
+<m:mfrac><m:mn>1</m:mn><m:mi>m</m:mi></m:mfrac></m:math>
+and
+<m:math><m:mi>m</m:mi><m:mo>=</m:mo>
+<m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mo>=</m:mo>
+<m:mfrac><m:mn>1</m:mn><m:mi>σ</m:mi></m:mfrac></m:math></para><para id="element-624"><emphasis>The probability
+density function:</emphasis>
+<m:math><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>)</m:mo>
+<m:mo>=</m:mo><m:mi>m</m:mi><m:mo>⋅</m:mo>
+<m:msup><m:mi>e</m:mi><m:mi>-m⋅X</m:mi></m:msup></m:math>,
+
+<m:math><m:reln><m:geq/>
+<m:mrow><m:mi>X</m:mi></m:mrow>
+<m:mrow><m:mo>0</m:mo></m:mrow></m:reln>
+</m:math></para><para id="element-784"><emphasis>Area to the Left of x:</emphasis> 
+<m:math><m:reln><m:eq/>
+<m:reln><m:lt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>X</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mn>1</m:mn><m:mo>-</m:mo>
+<m:msup><m:mi>e</m:mi><m:mi>-m⋅x</m:mi></m:msup>
+</m:mrow></m:reln>
+</m:math></para><para id="element-424"><emphasis>Area to the Right of x:</emphasis>  
+<m:math><m:reln><m:eq/>
+<m:reln><m:gt/>
+<m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>X</m:mi></m:mrow>
+<m:mrow><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow>
+<m:msup><m:mi>e</m:mi><m:mi>-m⋅x</m:mi></m:msup>
+</m:mrow></m:reln>
+</m:math></para><para id="element-581"><emphasis>Area Between c and d:</emphasis>  
+<m:math>
+<m:reln><m:lt/>
+<m:reln><m:lt/>
+
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>c</m:mi>
+</m:mrow>
+
+<m:mrow>
+<m:mi>X</m:mi>
+</m:mrow></m:reln>
+
+<m:mrow>
+<m:mi>d</m:mi>
+<m:mo>)</m:mo>
+</m:mrow></m:reln>
+<m:mo>=</m:mo>
+<m:reln><m:lt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>X</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>d</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+<m:mo>-</m:mo>
+<m:reln><m:lt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>X</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>c</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+<m:mo>=</m:mo>
+<m:mo>(</m:mo>
+<m:mn>1</m:mn>
+<m:mo>-</m:mo>
+<m:msup>
+<m:mi>e</m:mi>
+<m:mi>− m⋅d</m:mi>
+</m:msup>
+<m:mo>)</m:mo>
+<m:mo>-</m:mo>
+
+<m:mo>(</m:mo>
+<m:mn>1</m:mn>
+<m:mo>-</m:mo>
+<m:msup>
+<m:mi>e</m:mi>
+<m:mi>− m⋅c</m:mi>
+</m:msup>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>e</m:mi>
+<m:mi>− m⋅c</m:mi>
+</m:msup>
+<m:mo>-</m:mo>
+<m:msup>
+<m:mi>e</m:mi>
+<m:mi>− m⋅d</m:mi>
+</m:msup>
+</m:math>
+</para><para id="element-826"><emphasis>Percentile, k:</emphasis>
+<m:math>
+<m:mi>k</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mtext>LN(1-AreaToTheLeft)</m:mtext>
+<m:mi>-m</m:mi>
+</m:mfrac>
+</m:math></para>
+</statement>
+</rule>   
+  </content>
+  
+</document>

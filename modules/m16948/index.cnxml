@@ -1,0 +1,385 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>The Central Limit Theorem for Sums</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16948</md:content-id>
+  <md:title>The Central Limit Theorem for Sums</md:title>
+  <md:abstract/>
+  <md:uuid>02830a26-f7d3-49b6-8497-863325e33a74</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">Suppose <m:math><m:mi>X</m:mi></m:math> is a random variable with a distribution that may be <emphasis>known or unknown</emphasis> (it
+can be any distribution) and suppose:
+<list id="list-1" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>
+<m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+</m:math>
+the mean of 
+<m:math><m:mi>X</m:mi></m:math></item>
+
+<item><label>b</label>
+<m:math>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+</m:math>
+the standard deviation of 
+<m:math><m:mi>X</m:mi></m:math></item>
+</list>
+If you draw random samples of size <m:math><m:mi>n</m:mi></m:math>, then as <m:math><m:mi>n</m:mi></m:math> increases, the random variable
+<m:math><m:mi>ΣX</m:mi></m:math> which consists of sums tends to be <term target-id="normdist">normally distributed</term> and</para><para id="element-367"><m:math>
+		<m:mo>Σ</m:mo>
+		<m:mi>X</m:mi></m:math> ~
+<m:math>
+		<m:mi>N</m:mi>
+		<m:mo>(</m:mo>
+		<m:mi>n</m:mi>
+		<m:mo>⋅</m:mo>
+		<m:msub>
+			<m:mi>μ</m:mi>
+			<m:mi>X</m:mi>
+		</m:msub>
+		<m:mo>,</m:mo>
+		<m:msqrt>
+			<m:mi>n</m:mi>
+		</m:msqrt>
+		<m:mo>⋅</m:mo>
+		<m:msub>
+			<m:mi>σ</m:mi>
+			<m:mi>X</m:mi>
+		</m:msub>
+		<m:mo>)</m:mo>
+	</m:math></para><para id="element-603"><emphasis>The Central Limit Theorem for Sums</emphasis> says that if you keep drawing larger and larger samples
+and taking their sums, the sums form their own normal distribution (the sampling distribution) which approaches a normal distribution as the sample size increases. <emphasis>The normal distribution has a
+mean equal to the original mean multiplied by the sample size and a standard deviation
+equal to the original standard deviation multiplied by the square root of the sample size.</emphasis>
+
+</para><para id="element-7">The random variable <m:math><m:mo>Σ</m:mo>
+<m:mi>X</m:mi></m:math> has the following z-score associated with it:</para><list id="element-434" list-type="labeled-item" mark-suffix="."><item><label>a</label><m:math><m:mi>Σx</m:mi></m:math>
+is one sum.
+</item>
+		<item><label>b</label><m:math>
+				<m:mi>z</m:mi>
+				<m:mo>=</m:mo>
+				<m:mfrac>
+					<m:mrow>
+						<m:mi>Σ</m:mi>
+						<m:mi>x</m:mi>
+						<m:mo>-</m:mo>
+						<m:mi>n</m:mi>
+						<m:mo>⋅</m:mo>
+						<m:msub>
+							<m:mi>μ</m:mi>
+							<m:mi>X</m:mi>
+						</m:msub>
+					</m:mrow>
+					<m:mrow>
+						<m:msqrt>
+							<m:mi>n</m:mi>
+						</m:msqrt>
+						<m:mo>⋅</m:mo>
+						<m:msub>
+							<m:mi>σ</m:mi>
+							<m:mi>X</m:mi>
+						</m:msub>
+					</m:mrow>
+				</m:mfrac>
+			</m:math></item></list><list id="element-444" list-type="labeled-item" mark-suffix=".">
+	<item><label>a</label><m:math>
+			<m:mi>n</m:mi>
+			<m:mo>⋅</m:mo>
+			<m:msub>
+				<m:mi>μ</m:mi>
+				<m:mi>X</m:mi>
+			</m:msub>
+			<m:mo>=</m:mo>
+		</m:math>
+the mean of <m:math><m:mi>ΣX</m:mi></m:math></item>
+	<item><label>b</label>
+		<m:math>
+			<m:msqrt>
+				<m:mi>n</m:mi>
+			</m:msqrt>
+			<m:mo>⋅</m:mo>
+			<m:msub>
+				<m:mi>σ</m:mi>
+				<m:mi>X</m:mi>
+			</m:msub>
+			<m:mo>=</m:mo>
+		</m:math>
+standard deviation of <m:math><m:mi>ΣX</m:mi></m:math></item>
+	</list><example id="element-747"><para id="element-455">
+ An unknown distribution has a mean of 90 and a standard deviation of 15. A
+sample of size 80 is drawn randomly from the population.
+</para><exercise id="element-55"><problem id="id12220262">
+  <list id="element-710" mark-suffix="." list-type="labeled-item"><item><label>a</label>Find the probability that the sum of the 80 values (or the total of the 80 values) is more
+than 7500.</item>
+  <item><label>b</label>Find the sum that is 1.5 standard deviations above the mean of the sums.</item></list></problem>
+
+<solution id="id12220316">
+  <para id="element-804">Let <m:math><m:mi>X</m:mi></m:math> = one value from the original unknown population.
+The probability question asks you to find a probability for <emphasis>the sum (or total of) 80 values.</emphasis></para><para id="element-56"><m:math><m:mi>ΣX</m:mi></m:math>
+= the sum or total of 80 values. Since
+<m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mn>90</m:mn>
+</m:math>,
+<m:math>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mn>15</m:mn>
+</m:math>,
+and
+<m:math>
+
+<m:mi>n</m:mi>
+
+
+<m:mo>=</m:mo>
+<m:mn>80</m:mn>
+</m:math>,
+then</para><para id="element-640"><m:math>
+<m:mi>Σ</m:mi>
+<m:mi>X</m:mi></m:math> ~
+<m:math>
+<m:mi>N</m:mi>
+<m:mo>(</m:mo>
+<m:mi>80</m:mi>
+<m:mo>⋅</m:mo>
+<m:mi>90</m:mi>
+<m:mo>,</m:mo>
+<m:msqrt>
+<m:mi>80</m:mi>
+</m:msqrt>
+<m:mo>⋅</m:mo>
+<m:mi>15</m:mi>
+<m:mo>)</m:mo>
+</m:math></para><list id="element-907" mark-suffix="." list-type="bulleted" bullet-style="bullet"><item>mean of the sums = 
+<m:math>
+<m:mi>n</m:mi>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mo>(</m:mo>
+<m:mn>80</m:mn>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mn>90</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>7200</m:mn>
+</m:math></item>
+
+
+<item>standard deviation of the sums = 
+<m:math>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:msqrt>
+<m:mn>80</m:mn>
+</m:msqrt>
+<m:mo>⋅</m:mo>
+<m:mn>15</m:mn>
+</m:math></item>
+
+<item>sum of 80 values = 
+<m:math>
+<m:mi>Σx</m:mi>
+<m:mo>=</m:mo>
+<m:mn>7500</m:mn>
+</m:math></item></list><para id="element-703"><list id="eip-id2244439" list-type="labeled-item"><item><label>a</label>Find
+<m:math>
+<m:reln><m:gt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>Σx</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn>7500</m:mn>
+</m:mrow>
+</m:reln>
+<m:mo>)</m:mo>
+<m:mspace width="20pt"/>
+</m:math>
+</item></list></para><para id="element-704"><m:math>
+<m:reln><m:gt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>Σx</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn>7500</m:mn>
+</m:mrow>
+</m:reln>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>0.0127</m:mn>
+</m:math></para><para id="element-876"><media id="id12212529" alt="Normal distribution curve of sum X with the values of 7200 and 7500 on the x-axis. A vertical upward line extends from point 7500 on the x-axis up to the curve. The probability area occurs from point 7500 and to the end of the curve."><image src="../../media/clt_bysums1.png" mime-type="image/png" print-width="3in"/></media></para><para id="element-389"><code>normalcdf</code>(lower value, upper value, mean of sums, <code>stdev</code> of sums)</para><para id="element-503">The parameter list is abbreviated (lower, upper,
+<m:math>
+<m:mi>n</m:mi>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+<m:mo>,</m:mo>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:math>)</para><para id="element-458"><code>normalcdf</code>(7500,1E99,
+<m:math>
+<m:mn>80</m:mn>
+<m:mo>⋅</m:mo>
+<m:mn>90</m:mn>
+<m:mo>,</m:mo>
+<m:msqrt>
+<m:mn>80</m:mn>
+</m:msqrt>
+<m:mo>⋅</m:mo>
+<m:mn>15</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>0.0127</m:mn>
+</m:math></para><para id="element-565"><emphasis>Reminder:</emphasis>
+<m:math>
+<m:mi>1E99</m:mi>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mn>10</m:mn>
+<m:mn>99</m:mn>
+</m:msup>
+</m:math>. Press the <code>EE</code> key for E.</para>
+</solution>
+</exercise><para id="eip-694"><list id="eip-id1169192222958" list-type="labeled-item"><item><label>b</label>Find <m:math><m:mi>Σx</m:mi></m:math> where  
+<m:math><m:mi>z</m:mi></m:math> = 1.5:
+</item></list><newline/><newline/>
+<m:math><m:mi>Σx</m:mi></m:math> = 
+
+<m:math>
+<m:mi>n</m:mi>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:math> + 
+
+<m:math>
+<m:mi>z</m:mi>
+<m:mo>⋅</m:mo>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+<m:mo>⋅</m:mo>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>X</m:mi>
+</m:msub>
+</m:math>
+ = 
+(80)(90) + (1.5)(<m:math><m:msqrt>
+<m:mo>80</m:mo>
+</m:msqrt></m:math>)
+(15)
+ = 7401.2
+
+</para></example>   
+  </content>
+
+
+  <glossary>
+
+<definition id="centlimit">
+    <term>Central Limit Theorem</term>
+    <meaning id="id43867050">
+     Given a random variable (RV) with known mean <m:math><m:mi>μ</m:mi></m:math> and known standard deviation <m:math><m:mi>σ</m:mi></m:math>. We are sampling with size n and we are interested in two new RVs - the sample mean, 
+<m:math><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo stretchy="false">¯</m:mo></m:mover></m:mrow></m:math>,
+
+and the sample sum, <m:math><m:mrow><m:mi>Σ</m:mi><m:mi>X</m:mi></m:mrow></m:math>. 
+
+If the size <m:math><m:mi>n</m:mi></m:math> of the sample is sufficiently large, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo stretchy="false">¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {X}}} {}</m:annotation></m:semantics></m:math>∼ 
+
+<m:math>
+ <m:mi>N</m:mi>
+  <m:mfenced>
+    <m:mi>μ</m:mi>
+    <m:mfrac>
+        <m:mi>σ</m:mi>
+      <m:msqrt><m:mi>n</m:mi></m:msqrt>
+    </m:mfrac>
+  </m:mfenced>
+</m:math>
+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mrow/><m:mstyle fontsize="8pt"><m:mrow><m:mn/></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> </m:annotation></m:semantics></m:math> and 
+
+<m:math> <m:mi>Σ</m:mi><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> ∼  
+<m:math><m:mi>N</m:mi>
+  <m:mo>(</m:mo>
+    <m:mi>nμ</m:mi>
+    <m:mo>,</m:mo>
+    <m:msqrt><m:mi>n</m:mi></m:msqrt>
+    <m:mi>σ</m:mi>
+  <m:mo>)</m:mo></m:math>. 
+
+If the size n of the sample is sufficiently large, then the distribution of the sample means and the distribution of the sample sums will approximate a normal distribution regardless of the shape of the population. The mean of the sample  means will equal the population mean and the mean of the sample sums will equal n times the population mean. The standard deviation of the distribution of the sample means, 
+<m:math> <m:mfrac>
+    <m:mi>σ</m:mi>
+    <m:msqrt>
+      <m:mi>n</m:mi>
+    </m:msqrt>
+  </m:mfrac></m:math>, is called the standard error of the mean.
+    </meaning>
+  </definition>
+
+
+
+
+<definition id="normdist">
+    <term>Normal Distribution</term>
+    <meaning id="id42733014">
+   A continuous random variable (RV) with pdf  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>f(x)</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>σ</m:mi><m:msqrt><m:mn>2π</m:mn></m:msqrt></m:mrow></m:mfrac></m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>μ</m:mi></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mn>2σ</m:mn><m:mstyle fontsize="6pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "pdf"= {  {1}  over  {σ sqrt {2π} } } e rSup { size 8{ -  \( x - μ \)  rSup { size 6{2} } /2σ rSup { size 6{2} } } } } {}</m:annotation></m:semantics></m:math>, where <m:math><m:mi>μ</m:mi></m:math>  is the mean of the distribution and <m:math><m:mi>σ</m:mi></m:math>  is the standard deviation. Notation: <m:math><m:mi>X</m:mi></m:math>  ~  <m:math> <m:mi>N</m:mi>
+  <m:mfenced>
+    <m:mi>μ</m:mi>
+    <m:msup>
+      <m:mi>σ</m:mi>
+      <m:mn/>
+    </m:msup>
+  </m:mfenced></m:math>. If <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math> and <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:math>, the RV is called <emphasis>the standard normal distribution</emphasis>.
+    </meaning>
+  </definition>
+
+</glossary>
+</document>

@@ -1,0 +1,126 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Summary of Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16987</md:content-id>
+  <md:title>Summary of Formulas</md:title>
+  <md:abstract/>
+  <md:uuid>6cf461d1-3248-46d1-b897-bf02acf31ed9</md:uuid>
+</metadata>
+  <content>
+       
+  
+  <rule id="normal-1" type="formula"><label>Formula</label><title>Normal Probability Distribution</title><statement id="id7525029">
+<para id="element-100"><m:math>
+		<m:mi>X</m:mi>
+		</m:math>~<m:math>
+		<m:mi>N</m:mi>
+		<m:mo>(</m:mo>
+		<m:mi>μ</m:mi>
+		<m:mo>,</m:mo>
+		<m:mi>σ</m:mi>
+		<m:mo>)</m:mo>
+	</m:math>
+</para><para id="element-738"><m:math><m:mi>μ</m:mi></m:math> = the mean <m:math><m:mspace width="20pt"/><m:mi>σ</m:mi></m:math> = the standard deviation</para>
+</statement>
+</rule>
+ 
+<rule id="standard-1" type="formula"><label>Formula</label><title>Standard Normal Probability Distribution</title><statement id="id1167165304173">
+<para id="element-101"><m:math>
+		<m:mi>Z</m:mi>
+		</m:math>~<m:math>
+		<m:mi>N</m:mi>
+		<m:mo>(</m:mo>
+		<m:mn>0</m:mn>
+		<m:mo>,</m:mo>
+		<m:mn>1</m:mn>
+		<m:mo>)</m:mo>
+	</m:math>
+</para><para id="element-736"><m:math><m:mi>z</m:mi></m:math>
+= a standardized value (z-score)</para><para id="element-739">mean = 0 <m:math><m:mspace width="20pt"/></m:math> standard deviation = 1</para>
+</statement>
+</rule>
+ <rule id="kth-1" type="formula"><label>Formula</label><title>Finding the kth Percentile</title><statement id="id1167162100516">
+<para id="element-102">To find the <emphasis>kth</emphasis> percentile when the z-score is known:
+<emphasis>
+<m:math>
+<m:mi>k</m:mi>
+<m:mo>=</m:mo>
+<m:mi>μ</m:mi>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:mi>z</m:mi>
+<m:mo>)</m:mo>
+<m:mi>σ</m:mi>
+</m:math>
+</emphasis>
+</para>
+</statement>
+</rule>
+ <rule id="zscore-1" type="formula"><label>Formula</label><title>z-score</title><statement id="id8518165">
+<para id="element-103"><m:math>
+<m:mi>z</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mi>μ</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>σ</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+</para>
+</statement>
+</rule>
+ <rule id="areatotheleft-1" type="formula"><label>Formula</label><title>Finding the area to the left</title><statement id="id8606837">
+<para id="element-104">The area to the left: 
+<m:math>
+<m:reln><m:lt/>
+<m:mrow>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>X</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:reln>
+</m:math></para>
+</statement>
+</rule>
+ <rule id="areatotheright-1" type="formula"><label>Formula</label><title>Finding the area to the right</title><statement id="id5378258">
+<para id="element-105">The area to the right:
+<m:math>
+		<m:reln><m:gt/>
+			<m:mrow>
+				<m:mi>P</m:mi>
+				<m:mo>(</m:mo>
+				<m:mi>X</m:mi>
+			</m:mrow>
+			<m:mrow>
+				<m:mi>x</m:mi>
+				<m:mo>)</m:mo>
+			</m:mrow>
+		</m:reln>
+		<m:mo>=</m:mo>
+		<m:mn>1</m:mn>
+		<m:mo>-</m:mo>
+		<m:reln><m:lt/>
+			<m:mrow>
+				<m:mi>P</m:mi>
+				<m:mo>(</m:mo>
+				<m:mi>X</m:mi>
+			</m:mrow>
+			<m:mrow>
+				<m:mi>x</m:mi>
+				<m:mo>)</m:mo>
+			</m:mrow>
+		</m:reln>
+	</m:math></para>
+</statement>
+</rule>
+</content>
+</document>

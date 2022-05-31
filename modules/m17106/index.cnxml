@@ -1,0 +1,118 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="practice">
+  <title>Practice 5: Hypergeometric Distribution</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17106</md:content-id>
+  <md:title>Practice 5: Hypergeometric Distribution</md:title>
+  <md:abstract>This module provides further practice and exercises on Hypergeometric Distribution in statistics</md:abstract>
+  <md:uuid>12b6464e-dee5-457c-b839-51a0fc99e1f3</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="chap 4.5 practice.doc" strength="3">Download handout (.doc)</link>
+      <link url="chap 4.5 practice.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="element-975"><title>Student Learning Outcomes</title><list id="element-09876" list-type="bulleted"><item>The student will analyze the properties of a hypergeometric distribution.</item>
+</list></section><section id="element-838"><title>Given</title>
+<para id="element-668">Suppose that a group of statistics students is divided into two groups: business majors and non-business majors.  There are 16 business majors in the group and 7 non-business majors in the group.  A random sample of 9 students is taken.  We are interested in the number of business majors in the group.</para></section><section id="element-569"><title>Interpret the Data</title>
+<exercise id="exerciseone">
+<problem id="id6928654">
+<para id="prob_1">In words, define the Random Variable <m:math><m:mi>X</m:mi></m:math>.</para>
+</problem>
+</exercise>
+
+<exercise id="exercisetwo"><problem id="id11990784">
+<para id="prob_2"><m:math><m:mi>X</m:mi></m:math> ~</para>
+</problem>
+<solution id="id10931525">
+<para id="element-887582234234">H(16,7,9)</para>
+</solution>
+</exercise>
+
+<exercise id="exercisethree"><problem id="id12345578">
+<para id="prob_3">What values does <m:math>
+<m:mi>X</m:mi>
+</m:math>
+take on?
+</para>
+</problem>
+<solution id="id4044653">
+<para id="element-887582323425664">2,3,4,5,6,7,8,9</para>
+</solution>
+</exercise>
+
+<exercise id="exercisefour">
+<problem id="id6472516">
+<para id="prob_4">Construct the probability distribution function (<m:math><m:mtext>PDF</m:mtext></m:math>) for <m:math><m:mi>X</m:mi></m:math>.<table id="element-222" summary="PDF table for the number of business majors and probabilities.">
+<tgroup cols="2"><thead>
+  <row>
+    <entry><m:math><m:mi>x</m:mi></m:math></entry>
+    <entry><m:math><m:mtext>P(x)</m:mtext></m:math></entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table></para>
+</problem>
+</exercise>
+
+<exercise id="exercisefive"><problem id="id4027191">
+<para id="prob_5">On average(<m:math><m:mi>μ</m:mi></m:math>), how many would you expect to be business majors?</para>
+</problem>
+<solution id="id25223962">
+<para id="element-8875823423425234">6.26</para>
+</solution>
+</exercise>
+</section>
+  </content>
+  
+</document>

@@ -1,0 +1,1160 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>The F Distribution and the F Ratio</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17076</md:content-id>
+  <md:title>The F Distribution and the F Ratio</md:title>
+  <md:abstract>This module describes how to calculate the F Ratio and F Distribution based on the hypothesis test for the One-Way ANOVA.</md:abstract>
+  <md:uuid>72b29014-9b50-4201-9fbd-b702b160a9ba</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">The distribution used for the hypothesis test is a new one. It is called the <m:math>
+<m:mi>F</m:mi></m:math> distribution,
+named after Sir Ronald Fisher, an English statistician. The <m:math>
+<m:mi>F</m:mi></m:math> statistic is a ratio (a
+fraction). There are two sets of degrees of freedom; one for the numerator and one for
+the denominator.</para><para id="element-674">For example, if 
+<m:math>
+<m:mi>F</m:mi>
+</m:math> follows an <m:math>
+<m:mi>F</m:mi>
+</m:math> distribution and the degrees of freedom for the
+numerator are 4 and the degrees of freedom for the denominator are 10, then
+<m:math>
+<m:mi>F</m:mi></m:math> ~
+<m:math>
+<m:msub>
+<m:mi>F</m:mi>
+<m:mrow>
+<m:mn>4</m:mn>
+<m:mo>,</m:mo>
+<m:mn>10</m:mn>
+</m:mrow>
+</m:msub>
+</m:math>.</para><note id="eip-261">The <m:math>
+<m:mi>F</m:mi></m:math> distribution is derived from the Student's-t distribution. One-Way ANOVA expands the <m:math><m:mi>t</m:mi></m:math>-test for comparing more than two groups. The scope of that derivation is beyond the level of this course.</note><para id="element-967">To calculate the <m:math>
+<m:mi>F</m:mi>
+</m:math> 
+ratio, two estimates of the variance are made.</para><list id="element-236" list-type="enumerated"><item><emphasis>Variance between samples:</emphasis> An estimate of <m:math>
+<m:msup>
+<m:mi>σ</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> that is the variance of the sample
+means multiplied by n (when there is equal n). If the samples are different sizes, the variance between samples is weighted to
+account for the different sample sizes. The variance is also called <emphasis>variation due to treatment or
+explained
+variation.</emphasis></item>
+<item><emphasis>Variance within samples:</emphasis> An estimate of <m:math>
+<m:msup>
+<m:mi>σ</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> that is the average of the sample
+variances (also known as a pooled variance). When the sample sizes are different, the
+variance within samples is weighted. The variance is also called the <emphasis>variation due to error or
+unexplained variation.</emphasis></item>
+</list><list id="eip-197"><item><m:math>
+<m:msub>
+<m:mi>SS</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub>
+<m:mo>=</m:mo>
+</m:math> the sum of squares that represents the variation among the different
+samples.</item>
+
+<item><m:math>
+<m:msub>
+<m:mi>SS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+<m:mo>=</m:mo>
+</m:math> the sum of squares that represents the variation within samples that is
+due to chance.</item></list><para id="eip-668">To find a "sum of squares" means to add together squared quantities which, in some
+cases, may be weighted. We used sum of squares to calculate the sample variance and
+the sample standard deviation in <emphasis>Descriptive Statistics</emphasis>.</para><para id="eip-39"><m:math><m:mi>MS</m:mi></m:math> means "mean square." 
+<m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub>
+</m:math> is the variance between groups and
+<m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+</m:math> is the variance within groups.</para><list id="eip-198"><title>Calculation of Sum of Squares and Mean Square</title><item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>k</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> = the number of different groups</item>
+
+<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>j</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n rSub { size 8{j} } } {}</m:annotation></m:semantics></m:math> = the size of the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>jth</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "jth"} {}</m:annotation></m:semantics></m:math> group</item>
+
+<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>s</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>j</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s rSub { size 8{j} } } {}</m:annotation></m:semantics></m:math>= the sum of the values in the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>jth</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "jth"} {}</m:annotation></m:semantics></m:math> group</item>
+
+<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math> = total number of all the values combined. (total sample size: <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∑</m:mo><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>j</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Sum {n rSub { size 8{j} } } } {}</m:annotation></m:semantics></m:math>)
+</item>
+
+
+
+<item><m:math><m:mi>x</m:mi></m:math> = one value:  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∑</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∑</m:mo><m:msub><m:mi>s</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>j</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Sum {x} = Sum {s rSub { size 8{j} } } } {}</m:annotation></m:semantics></m:math></item>
+
+<item>Sum of squares of all values from every group combined: <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∑</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Sum {x rSup { size 8{2} } } ={}} {}</m:annotation></m:semantics></m:math></item>
+
+<item>Between group variability: <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mtext>SS</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>total</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∑</m:mo>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mfrac>
+                      <m:msup>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mo stretchy="false">∑</m:mo>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:mfenced>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mi>n</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "SS" rSub { size 8{ ital "total"} } = Sum {x rSup { size 8{2} } }  -  {  { left ( Sum {x}  right ) rSup { size 8{2} } }  over  {n} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+</item>
+
+<item>Total sum of squares: 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∑</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mo stretchy="false">−</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">∑</m:mo>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mi>n</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ Sum {x rSup { size 8{2} } }  -  {  { \(  Sum {x}  \)  rSup { size 8{2} } }  over  {n} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+
+<item>Explained variation- sum of squares representing variation among the different samples
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mtext>SS</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>between</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∑</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">[</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>sj</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:msub>
+                            <m:mi>n</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>j</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                        <m:mo stretchy="false">]</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">∑</m:mo>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>s</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>j</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "SS" rSub { size 8{ ital "between"} } = Sum { \[  {  { \(  ital "sj" \)  rSup { size 8{2} } }  over  {n rSub { size 8{j} } } }  \] }  -  {  { \(  Sum {s rSub { size 8{j} }  \)  rSup { size 8{2} } } }  over  {n} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+</item>
+
+<item>Unexplained variation- sum of squares representing variation within samples due to chance: 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mtext>SS</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>within</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mtext>SS</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>total</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mtext>SS</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>between</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "SS" rSub { size 8{ ital "within"} } = ital "SS" rSub { size 8{ ital "total"} }  -  ital "SS" rSub { size 8{ ital "between"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>  
+</item>
+
+<item>df's for different groups (df's for the numerator):
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mtext>df</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>between</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mi>k</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "df" rSub { size 8{ ital "between"} } =k - 1} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+
+<item>
+Equation for errors within samples (df's for the denominator):
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mtext>df</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>within</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mi>k</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "df" rSub { size 8{ ital "within"} } = n - k} {}</m:annotation>
+        </m:semantics>
+      </m:math></item>
+
+<item>Mean square (variance estimate) explained by the different groups: 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mtext>MS</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>between</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mtext>SS</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>between</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mtext>df</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>between</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "MS" rSub { size 8{ ital "between"} } = {  { ital "SS" rSub { size 8{ ital "between"} } }  over  { ital "df" rSub { size 8{ ital "between"} } } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    
+</item>
+
+<item>
+ Mean square (variance estimate) that is due to chance (unexplained): <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mtext>MS</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>within</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mtext>SS</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>within</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mtext>df</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>within</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "MS" rSub { size 8{ ital "within"} } = {  { ital "SS" rSub { size 8{ ital "within"} } }  over  { ital "df" rSub { size 8{ ital "within"} } } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+   
+</item>
+
+</list><para id="eip-858"><m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub>
+</m:math> and 
+<m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+</m:math> can be written as follows:</para><list id="eip-822"><item><m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>SS</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>df</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>SS</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi>k</m:mi>
+<m:mo>−</m:mo>
+<m:mn>1</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:math></item>
+<item><m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>SS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>df</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>SS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>−</m:mo>
+<m:mn>k</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:math></item>
+</list><para id="element-138">The One-Way ANOVA test depends on the fact that 
+<m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub>
+</m:math> can be influenced by population
+differences among means of the several groups. Since <m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+</m:math> compares values of
+each group to its own group mean, the fact that group means might be different does
+not affect <m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+</m:math>.</para><para id="element-807">The null hypothesis says that all groups are samples from populations having the same
+normal distribution. The alternate hypothesis says that at least two of the sample
+groups come from populations with different normal distributions. If the null hypothesis
+is true, 
+<m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub>
+</m:math> and 
+<m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+</m:math> should both estimate the same value.</para><note id="eip-82">The null hypothesis says that all the group population means are equal.  The hypothesis of equal means implies that the populations have the same normal distribution because it is assumed that the populations are normal and that they have equal variances.</note><equation id="eip-787"><title>F-Ratio or F Statistic</title><m:math>
+<m:mi>F</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:math></equation><para id="element-712">If 
+<m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub>
+</m:math> and 
+<m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+</m:math> estimate the same value (following the belief that 
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math> is
+true), then the F-ratio should be approximately equal to 1. Mostly just sampling errors
+would contribute to variations away from 1. As it turns out, <m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub>
+</m:math> consists of
+the population variance plus a variance produced from the differences between the
+samples. <m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+</m:math> is an estimate of the population variance. Since variances are
+always positive, if the null hypothesis is false, <m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub>
+</m:math> will generally be larger than <m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+</m:math>.
+Then the F-ratio will be larger than 1.
+However, if the population effect size is small it is not unlikely that <m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+</m:math>  will be larger in a give sample.</para><para id="eip-611">The above calculations were done with groups of different sizes. If the groups are the same size, the calculations simplify somewhat and the F ratio can be written as: </para><equation id="eip-355"><title>F-Ratio Formula when the groups are the same size</title><m:math>
+<m:mrow>
+<m:mi>F</m:mi>
+<m:mo>=</m:mo>
+
+<m:mfrac>
+
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>⋅</m:mo>
+<m:msup>
+<m:mrow>
+<m:mo/>
+<m:msub>
+<m:mi>s</m:mi>
+<m:mstyle fontsize="8pt">
+<m:mrow>
+<m:mover><m:mi>x</m:mi><m:mo>_</m:mo></m:mover>
+</m:mrow>
+</m:mstyle>
+</m:msub>
+<m:mo/>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mo/>
+<m:msub>
+
+<m:msup>
+
+<m:mi>s</m:mi>
+
+<m:mn>2</m:mn>
+  </m:msup>
+
+
+<m:mstyle fontsize="8pt">
+<m:mtext>pooled</m:mtext>
+</m:mstyle>
+</m:msub>
+<m:mo/>
+</m:mrow>
+
+</m:msup>
+</m:mrow>
+
+</m:mfrac>
+
+</m:mrow>
+</m:math>
+</equation><list id="eip-389"><title>where ...</title><item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n={}} {}</m:annotation></m:semantics></m:math>the sample size</item>
+
+
+<item>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mtext>df</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>numerator</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mi>k</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "df" rSub { size 8{ ital "numerator"} } =k - 1} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+
+<item>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mtext>df</m:mtext>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>denominator</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                             
+                              <m:mrow/>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+ 
+                    </m:mrow>
+                  </m:mstyle>
+                  
+                  
+                  <m:mrow>
+                    
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mi>k</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "df" rSub { size 8{ ital "denominator"={}} } k \( n - 1 \) =N - k} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+
+<item><m:math>
+<m:msub>
+ <m:msup>
+    <m:mi>s</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+<m:mi>pooled</m:mi>
+</m:msub><m:mo>=</m:mo>
+</m:math>
+
+the mean of the sample variances (pooled variance)</item>
+
+<item><m:math>
+<m:msup>
+<m:msub><m:mi>s</m:mi><m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:msub>
+<m:mn>2</m:mn>
+  </m:msup>
+<m:mo>=</m:mo>
+</m:math>
+the variance of the sample means
+</item>
+
+
+</list><para id="eip-580">The data is typically put into a table for easy viewing.  One-Way ANOVA results are often displayed in this manner by computer software.
+
+<table id="eip-id1172021872456" summary="General One-Way ANOVA Table with 3 rows and 4 columns.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <thead>
+          <row>
+            <entry align="center">Source of Variation</entry>
+            <entry align="center">Sum of Squares (SS)</entry>
+            <entry align="center">Degrees of Freedom (df)</entry>
+            <entry align="center">Mean Square (MS)</entry>
+            <entry align="center">F</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry align="center">Factor <newline/>(Between)</entry>
+            <entry align="center">SS(Factor)</entry>
+            <entry align="center">k - 1</entry>
+            <entry align="center">MS(Factor) = SS(Factor)/(k-1)</entry>
+            <entry align="center">F = MS(Factor)/MS(Error)</entry>
+          </row>
+          <row>
+            <entry align="center">Error <newline/>(Within)</entry>
+            <entry align="center">SS(Error)</entry>
+            <entry align="center">n - k</entry>
+            <entry align="center">MS(Error) = SS(Error)/(n-k)</entry>
+            <entry align="center"/>   
+          </row>
+          <row>
+            <entry align="center">Total</entry>
+            <entry align="center">SS(Total)</entry>
+            <entry align="center">n - 1</entry>
+            <entry align="center"/>
+            <entry align="center"/>
+          </row>
+          
+            
+        </tbody>
+
+
+
+</tgroup>
+</table></para><example id="eip-546"><para id="eip-125">Three different diet plans are to be tested for mean weight loss.  The entries in the table are the weight losses for the different plans. The One-Way ANOVA table is shown below.
+
+
+<table id="eip-id2754369" summary="The Table consists of 3 columns: CNN, Fox and Local. The table entries are the mean time, in minutes, that people watch their favorite news station on CNN, Fox or the local station.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead>
+          <row>
+            <entry>Plan 1</entry>
+            <entry>Plan 2</entry>
+            <entry>Plan 3</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry align="center">5</entry>
+            <entry align="center">3.5</entry>
+            <entry align="center">8</entry>
+          </row>
+          <row>
+            <entry align="center">4.5</entry>
+            <entry align="center">7</entry>
+            <entry align="center">4</entry>
+          </row>
+          <row>
+            <entry align="center">4</entry>
+            <entry align="center"/>
+            <entry align="center">3.5</entry>
+          </row>
+          <row>
+            <entry align="center">3</entry>
+            <entry align="center">4.5</entry>
+            <entry align="center"/>
+          </row>
+          
+            
+        </tbody>
+      
+
+
+
+</tgroup>
+</table>
+
+ 
+</para><para id="eip-786">One-Way ANOVA Table:  The formulas for SS(Total), SS(Factor) = SS(Between) and SS(Error) = SS(Within) are shown above.  This same information is provided by the TI calculator hypothesis test function ANOVA in STAT TESTS (syntax is ANOVA(L1, L2, L3) where L1, L2, L3 have the data from Plan 1, Plan 2, Plan 3 respectively).
+
+<table id="eip-id1172005012068" summary="General One-Way ANOVA Table with 3 rows and 4 columns.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <thead>
+          <row>
+            <entry align="center">Source of Variation</entry>
+            <entry align="center">Sum of Squares (SS)</entry>
+            <entry align="center">Degrees of Freedom (df)</entry>
+            <entry align="center">Mean Square (MS)</entry>
+            <entry align="center">F</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry align="center">Factor <newline/>(Between)</entry>
+            <entry align="center">SS(Factor) <newline/>= SS(Between) <newline/>=2.2458</entry>
+            <entry align="center">k - 1 <newline/>= 3 groups - 1 <newline/>= 2</entry>
+            <entry align="center">MS(Factor) <newline/>= SS(Factor)/(k-1)<newline/> = 2.2458/2 <newline/>= 1.1229</entry>
+            <entry align="center">F =<newline/> MS(Factor)/MS(Error) <newline/>= 1.1229/2.9792 <newline/>= 0.3769</entry>
+          </row>
+          <row>
+            <entry align="center">Error <newline/>(Within)</entry>
+            <entry align="center">SS(Error) <newline/>= SS(Within) <newline/>= 20.8542</entry>
+            <entry align="center">n - k <newline/>= 10 total data - 3 groups <newline/>= 7</entry>
+            <entry align="center">MS(Error) <newline/>= SS(Error)/(n-k) <newline/>= 20.8542/7 <newline/>= 2.9792</entry>
+            <entry align="center"/>   
+          </row>
+          <row>
+            <entry align="center">Total</entry>
+            <entry align="center">SS(Total) <newline/>= 2.9792 + 20.8542 <newline/>=23.1</entry>
+            <entry align="center">n - 1 <newline/>= 10 total data - 1 <newline/>= 9</entry>
+            <entry align="center"/>
+            <entry align="center"/>
+          </row>
+          
+            
+        </tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table></para></example><para id="element-260"><emphasis>The One-Way ANOVA hypothesis test is always right-tailed</emphasis> because larger F-values are
+way out in the right tail of the F-distribution curve and tend to make us reject 
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math>.</para><section id="element-628"><title>Notation</title>
+<para id="element-999">The notation for the F distribution is 
+<m:math>
+<m:mi>F</m:mi></m:math> ~
+<m:math>
+<m:msub>
+<m:mi>F</m:mi>
+<m:mrow>
+<m:mtext>df(num)</m:mtext>
+<m:mo>,</m:mo>
+<m:mtext>df(denom)</m:mtext>
+</m:mrow>
+</m:msub>
+</m:math></para><para id="element-966">where 
+<m:math>
+<m:mtext> df(num)</m:mtext>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>df</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub></m:math>
+and
+<m:math>
+<m:mtext> df(denom) </m:mtext>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>df</m:mi>
+<m:mtext> within </m:mtext>
+</m:msub></m:math></para><para id="element-181">The mean for the F distribution is 
+<m:math>
+<m:mi>μ</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mi>df(num)</m:mi>
+<m:mrow>
+<m:mi>df(denom)</m:mi>
+<m:mo>−</m:mo>
+<m:mn>1</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:math></para></section>
+  </content>
+  
+</document>

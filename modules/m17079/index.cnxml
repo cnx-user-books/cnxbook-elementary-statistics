@@ -1,0 +1,171 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" class="lab">
+  <title>Lab 3: Regression (Fuel Efficiency)</title>
+  <metadata>
+  <md:content-id>m17079</md:content-id><md:title>Lab 3: Regression (Fuel Efficiency)</md:title>
+  <md:abstract>This module provides a lab of Linear Regression and Correlation as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>5bde65d9-94b2-43bc-bf8b-bc13e2a6dc59</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Linear Regression and Correlation- Lab III.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="Linear Regression and Correlation- Lab III.doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id7738260">Class Time: </para>
+    <para id="id7843117">Names:</para>
+    <section id="id-292188973813">
+      <title>Student Learning Outcomes: </title>
+      <list id="id7650443" list-type="bulleted">
+        <item>The student will calculate and construct the line of best fit between two variables.</item>
+        <item>The student will evaluate the relationship between two variables to determine if that relationship is significant. </item>
+      </list>
+    </section>
+<section id="element-377"><title>Collect the Data</title><para id="element-7">Use the most recent April issue of Consumer Reports. It will give the total fuel efficiency (in
+miles per gallon) and weight (in pounds) of new model cars with automatic transmissions. We
+will use this data to determine the relationship, if any, between the fuel efficiency of a car and
+its weight.</para>
+<list id="list-238765865" list-type="enumerated"><item> Which variable should be the independent variable and which should be the dependent variable? Explain your answer in one or two complete sentences.</item>
+
+<item>Using your random number generator, randomly select 20 cars from the list and record their
+weights and fuel efficiency into the table below.
+<table id="id7895697570" summary="Blank table with weight in the first column and fuel efficiency in the second column. 40 empty cells.">
+
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+					<colspec colnum="2" colname="c2"/>
+					<thead>
+						<row>
+							<entry>Weight</entry>
+							<entry>Fuel Efficiency</entry>
+						</row>
+</thead>
+<tbody>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+						<row>
+							<entry/>
+							<entry/>
+						</row>
+					  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+  <row>
+    <entry/>
+    <entry/>
+  </row>
+</tbody>
+				
+
+
+
+</tgroup>
+</table></item>
+	<item>Which variable should be the dependent variable and which should be the independent
+variable? Why?</item>
+	<item>By hand, do a scatterplot of “weight” vs. “fuel efficiency”. Plot the points on graph paper.
+Label both axes with words. Scale both axes accurately.<figure id="id21784687"><media id="id21784693" alt="Blank graph with vertical and horizontal axes."><image src="../../media/graph12.PNG" mime-type="image/png" print-width="4in"/></media></figure></item>
+</list></section><section id="element-10"><title>Analyze the Data</title><para id="element-765474">
+Enter your data into your calculator or computer.
+Write the linear equation below, rounding to 4 decimal places.</para>
+
+<list id="list-863524" list-type="enumerated" mark-suffix="."><item> Calculate the following:
+<list id="list-7528634" list-type="labeled-item" mark-suffix=".">
+			<item><label>a</label><m:math>
+					<m:mi>a</m:mi></m:math> =</item>
+			<item><label>b</label>
+				<m:math><m:mi>b</m:mi>
+				</m:math> =</item>
+			<item><label>c</label> correlation =</item>
+			<item><label>d</label>
+				<m:math><m:mi>n</m:mi></m:math> =</item>
+			<item><label>e</label> equation: <m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:math>
+=</item>
+			</list></item>
+	<item>Obtain the graph of the regression line on your calculator. Sketch the regression line on the
+same axes as your scatterplot.</item>
+</list></section><section id="element-414"><title>Discussion Questions</title><list id="list-74763" list-type="enumerated" mark-suffix="."><item> Is the correlation significant? Explain how you determined this in complete sentences.</item>
+<item>Is the relationship a positive one or a negative one? Explain how you can tell and what
+this means in terms of weight and fuel efficiency.</item>
+<item>In one or two complete sentences, what is the practical interpretation of the slope of the least
+squares line in terms of fuel efficiency and weight?</item>
+<item>For a car that weighs 4000 pounds, predict its fuel efficiency. Include units.</item>
+<item>Can we predict the fuel efficiency of a car that weighs 10000 pounds using the least
+squares line? Explain why or why not.</item>
+<item>Questions. Answer each in 1 to 3 complete sentences.
+<list id="list-9769782345" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label> Does the line seem to fit the data? Why or why not?</item>
+<item><label>b</label> What does the correlation imply about the relationship between fuel efficiency and
+weight of a car? Is this what you expected?</item></list></item>
+<item> Are there any outliers? If so, which point is an outlier?</item></list></section>
+    
+      <para id="id6944495">** This lab was designed and contributed by Diane Mathios.</para>
+ 
+  </content>
+</document>

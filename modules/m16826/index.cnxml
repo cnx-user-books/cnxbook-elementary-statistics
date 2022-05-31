@@ -1,0 +1,687 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="lab">
+  <title>Lab 2: Discrete Distribution (Lucky Dice Experiment)</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16826</md:content-id>
+  <md:title>Lab 2: Discrete Distribution (Lucky Dice Experiment)</md:title>
+  <md:abstract>This module allows students to apply concepts related to discrete distributions to a simple dice experiment.  Students will compare empirical data and a theoretical distribution to determine if the game fits a discrete distribution.  This experiment involves the concept of long-term probabilities.</md:abstract>
+  <md:uuid>be37ef89-ac3a-4ae7-bedb-00f348f12e4e</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Discrete Random Variables- Lab II.doc" strength="3">Download handout (.doc)</link>
+      <link url="Discrete Random Variables- Lab II.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id8143321">Class Time: </para>
+    
+    <para id="id8332839">Names:</para>
+    <section id="id-687089797809">
+      <title>Student Learning Outcomes:</title>
+      <list id="id8107935" list-type="bulleted">
+        <item>The student will compare empirical data and a theoretical distribution to determine if a Tet gambling game fits a discrete distribution. </item>
+        <item>The student will demonstrate an understanding of long-term probabilities.</item>
+      </list></section>
+      <section id="element-7"><title>Supplies: </title>
+<list id="element-254" list-type="bulleted"><item>1 game “Lucky Dice” or 3 regular dice
+</item>
+</list>
+      
+      <note id="id3853229">For a detailed game description, refer <link document="m16823" target-id="#element-650">here</link>.  (The link goes to the beginning of Discrete Random Variables Homework. Please refer to Problem #14.) </note><note id="id3438540">Round relative frequencies and probabilities to four decimal places.</note></section>
+      
+<section id="id-9638572585"><title>The Procedure</title><list id="list-2397564" list-type="enumerated"><item>The experiment procedure is to bet on one object. Then, roll 3 Lucky Dice and count the number of matches. The number of matches will decide your profit.</item>
+	<item>What is the theoretical probability of 1 die matching the object? <m:math><m:mo>_________</m:mo></m:math></item>
+	<item>Choose one object to place a bet on. Roll the 3 Lucky Dice. Count the number of matches. </item>
+	<item>Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> = number of matches. Theoretically, 
+<m:math><m:mrow><m:mi>X</m:mi><m:mo> ~ </m:mo><m:mi>B</m:mi><m:mo>(______,______)</m:mo></m:mrow></m:math></item>
+	<item>Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>Y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Y} {}</m:annotation></m:semantics></m:math> = profit per game. </item>
+</list></section>
+
+<section id="id-9687585">
+<title>Organize the Data</title>
+<para id="element-234597">
+In the chart below, fill in the <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>Y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Y} {}</m:annotation></m:semantics></m:math> value that corresponds to each <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> value. Next, record the number of matches picked for your class. Then, calculate the relative frequency.</para>
+<list id="list-23985798265" list-type="enumerated" mark-suffix="."><item>Complete the table.
+		<table id="id8096op536" summary="">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+				<colspec colnum="2" colname="c2"/>
+				<colspec colnum="3" colname="c3"/>
+				<colspec colnum="4" colname="c4"/>
+				<colspec colnum="5" colname="c5"/>
+				<colspec colnum="6" colname="c6"/>
+				<thead>
+					<row>
+						<entry>x</entry>
+						<entry>y</entry>
+						<entry>Frequency</entry>
+						<entry>Relative Frequency</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>0</entry>
+						<entry/>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>1</entry>
+						<entry/>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>2</entry>
+						<entry/>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>3</entry>
+						<entry/>
+						<entry/>
+						<entry/>
+					</row>
+				</tbody>
+			
+
+</tgroup>
+</table>
+	</item>
+	<item> Calculate the Following: 
+<list id="element-640" list-type="labeled-item" mark-suffix=".">
+	<item><label>a</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mover accent="true">
+									<m:mi>x</m:mi>
+									<m:mo>¯</m:mo>
+								</m:mover>
+								<m:mo stretchy="false">=</m:mo>
+								<m:mrow/>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} ={}} {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><label>b</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:msub>
+									<m:mi>s</m:mi>
+									<m:mstyle fontsize="8pt">
+										<m:mrow>
+											<m:mi>x</m:mi>
+										</m:mrow>
+									</m:mstyle>
+								</m:msub>
+								<m:mo stretchy="false">=</m:mo>
+								<m:mrow/>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{s rSub { size 8{x} } ={}} {}</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><label>c</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:mover accent="true">
+									<m:mi>y</m:mi>
+									<m:mo>¯</m:mo>
+								</m:mover>
+								<m:mo stretchy="false">=</m:mo>
+								<m:mrow/>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{ {overline  {y}} ={}} {}</m:annotation>
+			</m:semantics>
+		</m:math>
+
+	</item>
+	<item><label>d</label>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mstyle fontsize="12pt">
+						<m:mrow>
+							<m:mrow>
+								<m:msub>
+									<m:mi>s</m:mi>
+									<m:mstyle fontsize="8pt">
+										<m:mrow>
+											<m:mi>y</m:mi>
+										</m:mrow>
+									</m:mstyle>
+								</m:msub>
+								<m:mo stretchy="false">=</m:mo>
+								<m:mrow/>
+							</m:mrow>
+						</m:mrow>
+					</m:mstyle>
+					<m:mrow/>
+				</m:mrow>
+				<m:annotation encoding="StarMath 5.0"> size 12{s rSub { size 8{y} } ={}} {}</m:annotation>
+			</m:semantics>
+		</m:math>
+		
+	</item></list></item>
+	<item>Explain what 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {x}} } {}</m:annotation></m:semantics></m:math> represents.</item>
+	<item>Explain what 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>y</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {y}} } {}</m:annotation></m:semantics></m:math> represents.</item>
+	<item>Based upon the experiment: 
+<list id="list-9876876586" list-type="labeled-item" mark-suffix=".">
+			
+			<item><label>a</label>What was the average profit per game? </item>
+			<item><label>b</label>Did this represent an average win or loss per game? </item>
+			<item><label>c</label>How do you know? Answer in complete sentences.</item>
+		</list></item>
+	<item>Construct a histogram of the empirical data
+<figure id="id18572910"><media id="id18596063" alt="Blank graph with relative frequency on the vertical axis and number of matches on the horizontal axis."><image src="../../media/graph4.PNG" mime-type="image/png" width="400" print-width="4in"/></media></figure></item></list>
+</section>
+
+
+<section id="id-92736548755">
+<title>Theoretical Distribution</title>
+<para id="element-89757864587624">Build the theoretical PDF chart for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>Y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Y} {}</m:annotation></m:semantics></m:math> based on the distribution from the section titled "The Procedure".</para>
+
+<list id="list-529786925" list-type="enumerated" mark-suffix=".">
+<item>
+<table id="id8012631" summary="This table is similar to the previous table except it only has three columns. The first column has the values of X, 0-3, the blank second column is for values of Y to be entered, and the blank third column is for values of P(X=x)=P(Y=y)."><tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+<thead>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+          
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>P</m:mi>
+                            <m:mrow>
+                              <m:mfenced open="(" close=")">
+                                <m:mrow>
+                                  
+                                  
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mfenced>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mi>P</m:mi>
+                            </m:mrow>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                
+                                
+                                <m:mi>y</m:mi>
+                              </m:mrow>
+                            </m:mfenced>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{P left (X=x right )=P left (Y=y right )} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+            </row>
+</thead>        
+
+  <tbody>
+
+            <row>
+              <entry>0</entry>
+              <entry/>
+         
+              <entry/>
+            </row>
+
+            <row>
+              <entry>1</entry>
+              <entry/>
+      
+              <entry/>
+            </row>
+
+            <row>
+              <entry>2</entry>
+              <entry/>
+              <entry/>
+            
+            </row>
+
+            <row>
+              <entry>3</entry>
+              <entry/>   <entry/>
+            </row>
+
+          </tbody>
+        
+
+</tgroup>
+</table></item>
+
+<item>Calculate the following
+<list id="list-82735687268357" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{x} } ={}} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>b</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>σ</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{σ rSub { size 8{x} } ={}} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+        <item><label>c</label>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{y} } ={}} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </item>
+      
+</list>
+</item>
+
+<item>Explain what 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> represents.</item>
+
+<item>Explain what 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math> represents.</item>
+
+<item> Based upon theory:<list id="element-35" list-type="labeled-item" mark-suffix="."> <item><label>a</label>What was the expected profit per game? </item>
+     
+<item><label>b</label>Did the expected profit represent an average win or loss per game? </item>
+      
+<item><label>c</label>How do you know? Answer in complete sentences.</item>
+      </list></item>
+
+<item>Construct a histogram of the theoretical distribution. <figure id="id18402808"><media id="id18810469" alt="Blank graph with relative frequency on the vertical axis and number of matches on the horizontal axis."><image src="../../media/graph3.PNG" mime-type="image/png" width="400" print-width="4in"/></media></figure> </item></list>
+
+</section>
+
+
+
+<section id="id-2394576875625">
+<title>Use the Data</title>
+<para id="element-23956825">
+Calculate the following (rounded to 4 decimal places):
+</para>
+<note id="id5250703"><m:math><m:mtext>RF</m:mtext></m:math> = relative frequency</note>
+<para id="element-23525">Use the data from the section titled "Theoretical Distribution" here:
+<list id="listular" list-type="enumerated"><item>
+			<m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mstyle fontsize="12pt">
+							<m:mrow>
+								<m:mrow>
+									<m:mi>P</m:mi>
+									<m:mrow>
+										<m:mfenced open="(" close=")">
+											<m:mrow>
+												<m:mi>x</m:mi>
+												<m:mo stretchy="false">=</m:mo>
+												<m:mn>3</m:mn>
+											</m:mrow>
+										</m:mfenced>
+										<m:mo stretchy="false">=</m:mo>
+										<m:mrow/>
+									</m:mrow>
+								</m:mrow>
+							</m:mrow>
+						</m:mstyle>
+						<m:mrow/>
+					</m:mrow>
+					<m:annotation encoding="StarMath 5.0"> size 12{P left (x=3 right )={}} {}</m:annotation>
+				</m:semantics>
+			</m:math><m:math><m:mtext>____________</m:mtext></m:math>
+		</item>
+		<item>
+			<m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mstyle fontsize="12pt">
+							<m:mrow>
+								<m:mrow>
+									<m:mi>P</m:mi>
+									<m:mrow>
+										<m:mfenced open="(" close=")">
+											<m:mrow>
+												<m:mrow>
+													<m:mn>0</m:mn>
+													<m:mo stretchy="false">&lt;</m:mo>
+													<m:mi>x</m:mi>
+												</m:mrow>
+												<m:mo stretchy="false">&lt;</m:mo>
+												<m:mn>3</m:mn>
+											</m:mrow>
+										</m:mfenced>
+										<m:mo stretchy="false">=</m:mo>
+										<m:mrow/>
+									</m:mrow>
+								</m:mrow>
+							</m:mrow>
+						</m:mstyle>
+						<m:mrow/>
+					</m:mrow>
+					<m:annotation encoding="StarMath 5.0"> size 12{P left (0&lt;x&lt;3 right )={}} {}</m:annotation>
+				</m:semantics>
+			</m:math><m:math><m:mtext>____________</m:mtext></m:math>
+		</item>
+		<item>
+			<m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mstyle fontsize="12pt">
+							<m:mrow>
+								<m:mrow>
+									<m:mi>P</m:mi>
+									<m:mrow>
+										<m:mfenced open="(" close=")">
+											<m:mrow>
+												<m:mi>x</m:mi>
+												<m:mo stretchy="false">≥</m:mo>
+												<m:mn>2</m:mn>
+											</m:mrow>
+										</m:mfenced>
+										<m:mo stretchy="false">=</m:mo>
+										<m:mrow/>
+									</m:mrow>
+								</m:mrow>
+							</m:mrow>
+						</m:mstyle>
+						<m:mrow/>
+					</m:mrow>
+					<m:annotation encoding="StarMath 5.0"> size 12{P left (x &gt;= 2 right )={}} {}</m:annotation>
+				</m:semantics>
+			</m:math><m:math><m:mtext>____________</m:mtext></m:math>
+		</item>
+	</list>
+</para><para id="element-872568354">Use the data from the section titled "Organize the Data" here:
+<list id="element-997" list-type="enumerated"><item>
+			<m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mstyle fontsize="12pt">
+							<m:mrow>
+								<m:mrow>
+									<m:mstyle fontstyle="italic">
+										<m:mrow>
+											<m:mtext>RF</m:mtext>
+										</m:mrow>
+									</m:mstyle>
+									<m:mrow>
+										<m:mfenced open="(" close=")">
+											<m:mrow>
+												<m:mi>x</m:mi>
+												<m:mo stretchy="false">=</m:mo>
+												<m:mn>3</m:mn>
+											</m:mrow>
+										</m:mfenced>
+										<m:mo stretchy="false">=</m:mo>
+										<m:mrow/>
+									</m:mrow>
+								</m:mrow>
+							</m:mrow>
+						</m:mstyle>
+						<m:mrow/>
+					</m:mrow>
+					<m:annotation encoding="StarMath 5.0"> size 12{ ital "RF" left (x=3 right )={}} {}</m:annotation>
+				</m:semantics>
+			</m:math><m:math><m:mtext>____________</m:mtext></m:math>
+		</item>
+		<item>
+			<m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mstyle fontsize="12pt">
+							<m:mrow>
+								<m:mrow>
+									<m:mstyle fontstyle="italic">
+										<m:mrow>
+											<m:mtext>RF</m:mtext>
+										</m:mrow>
+									</m:mstyle>
+									<m:mrow>
+										<m:mfenced open="(" close=")">
+											<m:mrow>
+												<m:mrow>
+													<m:mn>0</m:mn>
+													<m:mo stretchy="false">&lt;</m:mo>
+													<m:mi>x</m:mi>
+												</m:mrow>
+												<m:mo stretchy="false">&lt;</m:mo>
+												<m:mn>3</m:mn>
+											</m:mrow>
+										</m:mfenced>
+										<m:mo stretchy="false">=</m:mo>
+										<m:mrow/>
+									</m:mrow>
+								</m:mrow>
+							</m:mrow>
+						</m:mstyle>
+						<m:mrow/>
+					</m:mrow>
+					<m:annotation encoding="StarMath 5.0"> size 12{ ital "RF" left (0&lt;x&lt;3 right )={}} {}</m:annotation>
+				</m:semantics>
+			</m:math><m:math><m:mtext>____________</m:mtext></m:math>
+		</item>
+		<item>
+			<m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mstyle fontsize="12pt">
+							<m:mrow>
+								<m:mrow>
+									<m:mstyle fontstyle="italic">
+										<m:mrow>
+											<m:mtext>RF</m:mtext>
+										</m:mrow>
+									</m:mstyle>
+									<m:mrow>
+										<m:mfenced open="(" close=")">
+											<m:mrow>
+												<m:mi>x</m:mi>
+												<m:mo stretchy="false">≥</m:mo>
+												<m:mn>2</m:mn>
+											</m:mrow>
+										</m:mfenced>
+										<m:mo stretchy="false">=</m:mo>
+										<m:mrow/>
+									</m:mrow>
+								</m:mrow>
+							</m:mrow>
+						</m:mstyle>
+						<m:mrow/>
+					</m:mrow>
+					<m:annotation encoding="StarMath 5.0"> size 12{ ital "RF" left (x &gt;= 2 right )={}} {}</m:annotation>
+				</m:semantics>
+			</m:math>
+			<m:math><m:mtext>____________</m:mtext></m:math>
+		</item>
+	</list></para>
+</section>
+
+
+
+<section id="id-927875827654">
+<title> Discussion Question</title>
+<para id="element-508">For questions 1. and 2., consider the graphs, the probabilities and relative frequencies, the means and the standard deviations.</para><list id="list-2359768725" list-type="enumerated"><item>Knowing that data vary, describe three similarities between the graphs and distributions of the theoretical and empirical distributions. Use complete sentences. (Note: these answers may vary and still be correct.)</item>
+
+<item>Describe the three most significant differences between the graphs or distributions of the theoretical and empirical distributions. (Note: these answers may vary and still be correct.)</item>
+
+<item>Thinking about your answers to 1. and 2.,does it appear that the data fit the theoretical distribution? In 1 - 3 complete sentences, explain why or why not.</item>
+
+<item>Suppose that the experiment had been repeated 500 times. Which table (from "Organize the Data" or "Theoretical Distribution") would you expect to change? Why? How might the table change?</item></list>
+</section>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+    
+  </content>
+</document>

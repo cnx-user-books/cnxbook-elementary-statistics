@@ -1,0 +1,24 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Summary</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17072</md:content-id>
+  <md:title>Summary</md:title>
+  <md:abstract>This module provides a summary of F Distribution and One-Way ANOVA as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>42963037-57a0-4c45-ab59-c1a7e9146a15</md:uuid>
+</metadata>
+
+<content>
+    <list id="element-573" list-type="bulleted"><item>A <emphasis>One-Way ANOVA</emphasis> hypothesis test determines if several population means are equal. The
+distribution for the test is the F distribution with 2 different degrees of freedom.
+<list id="list1.1" list-type="enumerated"><title>Assumptions:</title><item>Each population from which a sample is taken is assumed to be normal.</item>
+<item>Each sample is randomly selected and independent.</item>
+<item>The populations are assumed to have equal standard deviations (or variances)</item>
+</list></item>
+<item>A <emphasis>Test of Two Variances</emphasis> hypothesis test determines if two variances are the same.
+The distribution for the hypothesis test is the F distribution with 2 different degrees of
+freedom.
+<list id="list2" list-type="enumerated"><title>Assumptions:</title><item>The populations from which the two samples are drawn are normally distributed.</item>
+<item>The two populations are independent of each other.</item>
+</list></item></list></content>
+  
+</document>

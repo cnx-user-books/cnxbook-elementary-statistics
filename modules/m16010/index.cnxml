@@ -1,0 +1,873 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="homework">
+  <title>Homework</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16010</md:content-id>
+  <md:title>Homework</md:title>
+  <md:abstract>This module presents students with a number of problems related to statistical sampling and data.  In particular, students are asked to demonstrate understanding of concepts such as frequency, relative frequency, and cumulative relative frequency, random samples, quantitative vs. qualitative data, continuous vs. discrete data, and other key terms related to sampling and data.</md:abstract>
+  <md:uuid>beb83b9c-5a78-4971-8a0a-496f42ec567c</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="m16010_Homework_download.doc" strength="3">Download handout (.doc)</link>
+      <link url="m16010_Homework_download.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    
+      <exercise id="element-842"><problem id="id30102618">
+		<para id="element-526">For each item below:</para><list id="element-653" list-type="labeled-item" mark-suffix="."><item><label>i</label>Identify the type of data (quantitative - discrete, quantitative - continuous, or qualitative) that would be used to describe a response. 
+</item>
+<item><label>ii</label>Give an example of the data.
+		</item></list><list id="element-446" list-type="labeled-item" mark-suffix="."><item><label>a</label>Number of tickets sold to a concert</item>
+<item><label>b</label>Amount of body fat</item>
+<item><label>c</label>Favorite baseball team</item>
+<item><label>d</label>Time in line to buy groceries</item>
+<item><label>e</label>Number of students enrolled at Evergreen Valley College</item>
+<item><label>f</label>Most–watched television show</item>
+<item><label>g</label>Brand of toothpaste</item>
+<item><label>h</label>Distance to the closest movie theatre</item>
+<item><label>i</label>Age of executives in Fortune 500 companies</item>
+<item><label>j</label>Number of competing computer spreadsheet software packages</item>
+</list>
+
+
+        
+	</problem>
+
+	
+<solution id="id30387347">
+<list id="element-1275" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>quantitative - discrete</item>
+<item><label>b</label>quantitative - continuous</item>
+<item><label>c</label>qualitative</item>
+<item><label>d</label>quantitative - continuous</item>
+<item><label>e</label>quantitative - discrete</item>
+<item><label>f</label>qualitative</item>
+<item><label>g</label>qualitative</item>
+<item><label>h</label>quantitative - continuous</item>
+<item><label>i</label>quantitative - continuous</item>
+<item><label>j</label>quantitative - discrete</item>
+
+</list>
+</solution></exercise>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <exercise id="element-376"><problem id="id29870590">
+		<para id="element-782">Fifty part-time students were asked how many courses they were taking this term. The (incomplete) results are shown below:
+		</para>
+<table id="element-795" summary="This incomplete table will be completed by the student as an exercise using the values provided.  Fifty students were asked how many courses they were taking; for every value in the first column, students are given or must calculate the frequency of responses in the second column, the relative frequency in the third column, and the cumulative relative frequency in the fourth column.">
+
+<title>Part-time Student Course Loads</title>
+<tgroup cols="4"><colspec colnum="1" colname="header_c1" colwidth="*"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+
+          <thead>
+          <row>
+              <entry>
+                # of Courses
+              </entry>
+              <entry>
+                Frequency
+              </entry>
+              <entry>
+                Relative Frequency
+              </entry>
+              <entry>
+                Cumulative Relative Frequency
+              </entry>
+            </row>
+              </thead>
+          <tbody>
+            <row>
+              <entry>1</entry>
+              <entry>30</entry>
+              <entry>0.6</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>15</entry>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table>
+<list id="element-190" list-type="labeled-item" mark-suffix="."><item><label>a</label>Fill in the blanks in the table above.</item>
+        <item><label>b</label>What percent of students take exactly two courses? </item>
+        <item><label>c</label>What percent of students take one or two courses? </item>
+      </list>
+	</problem>
+</exercise>
+      
+      
+      
+      
+      <exercise id="element-945"><problem id="id29870923">
+		<para id="element-426">Sixty adults with gum disease were asked the number of times per week they used to floss before their diagnoses. The (incomplete) results are shown below:
+		</para><table id="element-619" summary="">
+<title>Flossing Frequency for Adults with Gum Disease</title>
+<tgroup cols="4"><colspec colnum="1" colname="header_c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>
+                 # Flossing per Week 
+              </entry>
+              <entry>
+                 Frequency 
+              </entry>
+              <entry>
+                 Relative Frequency 
+              </entry>
+              <entry>
+                 Cumulative Relative Freq. 
+              </entry>
+            </row>
+            </thead>
+            <tbody>
+            <row>
+              <entry>0</entry>
+              <entry>27</entry>
+              <entry>0.4500</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry>18</entry>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry/>
+              <entry/>
+              <entry>0.9333</entry>
+            </row>
+            <row>
+              <entry>6</entry>
+              <entry>3</entry>
+              <entry>0.0500</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>7</entry>
+              <entry>1</entry>
+              <entry>0.0167</entry>
+              <entry/>
+            </row>
+          </tbody>
+        
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table>
+<list id="element-502" list-type="labeled-item" mark-suffix="."><item><label>a</label>Fill in the blanks in the table above.</item>
+        <item><label>b</label>What percent of adults flossed six times per week?</item>
+        <item><label>c</label>What percent flossed at most three times per week?</item>
+      </list>
+	</problem>
+
+	<solution id="id30125528">
+<list id="element-26434" mark-suffix="." list-type="labeled-item"><item><label>a</label>
+Cum. Rel. Freq. for 0 is 0.4500
+<newline/>
+Rel. Freq. for 1 is 0.3000 and Cum. Rel. Freq. for 1 or less is 0.7500
+<newline/>
+Freq. for 3 is 11 and Rel. Freq. is 0.1833
+<newline/>
+Cum. Rel. Freq. for 6 or less is 0.9833
+<newline/>
+Cum. Rel. Freq. for 7 or less is 1
+</item>
+ 
+<item><label>b</label>5.00%</item>
+<item><label>c</label>93.33%</item>
+</list></solution></exercise>
+      
+      
+      <exercise id="element-188"><problem id="id30125588">
+		<para id="element-424">A fitness center is interested in the mean amount of time a client exercises in the center each week. Define the following in terms of the study. Give examples where appropriate.
+		</para><list id="element-737" list-type="labeled-item" mark-suffix="."><item><label>a</label>Population</item>
+	<item><label>b</label>Sample</item>
+	<item><label>c</label>Parameter</item>
+<item><label>d</label>Statistic</item>
+<item><label>e</label>Variable</item>
+<item><label>f</label>Data</item></list>
+	</problem>
+
+</exercise>
+      <exercise id="element-951"><problem id="id30142690">
+		<para id="element-812">Ski resorts are interested in the mean age that children take their first ski and snowboard lessons. They need this information to optimally plan their ski classes. Define the following in terms of the study.  Give examples where appropriate.
+		</para><list id="element-714" list-type="labeled-item" mark-suffix="."><item><label>a</label>Population</item>
+	<item><label>b</label>Sample</item>
+	<item><label>c</label>Parameter</item>
+<item><label>d</label>Statistic</item>
+<item><label>e</label>Variable</item>
+<item><label>f</label>Data</item></list>
+	</problem>
+<solution id="id30142809">
+<list id="element-36236" mark-suffix="." list-type="labeled-item"><item><label>a</label>Children who take ski or snowboard lessons</item>
+<item><label>b</label>A group of these children</item>
+<item><label>c</label>The population mean</item>
+<item><label>d</label>The sample mean</item>
+<item><label>e</label><m:math><m:mi>X</m:mi></m:math> = the age of one child who takes the first ski or snowboard lesson</item>
+<item><label>f</label>Values for <m:math><m:mi>X</m:mi></m:math>, such as 3, 7, etc.</item>
+</list></solution></exercise>
+      
+      
+      <exercise id="element-776"><problem id="id30142935">
+		<para id="element-85">A cardiologist is interested in the mean recovery period for her patients who have had heart attacks. Define the following in terms of the study. Give examples where appropriate.
+		</para><list id="element-759" list-type="labeled-item" mark-suffix="."><item><label>a</label>Population</item>
+	<item><label>b</label>Sample</item>
+	<item><label>c</label>Parameter</item>
+<item><label>d</label>Statistic</item>
+<item><label>e</label>Variable</item>
+<item><label>f</label>Data</item></list>
+	</problem>
+</exercise>
+      
+      <exercise id="element-54"><problem id="id30143063">
+		<para id="element-530">Insurance companies are interested in the mean health costs each year for their clients, so that they can determine the costs of health insurance. Define the following in terms of the study. Give examples where appropriate.
+		</para><list id="element-120" list-type="labeled-item" mark-suffix="."><item><label>a</label>Population</item>
+	<item><label>b</label>Sample</item>
+	<item><label>c</label>Parameter</item>
+<item><label>d</label>Statistic</item>
+<item><label>e</label>Variable</item>
+<item><label>f</label>Data</item></list>
+	</problem>
+<solution id="id30200870">
+<list id="element-362362" mark-suffix="." list-type="labeled-item"><item><label>a</label>The clients of the insurance companies</item>
+<item><label>b</label>A group of the clients</item>
+<item><label>c</label>The mean health costs of the clients</item>
+<item><label>d</label>The mean health costs of the sample</item>
+<item><label>e</label><m:math><m:mi>X</m:mi></m:math> = the health costs of one client</item>
+<item><label>f</label>Values for <m:math><m:mi>X</m:mi></m:math>, such as 34, 9, 82, etc.</item>
+</list></solution></exercise>
+      
+      <exercise id="element-605"><problem id="id30200997">
+		<para id="element-540">A politician is interested in the proportion of voters in his district that think he is doing a good job. Define the following in terms of the study. Give examples where appropriate.
+		</para><list id="element-522" list-type="labeled-item" mark-suffix="."><item><label>a</label>Population</item>
+	<item><label>b</label>Sample</item>
+	<item><label>c</label>Parameter</item>
+<item><label>d</label>Statistic</item>
+<item><label>e</label>Variable</item>
+<item><label>f</label>Data</item></list>
+	</problem>
+</exercise>
+      
+      <exercise id="element-430"><problem id="id30201124">
+		<para id="element-145">A marriage counselor is interested in the proportion the clients she counsels that stay married. Define the following in terms of the study. Give examples where appropriate.
+		</para><list id="element-591" list-type="labeled-item" mark-suffix="."><item><label>a</label>Population</item>
+	<item><label>b</label>Sample</item>
+	<item><label>c</label>Parameter</item>
+<item><label>d</label>Statistic</item>
+<item><label>e</label>Variable</item>
+<item><label>f</label>Data</item></list>
+	</problem>
+<solution id="id30201242">
+<list id="element-362363" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>All the clients of the counselor</item>
+<item><label>b</label>A group of the clients</item>
+<item><label>c</label>The proportion of all her clients who stay married</item>
+<item><label>d</label>The proportion of the sample who stay married</item>
+<item><label>e</label><m:math><m:mi>X</m:mi></m:math> = the number of couples who stay married</item>
+<item><label>f</label>yes, no</item>
+</list>
+</solution></exercise>
+      
+      <exercise id="element-417"><problem id="id30201364">
+		<para id="element-150">Political pollsters may be interested in the proportion of people that will vote for a particular cause. Define the following in terms of the study. Give examples where appropriate.
+		
+		</para><list id="element-989" list-type="labeled-item" mark-suffix="."><item><label>a</label>Population</item>
+	<item><label>b</label>Sample</item>
+	<item><label>c</label>Parameter</item>
+<item><label>d</label>Statistic</item>
+<item><label>e</label>Variable</item>
+<item><label>f</label>Data</item></list>
+	</problem>
+</exercise>
+      
+      <exercise id="element-467"><problem id="id30201491">
+		<para id="element-404">A marketing company is interested in the proportion of people that will buy a particular product.  Define the following in terms of the study.  Give examples where appropriate.
+		</para><list id="element-742" list-type="labeled-item" mark-suffix="."><item><label>a</label>Population</item>
+	<item><label>b</label>Sample</item>
+	<item><label>c</label>Parameter</item>
+<item><label>d</label>Statistic</item>
+<item><label>e</label>Variable</item>
+<item><label>f</label>Data</item></list>
+	</problem>
+<solution id="id30201609">
+<list id="element-362356" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>All people (maybe in a certain geographic area, such as the United States)</item>
+<item><label>b</label>A group of the people</item>
+<item><label>c</label>The proportion of all people who will buy the product</item>
+<item><label>d</label>The proportion of the sample who will buy the product</item>
+<item><label>e</label><m:math><m:mi>X</m:mi></m:math> = the number of people who will buy it</item>
+<item><label>f</label>buy, not buy</item>
+</list>
+</solution></exercise>
+      
+      <exercise id="element-774"><problem id="id30201732">
+		<para id="element-563">Airline companies are interested in the consistency of the number of babies on each flight, so that they have adequate safety equipment. Suppose an airline conducts a survey. Over Thanksgiving weekend, it surveys 6 flights from Boston to Salt Lake City to determine the number of babies on the flights. It determines the amount of safety equipment needed by the result of that study.
+		</para><list id="element-797" list-type="labeled-item" mark-suffix="."><item><label>a</label>Using complete sentences, list three things wrong with the way the survey was conducted.</item>
+<item><label>b</label>Using complete sentences, list three ways that you would improve the survey if it were to be repeated.</item>
+      </list>
+	</problem>
+</exercise>
+      
+      <exercise id="element-746"><problem id="id30201811">
+		<para id="element-881">Suppose you want to determine the mean number of students per statistics class in your state. Describe a possible sampling method in 3 – 5 complete sentences. Make the description detailed.
+		</para></problem></exercise>
+      <exercise id="element-615"><problem id="id30201846">
+		<para id="element-176">Suppose you want to determine the mean number of cans of soda drunk each month by persons in their twenties. Describe a possible sampling method in 3 - 5 complete sentences. Make the description detailed.
+		</para></problem>
+</exercise>
+      <exercise id="element-752"><problem id="id30201877">
+		<para id="element-740">771 distance learning students at Long Beach City College responded to surveys in the 2010-11 academic year. Highlights of the summary report are listed in the table below.
+(Source: http://de.lbcc.edu/reports/2010-11/future/highlights.html#focus). </para>
+
+
+
+
+<table id="element-478" summary="This table presents a list of survey responses by Long Beach City College students in the first column, with percentages in the second column."><title>LBCC Distance Learning Survey Results</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Have computer at home</entry>
+              <entry>96%</entry>
+            </row>
+            <row>
+              <entry>Unable to come to campus for classes</entry>
+              <entry>65%</entry>
+            </row>
+            <row>
+              <entry>Age 41 or over</entry>
+              <entry>24%</entry>
+            </row>
+            <row>
+              <entry>Would like LBCC to offer more DL courses</entry>
+              <entry>95%</entry>
+            </row>
+            <row>
+              <entry>Took DL classes due to a disability</entry>
+              <entry>17%</entry>
+            </row>
+            <row>
+              <entry>Live at least 16 miles from campus</entry>
+              <entry>13%</entry>
+            </row>
+            <row>
+              <entry>Took DL courses to fulfill transfer requirements</entry>
+              <entry>71%</entry>
+            </row>
+            
+          </tbody>
+        
+
+
+
+
+
+
+</tgroup>
+</table>
+
+
+<list id="element-431" mark-suffix="." list-type="labeled-item"><item><label>a</label>What percent of the students surveyed do not have a computer at home? </item>
+        <item><label>b</label>About how many students in the survey live at least 16 miles from campus?</item>
+        
+<item><label>c</label>If the same survey was done at Great Basin College in Elko, Nevada, do you think the percentages would  be the same? Why? </item>
+</list>
+
+	</problem>
+
+<solution id="eip-id1172438281578">
+<list id="eip-id1172442106360" list-type="labeled-item"><item><label>a</label>4%</item>
+<item><label>b</label>100</item>
+</list></solution>
+
+	
+</exercise><exercise id="element-514"><problem id="id30202348">
+		<para id="element-314">
+			Nineteen immigrants to the U.S were asked how many years, to the nearest year, they have lived in the U.S. The data are as follows:
+		</para><para id="element-663"><list id="set-element-773" list-type="labeled-item" display="inline"><item>2</item>
+<item>5</item>
+<item>7</item>
+<item>2</item>
+<item>2</item>
+<item>10</item>
+<item>20</item>
+<item>15</item>
+<item>0</item>
+<item>7</item>
+<item>0</item>
+<item>20</item>
+<item>5</item>
+<item>12</item>
+<item>15</item>
+<item>12</item>
+<item>4</item>
+<item>5</item>
+<item>10</item>
+</list></para><para id="element-20">The following table was produced:</para><table id="element-9" summary="This table presents the frequencies associated with the given data set, with the first column containing the data value, the second column containing the frequency, the third column containing the relative frequency (expressed as a fraction), and the fourth column expressing the cumulative relative frequency (expressed as a decimal).">
+
+<title>Frequency of Immigrant Survey Responses</title>
+<tgroup cols="4"><colspec colnum="1" colname="header_c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>
+                Data
+              </entry>
+              <entry>
+                Frequency
+              </entry>
+              <entry>
+                Relative Frequency
+              </entry>
+              <entry>
+                Cumulative Relative Frequency
+              </entry>
+            </row>
+</thead>
+<tbody>
+            <row>
+              <entry>0</entry>
+              <entry>2</entry>
+              <entry>
+<m:math>
+  <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>19</m:mn>
+  </m:mfrac>
+</m:math>
+</entry>
+              <entry>0.1053</entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>3</entry>
+              <entry>
+<m:math>
+  <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>19</m:mn>
+  </m:mfrac>
+</m:math>
+</entry>
+              <entry>0.2632</entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>1</entry>
+              <entry>
+<m:math>
+  <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>19</m:mn>
+  </m:mfrac>
+</m:math>
+</entry>
+              <entry>0.3158</entry>
+            </row>
+            <row>
+              <entry>5</entry>
+              <entry>3</entry>
+              <entry>
+<m:math>
+  <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>19</m:mn>
+  </m:mfrac>
+</m:math>
+</entry>
+              <entry>0.1579</entry>
+            </row>
+            <row>
+              <entry>7</entry>
+              <entry>2</entry>
+              <entry>
+<m:math>
+  <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>19</m:mn>
+  </m:mfrac>
+</m:math>
+</entry>
+              <entry>0.5789</entry>
+            </row>
+            <row>
+              <entry>10</entry>
+              <entry>2</entry>
+              <entry>
+<m:math>
+  <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>19</m:mn>
+  </m:mfrac>
+</m:math>
+</entry>
+              <entry>0.6842</entry>
+            </row>
+            <row>
+              <entry>12</entry>
+              <entry>2</entry>
+              <entry>
+<m:math>
+  <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>19</m:mn>
+  </m:mfrac>
+</m:math>
+</entry>
+              <entry>0.7895</entry>
+            </row>
+            <row>
+              <entry>15</entry>
+              <entry>1</entry>
+              <entry>
+<m:math>
+  <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>19</m:mn>
+  </m:mfrac>
+</m:math>
+</entry>
+              <entry>0.8421</entry>
+            </row>
+            <row>
+              <entry>20</entry>
+              <entry>1</entry>
+              <entry>
+<m:math>
+  <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>19</m:mn>
+  </m:mfrac>
+</m:math>
+</entry>
+              <entry>1.0000</entry>
+            </row>
+          </tbody>
+        
+
+
+
+
+</tgroup>
+</table><list id="element-650" list-type="labeled-item" mark-suffix="."><item><label>a</label>Fix the errors on the table. Also, explain how someone might have arrived at the incorrect number(s).</item>
+        <item><label>b</label>Explain what is wrong with this statement: “47 percent of the people surveyed have lived in the U.S. for 5 years.” </item>
+        <item><label>c</label>Fix the statement above to make it correct.</item>
+        <item><label>d</label>What fraction of the people surveyed have lived in the U.S. 5 or 7 years?</item>
+        <item><label>e</label>What fraction of the people surveyed have lived in the U.S. at most 12 years?</item>
+        <item><label>f</label>What fraction of the people surveyed have lived in the U.S. fewer than 12 years?</item>
+        <item><label>g</label>What fraction of the people surveyed have lived in the U.S. from 5 to 20 years, inclusive?</item>
+      </list>
+	</problem>
+</exercise>
+      
+      
+      
+      
+      <exercise id="element-579"><problem id="id30103442">
+		<para id="element-143">A “random survey” was conducted of 3274 people of the “microprocessor generation” (people born since 1971, the year the microprocessor was invented). It was reported that 48% of those individuals surveyed stated that if they had $2000 to spend, they would use it for computer equipment. Also, 66% of those surveyed considered themselves relatively savvy computer users. (<cite><cite-title>Source: San Jose Mercury News</cite-title></cite>)
+		</para><list id="element-411" list-type="labeled-item" mark-suffix="."><item><label>a</label>Do you consider the sample size large enough for a study of this type? Why or why not?</item>
+        <item><label>b</label>Based on your “gut feeling,” do you believe the percents accurately reflect the U.S. population for those individuals born since 1971? If not, do you think the percents of the population are actually higher or lower than the sample statistics? Why?</item>
+      </list><para id="element-355">Additional information: The survey was reported by Intel Corporation of individuals who visited the Los Angeles Convention Center to see the Smithsonian Institure's road show called “America’s Smithsonian.”</para><list id="element-863" list-type="labeled-item" mark-suffix="."><item><label>c</label>With this additional information, do you feel that all demographic and ethnic groups were equally represented at the event? Why or why not?</item>
+        <item><label>d</label>With the additional information, comment on how accurately you think the sample statistics reflect the population parameters.</item>
+      </list>
+	</problem></exercise>
+      
+      
+      <exercise id="element-848"><problem id="id30103600">
+		<list id="element-854" list-type="labeled-item" mark-suffix="."><item><label>a</label>List some practical difficulties involved in getting accurate results from a telephone survey.</item>
+        <item><label>b</label>List some practical difficulties involved in getting accurate results from a mailed survey.</item>
+        <item><label>c</label>With your classmates, brainstorm some ways to overcome these problems if you needed to conduct a phone or mail survey.</item>
+      </list>
+	</problem></exercise>
+<section id="id30103668"><title>Try these multiple choice questions</title>
+
+      <para id="id10771715"><emphasis>The next four questions refer to the following:</emphasis> A Lake Tahoe Community College instructor is interested in the mean number of days Lake Tahoe Community College math students are absent from class during a quarter.</para><exercise id="element-230"><problem id="id30103712">
+		<para id="element-792">What is the population she is interested in?
+		</para><list id="element-978" list-type="labeled-item" mark-suffix="."><item><label>A</label>All Lake Tahoe Community College students</item>
+        <item><label>B</label>All Lake Tahoe Community College English students</item>
+        <item><label>C</label>All Lake Tahoe Community College students in her classes</item>
+        <item><label>D</label>All Lake Tahoe Community College math students</item>
+      </list>
+	</problem>
+<solution id="id30103802">
+<para id="element-356234">D</para>
+</solution></exercise>
+      
+      <exercise id="element-590"><problem id="id30103831">
+		<para id="element-311">Consider the following:
+
+		</para><para id="element-131"><emphasis><m:math>
+  <m:mi>X</m:mi>
+</m:math> = number of days a Lake Tahoe Community College math student is absent</emphasis></para><para id="element-561">In this case, <m:math><m:mi>X</m:mi></m:math> is an example of a:</para><list id="element-959" list-type="labeled-item" mark-suffix="."><item><label>A</label>Variable</item>
+	<item><label>B</label>Population</item>
+	<item><label>C</label>Statistic</item>
+	<item><label>D</label>Data</item></list>
+	</problem>
+<solution id="id30103955">
+<para id="element-35634">A</para>
+</solution></exercise>
+      
+      <exercise id="element-342"><problem id="id30103983">
+		<para id="element-27">
+			The instructor takes her sample by gathering data on 5 randomly selected students from each Lake Tahoe Community College math class. The type of sampling she used is
+		</para><list id="element-492" list-type="labeled-item" mark-suffix="."><item><label>A</label>Cluster sampling</item>
+	<item><label>B</label>Stratified sampling</item>
+	<item><label>C</label>Simple random sampling</item>
+	<item><label>D</label>Convenience sampling</item></list>
+	</problem>
+<solution id="id30104073">
+<para id="element-356234e">B</para>
+</solution></exercise>
+      
+      <exercise id="element-992"><problem id="id30104101">
+		<para id="element-827">The instructor’s sample produces an mean number of days absent of 3.5 days. This value is an example of a
+		</para><list id="element-303" list-type="labeled-item" mark-suffix="."><item><label>A</label>Parameter</item>
+	<item><label>B</label>Data</item>
+	<item><label>C</label>Statistic</item>
+	<item><label>D</label>Variable</item></list>
+	</problem>
+<solution id="id30104192">
+<para id="element-3562324">C</para>
+</solution></exercise>
+      <para id="id5096156"><emphasis>The next two questions</emphasis> refer to the following relative frequency table on hurricanes that have made direct hits on the U.S between 1851 and 2004. Hurricanes are given a strength category rating based on the minimum wind speed generated by the storm. (<cite url="http://www.nhc.noaa.gov/gifs/table5.gif"><cite-title>http://www.nhc.noaa.gov/gifs/table5.gif</cite-title></cite>)</para>
+      <table id="id9247047" summary="This incomplete table presents frequency data related to hurricane activity.  The first column displays the hurricane category, the second column displays the frequency of direct hits, the third column presents the relative frequency (expressed as a decimal), and the fourth column presents the cumulative relative frequency (expressed as a decimal).  The two missing values are to be caluculated by the students in the upcoming exercises.">
+
+<title>Frequency of Hurricane Direct Hits</title>
+<tgroup cols="4"><colspec colnum="1" colname="header_c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+ <row>
+              <entry>Category</entry>
+              <entry>Number of Direct Hits</entry>
+              <entry>Relative Frequency</entry>
+              <entry>Cumulative Frequency</entry>
+            </row>
+          </thead>
+          <tfoot><row>
+              <entry/>
+              <entry>Total = 273</entry>
+              <entry/>
+              <entry/>
+</row></tfoot>
+
+           <tbody>
+           
+            <row>
+              <entry>1</entry>
+              <entry>109</entry>
+              <entry>0.3993</entry>
+              <entry>0.3993</entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>72</entry>
+              <entry>0.2637</entry>
+              <entry>0.6630</entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>71</entry>
+              <entry>0.2601</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>18</entry>
+              <entry/>
+              <entry>0.9890</entry>
+            </row>
+            <row>
+              <entry>5</entry>
+              <entry>3</entry>
+              <entry>0.0110</entry>
+              <entry>1.0000</entry>
+            </row>
+          </tbody>
+        
+
+
+
+
+
+</tgroup>
+</table>
+      
+      
+      <exercise id="element-87"><problem id="id30104614">
+		<para id="element-933">What is the relative frequency of direct hits that were category 4 hurricanes?
+		</para><list id="element-662" list-type="labeled-item" mark-suffix="."><item><label>A</label>0.0768</item>
+	<item><label>B</label>0.0659</item>
+	<item><label>C</label>0.2601</item>
+<item><label>D</label>Not enough information to calculate</item></list>
+	</problem>
+<solution id="id30104703">
+<para id="element-3562341">B</para>
+</solution></exercise>
+      
+      <exercise id="element-627"><problem id="id30104731">
+		<para id="element-544">What is the relative frequency of direct hits that were AT MOST a category 3 storm?
+		</para><list id="element-359" list-type="labeled-item" mark-suffix="."><item><label>A</label>0.3480</item>
+	<item><label>B</label>0.9231</item>
+	<item><label>C</label>0.2601</item>
+<item><label>D</label>0.3370</item></list>
+	</problem>
+<solution id="id30104819">
+<para id="element-3564">B</para>
+</solution></exercise>
+      <para id="id8315610"><emphasis>The next three questions refer to the following:</emphasis> A study was done to determine the age, number of times per week and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed. </para>
+      
+      <exercise id="element-636"><problem id="id30104871">
+		<para id="element-253">
+			<quote display="inline" id="id30104887">‘Number of times per week’</quote> is what type of data?
+		</para><list id="element-661" list-type="labeled-item" mark-suffix="."><item><label>A</label>qualitative</item>
+	<item><label>B</label>quantitative - discrete</item>
+	<item><label>C</label>quantitative - continuous</item></list>
+	</problem>
+<solution id="id30104952">
+<para id="element-3234">B</para>
+</solution></exercise>
+      
+      
+      <exercise id="element-356"><problem id="id30104980">
+		<para id="element-521">The sampling method was:
+		</para><list id="element-503" list-type="labeled-item" mark-suffix="."><item><label>A</label>simple random</item>
+	<item><label>B</label>systematic</item>
+	<item><label>C</label>stratified</item>
+<item><label>D</label>cluster</item></list>
+	</problem>
+<solution id="id30105067">
+<para id="element-3114">B</para>
+</solution></exercise>
+      
+      
+      <exercise id="element-365"><problem id="id30105094">
+		<para id="element-297"><quote display="inline" id="id30105110">‘Duration (amount of time)’</quote> is what type of data?
+		</para><list id="element-97" list-type="labeled-item" mark-suffix="."><item><label>A</label>qualitative</item>
+<item><label>B</label>quantitative - discrete</item>
+	<item><label>C</label>quantitative - continuous</item></list>
+	</problem>
+
+	<solution id="id30105175">
+<para id="element-31234">C</para>
+</solution></exercise><para id="eip-533"><emphasis>Exercises 28 and 29</emphasis>
+ are not multiple choice exercises.</para><exercise id="eip-256"><problem id="eip-630">
+  <para id="eip-312">Name the sampling method used in each of the following situations:
+
+<list id="eip-id1172345503325" list-type="labeled-item" mark-suffix="."><item><label>A</label>A woman in the airport is handing out questionnaires to travelers asking them to evaluate the airport’s service.  She does not ask travelers who are hurrying through the airport with their hands full of luggage, but instead asks all travelers sitting near gates and who are not taking naps while they wait.</item>
+  
+<item><label>B</label>A teacher wants to know if her students are doing homework so she randomly selects rows 2 and 5, and then calls on all students in row 2 and all students in row 5 to present the solution to homework problems to the class.</item>
+
+<item><label>C</label>The marketing manager for an electronics chain store wants information about the ages of its customers.  Over the next two weeks, at each store location, 100 randomly selected customers are given questionnaires to fill out which asks for information about age, as well as about other variables of interest.</item>
+
+<item><label>D</label>The librarian at a public library wants to determine what proportion of the library users are children.  The librarian has a tally sheet on which she marks whether the books are checked out by an adult or a child.  She records this data for every 4th patron who checks out books.</item>
+
+<item><label>E</label>A political party wants to know the reaction of voters to a debate between the candidates.  The day after the debate, the party’s polling staff calls 1200 randomly selected phone numbers.  If a registered voter answers the phone or is available to come to the phone, that registered voter is asked who he/she intends to vote for and whether the debate changed his/her opinion of the candidates.</item>
+</list>
+** Contributed by Roberta Bloom</para>
+</problem>
+
+<solution id="eip-556">
+  <para id="eip-282"><list id="eip-id1170191145155" list-type="labeled-item" mark-suffix="."><item><label>A</label>Convenience</item>
+<item><label>B</label>Cluster</item>
+<item><label>C</label>Stratified </item>
+<item><label>D</label>Systematic</item>
+<item><label>E</label>Simple Random</item>
+</list></para>
+</solution>
+</exercise><exercise id="eip-146"><problem id="eip-708">
+  <para id="eip-265">Several online textbook retailers advertise that they have lower prices than on-campus bookstores. However, an important factor is whether the internet retailers actually have the textbooks that students need in stock.  Students need to be able to get textbooks promptly at the beginning of the college term. If the book is not available, then a student would not be able to get the textbook at all, or might get a delayed delivery if the book is back ordered.
+
+<newline/>
+<newline/>
+  A college newspaper reporter is investigating textbook availability at online retailers.   He decides to investigate one textbook for each of the following 7 subjects: calculus, biology, chemistry, physics, statistics, geology, and general engineering.  He consults textbook industry sales data and selects the most popular nationally used textbook in each of these subjects. He visits websites for a random sample of major online textbook sellers and looks up each of these 7 textbooks to see if they are available in stock for quick delivery through these retailers. Based on his investigation, he writes an article in which he draws conclusions about the overall availability of all college textbooks through online textbook retailers.
+
+<newline/>
+<newline/>
+Write an analysis of his study that addresses the following issues: Is his sample representative of the population of all college textbooks?  Explain why or why not.  Describe some possible sources of bias in this study, and how it might affect the results of the study. Give some suggestions about what could be done to improve the study.
+<newline/>
+<newline/>
+** Contributed by Roberta Bloom</para>
+</problem>
+
+<solution id="eip-635">
+  <para id="eip-537">The answer below contains some of the issues that students might discuss for this problem. Individual student's answers may also identify other issues that pertain to this problem that are not included in the answer below.
+
+<newline> </newline>
+<newline> </newline>
+The sample is not representative of the population of all college textbooks.  Two reasons why it is not representative are that he only sampled 7 subjects and he only investigated one textbook in each subject.  There are several possible sources of bias in the study. The 7 subjects that he investigated are all in mathematics and the sciences; there are many subjects in the humanities, social sciences, and many other subject areas, (for example: literature, art, history, psychology, sociology, business) that he did not investigate at all. It may be that different subject areas exhibit different patterns of textbook availability, but his sample would not detect such results. 
+
+<newline/>
+<newline/>
+He also only looked at the most popular textbook in each of the subjects he investigated. The availability of the most popular textbooks may differ from the availability of other textbooks in one of two ways: 
+<list id="eip-id1168183078945">
+<item>the most popular textbooks may be more readily available online, because more new copies are printed and more students nationwide selling back their used copies OR</item>
+<item>the most popular textbooks may be harder to find available online, because more student demand exhausts the supply more quickly.</item>
+</list>
+In reality, many college students do not use the most popular textbook in their subject, and this study gives no useful information about the situation for those less popular textbooks.
+
+<newline/>
+<newline/>
+He could improve this study by
+<list id="eip-id1169691864822">
+<item>expanding the selection of subjects he investigates so that it is more representative of all subjects studied by college students and </item>
+<item>expanding the selection of textbooks he investigates within each subject to include a mixed representation of both the popular and less popular textbooks.</item>
+</list>
+
+  </para>
+</solution>
+</exercise>
+</section>
+  </content>
+</document>

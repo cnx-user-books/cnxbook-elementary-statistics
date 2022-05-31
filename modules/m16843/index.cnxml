@@ -1,0 +1,51 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Summary of Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16843</md:content-id>
+  <md:title>Summary of Formulas</md:title>
+  <md:abstract>This module provides a review of the probability formulas, including the definitions of independent, complementary, and mutually exclusive events as well as the addition and multiplication rules.</md:abstract>
+  <md:uuid>f36a70a7-82da-4fa8-9f79-c1fe7d396f1b</md:uuid>
+</metadata>
+  <content>
+
+<rule id="r1" type="formula"><label>Formula</label><title>Complement</title>
+
+  <statement id="id1166200705576">
+    <para id="ruleexp1">If <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>A'</m:mi></m:math> are complements then <m:math><m:mi>P(A)</m:mi> <m:mo>+</m:mo> <m:mtext>P(A' )</m:mtext> <m:mo>=</m:mo> <m:mn>1</m:mn></m:math>
+    </para>
+  </statement>
+</rule>
+<rule id="r2" type="formula"><label>Formula</label>
+<title>Addition Rule</title>
+  <statement id="id1166199051945">
+    <para id="ruleexp2"><m:math><m:mtext>P(A OR B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext> <m:mo>+</m:mo> <m:mtext>P(B)</m:mtext> <m:mo>-</m:mo> <m:mtext>P(A AND B)</m:mtext></m:math>
+    </para>
+  </statement>
+</rule>
+<rule id="r3" type="formula"><label>Formula</label>
+<title>Mutually Exclusive</title>
+  <statement id="id1166209622113">
+    <para id="ruleexp3">If <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> are mutually exclusive then <m:math><m:mtext>P(A AND B)</m:mtext> <m:mo>=</m:mo> <m:mn>0</m:mn></m:math>   ; so <m:math><m:mtext>P(A OR B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext> <m:mo>+</m:mo> <m:mtext>P(B)</m:mtext></m:math>.</para>
+  </statement>
+</rule>
+<rule id="r4" type="formula"><label>Formula</label>
+<title>Multiplication Rule</title>
+  <statement id="id1166213186740">
+    <list id="element-753" list-type="bulleted"><item><m:math><m:mtext>P(A AND B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(B)</m:mtext> <m:mtext>P(A|B)</m:mtext></m:math></item>
+<item><m:math><m:mtext>P(A AND B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext> <m:mtext>P(B|A)</m:mtext></m:math></item>
+    </list>
+  </statement>
+</rule>
+<rule id="r5" type="formula"><label>Formula</label>
+<title>Independence</title>
+  <statement id="id1166200411300">
+    <para id="ruleexp5">If <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> are independent then:
+    </para><list id="element-828" list-type="bulleted"><item><m:math><m:mtext>P(A|B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext></m:math></item>
+<item><m:math><m:mtext>P(B|A) </m:mtext><m:mo>=</m:mo> <m:mtext>P(B)</m:mtext></m:math></item>
+<item><m:math><m:mtext>P(A AND B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext> <m:mtext>P(B)</m:mtext></m:math></item></list>
+  </statement>
+</rule>
+
+  </content>
+  
+</document>

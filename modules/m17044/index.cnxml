@@ -1,0 +1,21 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Summary of Types of Hypothesis Tests</title>
+  <metadata>
+  <md:content-id>m17044</md:content-id><md:title>Summary of Types of Hypothesis Tests</md:title>
+  <md:abstract/>
+  <md:uuid>05c03c46-7591-4ed4-b29f-8c4ada4d0d1f</md:uuid>
+</metadata>
+  <content>
+      
+<list id="eip-443"><title>Two Population Means</title><item>Populations are independent and population standard deviations are unknown.</item>
+<item>Populations are independent and population standard deviations are known
+(not likely).</item></list>  
+
+<list id="eip-139"><title>Matched or Paired Samples</title><item>Two samples are drawn from the same set of objects.</item>
+<item>Samples are dependent.</item>
+</list><list id="eip-722"><title>Two Population Proportions</title><item>Populations are independent.</item>
+</list>
+
+  </content>
+  
+</document>

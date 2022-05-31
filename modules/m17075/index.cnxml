@@ -1,0 +1,374 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Test of Two Variances</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17075</md:content-id>
+  <md:title>Test of Two Variances</md:title>
+  <md:abstract>This module provides the assumptions to be considered in order to calculate a Test of Two Variances and how to execute the Test of Two Variances. An example is provided to help clarify the concept.</md:abstract>
+  <md:uuid>58c3132c-5dcf-4b2a-9973-9d3c30311f68</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">Another of the uses of the F distribution is testing two variances. It is often desirable
+to compare two variances rather than two averages. For instance, college
+administrators would like two college professors grading exams to have the same
+variation in their grading. In order for a lid to fit a container, the variation in the lid
+and the container should be the same. A supermarket might be interested in the
+variability of check-out times for two checkers.</para><para id="element-114">In order to perform a F test of two variances, it is important that the following are true:
+<list id="list1" list-type="enumerated">
+<item>The populations from which the two samples are drawn are normally distributed.</item>
+<item>The two populations are independent of each other.</item>
+</list></para><para id="element-503">Suppose we sample randomly from two independent normal populations. Let <m:math><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:math> and
+<m:math><m:msubsup><m:mi>σ</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:math>
+be the population variances and <m:math><m:msubsup><m:mi>s</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:math> and <m:math><m:msubsup><m:mi>s</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:math> be the sample variances. Let the
+sample sizes be <m:math><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:math> and <m:math><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:math>. Since we are interested in comparing the two sample
+variances, we use the F ratio</para><para id="element-321"><m:math>
+	<m:mi>F</m:mi><m:mo>=</m:mo>
+	<m:mfrac>
+		<m:mrow>
+			<m:mo>[</m:mo>
+			<m:mfrac>
+				<m:mrow>
+					<m:mo>(</m:mo>
+   					<m:msub><m:mi>s</m:mi><m:mn>1</m:mn></m:msub>
+					<m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup>
+				</m:mrow>
+				<m:mrow>
+					<m:msup>
+						<m:mrow>
+							<m:mo>(</m:mo>
+							<m:msub><m:mi>σ</m:mi><m:mn>1</m:mn></m:msub>
+							<m:mo>)</m:mo>
+						</m:mrow>
+						<m:mn>2</m:mn>
+					</m:msup>
+				</m:mrow>
+			</m:mfrac>
+			<m:mo>]</m:mo>
+		</m:mrow>
+		<m:mrow>
+			<m:mo>[</m:mo>
+			<m:mfrac>
+				<m:mrow><m:mo>(</m:mo>
+					<m:msub><m:mi>s</m:mi><m:mn>2</m:mn></m:msub>
+					<m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup>
+				</m:mrow>
+				<m:mrow>
+					<m:msup>
+						<m:mrow>
+							<m:mo>(</m:mo>
+							<m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub>
+							<m:mo>)</m:mo>
+						</m:mrow>
+						<m:mn>2</m:mn>
+					</m:msup>
+				</m:mrow>
+			</m:mfrac>
+			<m:mo>]</m:mo>
+		</m:mrow>
+	</m:mfrac>
+</m:math></para><para id="element-648"><m:math><m:mi>F</m:mi></m:math> has the distribution <m:math><m:mi>F</m:mi></m:math> ~ <m:math><m:mi>F</m:mi><m:mo>(</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:math> </para><para id="element-266">where <m:math><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:mn>1</m:mn></m:math> are the degrees of freedom for the numerator and <m:math><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:mn>1</m:mn></m:math> are the
+degrees of freedom for the denominator.</para><para id="eip-373">If the null hypothesis is <m:math><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:math>, then the F-Ratio becomes  
+<m:math>
+	<m:mi>F</m:mi><m:mo>=</m:mo>
+	<m:mfrac>
+		<m:mrow>
+			<m:mo>[</m:mo>
+			<m:mfrac>
+				<m:mrow>
+					<m:mo>(</m:mo>
+   					<m:msub><m:mi>s</m:mi><m:mn>1</m:mn></m:msub>
+					<m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup>
+				</m:mrow>
+				<m:mrow>
+					<m:msup>
+						<m:mrow>
+							<m:mo>(</m:mo>
+							<m:msub><m:mi>σ</m:mi><m:mn>1</m:mn></m:msub>
+							<m:mo>)</m:mo>
+						</m:mrow>
+						<m:mn>2</m:mn>
+					</m:msup>
+				</m:mrow>
+			</m:mfrac>
+			<m:mo>]</m:mo>
+		</m:mrow>
+		<m:mrow>
+			<m:mo>[</m:mo>
+			<m:mfrac>
+				<m:mrow><m:mo>(</m:mo>
+					<m:msub><m:mi>s</m:mi><m:mn>2</m:mn></m:msub>
+					<m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup>
+				</m:mrow>
+				<m:mrow>
+					<m:msup>
+						<m:mrow>
+							<m:mo>(</m:mo>
+							<m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub>
+							<m:mo>)</m:mo>
+						</m:mrow>
+						<m:mn>2</m:mn>
+					</m:msup>
+				</m:mrow>
+			</m:mfrac>
+			<m:mo>]</m:mo>
+		</m:mrow>
+	</m:mfrac>
+<m:mo>=</m:mo><m:mfrac>
+	<m:mrow>
+		<m:mo>(</m:mo>
+		<m:msub>
+			<m:mi>s</m:mi><m:mn>1</m:mn>
+		</m:msub>
+		<m:msup>
+			<m:mo>)</m:mo><m:mn>2</m:mn>
+		</m:msup>
+	</m:mrow>
+
+	<m:mrow>
+		<m:msup>
+			
+                        <m:mrow>
+				<m:mo>(</m:mo>
+				<m:msub>
+					<m:mi>s</m:mi><m:mn>2</m:mn>
+				</m:msub>
+                                <m:mo>)</m:mo>
+			</m:mrow>
+			<m:mn>2</m:mn>
+		</m:msup>
+	</m:mrow>
+</m:mfrac>
+</m:math>.  
+
+</para><note id="eip-545">The <m:math><m:mi>F</m:mi></m:math> ratio could also be
+<m:math>  
+<m:mfrac>
+	<m:mrow>
+		<m:mo>(</m:mo>
+		<m:msub>
+			<m:mi>s</m:mi><m:mn>2</m:mn>
+		</m:msub>
+		<m:msup>
+			<m:mo>)</m:mo><m:mn>2</m:mn>
+		</m:msup>
+	</m:mrow>
+
+	<m:mrow>
+		<m:msup>
+			
+                        <m:mrow>
+				<m:mo>(</m:mo>
+				<m:msub>
+					<m:mi>s</m:mi><m:mn>1</m:mn>
+				</m:msub>
+                                <m:mo>)</m:mo>
+			</m:mrow>
+			<m:mn>2</m:mn>
+		</m:msup>
+	</m:mrow>
+</m:mfrac>
+</m:math>.  
+
+ It depends on <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math> and on which sample variance is larger.</note><para id="eip-666">If the two populations have equal variances, then 
+
+<m:math><m:msubsup><m:mi>s</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:math> and <m:math><m:msubsup><m:mi>s</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:math> are close in value and 
+
+<m:math><m:mi>F</m:mi><m:mo>=</m:mo></m:math> 
+<m:math><m:mfrac>
+	<m:mrow>
+		<m:mo>(</m:mo>
+		<m:msub>
+			<m:mi>s</m:mi><m:mn>1</m:mn>
+		</m:msub>
+		<m:msup>
+			<m:mo>)</m:mo><m:mn>2</m:mn>
+		</m:msup>
+	</m:mrow>
+
+	<m:mrow>
+		<m:msup>
+			
+                        <m:mrow>
+				<m:mo>(</m:mo>
+				<m:msub>
+					<m:mi>s</m:mi><m:mn>2</m:mn>
+				</m:msub>
+                                <m:mo>)</m:mo>
+			</m:mrow>
+			<m:mn>2</m:mn>
+		</m:msup>
+	</m:mrow>
+</m:mfrac>
+</m:math> is close to <m:math><m:mn>1</m:mn></m:math>.  
+But if the two population variances are very different, <m:math><m:msubsup><m:mi>s</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:math> and <m:math><m:msubsup><m:mi>s</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:math> 
+tend to be very different, too.  
+
+Choosing  
+<m:math><m:msubsup><m:mi>s</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:math> as the larger sample variance causes the ratio 
+ 
+<m:math><m:mfrac>
+	<m:mrow>
+		<m:mo>(</m:mo>
+		<m:msub>
+			<m:mi>s</m:mi><m:mn>1</m:mn>
+		</m:msub>
+		<m:msup>
+			<m:mo>)</m:mo><m:mn>2</m:mn>
+		</m:msup>
+	</m:mrow>
+
+	<m:mrow>
+		<m:msup>
+			
+                        <m:mrow>
+				<m:mo>(</m:mo>
+				<m:msub>
+					<m:mi>s</m:mi><m:mn>2</m:mn>
+				</m:msub>
+                                <m:mo>)</m:mo>
+			</m:mrow>
+			<m:mn>2</m:mn>
+		</m:msup>
+	</m:mrow>
+</m:mfrac>
+</m:math> to be greater than <m:math><m:mn>1</m:mn></m:math>. 
+
+If <m:math><m:msubsup><m:mi>s</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:math> and <m:math><m:msubsup><m:mi>s</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:math> are far apart, then 
+
+<m:math><m:mi>F</m:mi><m:mo>=</m:mo></m:math>
+<m:math><m:mfrac>
+	<m:mrow>
+		<m:mo>(</m:mo>
+		<m:msub>
+			<m:mi>s</m:mi><m:mn>1</m:mn>
+		</m:msub>
+		<m:msup>
+			<m:mo>)</m:mo><m:mn>2</m:mn>
+		</m:msup>
+	</m:mrow>
+
+	<m:mrow>
+		<m:msup>
+			
+                        <m:mrow>
+				<m:mo>(</m:mo>
+				<m:msub>
+					<m:mi>s</m:mi><m:mn>2</m:mn>
+				</m:msub>
+                                <m:mo>)</m:mo>
+			</m:mrow>
+			<m:mn>2</m:mn>
+		</m:msup>
+	</m:mrow>
+</m:mfrac>
+</m:math> is a large number.  
+   
+  
+
+</para><para id="eip-657">Therefore, if <m:math><m:mn>F</m:mn></m:math> is close to <m:math><m:mn>1</m:mn></m:math>, the evidence favors the null hypothesis (the two population variances are equal). But if <m:math><m:mn>F</m:mn></m:math> is much larger than  <m:math><m:mn>1</m:mn></m:math>, then the evidence is against the null hypothesis.</para><para id="element-848"><emphasis>A test of two variances may be left, right, or two-tailed.</emphasis></para><example id="element-315"><para id="element-33">Two college instructors are interested in whether or not there is any
+variation in the way they grade math exams. They each grade the same set of 30
+exams. The first instructor's grades have a variance of 52.3. The second instructor's
+grades have a variance of 89.9. 
+</para><exercise id="element-888"><problem id="id17653959">
+  <para id="element-185">Test the claim that the first instructor's variance is
+smaller. (In most colleges, it is desirable for the variances of exam grades to be nearly
+the same among instructors.) The level of significance is 10%.</para>
+</problem>
+
+<solution id="id17653979">
+  <para id="element-497">Let 1 and 2 be the subscripts that indicate the first and second instructor, respectively.</para><para id="element-6"><m:math><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>30</m:mn></m:math>.</para><para id="element-310"><m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math>: <m:math><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:math> 
+and 
+
+<m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math>: 
+<m:math><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:math><m:math><m:reln><m:lt/></m:reln></m:math><m:math><m:msubsup><m:mi>σ</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:math></para><para id="element-147"><emphasis>Calculate the test statistic:</emphasis> By the null hypothesis <m:math><m:mo>(</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>)</m:mo></m:math>, the F statistic is</para><para id="element-932"><m:math>
+	<m:mi>F</m:mi><m:mo>=</m:mo>
+	<m:mfrac>
+		<m:mrow>
+			<m:mo>[</m:mo>
+			<m:mfrac>
+				<m:mrow>
+					<m:mo>(</m:mo>
+   					<m:msub><m:mi>s</m:mi><m:mn>1</m:mn></m:msub>
+					<m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup>
+				</m:mrow>
+				<m:mrow>
+					<m:msup>
+						<m:mrow>
+							<m:mo>(</m:mo>
+							<m:msub><m:mi>σ</m:mi><m:mn>1</m:mn></m:msub>
+							<m:mo>)</m:mo>
+						</m:mrow>
+						<m:mn>2</m:mn>
+					</m:msup>
+				</m:mrow>
+			</m:mfrac>
+			<m:mo>]</m:mo>
+		</m:mrow>
+		<m:mrow>
+			<m:mo>[</m:mo>
+			<m:mfrac>
+				<m:mrow><m:mo>(</m:mo>
+					<m:msub><m:mi>s</m:mi><m:mn>2</m:mn></m:msub>
+					<m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup>
+				</m:mrow>
+				<m:mrow>
+					<m:msup>
+						<m:mrow>
+							<m:mo>(</m:mo>
+							<m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub>
+							<m:mo>)</m:mo>
+						</m:mrow>
+						<m:mn>2</m:mn>
+					</m:msup>
+				</m:mrow>
+			</m:mfrac>
+			<m:mo>]</m:mo>
+		</m:mrow>
+	</m:mfrac>
+<m:mo>=</m:mo><m:mfrac>
+	<m:mrow>
+		<m:mo>(</m:mo>
+		<m:msub>
+			<m:mi>s</m:mi><m:mn>1</m:mn>
+		</m:msub>
+		<m:msup>
+			<m:mo>)</m:mo><m:mn>2</m:mn>
+		</m:msup>
+	</m:mrow>
+
+	<m:mrow>
+		<m:msup>
+			
+                        <m:mrow>
+				<m:mo>(</m:mo>
+				<m:msub>
+					<m:mi>s</m:mi><m:mn>2</m:mn>
+				</m:msub>
+                                <m:mo>)</m:mo>
+			</m:mrow>
+			<m:mn>2</m:mn>
+		</m:msup>
+	</m:mrow>
+</m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>52.3</m:mn></m:mrow><m:mrow><m:mn>89.9</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.5818</m:mn>
+</m:math></para><para id="element-569"><emphasis>Distribution for the test:</emphasis> <m:math><m:msub><m:mi>F</m:mi><m:mrow><m:mn>29</m:mn><m:mo>,</m:mo><m:mn>29</m:mn></m:mrow></m:msub><m:mspace width="20pt"/></m:math>where <m:math><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>29</m:mn></m:math> and <m:math><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>29</m:mn></m:math>. </para><para id="element-184"><emphasis>Graph:</emphasis><m:math><m:mspace width="20pt"/></m:math><emphasis>This test is left tailed.</emphasis></para><para id="element-975">Draw the graph labeling and shading appropriately.</para><para id="element-825"><figure id="anova_twotests"><media id="id18591379" alt=""><image src="../../media/anova_twotests.png" mime-type="image/png" print-width="4in"/></media></figure></para><para id="element-561"><emphasis>Probability statement:</emphasis> <m:math><m:mtext>p-value</m:mtext><m:mo>=</m:mo><m:mi>P</m:mi></m:math>
+
+(<m:math><m:mi>F</m:mi></m:math>
+
+<m:math><m:reln><m:lt/></m:reln></m:math>
+
+<m:math><m:mn>0.5818</m:mn></m:math>)
+
+<m:math><m:mo>=</m:mo><m:mn>0.0753</m:mn></m:math></para><para id="element-186"><emphasis>Compare <m:math><m:mi>α</m:mi></m:math> and the p-value:</emphasis>
+<m:math><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>0.10</m:mn></m:math><m:math><m:mspace width="20pt"/><m:mi>α</m:mi><m:mo>&gt;</m:mo><m:mtext>p-value</m:mtext></m:math>.</para><para id="element-153"><emphasis>Make a decision:</emphasis> Since <m:math><m:mi>α</m:mi><m:mo>&gt;</m:mo><m:mtext>p-value</m:mtext></m:math>, reject <m:math><m:msub><m:mi>H</m:mi><m:mi>o</m:mi></m:msub></m:math>.</para><para id="element-760"><emphasis>Conclusion:</emphasis> With a 10% level of significance, from the data, there is sufficient
+evidence to conclude that the variance in grades for the first instructor is smaller.</para><para id="element-44"><emphasis>TI-83+ and TI-84:</emphasis> Press <code>STAT</code> and arrow over to <code>TESTS</code>. Arrow down to
+<code>D:2-SampFTest</code>. Press <code>ENTER</code>. Arrow to <code>Stats</code> and press <code>ENTER</code>. For
+<code>Sx1</code>, <code>n1</code>, <code>Sx2</code>, and <code>n2</code>, enter <code><m:math><m:msqrt><m:mo>(</m:mo><m:mn>52.3</m:mn><m:mo>)</m:mo></m:msqrt></m:math></code>, <code>30</code>, <code><m:math><m:msqrt><m:mo>(</m:mo><m:mn>89.9</m:mn><m:mo>)</m:mo></m:msqrt></m:math></code>, and <code>30</code>. Press <code>ENTER</code> after
+each. Arrow to <code>σ1:</code> and <code><m:math><m:reln><m:lt/></m:reln></m:math>σ2</code>. Press <code>ENTER</code>. Arrow down to <code>Calculate</code> and
+press <code>ENTER</code>. <m:math><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>0.5818</m:mn></m:math> and <m:math><m:mtext>p-value</m:mtext><m:mo>=</m:mo><m:mn>0.0753</m:mn></m:math>. Do the procedure again
+and try <code>Draw</code> instead of <code>Calculate</code>.</para>
+</solution>
+</exercise>
+</example>   
+  </content>
+  
+</document>

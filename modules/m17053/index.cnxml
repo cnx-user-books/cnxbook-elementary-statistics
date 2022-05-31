@@ -1,0 +1,175 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="practice">
+  <title>Practice 3: Test of a Single Variance</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17053</md:content-id>
+  <md:title>Practice 3: Test of a Single Variance</md:title>
+  <md:abstract>This module provides a practice on Chi-Square Distribution as a part of Elementary Statistics textbook.</md:abstract>
+  <md:uuid>e68791b8-336c-4f70-8901-3064998ffa92</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="chap 11.3 practice.doc" strength="3">Download handout (.doc)</link>
+      <link url="chap 11.3 practice.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="element-195"><title>Student Learning Outcomes</title><list id="list-2356124" list-type="bulleted"><item>
+
+
+The student will conduct a test of a single variance.</item>
+
+
+
+</list></section><section id="element-294"><title>Given</title>
+<para id="element-993">
+Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.
+</para></section><section id="element-977"><title>Sample Variance </title>
+<exercise id="element-377"><problem id="id47989189">
+  <para id="element-321">
+Is the traveler disputing the claim about the average or about the variance?
+  </para>
+</problem>
+</exercise><exercise id="element-59"><problem id="id47989214">
+  <para id="element-894">
+A sample standard deviation of 15 minutes is the same as a sample variance of  __________ minutes.
+  </para>
+</problem>
+
+<solution id="id46397236">
+  <para id="element-73">
+225
+  </para>
+</solution>
+</exercise><exercise id="element-589"><problem id="id46397259">
+  <para id="element-710">Is this a right-tailed, left-tailed, or two-tailed test? 
+  </para>
+</problem>
+</exercise></section><section id="element-678"><title>Hypothesis Test </title>
+<para id="element-158">
+Perform a hypothesis test on the consistency part of the claim.
+</para><exercise id="element-356"><problem id="id43386416">
+  <para id="element-331"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>o</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi>:</m:mi>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{O} } :μ rSub { size 8{W} } =μ rSub { size 8{ ital "NW"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+  
+  </para>
+</problem>
+</exercise><exercise id="element-233"><problem id="id14924402">
+  <para id="element-349"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi>:</m:mi>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :μ rSub { size 8{W} }  &lt;&gt; μ rSub { size 8{ ital "NW"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    
+  
+  </para>
+</problem>
+</exercise><exercise id="element-405"><problem id="id14924470">
+  <para id="element-817">Degrees of freedom = 
+  
+  </para>
+</problem>
+
+
+<solution id="id14933551">
+<para id="element-23423">
+24</para>
+</solution></exercise><exercise id="element-963"><problem id="id14933567">
+  <para id="element-155"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>Chi</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Chi" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> test statistic = 
+  </para>
+</problem>
+
+<solution id="id14933607">
+  <para id="element-215">
+36
+  </para>
+</solution>
+</exercise><exercise id="element-467"><problem id="id14933623">
+  <para id="element-351">p-value = </para>
+</problem>
+
+<solution id="id14933636">
+  <para id="element-363">
+0.0549
+  </para>
+</solution>
+</exercise><exercise id="element-475"><problem id="id14933657">
+  <para id="element-580">Graph the situation. Label and scale the horizontal axis. Mark the mean and test statistic. Shade the  p-value.
+
+
+  
+  
+  </para><para id="element-434"><media id="id47752117" alt="Blank graph with vertical and horizontal axes."><image src="../../media/graph.png" mime-type="image/png" print-width="4in"/></media></para>
+</problem>
+</exercise><exercise id="element-552"><problem id="id43386471">
+  <para id="element-802">
+Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>05</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α=0 "." "05"} {}</m:annotation></m:semantics></m:math>
+  
+  </para><para id="element-826">Decision:  
+
+</para><para id="element-76">Conclusion (write out in a complete sentence): </para>
+</problem>
+
+</exercise></section><section id="element-597"><title>Discussion Questions</title>
+<exercise id="element-404"><problem id="id42938539">
+  <para id="element-830">
+How did you know to test the variance instead of the mean?
+  </para>
+</problem>
+</exercise><exercise id="element-230"><problem id="id43386706">
+  <para id="element-211">
+If an additional test were done on the claim of the average delay, which distribution would you use?
+  </para>
+</problem>
+</exercise><exercise id="element-533"><problem id="id43386732">
+  <para id="element-416">
+If an additional test was done on the claim of the average delay, but 45 flights were surveyed, which distribution would you use?
+  </para>
+</problem>
+</exercise></section>   
+  </content>
+  
+</document>

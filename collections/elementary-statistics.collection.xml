@@ -1,0 +1,287 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10522</md:content-id>
+    <md:title>Collaborative Statistics</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>5e0744f9-9e79-4348-9237-ed012213a2d6</md:uuid>
+<md:slug>elementary-statistics</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m16026"/>
+    <col:module document="m18746"/>
+    <col:module document="m16308"/>
+    <col:module document="m16305"/>
+    <col:subcollection>
+      <md:title>Sampling and Data</md:title>
+      <col:content>
+        <col:module document="m16008"/>
+        <col:module document="m16020"/>
+        <col:module document="m16015"/>
+        <col:module document="m16007"/>
+        <col:module document="m16005"/>
+        <col:module document="m16014"/>
+        <col:module document="m16021"/>
+        <col:module document="m16006"/>
+        <col:module document="m16012"/>
+        <col:module document="m16023"/>
+        <col:module document="m16016"/>
+        <col:module document="m16010"/>
+        <col:module document="m16004"/>
+        <col:module document="m16013"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Descriptive Statistics</md:title>
+      <col:content>
+        <col:module document="m16300"/>
+        <col:module document="m16297"/>
+        <col:module document="m16849"/>
+        <col:module document="m16298"/>
+        <col:module document="m16296"/>
+        <col:module document="m16314"/>
+        <col:module document="m17102"/>
+        <col:module document="m17104"/>
+        <col:module document="m17103"/>
+        <col:module document="m16310"/>
+        <col:module document="m16312"/>
+        <col:module document="m17105"/>
+        <col:module document="m16801"/>
+        <col:module document="m16299"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Probability Topics</md:title>
+      <col:content>
+        <col:module document="m16838"/>
+        <col:module document="m16845"/>
+        <col:module document="m16837"/>
+        <col:module document="m16847"/>
+        <col:module document="m16835"/>
+        <col:module document="m16848"/>
+        <col:module document="m16846"/>
+        <col:module document="m16843"/>
+        <col:module document="m16839"/>
+        <col:module document="m16840"/>
+        <col:module document="m16836"/>
+        <col:module document="m16842"/>
+        <col:module document="m16841"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Discrete Random Variables</md:title>
+      <col:content>
+        <col:module document="m16825"/>
+        <col:module document="m16831"/>
+        <col:module document="m16828"/>
+        <col:module document="m16821"/>
+        <col:module document="m16820"/>
+        <col:module document="m16822"/>
+        <col:module document="m16824"/>
+        <col:module document="m16829"/>
+        <col:module document="m16833"/>
+        <col:module document="m16830"/>
+        <col:module document="m17107"/>
+        <col:module document="m17109"/>
+        <col:module document="m17108"/>
+        <col:module document="m17106"/>
+        <col:module document="m16823"/>
+        <col:module document="m16832"/>
+        <col:module document="m16827"/>
+        <col:module document="m16826"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Continuous Random Variables</md:title>
+      <col:content>
+        <col:module document="m16808"/>
+        <col:module document="m16805"/>
+        <col:module document="m16819"/>
+        <col:module document="m16816"/>
+        <col:module document="m16813"/>
+        <col:module document="m16812"/>
+        <col:module document="m16811"/>
+        <col:module document="m16807"/>
+        <col:module document="m16810"/>
+        <col:module document="m16803"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>The Normal Distribution</md:title>
+      <col:content>
+        <col:module document="m16979"/>
+        <col:module document="m16986"/>
+        <col:module document="m16991"/>
+        <col:module document="m16976"/>
+        <col:module document="m16977"/>
+        <col:module document="m16987"/>
+        <col:module document="m16983"/>
+        <col:module document="m16978"/>
+        <col:module document="m16985"/>
+        <col:module document="m16981"/>
+        <col:module document="m16980"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>The Central Limit Theorem</md:title>
+      <col:content>
+        <col:module document="m16953"/>
+        <col:module document="m16947"/>
+        <col:module document="m16948"/>
+        <col:module document="m16958"/>
+        <col:module document="m16956"/>
+        <col:module document="m16954"/>
+        <col:module document="m16952"/>
+        <col:module document="m16955"/>
+        <col:module document="m16950"/>
+        <col:module document="m16945"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Confidence Intervals</md:title>
+      <col:content>
+        <col:module document="m16967"/>
+        <col:module document="m16962"/>
+        <col:module document="m16959"/>
+        <col:module document="m16963"/>
+        <col:module document="m16973"/>
+        <col:module document="m16970"/>
+        <col:module document="m16971"/>
+        <col:module document="m16968"/>
+        <col:module document="m16966"/>
+        <col:module document="m16972"/>
+        <col:module document="m16960"/>
+        <col:module document="m16961"/>
+        <col:module document="m16964"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Hypothesis Testing: Single Mean and Single Proportion</md:title>
+      <col:content>
+        <col:module document="m16997"/>
+        <col:module document="m16998"/>
+        <col:module document="m17006"/>
+        <col:module document="m17017"/>
+        <col:module document="m17002"/>
+        <col:module document="m16994"/>
+        <col:module document="m16995"/>
+        <col:module document="m16992"/>
+        <col:module document="m16999"/>
+        <col:module document="m16993"/>
+        <col:module document="m17005"/>
+        <col:module document="m16996"/>
+        <col:module document="m17004"/>
+        <col:module document="m17016"/>
+        <col:module document="m17003"/>
+        <col:module document="m17001"/>
+        <col:module document="m17013"/>
+        <col:module document="m17007"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Hypothesis Testing: Two Means, Paired Data, Two Proportions</md:title>
+      <col:content>
+        <col:module document="m17029"/>
+        <col:module document="m17025"/>
+        <col:module document="m17042"/>
+        <col:module document="m17043"/>
+        <col:module document="m17033"/>
+        <col:module document="m17044"/>
+        <col:module document="m17027"/>
+        <col:module document="m17039"/>
+        <col:module document="m17023"/>
+        <col:module document="m17021"/>
+        <col:module document="m17022"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>The Chi-Square Distribution</md:title>
+      <col:content>
+        <col:module document="m17048"/>
+        <col:module document="m17052"/>
+        <col:module document="m17045"/>
+        <col:module document="m17192"/>
+        <col:module document="m17191"/>
+        <col:module document="m43655"/>
+        <col:module document="m43654"/>
+        <col:module document="m17059"/>
+        <col:module document="m17058"/>
+        <col:module document="m17054"/>
+        <col:module document="m17056"/>
+        <col:module document="m17053"/>
+        <col:module document="m17028"/>
+        <col:module document="m17057"/>
+        <col:module document="m17049"/>
+        <col:module document="m17050"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Linear Regression and Correlation</md:title>
+      <col:content>
+        <col:module document="m17089"/>
+        <col:module document="m17086"/>
+        <col:module document="m17083"/>
+        <col:module document="m17082"/>
+        <col:module document="m17090"/>
+        <col:module document="m17092"/>
+        <col:module document="m17077"/>
+        <col:module document="m17095"/>
+        <col:module document="m17094"/>
+        <col:module document="m17098"/>
+        <col:module document="m17081"/>
+        <col:module document="m17088"/>
+        <col:module document="m17085"/>
+        <col:module document="m17080"/>
+        <col:module document="m17087"/>
+        <col:module document="m17079"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>F Distribution and One-Way ANOVA</md:title>
+      <col:content>
+        <col:module document="m17065"/>
+        <col:module document="m17068"/>
+        <col:module document="m17076"/>
+        <col:module document="m17062"/>
+        <col:module document="m17075"/>
+        <col:module document="m17072"/>
+        <col:module document="m17067"/>
+        <col:module document="m17063"/>
+        <col:module document="m17070"/>
+        <col:module document="m17061"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Appendix</md:title>
+      <col:content>
+        <col:module document="m16304"/>
+        <col:module document="m16303"/>
+        <col:module document="m17132"/>
+        <col:subcollection>
+          <md:title>Group Projects</md:title>
+          <col:content>
+            <col:module document="m17142"/>
+            <col:module document="m17141"/>
+            <col:module document="m17140"/>
+            <col:module document="m17144"/>
+            <col:module document="m17143"/>
+          </col:content>
+        </col:subcollection>
+        <col:subcollection>
+          <md:title>Solution Sheets</md:title>
+          <col:content>
+            <col:module document="m17134"/>
+            <col:module document="m17133"/>
+            <col:module document="m17136"/>
+            <col:module document="m17135"/>
+          </col:content>
+        </col:subcollection>
+        <col:module document="m16307"/>
+        <col:module document="m16302"/>
+        <col:module document="m16301"/>
+        <col:module document="m19710"/>
+      </col:content>
+    </col:subcollection>
+    <col:module document="m19138"/>
+  </col:content>
+</col:collection>

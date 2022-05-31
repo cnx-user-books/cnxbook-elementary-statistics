@@ -1,0 +1,148 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>One-Way ANOVA</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17068</md:content-id>
+  <md:title>One-Way ANOVA</md:title>
+  <md:abstract>This module describes the assumptions needed for implementing an One-Way ANOVA and how to set up the hypothesis test for the ANOVA.</md:abstract>
+  <md:uuid>c187efb0-0ec8-48a0-8c60-2f23372504db</md:uuid>
+</metadata>
+
+<content>
+
+<section id="section-1">
+<title>F Distribution and One-Way ANOVA: Purpose and Basic Assumptions of One-Way ANOVA </title><para id="delete_me">The purpose of a <term target-id="anova">One-Way ANOVA</term> test is to determine the existence of a statistically significant difference among several group means. The test actually uses <term target-id="variance">variances</term> to help determine if the means are equal or not.</para><para id="element-257">In order to perform a One-Way ANOVA test, there are five basic <emphasis>assumptions</emphasis> to be fulfilled:
+<list id="list-786879" list-type="bulleted"><item>Each population from which a sample is taken is assumed to be normal.</item>
+<item>Each sample is randomly selected and independent.</item>
+<item> The populations are assumed to have <emphasis>equal standard deviations (or variances).</emphasis></item>
+<item>The factor is the categorical variable.</item>
+<item>The response is the numerical variable.</item>
+</list></para></section>  
+<section id="nullalt">
+<title>The Null and Alternate Hypotheses</title>
+<para id="delete_me2">The null hypothesis is simply that all the group population means are the same. The
+alternate hypothesis is that at least one pair of means is different. For example, if there are
+<m:math><m:mi>k</m:mi></m:math> groups:</para><para id="element-671"><m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+<m:mo>:</m:mo> 
+
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>1</m:mi>
+</m:msub> 
+<m:mo>=</m:mo> 
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+<m:mo>=</m:mo> 
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>3</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mo>...</m:mo> 
+<m:mo>=</m:mo> 
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>k</m:mi>
+</m:msub>
+</m:math></para><para id="element-952"><m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>a</m:mi>
+</m:msub>
+<m:mo>:</m:mo></m:math> At least two of the group means
+<m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>,</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>,</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mn>3</m:mn>
+</m:msub>
+<m:mo>,</m:mo> 
+<m:mo>...</m:mo>
+<m:mo>,</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>k</m:mi>
+</m:msub></m:math> are not equal.</para><para id="eip-969">The graphs help in the understanding of the hypothesis test.  In the first graph (red box plots),
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+<m:mo>:</m:mo> 
+
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>1</m:mi>
+</m:msub> 
+<m:mo>=</m:mo> 
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+<m:mo>=</m:mo> 
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>3</m:mi>
+</m:msub>
+
+</m:math> 
+and the three populations have the same distribution if the null hypothesis is true.  The variance of the combined data is approximately the same as the variance of each of the populations.
+<newline/><newline/>
+If the null hypothesis is false, then the variance of the combined data is larger which is caused by the different means as shown in the second graph (green box plots).</para><para id="eip-463"><media id="eip-id1169957791323" alt="Three boxplots with equal means">
+	   
+  <image mime-type="image/png" src="../../media/anova_means_equal.png"/>
+		 
+</media>
+
+</para><para id="eip-765"><media id="eip-id1169954570908" alt="Three boxplots with unequal means">
+	   
+  <image mime-type="image/png" src="../../media/anova_means_unequal.png"/>
+		 
+</media>
+</para></section>
+  </content>
+  <glossary>
+
+  <definition id="anova">
+    <term>Analysis of Variance</term>
+    <meaning id="id1164594558494">
+      Also referred to as ANOVA.  A method of testing whether or not the means of three or more populations are equal. The method is applicable if: 
+<list id="gllist1" list-type="bulleted">
+<item>All populations of interest are normally distributed.</item>
+<item>The populations have equal standard deviations.</item>
+<item>Samples (not necessarily of the same size) are randomly and independently selected from each population.</item>
+</list>The test statistic for analysis of variance is the F-ratio.
+    </meaning>
+  </definition>
+
+<definition id="variance">
+    <term>Variance</term>
+    <meaning id="id3154337">
+Mean of the squared deviations from the mean. Square of the standard deviation.  For a set of data, a deviation can be represented as <m:math><m:mi>x</m:mi><m:mo>-</m:mo><m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply></m:math>  where <m:math><m:mi>x</m:mi></m:math> is a value of the data and <m:math><m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply></m:math> is the sample mean. The sample variance is equal to the sum of the squares of the deviations divided by the difference of the sample size and 1.
+
+    </meaning>
+  </definition>
+
+
+</glossary>
+</document>

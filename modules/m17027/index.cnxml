@@ -1,0 +1,240 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="practice">
+  <title>Practice 1: Hypothesis Testing for Two Proportions</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17027</md:content-id>
+  <md:title>Practice 1: Hypothesis Testing for Two Proportions</md:title>
+  <md:abstract>This module provides a practice of Two Population Means and Two Population Proportions as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>84eaeda8-06dd-40b6-85f5-b9e13a1012cb</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="chap 10.1 practice.doc" strength="3">Download handout (.doc)</link>
+      <link url="chap 10.1 practice.pdf" strength="3">Download handout (.pdf)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<!--empty document?-->
+    <section id="element-55"><title>Student Learning Outcomes</title>
+<list id="list-2356124" list-type="bulleted"><item>
+The student will conduct a hypothesis test of two proportions.</item> 
+</list></section><section id="element-786"><title>Given</title>
+<para id="element-129">In the recent Census, 3 percent of the U.S. population reported being two or more races. However, the percent varies tremendously from state to state. 
+ 	(<cite><cite-title>Source: http://www.census.gov/prod/cen2010/briefs/c2010br-02.pdf</cite-title></cite>) Suppose that two random surveys are conducted. In the first random survey, out of 1000 North Dakotans, only 9 people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota.
+
+</para></section><section id="element-425"><title>Hypothesis Testing: Two Proportions</title>
+<exercise id="element-385"><problem id="id11329019">
+  <para id="element-249">Is this a test of means or proportions?  </para></problem>
+
+<solution id="id20348129">
+  <para id="element-583">
+    Proportions
+  </para>
+</solution>
+</exercise><exercise id="element-818"><problem id="id20756414">
+  <para id="element-591">
+State the null and alternative hypotheses.
+  </para>
+<list id="list-978623794" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>0</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{0} } :} {}</m:annotation></m:semantics></m:math></item>
+
+<item><label>b</label>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :} {}</m:annotation></m:semantics></m:math></item></list>
+</problem>
+
+<solution id="id16232713">
+<list id="list-987682334" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>  
+<m:math>
+        <m:semantics>
+          <m:mtable>
+            <m:mtr>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>H</m:mi>
+                  <m:mstyle fontsize="8pt">
+                    <m:mrow>
+                      <m:mi>0</m:mi>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:msub>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>:</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>PN</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>PND</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mrow/>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+            </m:mtr>
+            <m:mtr>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mstyle>
+            </m:mtr>
+          </m:mtable>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{O} } : rSub { size 8{ ital "PN"} } = rSub { size 8{ ital "PND"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+</item>
+
+<item><label>a</label>
+      <m:math>
+        <m:semantics>
+          <m:mtable>
+            <m:mtr>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>H</m:mi>
+                  <m:mstyle fontsize="8pt">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:msub>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>:</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>PN</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:msub>
+                    <m:mo stretchy="false">&gt;</m:mo>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>PND</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mrow/>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+            </m:mtr>
+            <m:mtr>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mstyle>
+            </m:mtr>
+          </m:mtable>
+          <m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } : rSub { size 8{ ital "PN"} } &gt; rSub { size 8{ ital "PND"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+</item>
+    </list>
+</solution>
+</exercise><exercise id="element-22"><problem id="id22206121">
+  <para id="element-103">Is this a right-tailed, left-tailed, or two-tailed test?  How do you know?
+
+</para>
+  
+</problem>
+
+<solution id="id18377639">
+  <para id="element-313">
+right-tailed
+  </para>
+</solution>
+</exercise><exercise id="element-708"><problem id="id22505556">
+  <para id="element-44">What is the Random Variable of interest for this test? </para>
+</problem>
+</exercise><exercise id="element-386"><problem id="id18170891">
+  <para id="element-101">In words, define the Random Variable for this test.</para>
+</problem>
+</exercise><exercise id="element-7"><problem id="id16485244">
+  <para id="element-189">Which distribution (Normal or student's-t) would you use for this hypothesis test?</para></problem>
+
+<solution id="id6970828">
+  <para id="element-752">Normal</para>
+</solution>
+</exercise><exercise id="element-464"><problem id="id13843081">
+  <para id="element-847">Explain why you chose the distribution you did for the above question.</para>
+</problem>
+</exercise><exercise id="element-345"><problem id="id17798140">
+  <para id="element-330">Calculate the test statistic. </para>
+</problem>
+
+<solution id="id17798157">
+  <para id="element-769">3.50</para>
+</solution>
+</exercise><exercise id="element-814"><problem id="id20752849">
+  <para id="element-359">Sketch a graph of the situation. Mark the hypothesized difference and the sample difference. Shade the area corresponding to the <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p - {}} {}</m:annotation></m:semantics></m:math>value.
+<figure id="id12575638"><media id="id12575642" alt=""><image src="../../media/9-1.png" mime-type="image/png" print-width="4in"/></media></figure></para></problem>
+</exercise><exercise id="element-287"><problem id="id17163768">
+  <para id="element-604">Find the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p - {}} {}</m:annotation></m:semantics></m:math>value: </para>
+</problem>
+
+<solution id="id18173062">
+  <para id="element-24">0.0002
+  </para>
+</solution>
+</exercise><exercise id="element-723"><problem id="id11271894">
+  <para id="element-99">
+   At a pre-conceived 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>α</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>05</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α=0 "." "05"} {}</m:annotation></m:semantics></m:math>, what is your:
+<list id="list-2353627788" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>
+Decision:</item>
+<item><label>b</label>
+Reason for the decision:</item>
+<item><label>c</label>
+Conclusion (write out in a complete sentence):</item>
+</list>
+</para>
+</problem>
+
+<solution id="id18024766">
+  <list id="element-307" list-type="labeled-item" mark-suffix="."><item><label>a</label>Reject the null hypothesis</item></list>
+</solution>
+
+</exercise></section><section id="element-107"><title>Discussion Question</title>
+<exercise id="exerciselkj">
+<problem id="id17796096">
+<para id="prob_1">
+Does it appear that the proportion of Nevadans who are two or more races is higher than the proportion of North Dakotans? Why or why not?
+</para>
+</problem>
+</exercise></section>
+  </content>
+</document>

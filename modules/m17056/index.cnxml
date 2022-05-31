@@ -1,0 +1,258 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="practice">
+  <title>Practice 2: Contingency Tables</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17056</md:content-id>
+  <md:title>Practice 2: Contingency Tables</md:title>
+  <md:abstract>This module provides a practice on Chi-Square Distribution as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>930e054a-d528-49f6-8773-ad943a61f55d</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="chap 11.2 practice.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="chap 11.2 practice.doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="element-715"><title>Student Learning Outcomes</title>
+<list id="list-2356124" list-type="bulleted"><item>
+The student will conduct a test for independence using  contingency tables.</item>
+
+
+</list></section><para id="element-420">Conduct a hypothesis test to determine if smoking level and ethnicity are independent.</para><section id="element-802"><title>Collect the Data</title>
+
+
+
+<para id="element-538">Copy the data provided in <emphasis>Probability Topics Practice 1: Contingency Tables </emphasis> into the table below.</para><table id="element-894" summary="This is a partially filled observation table with Ethnicity for the columns (2nd to 6th) and Total for the seventh column. The smoking level (4 rows) and the total constitute the rows of the table. 30 blank cells are available.">
+
+<title>Smoking Levels by Ethnicity (Observed)</title>
+<tgroup cols="7"><colspec colnum="1" colname="header_c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <thead>
+                    <row>
+            <entry>Smoking Level Per Day</entry>
+            <entry>
+              African American
+            </entry>
+            <entry>
+              Native Hawaiian
+            </entry>
+            <entry>
+              Latino
+            </entry>
+            <entry>
+              Japanese Americans
+            </entry>
+            <entry>
+              White
+            </entry>
+            <entry>
+              TOTALS
+            </entry>
+          </row>
+</thead>
+<tbody>
+          <row>
+            <entry>
+              1-10
+            </entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              11-20
+            </entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              21-30
+            </entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              31+
+            </entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              TOTALS
+            </entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+        </tbody>
+      
+
+
+
+</tgroup>
+</table> 
+</section><section id="element-144"><title>Hypothesis</title>
+<para id="element-424">
+State the hypotheses.
+</para><list id="element-488" list-type="bulleted">
+
+<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{O} } :} {}</m:annotation></m:semantics></m:math> </item>
+
+<item id="element-673"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub><m:mi>:</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } :} {}</m:annotation></m:semantics></m:math> </item>
+
+</list></section><section id="element-439"><title>Expected Values</title>
+<para id="element-762">
+Enter expected values in the above below. Round to two decimal places.
+</para>
+
+ </section><section id="element-418"><title>Analyze the Data</title>
+<para id="element-359">Calculate the following values:
+</para><exercise id="element-180"><problem id="id13657036">
+  <para id="element-491">Degrees of freedom =</para>
+</problem>
+
+<solution id="id7220186">
+  <para id="element-349">
+12
+  </para>
+</solution>
+</exercise><exercise id="element-607"><problem id="id3392008">
+  <para id="element-615"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>Chi</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Chi" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> test statistic =</para>
+</problem>
+
+<solution id="id13687139">
+  <para id="element-123">
+10301.8
+  </para>
+</solution>
+</exercise><exercise id="element-151"><problem id="id13677856">
+  <para id="element-267">p-value = 
+  </para>
+</problem>
+
+<solution id="id13459309">
+  <para id="element-663">
+0
+  </para>
+</solution>
+</exercise><exercise id="element-526"><problem id="id13507289">
+  <para id="element-78">Is this a right-tailed, left-tailed, or two-tailed test?  Explain why.
+  </para>
+</problem>
+
+<solution id="id12956247">
+  <para id="element-785">
+right
+  </para>
+</solution>
+</exercise>
+</section>
+<section id="element-1e241"><title>Graph the Data</title>
+
+  <exercise id="element-651"><problem id="id13510518">
+<para id="element-52">Graph the situation. Label and scale the horizontal axis. Mark the mean and test statistic. Shade in the region corresponding to the p-value.
+
+
+  
+  
+  </para><para id="element-698"><media id="id10494834" alt="Blank graph with vertical and horizontal axes."><image src="../../media/9-2695.png" mime-type="image/png" print-width="4in"/></media></para>
+</problem></exercise>
+</section>
+
+
+<section id="element-524"><title>Conclusions</title>
+<para id="element-150">State the decision and conclusion (in a complete sentence) for the following preconceived levels of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>α</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation></m:semantics></m:math> .</para><exercise id="element-90"><problem id="id13505381">
+  <para id="element-764">
+
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>α</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>05</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{α=0 "." "05"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+
+<list id="list-2353627788" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>
+Decision:</item>
+<item><label>b</label>
+Reason for the decision:</item>
+<item><label>c</label>
+Conclusion (write out in a complete sentence):</item>
+</list>
+</para>
+</problem>
+
+<solution id="id10677600">
+  <list id="element-307" list-type="labeled-item" mark-suffix="."><item><label>a</label>Reject the null hypothesis</item></list>
+</solution>
+    
+
+</exercise><exercise id="element-56"><problem id="id12810548">
+  <para id="element-317">
+  
+      <m:math>
+ <m:mi>α</m:mi><m:mo>=</m:mo><m:mn>0.01</m:mn>
+      </m:math>
+
+<list id="list-23536277881" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>
+Decision:</item>
+<item><label>b</label>
+Reason for the decision:</item>
+<item><label>c</label>
+Conclusion (write out in a complete sentence):</item>
+</list>
+
+  </para>
+</problem>
+</exercise></section>   
+  </content>
+  
+</document>

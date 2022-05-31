@@ -1,0 +1,55 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml" class="lab">
+  <title>Group Project: Univariate Data</title>
+  <metadata>
+  <md:content-id>m17142</md:content-id><md:title>Group Project: Univariate Data</md:title>
+  <md:abstract>In this project, students will design and carry out a survey, analyze the data, and graphically display the results.</md:abstract>
+  <md:uuid>3af37a7b-14cc-4be7-a5cc-0935715209bf</md:uuid>
+</metadata>
+
+<content>
+    <section id="element-141"><title>Student Learning Objectives</title>
+<list id="element-815" list-type="bulleted"><item>The student will design and carry out a survey.</item>
+<item>The student will analyze and graphically display the results of the survey.</item></list></section><section id="element-782"><title>Instructions</title>
+<para id="element-580">
+As you complete each task below, check it off.  Answer all questions in your summary.
+</para><list id="element-362" mark-suffix="" list-type="labeled-item"><item><label>____</label>Decide what data you are going to study. <note id="id42721765" type="Examples"><label>Examples</label>Here are two examples, but you may <emphasis>NOT</emphasis> use them: number of M&amp;M's per small bag, number of pencils students have in their backpacks.</note></item>
+<item><label>____</label>Are your data discrete or continuous?  How do you know?</item>
+<item><label>____</label>Decide how you are going to collect the data (for instance, buy 30 bags of M&amp;M's; collect data from the World Wide Web).  </item>
+<item><label>____</label>Describe your sampling technique in detail.  Use cluster, stratified, systematic, or simple random (using a random number generator) sampling.  Do not use convenience sampling.  What method did you use? Why did you pick that method?</item>
+<item><label>____</label>Conduct your survey.  <emphasis>Your data size must be at least 30.</emphasis></item>
+<item><label>____</label>Summarize your data in a chart with columns showing <emphasis>data value, frequency, relative frequency and cumulative relative frequency.</emphasis></item>
+<item><label>____</label>Answer the following (rounded to 2 decimal places):
+<list id="list-362" list-type="labeled-item" mark-suffix="."><item><label>1</label><m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math> =</item>
+<item><label>2</label><m:math><m:mi>s</m:mi></m:math> =</item>
+<item><label>3</label>First quartile = </item>
+<item><label>4</label>Median = </item>
+<item><label>5</label>70th percentile = </item>
+</list>
+
+</item>
+<item><label>____</label>What value is 2 standard deviations above the mean?</item>
+<item><label>____</label>What value is 1.5 standard deviations below the mean?</item>
+<item><label>____</label>Construct a histogram displaying your data.</item>
+<item><label>____</label>In complete sentences, describe the shape of your graph.</item>
+<item><label>____</label>Do you notice any potential outliers?  If so, what values are they?  Show your work in how you used the potential outlier formula in Chapter 2 (since you have univariate data) to determine whether or not the values might be outliers.</item>
+<item><label>____</label>Construct a box plot displaying your data.</item>
+<item><label>____</label>Does the middle 50% of the data appear to be concentrated together or spread apart?  Explain how you determined this.</item>
+<item><label>____</label>Looking at both the histogram and the box plot, discuss the distribution of your data.</item>
+</list></section><section id="element-175"><title>Assignment Checklist</title>
+<para id="element-810">
+You need to turn in the following typed and stapled packet, with pages in the following order:
+</para><list id="element-276" list-type="labeled-item" mark-suffix=""><item><label>____</label><emphasis>Cover sheet</emphasis>: name, class time, and name of your study</item>
+<item><label>____</label><emphasis>Summary page</emphasis>: This should contain paragraphs written with complete sentences. It should include answers to all the questions above.  It should also include statements describing the population under study, the sample, a parameter or parameters being studied, and the statistic or statistics produced.  </item>
+<item><label>____</label><emphasis>URL</emphasis> for data, if your data are from the World Wide Web.</item>
+<item><label>____</label><emphasis>Chart of data, frequency, relative frequency and cumulative relative frequency.</emphasis></item>
+<item><label>____</label><emphasis>Page(s) of graphs:</emphasis> histogram and box plot.</item>
+</list>   
+</section>
+  </content>
+  
+</document>

@@ -1,0 +1,89 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" class="lab">
+  <title>Group Project: Bivariate Data, Linear Regression, and Univariate Data</title>
+  <metadata>
+  <md:content-id>m17143</md:content-id><md:title>Group Project: Bivariate Data, Linear Regression, and Univariate Data</md:title>
+  <md:abstract>In this project, students will collect a sample of bivariate data and analyze the infomration.  Students will be asked to describe the center and spread of the data, determine the goodness of fit of a linear regression model, and analyze the relationship between the variables.</md:abstract>
+  <md:uuid>429f4c65-313f-4f07-83ec-bc92c9372079</md:uuid>
+</metadata>
+
+<content>
+    <section id="element-564"><title>Student Learning Objectives</title><list id="list-564" list-type="bulleted"><item>The students will collect a bivariate data sample through the use of appropriate sampling techniques.</item>
+<item>The student will attempt to fit the data to a linear model.</item>
+<item>The student will determine the appropriateness of linear fit of the model.</item>
+<item>The student will analyze and graph univariate data.</item>
+</list></section><section id="element-765"><title>Instructions</title><list id="list-765" list-type="enumerated">
+<item>As you complete each task below, check it off.  Answer all questions in your introduction or summary. </item>
+<item>Check your course calendar for intermediate and final due dates.</item>
+<item>Graphs may be constructed by hand or by computer, unless your instructor informs you otherwise.  All graphs must be neat and accurate.</item>
+<item>All other responses must be done on the computer.  </item>
+<item>Neatness and quality of explanations are used to determine your final grade.</item>
+</list></section><section id="element-108"><title>Part I: Bivariate Data</title>
+<list id="element-797" list-type="labeled-item" mark-suffix=""><title> Introduction</title><item><label>____</label>State the bivariate data your group is going to study. 
+<note id="id40359327" type="Examples"><label>Examples</label>Here are two examples, but you may <emphasis>NOT</emphasis> use them:  height vs. weight and age vs. running distance.</note></item>
+
+<item><label>____</label>Describe how your group is going to collect the data (for instance, collect data from the web, survey students on campus). </item>
+<item><label>____</label>Describe your sampling technique in detail.  Use cluster, stratified, systematic, or simple random sampling (using a random number generator) sampling.  Convenience sampling is <emphasis>NOT</emphasis> acceptable.</item>
+<item><label>____</label>Conduct your survey.  Your number of pairs must be at least 30. </item>
+<item><label>____</label>Print out a copy of your data.</item>
+
+
+</list><list id="element-398" list-type="labeled-item" mark-suffix=""><title>Analysis</title><item><label>____</label>On a separate sheet of paper construct a scatter plot of the data.  Label and scale both axes.</item>
+<item><label>____</label>State the least squares line and the correlation coefficient.</item>
+<item><label>____</label>On your scatter plot, in a different color, construct the least squares line.</item>
+<item><label>____</label>Is the correlation coefficient significant?  Explain and show how you determined this.</item>
+<item><label>____</label>Interpret the slope of the linear regression line in the context of the data in your project.  Relate the explanation to your data, and quantify what the slope tells you.</item>
+<item><label>____</label>Does the regression line seem to fit the data?  Why or why not? If the data does not seem to be linear, explain if any other model seems to fit the data better.</item>
+<item><label>____</label>Are there any outliers?  If so, what are they?  Show your work in how you used the potential outlier formula in the Linear Regression and Correlation chapter (since you have bivariate data) to determine whether or not any pairs might be outliers.</item>
+
+
+</list></section><section id="element-645"><title>Part II: Univariate Data</title>
+<para id="element-325">In this section, you will use the data for <emphasis>ONE</emphasis> variable only.  Pick the variable that is more interesting to analyze.  For example:  if your independent variable is sequential data such as year with 30 years and one piece of data per year, your x-values might be 1971, 1972, 1973, 1974, …, 2000. This would not be interesting to analyze. In that case, choose to use the dependent variable to analyze for this part of the project.
+</para><list id="element-72" list-type="labeled-item" mark-suffix=""><item><label>_____</label>Summarize your data in a chart with columns showing data value, frequency, relative frequency, and cumulative relative frequency.</item>
+<item><label>_____</label>Answer the following, rounded to 2 decimal places:
+
+<list id="leest-1" list-type="labeled-item" mark-suffix="."><item><label>1</label>Sample mean =    </item>       	
+<item><label>2</label>Sample standard deviation = </item>
+	<item><label>3</label>First quartile =  </item>  	
+<item><label>4</label>Third quartile =  </item> 
+	<item><label>5</label>Median = </item>   
+<item><label>6</label>70th percentile = </item> 
+<item><label>7</label>Value that is 2 standard deviations above the mean = </item>
+<item><label>8</label>Value that is 1.5 standard deviations below the mean = </item>
+</list></item>
+<item><label>_____</label>Construct a histogram displaying your data. Group your data into 6 – 10 intervals of equal width. Pick regularly spaced intervals that make sense in relation to your data.	
+	For example, do  NOT group data by age as 20-26,27-33,34-40,41-47,48-54,55-61 . . . Instead, maybe use age groups 19.5-24.5, 24.5-29.5,  . . .  or 19.5-29.5, 29.5-39.5, 39.5-49.5, . . .</item>
+<item><label>_____</label>In complete sentences, describe the shape of your histogram. </item>
+<item><label>_____</label>Are there any potential outliers? Which values are they? Show your work and calculations as to how you used the potential outlier formula in chapter 2 (since you are now using univariate data) to determine which values might be outliers. </item>
+<item><label>_____</label>Construct a box plot of your data. </item>
+<item><label>_____</label>Does the middle 50% of your data appear to be concentrated together or spread out? Explain how you determined this. </item>
+<item><label>_____</label>Looking at both the histogram AND the box plot, discuss the distribution of your data.     For example: how does the spread of the middle 50% of your data compare to the spread of the rest of the data represented in the box plot; how does this correspond to your description of the shape of the histogram; how does the graphical display show any outliers you may have found; does the histogram show any gaps in the data that are not visible in the box plot; are there any interesting features of your data that you should point out.</item>
+</list></section>
+
+<section id="element-460"><title>Due Dates</title>
+<list id="element-60" list-type="bulleted" mark-suffix=""><item>Part I, Intro:  __________   (keep a copy for your records)</item>
+<item>Part I, Analysis:  __________    (keep a copy for your records)</item>
+<item>Entire Project, typed and stapled:  __________
+<list id="list-60" list-type="labeled-item" mark-suffix=""><item><label>____</label>Cover sheet:  names, class time, and name of your study.</item>
+<item><label>____</label>Part I:  label the sections “Intro” and “Analysis.”</item>
+<item><label>____</label>Part II:  </item>
+<item><label>____</label>Summary page containing several paragraphs written in complete sentences describing the experiment, including what you studied and how you collected your data. The summary page should also include answers to ALL the questions asked above.</item>
+<item><label>____</label>All graphs requested in the project.</item>
+<item><label>____</label>All calculations requested to support questions in data. </item>
+<item><label>____</label>Description: what you learned by doing this project, what challenges you had, how you overcame the challenges. </item>
+
+
+
+
+</list>
+
+
+
+
+
+
+
+
+</item></list><note id="id41138276"><emphasis> Include answers to ALL questions asked, even if not explicitly repeated in the items above. </emphasis></note></section>
+  </content>
+  
+</document>

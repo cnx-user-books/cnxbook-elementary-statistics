@@ -1,0 +1,142 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="lab">
+  <title>Lab 1: Normal Distribution (Lap Times)</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16981</md:content-id>
+  <md:title>Lab 1: Normal Distribution (Lap Times)</md:title>
+  <md:abstract/>
+  <md:uuid>2389608b-ed48-4913-a261-794c016bae8e</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Normal Distribution- Lab I.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="Normal Distribution- Lab I.doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id5906467">Class Time: </para>
+    <para id="id7315926">Names:</para>
+    <section id="id-173805812745">
+      <title>Student Learning Outcome:</title>
+      <list id="id3819098" list-type="bulleted">
+        <item>The student will compare and contrast empirical data and a theoretical distribution to determine if Terry Vogel's lap times fit a continuous distribution. </item>
+      </list></section>
+      <section id="element-427"><title>Directions: </title>
+<para id="element-295">Round the relative frequencies and probabilities to 4 decimal places. Carry all other decimal answers to 2 places.</para></section>
+      <section id="element-746"><title>Collect the Data</title><list id="list-23435" list-type="enumerated" mark-suffix=".">
+	<item>Use the data from <link document="m17132" target-id="element-244">Terri Vogel’s Log Book</link>. Use a Stratified Sampling Method by Lap (Races 1 – 20) and a random number generator to pick 6 lap times from each stratum. Record the lap times below for Laps 2 – 7.
+
+<table id="element-2352564535" summary="Blank table with 36 empty cells.">
+
+			<tgroup cols="6">
+				<tbody>
+					<row>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+					</row>
+					<row>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+					</row>
+					<row>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+					</row>
+					<row>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+					</row>
+					<row>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+					</row>
+					<row>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+						<entry>_______</entry>
+					</row></tbody>
+			</tgroup>
+		</table>
+	</item>
+	<item>
+Construct a histogram. Make 5 - 6 intervals. Sketch the graph using a ruler and pencil. Scale the axes. 
+
+<figure id="fig045324"><media id="id7826845" alt="Blank graph with relative frequency on the vertical axis and lap time on the horizontal axis."><image src="../../media/graph6.PNG" mime-type="image/png" width="400" print-width="4in"/></media></figure></item>
+	<item>
+
+Calculate the following.
+		<list id="list-245243533" list-type="labeled-item" mark-suffix=".">
+			
+			<item><label>a</label>
+				<m:math>
+					<m:apply>
+						<m:conjugate/>
+						<m:ci>x</m:ci>
+					</m:apply>
+					<m:mo>=</m:mo>
+				</m:math>
+			</item>
+			<item><label>b</label>
+				<m:math>
+					<m:mi>s</m:mi>
+					<m:mo>=</m:mo>
+				</m:math>
+			</item>
+		</list>
+	</item>
+	<item>
+Draw a smooth curve through the tops of the bars of the histogram. Use 1 – 2 complete sentences to describe the general shape of the curve. (Keep it simple. Does the graph go straight across, does it have a V-shape, does it have a hump in the middle or at either end, etc.?)</item></list></section><section id="element-416"><title>Analyze the Distribution</title><para id="element-12">Using your sample mean, sample standard deviation, and histogram to help, what was the approximate theoretical distribution of the data?
+<list id="list-23452" list-type="bulleted">
+		<item><m:math>
+				<m:mi>X</m:mi>
+			</m:math>
+~</item>
+		<item>How does the histogram help you arrive at the approximate distribution?</item>
+	</list></para></section><section id="element-106"><title>Describe the Data</title><para id="element-50">Use the Data from the section titled "Collect the Data" to complete the following statements.
+<list id="list-2342532" list-type="bulleted">
+		<item>The IQR goes from __________ to __________.</item>
+		<item>IQR = __________. (IQR=Q3-Q1)</item>
+		<item>The 15th percentile is:</item>
+		<item>The 85th percentile is:</item>
+		<item>The median is:</item>
+		<item>The empirical probability that a randomly chosen lap time is more than 130 seconds = </item>
+		<item>Explain the meaning of the 85th percentile of this data.</item>
+	</list>
+</para></section><section id="element-121"><title>Theoretical Distribution</title><para id="element-104">Using the theoretical distribution from the section titled "Analyse the Distribution" complete the following statements:
+<list id="list-23432432" list-type="bulleted"><item>The IQR goes from __________ to __________.</item>
+		<item>IQR = </item>
+		<item>The 15th percentile is: </item>
+		<item>The 85th percentile is:</item>
+		<item>The median is:</item>
+		<item>The probability that a randomly chosen lap time is more than 130 seconds =</item>
+		<item>Explain the meaning of the 85th percentile of this distribution.</item>
+	</list></para></section><section id="element-942"><title>Discussion Questions</title><list id="list-245642321" list-type="bulleted"><item>Do the data from the section titled "Collect the Data" give a close approximation to the theoretical distibution in the section titled "Analyze the Distribution"? In complete sentences and comparing the result in the sections titled "Describe the Data" and "Theoretical Distribution", explain why or why not.</item>
+</list></section>
+  </content>
+</document>

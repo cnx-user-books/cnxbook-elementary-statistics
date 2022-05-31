@@ -1,0 +1,745 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Comparing Two Independent Population Means with Unknown Population Standard Deviations</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17025</md:content-id>
+  <md:title>Comparing Two Independent Population Means with Unknown Population Standard Deviations</md:title>
+  <md:abstract>This module provides an overview of Comparing Two Independent Population Means with Unknown Population Standard Deviations as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>8ca47b35-c81c-40ad-8a11-80d9f767cb1f</md:uuid>
+</metadata>
+
+<content>
+    <list id="element-984" list-type="enumerated"><item>The two independent samples are simple random samples from two distinct
+populations.</item>
+<item>Both populations are normally distributed with the population means and standard
+deviations unknown unless the sample sizes are greater than 30.  In that case, the populations need not be normally distributed.</item>
+</list><note id="eip-748">The test comparing two independent population means with unknown and possibly unequal population standard deviations is called the Aspin-Welch t-test.  The degrees of freedom formula was developed by Aspin-Welch.</note><para id="delete_me">The comparison of two population means is very common. A difference between
+the two samples depends on both the means and the standard deviations. Very
+different means can occur by chance if there is great variation among the individual
+samples. In order to account for the variation, we take the difference of the sample
+means, 
+<m:math>
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>X</m:ci>
+<m:cn>1</m:cn>
+</m:msub>
+</m:apply>
+</m:math>
+-
+
+<m:math>
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>X</m:ci>
+<m:cn>2</m:cn>
+</m:msub>
+</m:apply>
+</m:math>
+ , and divide by the standard error (shown below) in order to
+standardize the difference. The result is a t-score test statistic (shown below).</para><para id="element-254">Because we do not know the population standard deviations, we estimate them using
+the two sample standard deviations from our independent samples. For the
+hypothesis test, we calculate the estimated standard deviation, or <term target-id="stddev">standard error</term>, of
+<emphasis>the difference in sample means</emphasis>, <m:math>
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>X</m:ci>
+<m:cn>1</m:cn>
+</m:msub>
+</m:apply>
+</m:math>
+-
+
+<m:math>
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>X</m:ci>
+<m:cn>2</m:cn>
+</m:msub>
+</m:apply>
+</m:math>. 
+<equation id="std_err"><title>The standard error is:</title><m:math>
+<m:msqrt>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>S</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo>+</m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>S</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+</m:math>
+</equation>
+</para><para id="element-817">The test statistic (t-score) is calculated as follows:
+
+<equation id="t-score2"><title>t-score</title><m:math>
+<m:mspace width="12pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>x</m:ci>
+<m:cn>1</m:cn>
+</m:msub>
+</m:apply>
+<m:mo>-</m:mo>
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>x</m:ci>
+<m:cn>2</m:cn>
+</m:msub>
+</m:apply>
+<m:mo>)</m:mo>
+<m:mo>-</m:mo>
+<m:mo>(</m:mo>
+
+ 
+<m:msub>
+  <m:ci>μ</m:ci>
+<m:cn>1</m:cn>
+</m:msub>
+
+<m:mo>-</m:mo>
+
+<m:msub>
+  <m:ci>μ</m:ci>
+<m:cn>2</m:cn>
+</m:msub>
+
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>S</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo>+</m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>S</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+</m:math>
+</equation><list id="list1"><title>where:</title><item><m:math><m:msub><m:mi>s</m:mi><m:mn>1</m:mn></m:msub></m:math> and <m:math><m:msub><m:mi>s</m:mi><m:mn>2</m:mn></m:msub></m:math>, the sample standard
+deviations, are estimates of <m:math><m:msub><m:mi>σ</m:mi><m:mn>1</m:mn></m:msub></m:math> and
+<m:math><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub></m:math>,
+respectively.</item>
+<item><m:math><m:msub><m:mi>σ</m:mi><m:mn>1</m:mn></m:msub></m:math> and <m:math><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub></m:math> are the unknown
+population standard deviations.</item>
+<item><m:math>
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>x</m:ci>
+<m:ci>1</m:ci>
+</m:msub>
+</m:apply>
+</m:math>
+ and 
+<m:math>
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>x</m:ci>
+<m:ci>2</m:ci>
+</m:msub>
+</m:apply>
+</m:math>
+are the sample means.
+<m:math><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub></m:math> and <m:math><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math> are the population means. </item>
+</list></para><para id="element-256">The <term target-id="degrefree">degrees of freedom (df)</term> is a somewhat complicated calculation. However, a computer
+or calculator calculates it easily. The dfs are not always a whole number. The test statistic
+calculated above is approximated by the student's-t distribution with dfs as follows:
+
+<equation id="eq_df"><title> Degrees of freedom </title>
+<m:math>
+ <m:mi>df</m:mi>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:msup>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mfrac>
+          <m:msup>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:msub>
+                <m:mi>s</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:msub>
+            <m:mi>n</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:msup>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:msub>
+                <m:mi>s</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:msub>
+            <m:mi>n</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+        </m:mfrac>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mrow>
+      <m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mrow>
+          <m:msub>
+            <m:mi>n</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:mo>−</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfrac>
+      <m:mo>·</m:mo>
+      <m:msup>
+        <m:mrow>
+          <m:mo>[</m:mo>
+          <m:mfrac>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:msub>
+                  <m:mi>s</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:msub>
+              <m:mi>n</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+          </m:mfrac>
+          <m:mo>]</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo>
+      <m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mrow>
+          <m:msub>
+            <m:mi>n</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+          <m:mo>−</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfrac>
+      <m:mo>·</m:mo>
+      <m:msup>
+        <m:mrow>
+          <m:mo>[</m:mo>
+          <m:mfrac>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:msub>
+                  <m:mi>s</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:msub>
+              <m:mi>n</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mfrac>
+          <m:mo>]</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mrow>
+  </m:mfrac>
+</m:math>
+</equation></para><para id="element-316">When both sample sizes <m:math><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:math> and <m:math><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:math> are five or larger, the student's-t approximation is very
+good. Notice that the sample variances <m:math><m:msup>
+    <m:msub>
+      <m:mi>s</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mn>2</m:mn>
+  </m:msup></m:math> and <m:math><m:msup>
+    <m:msub>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mn>2</m:mn>
+  </m:msup></m:math> are not pooled. (If the question comes
+up, do not pool the variances.)
+<note id="id10169754">
+It is not
+necessary to
+compute this by
+hand. A calculator
+or computer easily
+computes it.</note></para><example id="element-208"><title>Independent groups</title><para id="element-687">The average amount of time boys and girls
+ages 7 through 11 spend playing sports each day is believed to be the same. An
+experiment is done, data is collected, resulting in the table below. Both populations have a normal distribution.
+</para><table id="uid888" summary="This table presents the sample size in the second column, average hours a day in the third column, and the sample standard deviation in the fourth column. The first row is for girls and the second row is for boys.">
+
+<tgroup cols="4"><colspec colnum="1" colname="header_c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+
+<thead valign="top">
+<row>
+<entry align="center"/>
+<entry align="center">Sample Size</entry>
+<entry align="center">Average Number of Hours Playing Sports Per Day</entry>
+<entry align="center">Sample Standard Deviation</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry>Girls</entry>
+<entry>9</entry>
+<entry>2 hours</entry>
+<entry><m:math><m:msqrt><m:mn>0.75</m:mn></m:msqrt></m:math></entry>
+</row>
+<row>
+<entry>Boys</entry>
+<entry>16</entry>
+<entry>3.2 hours</entry>
+<entry>1.00</entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table><exercise id="element-114"><problem id="id6322791">
+  <para id="element-939">Is there a difference in the mean amount of time boys and girls ages 7 through 11 play
+sports each day? Test at the 5% level of significance.
+  </para></problem>
+
+<solution id="id21329984">
+  <para id="element-296"><emphasis>The population standard deviations are not known.</emphasis>
+Let <m:math><m:mi>g</m:mi></m:math> be the subscript for girls and <m:math><m:mi>b</m:mi></m:math> be the subscript for boys. Then, <m:math><m:msub><m:mi>μ</m:mi><m:mi>g</m:mi></m:msub></m:math> is the population
+mean for girls and <m:math><m:msub><m:mi>μ</m:mi><m:mi>b</m:mi></m:msub></m:math>  is the population mean for boys.
+This is a test of two <emphasis>independent groups</emphasis>, two population <emphasis>means</emphasis>.
+</para><para id="element-221"><term target-id="variable">Random variable</term>:
+<m:math>
+<m:apply>
+  <m:conjugate/>
+<m:msub>  
+<m:ci>X</m:ci>
+<m:ci>g</m:ci>
+</m:msub>
+</m:apply>
+<m:mo>-</m:mo>
+<m:apply>
+  <m:conjugate/>
+<m:msub>  
+<m:ci>X</m:ci>
+<m:ci>b</m:ci>
+</m:msub>
+</m:apply>
+</m:math>
+ = difference in the sample mean amount of time girls and boys play sports each day.</para><para id="element-181"><emphasis>
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math>:</emphasis>
+<m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>g</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>b</m:mi>
+</m:msub> 
+
+<m:mspace width="50pt"/>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>g</m:mi>
+</m:msub>
+<m:mo>−</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+
+</m:math></para><para id="element-721"><emphasis>
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>a</m:mi>
+</m:msub>
+</m:math>:</emphasis>
+<m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>g</m:mi>
+</m:msub>
+<m:mo>≠</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>b</m:mi>
+</m:msub> 
+<m:mspace width="50pt"/>
+
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>g</m:mi>
+</m:msub>
+<m:mo>−</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mo>≠</m:mo>
+<m:mn>0</m:mn>
+
+</m:math></para><para id="element-483">The words <emphasis>"the same"</emphasis> tell you
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math> has an "=". Since there are
+no other words to indicate 
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>a</m:mi>
+</m:msub>
+</m:math>,
+then assume <emphasis>"is different."</emphasis>
+This is a two-tailed test.</para><para id="element-529"><emphasis>Distribution for the test:</emphasis>
+Use 
+<m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>df</m:mi>
+</m:msub>
+</m:math> where 
+<m:math>
+<m:mi>df</m:mi>
+</m:math> is calculated using the 
+<m:math>
+<m:mi>df</m:mi>
+</m:math> formula for independent groups, two
+population means. Using a calculator, <m:math>
+<m:mi>df</m:mi>
+</m:math> is approximately 18.8462. <emphasis>Do not pool
+the variances.</emphasis></para><para id="element-573"><emphasis>Calculate the p-value using a student's-t distribution:</emphasis> p-value = 0.0054</para><para id="element-90"><emphasis>Graph:</emphasis></para><para id="element-210"><figure id="hyptest22_cmp1"><media id="id18963169" alt="Normal distribution curve of the difference in the average amount of time girls and boys play sports all day with values of -1.2, 0, and 1.2 on the x-axis. Two vertical upward lines extend from points -1.2 and 1.2 to the curve. The 1/2(p-values) areas are indicated on either side of these values."><image src="../../media/hyptest22_cmp1.png" mime-type="image/png" print-width="3in"/></media></figure></para><para id="element-222"><m:math>
+<m:msub>
+<m:mi>s</m:mi>
+<m:mi>g</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:msqrt>
+<m:mn>0.75</m:mn>
+</m:msqrt>
+</m:math>
+</para><para id="element-806"><m:math>
+ <m:msub>
+<m:mi>s</m:mi>
+<m:mi>b</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math></para><para id="element-630">So,
+<m:math>
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>x</m:ci>
+<m:mi>g</m:mi>
+</m:msub>
+</m:apply>
+<m:mo>-</m:mo>
+
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>x</m:ci>
+<m:mi>b</m:mi>
+</m:msub>
+</m:apply>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+<m:mo>-</m:mo>
+<m:mn>3.2</m:mn>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mn>1.2</m:mn>
+</m:math>
+</para><para id="element-987">Half the p-value is
+below -1.2 and
+half is above 1.2.</para><para id="element-823"><emphasis>Make a decision:</emphasis> Since <m:math><m:mi>α</m:mi><m:mo>&gt;</m:mo></m:math> p-value, reject <m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math>.</para><para id="element-435">This means you reject <m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>g</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>b</m:mi>
+</m:msub>
+</m:math>. The means are different.</para><para id="element-914"><emphasis>Conclusion:</emphasis> At the 5% level of significance, the sample data show there is sufficient
+evidence to conclude that the mean number of hours that girls and boys aged 7
+through 11 play sports per day is different (mean number of hours  boys aged 7 through 11 play sports per day is greater than the mean number of hours played by girls OR the mean number of hours  girls aged 7 through 11 play sports per day is greater than the mean number of hours played by boys).
+</para><note id="id18944476">TI-83+ and TI-84: Press <code>STAT</code>. Arrow over to <code>TESTS</code> and press
+<code>4:2-SampTTest</code>. Arrow over to Stats and press <code>ENTER</code>. Arrow down
+and enter <code>2</code> for the first sample mean, <code>
+<m:math><m:msqrt>
+<m:mn>0.75</m:mn>
+</m:msqrt></m:math>
+</code> for Sx1, <code>9</code> for n1, <code>3.2</code> for the
+second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow down to μ1: and
+arrow to <code>does not equal</code> μ2. Press <code>ENTER</code>. Arrow down to Pooled: and
+<code>No</code>. Press <code>ENTER</code>. Arrow down to <code>Calculate</code> and press <code>ENTER</code>. The
+p-value is p = 0.0054, the dfs are approximately 18.8462, and the test
+statistic is -3.14. Do the procedure again but instead of Calculate do Draw.</note>
+</solution>
+</exercise></example><example id="element-968"><para id="element-980">A study is done by a community group in two neighboring colleges to
+determine which one graduates students with more math classes. College A samples
+11 graduates. Their average is 4 math classes with a standard deviation of 1.5 math
+classes. College B samples 9 graduates. Their average is 3.5 math classes with a
+standard deviation of 1 math class. The community group believes that a student who
+graduates from college A <emphasis>has taken more math classes,</emphasis> on the average. Both populations have a normal distribution. Test at a
+1% significance level.
+Answer the following questions.
+
+<exercise id="ex1021">
+
+<problem id="id22055352"><para id="pp1">Is this a test of two means or two proportions?</para></problem><solution id="id9777082" print-placement="end"><para id="ps1">two means</para></solution>
+</exercise>
+<exercise id="ex1022">
+
+<problem id="id13323228"><para id="pp2">Are the populations standard deviations known or unknown?</para></problem><solution id="id21134408" print-placement="end"><para id="ps2">unknown</para></solution>
+</exercise>
+<exercise id="ex1023">
+
+<problem id="id14688537"><para id="pp3">Which distribution do you use to perform the test?</para></problem><solution id="id14688553" print-placement="end"><para id="ps3">student's-t</para></solution></exercise>
+
+<exercise id="ex102"> <problem id="id12801899"> <para id="p20"> What is the random variable?</para> </problem>
+<solution id="id18473559" print-placement="end"><para id="solnm">
+<m:math>
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>X</m:ci>
+<m:mi>A</m:mi>
+</m:msub>
+</m:apply>
+<m:mo>-</m:mo>
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>X</m:ci>
+<m:mi>B</m:mi>
+</m:msub>
+</m:apply>
+</m:math></para></solution></exercise>
+
+<exercise id="exnull"><problem id="id18385916"><para id="whathyp">What are the null and alternate hypothesis?</para></problem><solution id="id13419917" print-placement="end">
+<list id="li_na"><item>
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+<m:mo>:</m:mo>
+
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>A</m:mi>
+</m:msub>
+<m:mo>≤</m:mo> 
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>B</m:mi>
+</m:msub>
+</m:math>
+</item>
+
+<item>
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>a</m:mi>
+</m:msub>
+<m:mo>:</m:mo> 
+
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>A</m:mi>
+</m:msub>
+<m:mo>&gt;</m:mo> 
+
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>B</m:mi>
+</m:msub>
+</m:math>
+</item> </list></solution></exercise>
+
+<exercise id="tails">
+<problem id="id24161967"><para id="pp4">Is this test right, left, or two tailed?</para></problem><solution id="id18689441" print-placement="end"><para id="ps4">right</para></solution></exercise>
+
+<exercise id="pvalue"><problem id="id12470111"><para id="pp5">What is the p-value?</para></problem><solution id="id16062000" print-placement="end"><para id="ps5">0.1928</para></solution></exercise>
+
+<exercise id="exreject"><problem id="id19898911"><para id="phyp">Do you reject or not reject the null hypothesis?</para></problem><solution id="id8442418" print-placement="end"><para id="noreject">Do not reject.</para></solution></exercise></para><para id="element-928"><title>Conclusion:</title>At the 1% level of significance, from the sample data, there is not
+sufficient evidence to conclude that a student who graduates from college A has
+taken more math classes, on the average, than a student who graduates from
+college B.</para></example>   
+  </content>
+
+
+<glossary>
+  <definition id="degrefree">
+    <term>Degrees of Freedom (df)</term>
+    <meaning id="id21146024">
+The number of objects in a sample that are free to vary.
+    </meaning>
+  </definition>
+
+
+<definition id="stddev">
+    <term>Standard Deviation</term>
+    <meaning id="id10539417">
+A number that is equal to the square root of the variance and measures how far data values are from their mean. Notation: s for sample standard deviation and      <m:math><m:ci>σ</m:ci></m:math> for population standard deviation.
+    </meaning>
+  </definition>
+
+<definition id="variable">
+    <term>Variable (Random Variable)</term>
+    <meaning id="id1167450448490">
+A characteristic of interest in a population being studied. Common notation for variables are upper case Latin letters 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>Y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Y} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>Z</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z} {}</m:annotation></m:semantics></m:math>,...; common notation for a  specific value from the domain (set of all possible values of a variable) are lower case Latin letters 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>z</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>,.... For example, if 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> is the number of children in a family, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> represents a specific  integer 0, 1, 2, 3, .... Variables in statistics differ from variables in intermediate algebra in two following ways. 
+
+<list id="arrvee" list-type="bulleted">
+<item> The domain of the random variable (RV) is not necessarily a numerical set; the domain may be expressed in words; for example, if 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> = hair color then the domain is {black, blond, gray, green, orange}. </item><item> We can tell what specific value  
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> of the Random Variable   
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>X</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> takes only after performing the experiment. </item></list>
+    </meaning>
+  </definition>
+
+
+
+
+
+</glossary>
+  
+</document>

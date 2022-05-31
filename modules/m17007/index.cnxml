@@ -1,0 +1,104 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="lab">
+  <title>Lab: Hypothesis Testing of a Single Mean and Single Proportion</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17007</md:content-id>
+  <md:title>Lab: Hypothesis Testing of a Single Mean and Single Proportion</md:title>
+  <md:abstract/>
+  <md:uuid>a5b776a2-d647-4501-a5eb-f0211a4b37cb</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="Hypothesis Testing of Single Mean and Single Proportion- Lab I.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="Hypothesis Testing of Single Mean and Single Proportion- Lab I.doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id9325443">Class Time: </para>
+    <para id="id9325450">Names:</para>
+    <section id="id-211950453705">
+      <title>Student Learning Outcomes: </title>
+      <list id="id3727711" list-type="bulleted">
+        <item>The student will select the appropriate distributions to use in each case.</item>
+        <item>The student will conduct hypothesis tests and interpret the results.</item>
+      </list>
+    </section>
+    <section id="element-695"><title>Television Survey</title><para id="element-692">
+In a recent survey, it was stated that Americans watch television on average four hours per day. Assume that <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:math>. Using your class as the sample, conduct a hypothesis test to determine if the average for students at your school is lower.
+</para>
+<list id="list-9283749" list-type="enumerated" mark-suffix="."><item><m:math><m:msub><m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math>:
+</item>
+<item><m:math><m:msub><m:mi>H</m:mi>
+<m:mi>a</m:mi>
+</m:msub>
+</m:math>:
+</item>
+<item>
+In words, define the random variable. __________ =
+</item>
+<item>The distribution to use for the test is:</item>
+<item>Determine the test statistic using your data.</item>
+<item>Draw a graph and label it appropriately.Shade the actual level of significance.
+<list id="list-25986787634" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>Graph:<figure id="id11610612"><media id="id11610617" alt="Blank graph with vertical and horizontal axes."><image src="../../media/graph12.PNG" mime-type="image/png" print-width="4in"/></media></figure></item>
+<item><label>b</label>Determine the p-value:</item>
+</list></item>
+<item>Do you or do you not reject the null hypothesis? Why?</item>
+<item>Write a clear conclusion using a complete sentence.</item>
+</list></section><section id="element-837"><title>Language Survey</title><para id="element-40">About 42.3% of Californians and 19.6% of all Americans over age 5 speak a language other than English at home. Using your class as the sample, conduct a hypothesis test to determine if the percent of the students at your school that speak a language other than English at home is different from 42.3%. 
+
+
+<cite><cite-title>(Source:</cite-title></cite><link url=" http://www.census.gov/hhes/socdemo/language/"><cite><cite-title> http://www.census.gov/hhes/socdemo/language/ </cite-title></cite></link>)</para><list id="list-2349867965" list-type="enumerated" mark-suffix="."><item><m:math><m:msub><m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math>:
+</item>
+<item><m:math><m:msub><m:mi>H</m:mi>
+<m:mi>a</m:mi>
+</m:msub>
+</m:math>:
+</item>
+<item>In words, define the random variable. __________ =</item>
+<item> The distribution to use for the test is:</item>
+<item>Determine the test statistic using your data.</item>
+<item>Draw a graph and label it appropriately. Shade the actual level of significance.
+<list id="list-234978687" list-type="labeled-item" mark-suffix=".">
+<item><label>a</label>
+Graph:<figure id="id11513524"><media id="id11513529" alt="Blank graph with vertical and horizontal axes."><image src="../../media/graph12.PNG" mime-type="image/png" print-width="4in"/></media></figure></item>
+<item><label>b</label>Determine the p-value:</item>
+</list></item>
+<item> Do you or do you not reject the null hypothesis? Why?</item>
+<item> Write a clear conclusion using a complete sentence.</item>
+</list></section><section id="element-86"><title>Jeans Survey</title><para id="element-479">
+Suppose that young adults own an average of 3 pairs of jeans. Survey 8 people from your class to determine if the average is higher than 3.
+</para>
+<list id="list-234876875" list-type="enumerated" mark-suffix="."><item><m:math><m:msub><m:mi>H</m:mi>
+				<m:mi>o</m:mi>
+			</m:msub>
+		</m:math>:
+</item>
+	<item><m:math><m:msub><m:mi>H</m:mi>
+				<m:mi>a</m:mi>
+			</m:msub>
+		</m:math>:
+</item>
+	<item>In words, define the random variable. __________ =</item>
+	<item> The distribution to use for the test is:</item>
+	<item>Determine the test statistic using your data.</item>
+	<item>Draw a graph and label it appropriately. Shade the actual level of significance.
+<list id="list-23492347" list-type="labeled-item" mark-suffix=".">
+			<item><label>a</label>
+Graph:<figure id="id11513704"><media id="id11513708" alt="Blank graph with vertical and horizontal axes."><image src="../../media/graph12.PNG" mime-type="image/png" print-width="4in"/></media></figure></item>
+			<item><label>b</label>Determine  the p-value:</item>
+		</list></item>
+	<item> Do you or do you not reject the null hypothesis? Why?</item>
+	<item> Write a clear conclusion using a complete sentence.</item>
+</list></section>
+  </content>
+</document>

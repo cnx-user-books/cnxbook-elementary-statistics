@@ -1,0 +1,523 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Comparing Two Independent Population Proportions</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17043</md:content-id>
+  <md:title>Comparing Two Independent Population Proportions</md:title>
+  <md:abstract/>
+  <md:uuid>17f98e77-0221-4ba7-80ca-a36bb6ab35a5</md:uuid>
+</metadata>
+  <content>
+    <list id="element-381" list-type="enumerated"><item>The two independent samples are simple random samples that are independent.</item>
+<item> The number of successes is at least five and the number of failures is at least five for
+each of the samples.</item>
+
+</list><para id="delete_me">Comparing two proportions, like comparing two means, is common. If two
+estimated proportions are different, it may be due to a difference in the populations
+or it may be due to chance. A hypothesis test can help determine if a difference in
+the estimated proportions 
+<m:math>
+<m:mo>(</m:mo>
+ <m:msub>
+ <m:mi>P</m:mi>
+ <m:mi>A</m:mi><m:mo>'</m:mo>
+ </m:msub>
+<m:mo>−</m:mo>
+ <m:msub>
+<m:mi>P</m:mi>
+<m:mi>B</m:mi><m:mo>'</m:mo>
+</m:msub>
+<m:mo>)</m:mo>
+</m:math> reflects a difference in the population proportions.</para><para id="element-330">The difference of two proportions follows an approximate normal distribution. Generally,
+the null hypothesis states that the two proportions are the same. That is, 
+<m:math>
+
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+
+<m:mo>:</m:mo>
+
+<m:msub>
+<m:mi>p</m:mi>
+<m:mi>A</m:mi>
+</m:msub>
+
+<m:mo>=</m:mo>
+
+<m:msub>
+<m:mi>p</m:mi>
+<m:mi>B</m:mi>
+</m:msub>
+
+</m:math>. To
+conduct the test, we use a pooled proportion, <m:math>
+<m:msub>
+<m:mi>p</m:mi>
+<m:mi>c</m:mi>
+</m:msub>
+</m:math>.
+ </para><equation id="element-845"><title>The pooled proportion is calculated as follows:</title><m:math>
+<m:msub>
+<m:mi>p</m:mi>
+<m:mi>c</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>x</m:mi>
+<m:mi>A</m:mi>
+</m:msub>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>x</m:mi>
+<m:mi>B</m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mi>A</m:mi>
+</m:msub>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>n</m:mi>
+<m:mi>B</m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:math>
+</equation><equation id="element-630"><title>The distribution for the differences is:  </title><m:math>
+  <m:msub>
+    <m:mrow>
+      <m:mi>P</m:mi>
+      <m:mo>'</m:mo>
+    </m:mrow>
+    <m:mi>A</m:mi>
+  </m:msub>
+  <m:mo>−</m:mo>
+  <m:msub>
+    <m:mrow>
+      <m:mi>P</m:mi>
+      <m:mo>'</m:mo>
+    </m:mrow>
+    <m:mi>B</m:mi>
+  </m:msub>
+  <m:mo>~</m:mo>
+  <m:mi>N</m:mi>
+  <m:mo>[</m:mo>
+  <m:mn>0</m:mn>
+  <m:mo>,</m:mo>
+  <m:msqrt>
+    <m:msub>
+      <m:mi>p</m:mi>
+      <m:mi>c</m:mi>
+    </m:msub>
+    <m:mo>·</m:mo>
+    <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>p</m:mi>
+          <m:mi>c</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mo>)</m:mo>
+    </m:mrow>
+    <m:mo>·</m:mo>
+    <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mfrac>
+        <m:mn>1</m:mn>
+        <m:msub>
+          <m:mi>n</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mfrac>
+      <m:mo>+</m:mo>
+      <m:mfrac>
+        <m:mn>1</m:mn>
+        <m:msub>
+          <m:mi>n</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mfrac>
+      <m:mo>)</m:mo>
+    </m:mrow>
+  </m:msqrt>
+  <m:mo>]</m:mo>
+</m:math></equation><equation id="element-225"><title>The test statistic (z-score) is:</title><m:math>
+  <m:mi>z</m:mi>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mrow>
+      <m:mrow>
+        <m:mo>(</m:mo>
+        <m:msub>
+          <m:mrow>
+            <m:mi>p</m:mi>
+            <m:mo>'</m:mo>
+          </m:mrow>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mrow>
+            <m:mi>p</m:mi>
+            <m:mo>'</m:mo>
+          </m:mrow>
+          <m:mi>B</m:mi>
+        </m:msub>
+        <m:mo>)</m:mo>
+      </m:mrow>
+      <m:mo>−</m:mo>
+      <m:mrow>
+        <m:mo>(</m:mo>
+        <m:msub>
+          <m:mi>p</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>p</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+        <m:mo>)</m:mo>
+      </m:mrow>
+    </m:mrow>
+    <m:msqrt>
+      <m:msub>
+        <m:mi>p</m:mi>
+        <m:mi>c</m:mi>
+      </m:msub>
+      <m:mo>·</m:mo>
+      <m:mrow>
+        <m:mo>(</m:mo>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>−</m:mo>
+          <m:msub>
+            <m:mi>p</m:mi>
+            <m:mi>c</m:mi>
+          </m:msub>
+        </m:mrow>
+        <m:mo>)</m:mo>
+      </m:mrow>
+      <m:mo>·</m:mo>
+      <m:mrow>
+        <m:mo>(</m:mo>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:msub>
+            <m:mi>n</m:mi>
+            <m:mi>A</m:mi>
+          </m:msub>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:msub>
+            <m:mi>n</m:mi>
+            <m:mi>B</m:mi>
+          </m:msub>
+        </m:mfrac>
+        <m:mo>)</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mfrac>
+</m:math></equation><example id="element-944"><title>Two population proportions</title><para id="element-410">Two types of medication for
+hives are being tested to determine if there is a <emphasis>difference in the proportions of
+adult patient reactions. Twenty</emphasis> out of a random <emphasis>sample of 200</emphasis> adults given
+medication A still had hives 30 minutes after taking the medication. <emphasis>Twelve</emphasis> out of
+another <emphasis>random sample of 200 adults</emphasis> given medication B still had hives 30
+minutes after taking the medication. Test at a 1% level of significance.
+  </para><section id="secsoln"><title>Determining the solution</title>
+  <para id="element-567"><emphasis>This is a test of 2 population proportions.</emphasis></para>
+  
+<exercise id="element-616-solnback">
+<problem id="id7161129">
+  <para id="element-273">
+    How do you know?
+  </para>
+</problem>
+
+<solution id="id1168582667388" print-placement="end">
+  <para id="element-112">The problem asks for a difference in proportions.
+  </para></solution>
+</exercise>
+<para id="element-857">Let <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> be the subscripts for medication A and medication B. Then 
+<m:math><m:msub>
+<m:mi>p</m:mi>
+<m:mi>A</m:mi>
+</m:msub>
+</m:math> and
+<m:math><m:msub>
+<m:mi>p</m:mi>
+<m:mi>B</m:mi>
+</m:msub>
+</m:math> are the desired population proportions.</para><para id="element-5"><title>Random Variable:</title><m:math> <m:msub>
+ <m:mi>P'</m:mi>
+ <m:mi>A</m:mi>
+ </m:msub>
+<m:mo>−</m:mo>
+ <m:msub>
+<m:mi>P'</m:mi><m:mi>B</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+</m:math> difference in the proportions of adult patients who did not
+react after 30 minutes to medication A and medication B.</para><para id="element-791"><m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+<m:mo>:</m:mo>
+<m:msub>
+<m:mi>p</m:mi>
+<m:mi>A</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>p</m:mi>
+<m:mi>B</m:mi>
+</m:msub>
+<m:mspace width="50pt"/>
+<m:msub>
+<m:mi>p</m:mi>
+<m:mi>A</m:mi>
+</m:msub>
+<m:mo>-</m:mo> 
+<m:msub>
+<m:mi>p</m:mi>
+<m:mi>B</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math></para><para id="element-516"><m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>a</m:mi>
+</m:msub>
+<m:mo>:</m:mo>
+<m:msub>
+<m:mi>p</m:mi>
+<m:mi>A</m:mi>
+</m:msub>
+<m:mo>≠</m:mo>
+<m:msub>
+<m:mi>p</m:mi>
+<m:mi>B</m:mi>
+</m:msub>
+<m:mspace width="50pt"/>
+<m:msub>
+<m:mi>p</m:mi>
+<m:mi>A</m:mi>
+</m:msub>
+<m:mo>-</m:mo> 
+<m:msub>
+<m:mi>p</m:mi>
+<m:mi>B</m:mi>
+</m:msub>
+<m:mo>≠</m:mo>
+<m:mn>0</m:mn>
+</m:math></para><para id="element-799">The words <emphasis>"is a difference"</emphasis>
+tell you the test is two-tailed.</para><para id="element-610"><emphasis>Distribution for the test:</emphasis> Since this is a test of two binomial population proportions,
+the distribution is normal:
+</para><para id="element-42"><m:math>
+<m:msub>
+    <m:mi>p</m:mi>
+    <m:mi>c</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mrow>
+      <m:msub>
+        <m:mi>x</m:mi>
+        <m:mi>A</m:mi>
+      </m:msub>
+      <m:mo>+</m:mo>
+      <m:msub>
+        <m:mi>x</m:mi>
+        <m:mi>B</m:mi>
+      </m:msub>
+    </m:mrow>
+    <m:mrow>
+      <m:msub>
+        <m:mi>n</m:mi>
+        <m:mi>A</m:mi>
+      </m:msub>
+      <m:mo>+</m:mo>
+      <m:msub>
+        <m:mi>n</m:mi>
+        <m:mi>B</m:mi>
+      </m:msub>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mrow>
+      <m:mn>20</m:mn>
+      <m:mo>+</m:mo>
+      <m:mn>12</m:mn>
+    </m:mrow>
+    <m:mrow>
+      <m:mn>200</m:mn>
+      <m:mo>+</m:mo>
+      <m:mn>200</m:mn>
+    </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo>
+  <m:mn>0.08</m:mn><m:mspace width="12pt"/> <m:mn>1</m:mn>
+  <m:mo>−</m:mo>
+  <m:msub>
+    <m:mi>p</m:mi>
+    <m:mi>c</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo>
+  <m:mn>0.92</m:mn> 	
+</m:math></para><para id="element-3">Therefore, 
+<m:math>
+<m:mspace width="10pt"/>
+ <m:msub>
+ <m:mi>P'</m:mi>
+ <m:mi>A</m:mi>
+ </m:msub>
+<m:mo>−</m:mo>
+ <m:msub>
+<m:mi>P'</m:mi><m:mi>B</m:mi>
+</m:msub>
+<m:mo>~</m:mo>
+<m:mi>N</m:mi>
+<m:mo>[</m:mo>
+<m:mn>0</m:mn>
+<m:mo>,</m:mo>
+<m:msqrt>
+<m:mo>(</m:mo>
+<m:mn>0.08</m:mn>
+<m:mo>)</m:mo>
+<m:mo>⋅</m:mo>
+<m:mo>(</m:mo>
+<m:mn>0.92</m:mn>
+<m:mo>)</m:mo>
+<m:mo>⋅</m:mo>
+<m:mo>(</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>200</m:mn>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>200</m:mn>
+</m:mfrac>
+<m:mo>)</m:mo>
+</m:msqrt>
+<m:mo>]</m:mo>
+</m:math>
+
+</para><para id="element-838"><m:math> <m:msub>
+ <m:mi>P'</m:mi>
+ <m:mi>A</m:mi>
+ </m:msub>
+<m:mo>−</m:mo>
+ <m:msub>
+<m:mi>P'</m:mi><m:mi>B</m:mi>
+</m:msub>
+</m:math> follows an approximate normal distribution.</para><para id="element-961"><emphasis>Calculate the p-value using the normal distribution:</emphasis> p-value = 0.1404.</para><para id="element-270">Estimated proportion for group A:
+<m:math>
+<m:mspace width="12pt"/>
+<m:msub>
+    <m:mi>p'</m:mi>
+    <m:mi>A</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mfrac>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mn>20</m:mn>
+    <m:mn>200</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo>
+  <m:mn>0.1</m:mn>
+</m:math></para><para id="element-99">Estimated proportion for group B:
+<m:math>
+<m:mspace width="12pt"/>
+<m:msub>
+    <m:mi>p'</m:mi>
+    <m:mi>B</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mfrac>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mn>12</m:mn>
+    <m:mn>200</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo>
+  <m:mn>0.06</m:mn>
+</m:math></para><para id="element-478"><title>Graph:</title><figure id="hyptest22_cmp_3_1"><media id="id3811123" alt="Normal distribution curve of the difference in the percentages of adult patients who don't react to medication A and B after 30 minutes. The x-axis has values of -0.04 and 0.04. Two vertical upward lines extend from these values to the curve. 1/2(p-values) point to the areas on either side of these values."><image src="../../media/hyptest22_cmp_3_1.png" mime-type="image/png" print-width="3in"/></media></figure></para><para id="element-172"><m:math>
+ <m:msub>
+ <m:mi>P'</m:mi>
+ <m:mi>A</m:mi>
+ </m:msub>
+<m:mo>−</m:mo>
+ <m:msub>
+<m:mi>P'</m:mi><m:mi>B</m:mi>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mn>0.1</m:mn>
+<m:mo>-</m:mo>
+<m:mn>0.06</m:mn>
+<m:mo>=</m:mo> 
+<m:mn>0.04</m:mn>
+</m:math>.</para><para id="element-846">Half the p-value is
+below -0.04 and
+half is above 0.04.</para><para id="element-748">Compare <m:math><m:mi>α</m:mi></m:math> and the p-value: <m:math><m:mi>α</m:mi><m:mo>=</m:mo><m:mn>0.01</m:mn></m:math> and the <m:math><m:mtext>p-value</m:mtext> <m:mo>=</m:mo><m:mn> 0.1404</m:mn></m:math>.
+<m:math>
+<m:mi>α</m:mi>
+<m:mo>&lt;</m:mo>
+</m:math> p-value.</para><para id="element-439">Make a decision: Since 
+<m:math>
+<m:mi>α</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mtext>p-value</m:mtext>
+</m:math>, do not reject 
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math>.</para><para id="element-632"><emphasis>Conclusion:</emphasis> At a 1% level of significance, from the sample data, there is not
+sufficient evidence to conclude that there is a difference in the proportions of adult
+patients who did not react after 30 minutes to medication A and medication B.</para><note id="eip-898">TI-83+ and TI-84: Press <code>STAT</code>. Arrow over to <code>TESTS</code> and press
+<code>6:2-PropZTest</code>. Arrow down and enter <code>20</code> for <m:math><m:mi>x1</m:mi></m:math>, <code>200</code> for <m:math><m:mi>n1</m:mi></m:math>, <code>12</code> for <m:math><m:mi>x2</m:mi></m:math>,
+and <code>200</code> for <m:math><m:mi>n2</m:mi></m:math>. Arrow down to <code>p1</code>: and arrow to <code>not equal p2</code>. Press
+<code>ENTER</code>. Arrow down to <code>Calculate</code> and press <code>ENTER</code>. The p-value is <m:math><m:mi>p</m:mi><m:mo> =</m:mo>
+<m:mn>0.1404</m:mn></m:math> and the test statistic is 1.47. Do the procedure again but instead
+of <code>Calculate</code> do <code>Draw</code>.</note>
+</section>
+
+</example>   
+  </content>
+  
+</document>

@@ -1,0 +1,44 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="lab">
+  <title>Solution Sheet: F Distribution and One-Way ANOVA</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17135</md:content-id>
+  <md:title>Solution Sheet: F Distribution and One-Way ANOVA</md:title>
+  <md:abstract>This module provides a solution sheet for use with the F Distribution and One-Way ANOVA chapter of the Collaborative Statistics textbook/collection.</md:abstract>
+  <md:uuid>142185e0-abfe-4aa9-9073-ddcd418282cd</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="  Solution Sheets- F Distribution and ANOVA.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="  Solution Sheets- F Distribution and ANOVA.doc       " strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id46712476">Class Time:</para>
+    <para id="id46712482">Name:</para>
+    <list id="id3582263" mark-suffix="." list-type="labeled-item"><item><label>a</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math>: </item>
+      <item><label>b</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H rSub { size 8{a} } } {}</m:annotation></m:semantics></m:math>: </item>
+
+      <item><label>c</label><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>df</m:mtext></m:mrow></m:mstyle><m:mfenced open="(" close=")"><m:mi>n</m:mi></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "df" left (n right )} {}</m:annotation></m:semantics></m:math> = ______ 
+
+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>df</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "df" \( d \) } {}</m:annotation></m:semantics></m:math> = _______
+</item>
+
+      <item><label>d</label>State the distribution to use for the test. </item>
+      <item><label>e</label>What is the test statistic?</item>
+      <item><label>f</label>What is the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math>-value?  </item>
+      <item><label>g</label>Use the previous information to sketch a picture of this situation. <emphasis>Clearly</emphasis> label and scale the horizontal axis and shade the region(s) corresponding to the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math>-value.<figure id="element-123123"><media id="id27331291" alt=""><image src="../../media/line1.PNG" mime-type="image/png"/></media></figure></item>
+    
+
+      <item><label>h</label>Indicate the correct decision (“reject” or “do not reject” the null hypothesis) and write appropriate conclusions, using <emphasis>complete sentences</emphasis>. <list id="list12345" list-type="labeled-item" mark-suffix="."><item><label>i</label>Alpha:</item>
+      <item><label>ii</label>Decision:</item>
+      <item><label>iii</label>Reason for decision:</item>
+      <item><label>iv</label>Conclusion:</item></list></item>
+    </list></content>
+</document>

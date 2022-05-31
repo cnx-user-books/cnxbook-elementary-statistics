@@ -1,0 +1,193 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Hypergeometric (optional)</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16824</md:content-id>
+  <md:title>Hypergeometric (optional)</md:title>
+  <md:abstract>This module describes the properties of a hypergeometric experiment and hypergeometric probability distribution.  This module is included in the Collaborative Statistics textbook/collection as an optional lesson.</md:abstract>
+  <md:uuid>71392e7b-d688-4f3d-b16a-0706a78476d9</md:uuid>
+</metadata>
+
+<content>
+    <para id="element-408">The characteristics of a hypergeometric experiment are:
+<list id="element-999" list-type="enumerated"><item>You take samples from <emphasis>2</emphasis> groups.</item>
+<item>You are concerned with a group of interest, called the first group.</item>
+<item>You sample <emphasis>without replacement</emphasis> from the combined groups. For example, you
+want to choose a softball team from a combined group of 11 men and 13 women. The
+team consists of 10 players.</item>
+<item>Each pick is <emphasis>not</emphasis> independent, since sampling is without replacement. In the softball
+example, the probability of picking a women first is <m:math><m:mfrac><m:mn>13</m:mn><m:mn>24</m:mn></m:mfrac></m:math>. The probability of picking a
+man second is <m:math><m:mfrac><m:mn>11</m:mn><m:mn>23</m:mn></m:mfrac></m:math> if a woman was picked first. It is <m:math><m:mfrac><m:mn>10</m:mn><m:mn>23</m:mn></m:mfrac></m:math> if a man was picked first.
+The probability of the second pick depends on what happened in the first pick.</item>
+<item>You are <emphasis>not</emphasis> dealing with Bernoulli Trials.</item>
+</list>
+The outcomes of a hypergeometric experiment fit a <term target-id="hypergeoprob">hypergeometric probability</term> distribution.
+The random variable <m:math><m:mi>X</m:mi><m:mo>=</m:mo></m:math> the number of items from the group of interest.
+The mean and variance are given in the summary.</para><example id="element-84"><para id="element-88">A candy dish contains 100 jelly beans and 80 gumdrops. Fifty candies are
+picked at random. What is the probability that 35 of the 50 are gumdrops? The two groups
+are jelly beans and gumdrops. Since the probability question asks for the probability of picking 
+gumdrops, the group of interest (first group) is gumdrops. The size of the group of interest (first
+group) is 80. The size of the second group is 100. The size of the sample is 50 (jelly beans or
+gumdrops). Let <m:math><m:mi>X</m:mi></m:math> = the number of gumdrops in the sample of 50. <m:math><m:mi>X</m:mi></m:math> takes on the values <m:math><m:mi>x</m:mi></m:math> = 0,
+1, 2, ..., 50. The probability question is 
+
+<m:math><m:reln><m:eq/><m:mrow><m:mi>P</m:mi>
+<m:mo>(</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>35</m:mn>
+<m:mo>)</m:mo></m:mrow></m:reln></m:math>.
+</para></example><example id="element-968"><para id="element-661">Suppose a shipment of 100 VCRs is known to have 10 defective VCRs.
+An inspector randomly chooses 12 for inspection. He is interested in determining the probability that,
+among the 12, at most 2 are defective. The two groups are the 90 non-defective VCRs and
+the 10 defective VCRs. The group of interest (first group) is the defective group because
+the probability question asks for the probability of at most 2 defective VCRs. The size of
+the sample is 12 VCRs. (They may be non-defective or defective.) Let <m:math><m:mi>X</m:mi></m:math> = the number of
+defective VCRs in the sample of 12. <m:math><m:mi>X</m:mi></m:math> takes on the values 0, 1, 2, ..., 10. <m:math><m:mi>X</m:mi></m:math> may not take
+on the values 11 or 12. The sample size is 12, but there are only 10 defective VCRs. The
+inspector wants to know <m:math><m:reln><m:leq/><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:reln></m:math> ("At most" means "less than or equal to").
+</para></example><example id="element-582"><para id="element-885">You are president of an on-campus special events organization. You need a
+committee of 7 to plan a special birthday party for the president of the college. Your
+organization consists of 18 women and 15 men. You are interested in the number of men on
+your committee. If the members of the committee are randomly selected, what is the probability that your committee has more than 4 men?
+</para>
+<para id="element-990">This is a hypergeometric problem because you are choosing your committee from two groups
+(men and women). 
+</para>
+
+
+<exercise id="element-720"><problem id="id43788540">
+  <para id="element-965">
+Are you choosing with or without replacement?
+  </para>
+</problem>
+
+<solution id="id43788559" print-placement="end">
+  <para id="element-142">
+Without
+  </para>
+</solution>
+</exercise><exercise id="element-154"><problem id="id43788588">
+  <para id="element-356">
+What is the group of interest?
+  </para>
+</problem>
+
+<solution id="id43788607" print-placement="end">
+  <para id="element-80">
+The men
+  </para>
+</solution>
+</exercise><exercise id="element-78"><problem id="id43788636">
+  <para id="element-378">
+   How many are in the group of interest?
+  </para>
+</problem>
+
+<solution id="id43788655" print-placement="end">
+  <para id="element-597">
+15 men
+  </para>
+</solution>
+</exercise><exercise id="element-801"><problem id="id43788684">
+  <para id="element-730">
+How many are in the other group?
+  </para>
+</problem>
+
+<solution id="id43788703" print-placement="end">
+  <para id="element-465">
+18 women
+  </para>
+</solution>
+</exercise><exercise id="element-675"><problem id="id43788731">
+  <para id="element-304">
+Let <m:math><m:mi>X</m:mi></m:math> = _________ on the committee.  What values does <m:math><m:mi>X</m:mi></m:math> take on? 
+  </para>
+</problem>
+
+<solution id="id43788760" print-placement="end">
+  <para id="element-529">Let <m:math><m:mi>X</m:mi></m:math> = <emphasis>the number of men</emphasis> on the committee.  <m:math><m:mi>x</m:mi></m:math> = 0, 1, 2, …, 7.
+  </para></solution>
+</exercise><exercise id="element-1231">
+<problem id="id43780639"><para id="element-49">The probability question is <m:math><m:mtext>P(_______)</m:mtext></m:math>.</para></problem>
+<solution id="id43780660" print-placement="end">
+ <para id="element-0836"><m:math><m:mtext>P(x&gt;4)</m:mtext></m:math>
+</para></solution>
+</exercise></example><section id="element-516"><title>Notation for the Hypergeometric: H = Hypergeometric Probability Distribution Function</title><para id="element-870"><m:math><m:mi>X</m:mi></m:math>~<m:math><m:mi>H(r, b, n)</m:mi></m:math></para>
+<para id="element-869">Read this as "<m:math><m:mi>X</m:mi></m:math> is a random variable with a hypergeometric distribution."
+The parameters are <m:math><m:mi>r</m:mi></m:math>, <m:math><m:mi>b</m:mi></m:math>, and <m:math><m:mi>n</m:mi></m:math>.
+<m:math><m:mi>r</m:mi></m:math> = the size of the group of interest (first group), 
+<m:math><m:mi>b</m:mi></m:math> = the size of the second group,
+<m:math><m:mi>n</m:mi></m:math> = the size of the chosen sample
+</para>
+</section>
+
+<example id="element-180"><para id="element-874">A school site committee is to be chosen randomly from 6 men
+and 5 women. If the committee consists of 4 members chosen randomly, what is the probability that 2 of them
+are men? How many men do you expect to be on the committee?
+</para><para id="element-875">Let <m:math><m:mi>X</m:mi></m:math> = the number of men on the committee of 4. The men are the group of interest (first
+group).
+</para>
+<para id="element-876"><m:math><m:mi>X</m:mi></m:math> takes on the values 0, 1, 2, 3, 4, where <m:math><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>6</m:mi></m:math>, <m:math><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>5</m:mi></m:math>  , and <m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>4</m:mi></m:math>. 
+
+<m:math><m:mi>X</m:mi><m:mo>~</m:mo><m:mn>H(6, 5, 4)</m:mn></m:math> </para>
+<para id="element-877">Find 
+<m:math><m:reln><m:eq/><m:mrow><m:mi>P</m:mi>
+<m:mo>(</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>2</m:mn>
+<m:mo>)</m:mo></m:mrow></m:reln></m:math>. 
+
+
+<m:math><m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:mrow><m:mi>P</m:mi>
+<m:mo>(</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>2</m:mn>
+<m:mo>)</m:mo></m:mrow></m:reln>
+<m:mrow><m:mn>0.4545</m:mn></m:mrow>
+</m:reln>
+</m:math> (calculator or computer)</para><note id="id43780917">Currently, the TI-83+ and TI-84 do not have hypergeometric probability
+functions. There are a number of computer packages, including Microsoft Excel, that
+do.
+</note>
+<para id="element-879">
+The probability that there are 2 men on the committee is about 0.45.
+</para><para id="element-136">The graph of <m:math><m:mi>X</m:mi></m:math>~<m:math><m:mn>H(6, 5, 4)</m:mn></m:math> is:
+</para><para id="element-831"><media id="id43780967" alt="The hypergeometric probability distribution function graph has five bars that are slightly normally distributed with an x-axis of 0-4 and a y-axis of 0-0.5 in increments of 0.1. The x-axis is equal to the number of men on the committee of 4."><image src="../../media/disc_rv_hypergeo_graph1_bw.png" mime-type="image/png" print-width="4in"/></media>
+
+</para><para id="element-704">The <m:math><m:mi>y</m:mi></m:math>-axis contains the
+probability of <m:math><m:mi>X</m:mi></m:math>, where <m:math><m:mi>X</m:mi></m:math> =
+the number of men on the
+committee.</para><para id="element-369">You would expect <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mi>2.18</m:mi></m:math> (about 2) men on the committee.</para><para id="element-702">The formula for the mean is
+
+<m:math>
+<m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:mrow><m:mi>μ</m:mi></m:mrow>
+<m:mrow><m:mfrac>
+   <m:mrow><m:mi>n</m:mi><m:mo>⋅</m:mo><m:mi>r</m:mi></m:mrow>
+   <m:mrow><m:mi>r</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow>
+</m:mfrac></m:mrow>
+</m:reln>
+<m:mrow><m:mfrac>
+   <m:mrow><m:mn>4</m:mn><m:mo>⋅</m:mo><m:mn>6</m:mn></m:mrow>
+   <m:mrow><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow>
+</m:mfrac></m:mrow>
+</m:reln>
+<m:mrow><m:mn>2.18</m:mn></m:mrow>
+</m:reln>
+</m:math></para><para id="element-294">The formula for the variance is fairly complex. You will find it in the <link document="m16833">Summary of the Discrete Probability Functions  Chapter</link>.</para></example>   
+  </content>
+  
+<glossary>
+<definition id="hpygeoprob">
+    <term>Hypergeometric Distribution</term>
+    <meaning id="id19874231">
+   A discrete random variable (RV) that is characterized by 
+<list id="hyp1" list-type="bulleted">
+<item>A fixed number of trials. </item>
+<item> The probability of success is not the same from trial to trial.</item>
+</list>
+We sample from two groups of items when we are interested in only one group. 
+<m:math><m:mi>X</m:mi></m:math> is defined as the number of successes out of the total number of items chosen. Notation: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mtext>~</m:mtext><m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mi>,</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X "~" H \( r,b,n \)} {}</m:annotation></m:semantics></m:math>, where <m:math><m:mi>r</m:mi></m:math> = the number of items in the group of interest, <m:math><m:mi>b</m:mi></m:math> = the number of items in the group not of interest, and <m:math><m:mi>n</m:mi></m:math> = the number of items chosen. 
+    </meaning>
+  </definition>
+</glossary>
+</document>

@@ -1,0 +1,35 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>F Distribution and One-Way ANOVA</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17065</md:content-id>
+  <md:title>F Distribution and One-Way ANOVA</md:title>
+  <md:abstract>This module provides a brief introduction on handling hypothesis tests with two means by the one-way Analysis of Variance (One-Way ANOVA), F Distribution, and the Test of Two Variances statistical analysis.</md:abstract>
+  <md:uuid>5746ee65-2a98-4b89-93fc-652987bce038</md:uuid>
+</metadata>
+
+<content><section id="element-499"><title>Student Learning Outcomes</title><para id="element-672">
+By the end of this chapter, the student should be able to:
+</para>
+
+<list id="list567"><item>Interpret the F probability distribution as the number of groups and the sample size change.</item>
+<item>Discuss two uses for the F distribution: One-Way ANOVA and the test of two variances.</item>
+<item>Conduct and interpret One-Way ANOVA.</item>
+<item>Conduct and interpret hypothesis tests of two variances.</item>
+
+</list></section><section id="id20166591"><title>Introduction</title>
+    <para id="delete_me">Many statistical applications in psychology, social science, business administration, and
+the natural sciences involve several groups. For example, an environmentalist is
+interested in knowing if the average amount of pollution varies in several bodies of water.
+A sociologist is interested in knowing if the amount of income a person earns varies
+according to his or her upbringing. A consumer looking for a new car might compare the
+average gas mileage of several models.
+    </para><para id="element-15">For hypothesis tests involving more than two averages, statisticians have developed a
+method called Analysis of Variance" (abbreviated ANOVA). In this chapter, you will
+study the simplest form of ANOVA called single factor or One-Way ANOVA. You will
+also study the F distribution, used for One-Way ANOVA, and the test of two variances. This is
+just a very brief overview of One-Way ANOVA. You will study this topic in much greater detail in
+future statistics courses.</para></section><list id="eip-767"><item>One-Way ANOVA, as it is presented here, relies heavily on a calculator or computer.</item>
+<item>For further information about One-Way ANOVA, use the online link    
+<link url="http://en.wikipedia.org/wiki/Analysis_of_variance">ANOVA</link>.  Use the back button to return here.  (The url is http://en.wikipedia.org/wiki/Analysis_of_variance.)</item></list></content>
+  
+</document>

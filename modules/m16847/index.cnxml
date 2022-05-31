@@ -1,0 +1,389 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Two Basic Rules of Probability</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16847</md:content-id>
+  <md:title>Two Basic Rules of Probability</md:title>
+  <md:abstract>This module introduces the multiplication and addition rules used when calculating probabilities.</md:abstract>
+  <md:uuid>f47f25ed-d8d1-49f3-b78a-af9602a457b5</md:uuid>
+</metadata>
+
+<content>
+    <section id="element-860"><title>The Multiplication Rule</title>
+<para id="element-288">If <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> are two events defined on a <term target-id="samplesp">sample space</term>, then:
+<m:math><m:mtext>P(A AND B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(B)</m:mtext><m:mo>⋅</m:mo><m:mtext>P(A|B)</m:mtext></m:math>.    </para><para id="element-423">This rule may also be written as : <m:math><m:mi>P(A|B)=</m:mi></m:math> 
+<m:math>
+ <m:mfrac>
+    <m:mn>P(A AND B)</m:mn>
+    <m:mn>P(B)</m:mn>
+  </m:mfrac>
+  <m:mtext/>
+</m:math></para><para id="element-800">(The probability of <m:math><m:mi>A</m:mi></m:math> given <m:math><m:mi>B</m:mi></m:math> equals the probability of <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> divided by the probability of <m:math><m:mi>B</m:mi></m:math>.)</para><para id="element-607">If  A and B are <term target-id="indevents">independent</term>, then <m:math><m:mtext>P(A|B)</m:mtext><m:mo> =</m:mo><m:mtext> P(A)</m:mtext></m:math>.
+Then <m:math><m:mtext>P(A AND B)</m:mtext><m:mo> =</m:mo> <m:mtext> P(A|B) P(B)</m:mtext></m:math>  becomes  <m:math><m:mtext>P(A AND B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A) P(B)</m:mtext></m:math>.  </para>
+
+</section>
+
+<section id="element-56"><title>The Addition Rule</title>
+<para id="element-306">If <m:math><m:mi>A </m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> are defined on a sample space, then:   
+<m:math><m:mtext>P(A OR B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext> <m:mo>+</m:mo> <m:mtext>P(B)</m:mtext> <m:mo>-</m:mo> <m:mtext>P(A AND B)</m:mtext></m:math>. </para><para id="element-212">If <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> are <term target-id="mutex">mutually exclusive</term>, then   <m:math><m:mtext>P(A AND B)</m:mtext> <m:mo>= </m:mo><m:mn>0</m:mn></m:math>.    
+Then <m:math><m:mtext>P(A OR B)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(A)</m:mtext> <m:mo>+</m:mo> <m:mtext>P(B)</m:mtext> <m:mo>-</m:mo> <m:mtext>P(A AND B)</m:mtext></m:math> becomes  <m:math><m:mtext>P(A OR B)</m:mtext> <m:mo>= </m:mo><m:mtext>P(A)</m:mtext> <m:mo>+</m:mo> <m:mtext>P(B)</m:mtext></m:math>. </para>
+</section>
+<example id="element-898"><para id="element-845">
+Klaus is trying to choose where to go on vacation. His two choices are: <m:math><m:mi>A</m:mi></m:math> = New Zealand  and <m:math><m:mi>B</m:mi></m:math> =  Alaska
+</para><list id="element-479" list-type="bulleted"><item>Klaus can only afford one vacation.   The probability that he chooses <m:math><m:mi>A</m:mi></m:math> is <m:math><m:mtext>P(A)</m:mtext><m:mo> =</m:mo><m:mn> 0.6</m:mn></m:math> and the probability that he chooses <m:math><m:mi>B</m:mi></m:math> is <m:math><m:mtext>P(B)</m:mtext> <m:mo>=</m:mo><m:mn> 0.35</m:mn></m:math>.</item>
+<item><m:math><m:mtext>P(A and B)</m:mtext><m:mo> =</m:mo><m:mn> 0</m:mn></m:math> because Klaus can only afford to take one vacation</item>
+
+<item>Therefore, the probability that he chooses either New Zealand or Alaska is <m:math><m:mtext>P(A OR B)</m:mtext><m:mo> =</m:mo> <m:mtext>P(A)</m:mtext><m:mo> + </m:mo><m:mtext>P(B)</m:mtext>  <m:mo>=</m:mo>  <m:mn>0.6</m:mn> <m:mo>+</m:mo> <m:mn>0.35</m:mn><m:mo> =</m:mo> <m:mn>0.95</m:mn></m:math>.  Note that the probability that he does not choose to go anywhere on vacation must be <m:math><m:mn>0.05</m:mn></m:math>.</item></list>
+
+</example><example id="element-83"><para id="element-230">
+ Carlos plays college soccer.  He makes a goal 65% of the time he shoots.  Carlos is going to attempt two goals in a row in the next game.
+</para><para id="element-493"><m:math><m:mi>A</m:mi></m:math> = the event Carlos is successful on his first attempt.   <m:math><m:mtext>P(A)</m:mtext> <m:mo>=</m:mo> <m:mn>0.65</m:mn></m:math>.
+<m:math><m:mi>B</m:mi></m:math> = the event Carlos is successful on his second attempt.  <m:math><m:mtext>P(B)</m:mtext> <m:mo>=</m:mo> <m:mn>0.65</m:mn></m:math>.
+Carlos tends to shoot in streaks.  The probability that he makes the second goal <emphasis>GIVEN</emphasis> that he made the first goal is 0.90.</para>
+
+
+<exercise id="element-639">
+ <problem id="id20946894">
+  <para id="element-639p">
+   What is the probability that he makes both goals?
+  </para>
+ </problem>
+ <solution id="id20946912">
+  <para id="element-639s">
+    The problem is asking you to find <m:math><m:mtext>P(A AND B)</m:mtext> <m:mo>=</m:mo> 
+    <m:mtext>P(B AND A)</m:mtext></m:math>.  Since <m:math><m:mtext>P(B|A)</m:mtext> <m:mo>=</m:mo> 
+    <m:mn>0.90</m:mn></m:math>:
+  </para>
+  <equation id="element-639e">
+   <m:math>
+   <m:mtext>P(B AND A)</m:mtext> 
+   <m:mo>= </m:mo>
+   <m:mtext>P(B|A) P(A)</m:mtext> 
+   <m:mo> = </m:mo> 
+   <m:mn>0.90</m:mn> 
+   <m:mo>*</m:mo>
+   <m:mn>0.65</m:mn>
+   <m:mo>=</m:mo>
+   <m:mn>0.585</m:mn>
+   </m:math>
+  </equation>
+  <para id="element-639s2">Carlos makes the first and second goals with probability 0.585.</para>
+ </solution>
+</exercise>
+
+<exercise id="element-101">
+ <problem id="id20947019">
+  <para id="element-101p">
+   What is the probability that Carlos makes either the first goal or the second goal?
+  </para>    
+ </problem>
+ <solution id="id20947037">
+  <para id="element-101s">
+    The problem is asking you to find <m:math><m:mtext>P(A OR B)</m:mtext></m:math>. 
+  </para>
+  <equation id="element-101e"> 
+    <m:math><m:mtext>P(A OR B)</m:mtext>  
+     <m:mo>=</m:mo>  
+     <m:mtext>P(A)</m:mtext> 
+     <m:mo>+ </m:mo>
+     <m:mtext>P(B)</m:mtext>
+     <m:mo> -</m:mo> 
+     <m:mtext>P(A AND B)</m:mtext>  
+     <m:mo>=</m:mo> 
+     <m:mn>0.65</m:mn>
+     <m:mo>+</m:mo>
+     <m:mn>0.65</m:mn>
+     <m:mo>-</m:mo>
+     <m:mn>0.585</m:mn>
+     <m:mo>=</m:mo>
+     <m:mn>0.715</m:mn>
+   </m:math>
+  </equation>
+  <para id="element-101s2">
+   Carlos makes either the first goal or the second goal with probability 0.715.
+  </para>
+ </solution>
+</exercise>
+
+<exercise id="element-444"><problem id="id20946309">
+  <para id="element-356">
+    Are <m:math><m:mi>A</m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> independent?
+  </para>
+</problem>
+
+<solution id="id20946336">
+  <para id="element-471">No, they are not, because 
+ <m:math>
+  <m:mtext>P(B AND A)</m:mtext>
+  <m:mo> = </m:mo>
+  <m:mn>0.585</m:mn>
+ </m:math>.</para><equation id="element-825"><m:math>
+ <m:mtext>P(B)</m:mtext>
+ <m:mo> ⋅ </m:mo>
+ <m:mtext>P(A)</m:mtext>
+ <m:mo> = </m:mo>
+ <m:mn>(0.65)</m:mn>
+ <m:mo> ⋅ </m:mo>
+ <m:mn>(0.65)</m:mn>
+ <m:mo> = </m:mo>
+ <m:mn>0.423</m:mn>
+</m:math></equation><equation id="element-221"><m:math>
+ <m:mn>0.423</m:mn>
+ <m:mo> ≠ </m:mo>
+ <m:mn>0.585</m:mn>
+ <m:mo> = </m:mo>
+ <m:mtext>P(B AND A)</m:mtext>
+</m:math></equation><para id="element-990">So, <m:math> <m:mtext>P(B AND A)</m:mtext></m:math> is <emphasis>not</emphasis> equal to <m:math>
+ <m:mtext>P(B)</m:mtext>
+ <m:mo> ⋅ </m:mo>
+ <m:mtext>P(A)</m:mtext>
+</m:math>.</para>
+</solution>
+</exercise><exercise id="element-102">
+ <problem id="id20946487">
+  <para id="element-102p">Are <m:math><m:mi>A </m:mi></m:math> and <m:math><m:mi>B</m:mi></m:math> mutually exclusive?
+  </para>
+ </problem>    
+ <solution id="id20946514">
+  <para id="element-102s">
+   No, they are not because <m:math><m:mtext>P(A and B)</m:mtext></m:math> = 0.585.
+  </para>
+  <para id="element-102s2">
+   To be mutually exclusive, <m:math><m:mtext>P(A AND B)</m:mtext></m:math> must equal  0.
+  </para>
+ </solution>
+</exercise>
+</example><example id="element-572"><para id="element-699">
+  A community swim team has <emphasis>150</emphasis> members.  <emphasis>Seventy-five</emphasis> of the members are advanced swimmers.  <emphasis>Forty-seven</emphasis> of the members are intermediate swimmers.  The remainder are novice swimmers.   <emphasis>Forty</emphasis> of the advanced swimmers practice 4 times a week.  <emphasis>Thirty</emphasis> of the intermediate swimmers practice 4 times a week.  <emphasis>Ten</emphasis> of the novice swimmers practice 4 times a week.  Suppose one member of the swim team is randomly chosen.  Answer the questions (Verify the answers):
+</para>
+
+<exercise id="element-201">
+ <problem id="id21150090"> 
+  <para id="element-201p">
+   What is the probability that the member is a novice swimmer?
+  </para>
+ </problem>
+ <solution id="id21150108">
+  <para id="element-201s">
+   <m:math><m:mfrac><m:mn>28</m:mn><m:mn>150</m:mn></m:mfrac></m:math>
+  </para>
+ </solution>
+</exercise>
+
+<exercise id="element-202">
+ <problem id="id21150144"> 
+  <para id="element-202p">
+   What is the probability that the member practices 4 times a week?
+  </para>
+ </problem>
+ <solution id="id21150162">
+  <para id="element-202s">
+   <m:math><m:mfrac><m:mn>80</m:mn><m:mn>150</m:mn></m:mfrac></m:math>
+  </para>
+ </solution>
+</exercise>
+
+<exercise id="element-203">
+ <problem id="id21150198"> 
+  <para id="element-203p">
+   What is the probability that the member is an advanced swimmer and practices 4 times  a week?
+  </para>
+ </problem>
+ <solution id="id21150218">
+  <para id="element-203s">   
+   <m:math><m:mfrac><m:mn>40</m:mn><m:mn>150</m:mn></m:mfrac></m:math>
+  </para>
+ </solution>
+</exercise>
+
+<exercise id="element-204">
+ <problem id="id21150254"> 
+  <para id="element-204p">
+   What is the probability that a member is an advanced swimmer and an intermediate swimmer?  Are being an advanced swimmer and an intermediate swimmer mutually exclusive?  Why or why not?    
+  </para>
+ </problem>
+ <solution id="id21150274">
+  <para id="element-204s"><m:math>
+ <m:mtext>P(advanced AND intermediate)</m:mtext> 
+ <m:mo> = </m:mo> 
+ <m:mn>0</m:mn>
+</m:math>, so these are mutually exclusive events.  A swimmer cannot be an advanced swimmer and an intermediate swimmer at the same time.
+  </para>
+ </solution>
+</exercise>
+
+<exercise id="element-205"><problem id="id21163993"> 
+  <para id="element-205p">
+   Are being a novice swimmer and practicing 4 times a week independent events? Why or why not?
+  </para>
+ </problem>
+ <solution id="id21164012">
+  <para id="element-205s">No, these are not independent events.</para>
+  <equation id="element-205e"><m:math>
+    <m:mtext>P(novice AND practices 4 times per week)</m:mtext> 
+    <m:mo>=</m:mo> 
+    <m:mn>0.0667</m:mn>
+   </m:math>
+  </equation>
+  <equation id="element-205e2">
+   <m:math>
+    <m:mtext>P(novice)</m:mtext>
+    <m:mo> ⋅ </m:mo>  
+    <m:mtext>P(practices 4 times per week)</m:mtext> 
+    <m:mo>=</m:mo> 
+    <m:mn>0.0996</m:mn>
+   </m:math>
+  </equation>
+  <equation id="element-205e3">
+   <m:math>
+    <m:mn>0.0667</m:mn> 
+    <m:mo>≠</m:mo>
+    <m:mn>0.0996</m:mn>
+   </m:math>
+  </equation>
+ </solution>
+</exercise></example><example id="element-911"><para id="element-472">Studies show that, if she lives to be 90, about 1 woman in 7 (approximately 14.3%) will develop breast cancer.  Suppose that of those women who develop breast cancer, a  test is negative 2% of the time.  Also suppose that in the general population of women, the test for breast cancer is negative about 85% of the time. 
+Let <m:math><m:mi> B</m:mi></m:math> = woman develops breast cancer and let <m:math><m:mi>N</m:mi></m:math> = tests negative. Suppose one woman is selected at random.
+</para><exercise id="element-301">
+ <problem id="id21164153"> 
+  <para id="element-301p">What is the probability that the woman develops breast cancer?  What is the probability that woman 
+   tests negative?
+  </para>
+ </problem>
+ <solution id="id21164172">
+  <para id="element-301s">
+                                                                                                         <m:math><m:mtext>P(B)</m:mtext> <m:mo>= </m:mo><m:mn>0.143</m:mn></m:math>     ;    <m:math><m:mtext>P(N)</m:mtext> <m:mo>=</m:mo> <m:mn>0.85</m:mn></m:math>
+
+  </para>
+ </solution>
+</exercise>
+
+
+<exercise id="element-302">
+ <problem id="id21164224"> 
+  <para id="element-302p">Given that the woman has breast cancer, what is the probability that she tests negative?
+  </para>
+ </problem>
+ <solution id="id21164243">
+  <para id="element-302s">
+          <m:math><m:mtext>P(N|B)</m:mtext> <m:mo>=</m:mo> <m:mn>0.02</m:mn></m:math>
+  </para>
+ </solution>
+</exercise>
+
+<exercise id="element-307">
+ <problem id="id21164283"> 
+  <para id="element-307p">What is the probability that the woman has breast cancer AND tests negative?
+  </para>
+ </problem>
+ <solution id="id21164302">
+  <para id="element-307s"><m:math><m:mtext>P(B AND N)</m:mtext> <m:mo>=</m:mo> <m:mtext>P(B) ⋅ P(N|B)</m:mtext> <m:mo>=</m:mo> <m:mo>(</m:mo><m:mn>0.143</m:mn><m:mo>)</m:mo><m:mo> ⋅ </m:mo><m:mo>(</m:mo><m:mn>0.02</m:mn><m:mo>)</m:mo> <m:mo>= </m:mo><m:mn>0.0029</m:mn></m:math>
+
+  </para>
+ </solution>
+</exercise>
+
+<exercise id="element-303">
+ <problem id="id21164367"> 
+  <para id="element-303p">What is the probability that the woman has breast cancer or tests negative?
+  </para>
+ </problem>
+ <solution id="id21164385">
+  <para id="element-303s"><m:math><m:mtext>P(B OR N)</m:mtext> <m:mo>=</m:mo><m:mtext> P(B)</m:mtext> <m:mo>+</m:mo> <m:mtext>P(N) </m:mtext><m:mo>-</m:mo> <m:mtext>P(B AND N)</m:mtext> <m:mo>=</m:mo> <m:mn>0.143</m:mn> <m:mo>+</m:mo> <m:mn>0.85</m:mn> <m:mo>-</m:mo> <m:mn>0.0029</m:mn> <m:mo>=</m:mo> <m:mn>0.9901</m:mn></m:math>
+
+  </para>
+ </solution>
+</exercise>
+
+<exercise id="element-304">
+ <problem id="id21164462"> 
+  <para id="element-304p">
+   Are having breast cancer and testing negative independent events?
+  </para>
+ </problem>
+ <solution id="id21164481">
+  <para id="element-304s">
+                                      No.  <m:math><m:mtext>P(N)</m:mtext> <m:mo>=</m:mo> <m:mn>0.85</m:mn></m:math>;  <m:math><m:mtext>P(N|B)</m:mtext> <m:mo>=</m:mo> <m:mn>0.02</m:mn></m:math>.  So, <m:math><m:mtext>P(N|B)</m:mtext></m:math> does not equal <m:math><m:mtext>P(N)</m:mtext></m:math>
+
+  </para>
+ </solution>
+</exercise>
+
+<exercise id="element-305">
+ <problem id="id21001185"> 
+  <para id="element-305p">
+   Are having breast cancer and testing negative mutually exclusive?
+  </para>
+ </problem>
+ <solution id="id21001204">
+  <para id="element-305s">No.  <m:math><m:mtext>P(B AND N)</m:mtext> <m:mo>= </m:mo><m:mn>0.0029</m:mn></m:math>.  For <m:math><m:mi>B</m:mi></m:math> and <m:math><m:mi>N</m:mi></m:math> to be mutually exclusive, 
+       <m:math><m:mtext>P(B AND N)</m:mtext></m:math> must be 0.
+  </para></solution>
+</exercise></example>   
+  </content>
+
+
+  <glossary>
+
+<definition id="indevents">
+    <term>Independent Events</term>
+    <meaning id="id9683146">
+   The occurrence of one event has no effect on the probability of the occurrence of any other event. Events A and B are independent if one of the following is true: (1). <m:math><m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mn>|</m:mn>
+  </m:mrow>
+  <m:mi>B</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>A</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>;</m:mo></m:math> (2) <m:math><m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mn>|</m:mn>
+  </m:mrow>
+  <m:mi>A</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>B</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>;</m:mo></m:math> (3) <m:math> <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>A</m:mi>
+  <m:mi>and</m:mi>
+  <m:mi>B</m:mi>
+  <m:mo>)</m:mo>
+  <m:mo>=</m:mo>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>A</m:mi>
+  <m:mo>)</m:mo>
+  <m:mi>P</m:mi>
+  <m:mo>(</m:mo>
+  <m:mi>B</m:mi>
+  <m:mo>)</m:mo></m:math>.
+    </meaning>
+  </definition>
+
+<definition id="mutex">
+    <term>Mutually Exclusive</term>
+    <meaning id="id9683312">
+   An observation cannot fall into more than one class (category). Being in more than one category prevents being in a mutually exclusive category.
+    </meaning>
+  </definition>
+
+
+<definition id="samplesp">
+    <term>Sample Space</term>
+    <meaning id="id21001465">
+The set of all possible outcomes of an experiment.
+    </meaning>
+  </definition>
+</glossary>
+</document>

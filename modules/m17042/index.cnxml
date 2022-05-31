@@ -1,0 +1,441 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Comparing Two Independent Population Means with Known Population Standard Deviations</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17042</md:content-id>
+  <md:title>Comparing Two Independent Population Means with Known Population Standard Deviations</md:title>
+  <md:abstract>This module provides an overview of hypothesis testing in situations where there are both two independent population means and known population standard deviations in statistics.</md:abstract>
+  <md:uuid>f401fb61-cd90-4943-9e1c-967f70184559</md:uuid>
+</metadata>
+  <content>
+    <para id="delete_me">Even though this situation is not likely (knowing the population standard
+deviations is not likely), the following
+example illustrates hypothesis testing for independent means, known population
+standard deviations. 
+The sampling distribution for the difference between the means is normal and both populations must be normal. 
+The random variable is 
+<m:math>
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>X</m:ci>
+<m:mn>1</m:mn>
+</m:msub>
+</m:apply>
+<m:mo>-</m:mo>
+
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>X</m:ci>
+<m:mn>2</m:mn>
+</m:msub>
+</m:apply>
+</m:math>. 
+
+The normal distribution has the following format:
+<equation id="normal"><title>Normal distribution</title>
+<m:math>
+ <m:mover>
+    <m:msub>
+      <m:mi>X</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>−</m:mo>
+  <m:mover>
+    <m:msub>
+      <m:mi>X</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>~</m:mo>
+  <m:mi>N</m:mi>
+  <m:mo>[</m:mo>
+  <m:msub>
+    <m:mi>u</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo>
+  <m:msub>
+    <m:mi>u</m:mi>
+    <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo>
+  <m:msqrt>
+    <m:mfrac>
+      <m:msup>
+        <m:mrow>
+          <m:mo>(</m:mo>
+          <m:msub>
+            <m:mi>σ</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:mo>)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:msub>
+        <m:mi>n</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mrow>
+          <m:mo>(</m:mo>
+          <m:msub>
+            <m:mi>σ</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+          <m:mo>)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:msub>
+        <m:mi>n</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mfrac>
+  </m:msqrt>
+  <m:mo>]</m:mo>
+</m:math>
+</equation></para><equation id="element-970">
+<title>The standard deviation is:</title><m:math><m:mspace width="12pt"/>
+
+<m:msqrt>
+    <m:mfrac>
+      <m:msup>
+        <m:mrow>
+          <m:mo>(</m:mo>
+          <m:msub>
+            <m:mi>σ</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:mo>)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:msub>
+        <m:mi>n</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mrow>
+          <m:mo>(</m:mo>
+          <m:msub>
+            <m:mi>σ</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+          <m:mo>)</m:mo>
+        </m:mrow>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:msub>
+        <m:mi>n</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mfrac>
+  </m:msqrt>
+</m:math></equation><equation id="element-465">
+
+<title>The test statistic (z-score) is:</title><m:math><m:mspace width="12pt"/>
+ <m:mi>z</m:mi>
+  <m:mo>=</m:mo>
+  <m:mfrac>
+    <m:mrow>
+      <m:mrow>
+        <m:mo>(</m:mo>
+        <m:mover>
+          <m:msub>
+            <m:mi>x</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:mo>¯</m:mo>
+        </m:mover>
+        <m:mo>−</m:mo>
+        <m:mover>
+          <m:msub>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+          <m:mo>¯</m:mo>
+        </m:mover>
+        <m:mo>)</m:mo>
+      </m:mrow>
+      <m:mo>−</m:mo>
+      <m:mrow>
+        <m:mo>(</m:mo>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>)</m:mo>
+      </m:mrow>
+    </m:mrow>
+    <m:msqrt>
+      <m:mfrac>
+        <m:msup>
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:msub>
+              <m:mi>σ</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>)</m:mo>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msub>
+          <m:mi>n</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mfrac>
+      <m:mo>+</m:mo>
+      <m:mfrac>
+        <m:msup>
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:msub>
+              <m:mi>σ</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo>)</m:mo>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msub>
+          <m:mi>n</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mfrac>
+    </m:msqrt>
+  </m:mfrac>
+</m:math></equation><example id="element-364"><para id="element-384"><emphasis>independent groups, population standard deviations known:</emphasis> The
+mean lasting time of 2 competing floor waxes is to be compared. <emphasis>Twenty floors</emphasis> are
+randomly assigned <emphasis>to test each wax</emphasis>. Both populations have a normal distribution. The following table is the result.  
+<table id="table-12" summary="This table has wax in the first column, sample mean in the second column, and standard deviation in the third column. There are two rows.">
+
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>Wax</entry>
+<entry>Sample Mean Number of Months Floor Wax Last</entry>
+<entry>Population Standard Deviation</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>1</entry>
+<entry>3</entry>
+<entry>0.33</entry>
+</row>
+<row>
+<entry>2</entry>
+<entry>2.9</entry>
+<entry>0.36</entry>
+</row>
+</tbody>
+</tgroup>
+</table></para><exercise id="element-144"><problem id="id48398874">
+  <para id="element-656">
+  Does the data indicate that <emphasis>wax 1 is more effective than wax 2</emphasis>? Test at a 5% level of
+significance.
+  </para>
+</problem>
+
+<solution id="id48398901">
+  <para id="element-795">
+  This is a test of two independent groups, two population means, population
+standard deviations known.
+  </para><para id="element-483"><term>Random Variable</term>:
+ <m:math>
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>X</m:ci>
+<m:mn>1</m:mn>
+</m:msub>
+</m:apply>
+<m:mo>-</m:mo>
+
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>X</m:ci>
+<m:mn>2</m:mn>
+</m:msub>
+</m:apply>
+<m:mo>=</m:mo>
+</m:math>
+difference in the mean number of months the competing floor waxes last.</para><para id="element-735"><m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+<m:mo>:</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>≤</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+</m:math></para><para id="element-608"><m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>a</m:mi>
+</m:msub>
+<m:mo>:</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>&gt;</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+</m:math></para><para id="element-696">The words <emphasis>"is more effective"</emphasis> says that
+<emphasis>wax 1 lasts longer than wax 2</emphasis>, on the
+average. "Longer" is a <m:math><m:mo>"</m:mo><m:mo>&gt;</m:mo><m:mo>"</m:mo></m:math> symbol and
+goes into <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub></m:math>. Therefore, this is a
+right-tailed test.</para><para id="element-690"><emphasis>Distribution for the test:</emphasis> The population standard deviations are known so the
+distribution is normal. Using the formula above, the distribution is:</para><para id="element-406"><m:math>
+<m:mover>
+    <m:msub>
+      <m:mi>X</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>−</m:mo>
+  <m:mover>
+    <m:msub>
+      <m:mi>X</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>¯</m:mo>
+  </m:mover>
+  <m:mo>~</m:mo>
+  <m:mi>N</m:mi>
+    <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mn>0</m:mn>
+      <m:mo>,</m:mo>
+      <m:msqrt>
+        <m:mfrac>
+          <m:msup>
+            <m:mn>0.33</m:mn>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mn>20</m:mn>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:msup>
+            <m:mn>0.36</m:mn>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mn>20</m:mn>
+        </m:mfrac>
+      </m:msqrt>
+      <m:mo>)</m:mo>
+    </m:mrow>
+
+</m:math>
+</para><para id="element-990">Since <m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>1</m:mi>
+</m:msub>
+<m:mo>≤</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+</m:math>
+then
+<m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>1</m:mi>
+</m:msub>
+<m:mo>−</m:mo>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+<m:mo>≤</m:mo>
+<m:mn>0</m:mn>
+</m:math>
+and the mean for the
+normal distribution
+is 0.</para><para id="element-503"><emphasis>Calculate the p-value using the normal distribution:</emphasis> p-value = 0.1799</para><para id="element-542"><emphasis>Graph:</emphasis></para><figure id="hyptest22_cmp_2_1"><media id="id48414007" alt="Normal distribution curve of difference in the average number of months the competing floor waxes last with values of 0 and 0.1 on the x-axis. A vertical upward line extends from 0.1 to the curve and the p-value points to the area to the right of 0.1."><image src="../../media/hyptest22_cmp_2_1.png" mime-type="image/png" width="400" print-width="3in"/></media></figure><para id="element-311"><m:math>
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>x</m:ci>
+<m:mi>1</m:mi>
+</m:msub>
+</m:apply>
+<m:mo>-</m:mo>
+
+<m:apply>
+  <m:conjugate/>
+<m:msub>
+  <m:ci>x</m:ci>
+<m:mi>2</m:mi>
+</m:msub>
+</m:apply>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+<m:mo>-</m:mo>
+<m:mn>2.9</m:mn>
+<m:mo>=</m:mo>
+<m:mn>0.1</m:mn>
+</m:math>
+</para><para id="element-803"><emphasis>Compare α and the p-value:</emphasis> 
+<m:math>
+<m:mi>α</m:mi>
+<m:mo>=</m:mo> 
+<m:mn>0.05</m:mn></m:math> and p-value = 0.1799.
+Therefore, <m:math>
+<m:mi>α</m:mi>
+<m:mo>&lt;</m:mo></m:math> p-value.</para><para id="element-962"><emphasis>Make a decision:</emphasis> Since 
+<m:math><m:mi>α</m:mi>
+<m:mo>&lt;</m:mo></m:math> p-value, do not reject 
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math>.</para><para id="element-132"><emphasis>Conclusion:</emphasis> At the 5% level of significance, from the sample data, there is not
+sufficient evidence to conclude that the mean time wax 1 lasts is longer (wax 1 is more effective) than the mean time wax 2 lasts.</para><note id="id48337650">TI-83+ and TI-84: Press <code>STAT</code>. Arrow over to <code>TESTS</code> and press
+<code>3:2-SampZTest</code>. Arrow over to <code>Stats</code> and press <code>ENTER</code>. Arrow down and
+enter <code>.33</code> for sigma1, <code>.36</code> for sigma2, <code>3</code> for the first sample mean, <code>20</code> for n1, <code>2.9</code>
+for the second sample mean, and <code>20</code> for n2. Arrow down to <m:math><m:mi>μ</m:mi></m:math>1: and arrow to &gt;
+<m:math><m:mi>μ</m:mi></m:math>2. Press <code>ENTER</code>. Arrow down to <code>Calculate</code> and press <code>ENTER</code>. The
+p-value is p = 0.1799 and the test statistic is 0.9157. Do the procedure again
+but instead of <code>Calculate</code> do <code>Draw</code>.</note>
+</solution>
+</exercise>
+</example>   
+  </content>
+  
+</document>

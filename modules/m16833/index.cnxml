@@ -1,0 +1,188 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Summary of Functions</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16833</md:content-id>
+  <md:title>Summary of Functions</md:title>
+  <md:abstract>This module provides a review of the binomial, geometric, hypergeometric, and Poisson probability distribution functions and their properties.</md:abstract>
+  <md:uuid>2ebde72f-0433-411c-8bb2-f1e87c77183b</md:uuid>
+</metadata>
+<content>
+<rule id="binomial-1" type="formula"><label>Formula</label><title>Binomial</title><statement id="id20785991">
+<para id="element-701"><m:math><m:mi>X</m:mi></m:math>~<m:math><m:mi>B</m:mi><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>,</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:math></para><para id="element-2"><m:math><m:mrow><m:mi>X</m:mi></m:mrow></m:math> = the number of successes in <m:math><m:mi>n</m:mi></m:math> independent trials
+</para>
+
+<para id="element-3"><m:math><m:mrow><m:mi>n</m:mi></m:mrow></m:math>  = the number of independent trials
+</para>
+
+<para id="element-4"><m:math><m:mrow><m:mi>X</m:mi></m:mrow></m:math>  takes on the values <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo></m:mrow></m:math> 0,1, 2, 3, ...,<m:math><m:mi>n</m:mi></m:math>
+</para>
+
+<para id="element-5"><m:math><m:mrow><m:mi>p</m:mi></m:mrow></m:math> = the probability of a success for any trial
+</para>
+
+<para id="element-6"><m:math><m:mrow><m:mi>q</m:mi></m:mrow></m:math> = the probability of a failure for any trial
+</para>
+
+<para id="element-7"><m:math><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="15pt"/>
+<m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>p</m:mi></m:mrow></m:math>
+</para>
+
+<para id="element-8">The mean is <m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>np</m:mi></m:mrow></m:math>. The standard deviation is <m:math><m:mrow><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mi>npq</m:mi></m:msqrt></m:mrow></m:math>.
+</para>
+</statement>
+</rule>
+<rule id="Geometric" type="formula"><label>Formula</label><title>Geometric</title><statement id="id13369021">
+<para id="element-1000"><m:math><m:mi>X</m:mi></m:math>~<m:math><m:mi>G</m:mi>
+<m:mo>(</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:math></para><para id="element-10"><m:math><m:mrow><m:mi>X</m:mi></m:mrow></m:math> = the number of independent trials until the first success
+(count the failures and the first success)
+</para>
+<para id="element-15"><m:math><m:mrow><m:mi>X</m:mi></m:mrow></m:math> takes on the values <m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math>= 1, 2, 3, ...
+</para>
+<para id="element-14"><m:math><m:mrow><m:mi>p</m:mi></m:mrow></m:math> = the probability of a success for any trial
+</para>
+<para id="element-13"><m:math><m:mrow><m:mi>q</m:mi></m:mrow></m:math> = the probability of a failure for any trial
+</para>
+<para id="element-12"><m:math><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>
+</para>
+<para id="element-118">
+<m:math><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>p</m:mi></m:mrow></m:math>
+</para>
+<para id="element-117">The mean is 
+<m:math><m:mrow><m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn><m:mi>p</m:mi></m:mfrac></m:mrow></m:math></para>
+<para id="element-11">Τhe standard deviation is
+<m:math>
+<m:mrow>
+
+<m:mi>σ</m:mi>
+<m:mo>=</m:mo>
+<m:msqrt>
+<m:mfrac>
+<m:mn>1</m:mn><m:mi>p</m:mi></m:mfrac>
+<m:mo>(</m:mo><m:mrow><m:mo>(</m:mo><m:mfrac>
+<m:mn>1</m:mn><m:mi>p</m:mi></m:mfrac><m:mo>)</m:mo></m:mrow>
+<m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:msqrt></m:mrow></m:math>
+</para>
+</statement>
+</rule>
+
+<rule id="Hypergeometric" type="formula"><label>Formula</label><title>Hypergeometric</title><statement id="id11920945">
+<para id="element-905"><m:math><m:mi>X</m:mi></m:math>~<m:math><m:mi>H</m:mi>
+<m:mo>(</m:mo><m:mi>r</m:mi><m:mo>,</m:mo>
+<m:mi>b</m:mi><m:mo>,</m:mo>
+<m:mi>n</m:mi><m:mo>)</m:mo></m:math></para><para id="element-222"><m:math><m:mi>X</m:mi></m:math> = the number of items from the group of
+interest that are in the chosen sample.
+</para>
+<para id="element-223"><m:math><m:mi>X</m:mi></m:math> may take on the values <m:math><m:mi>x</m:mi></m:math>= 0, 1, ..., up to the
+size of the group of interest. (The minimum value
+for <m:math><m:mi>X</m:mi></m:math> may be larger than 0 in some instances.)
+</para>
+<para id="element-224"><m:math><m:mi>r</m:mi></m:math> = the size of the group of interest (first group)
+</para>
+<para id="element-225"><m:math><m:mi>b</m:mi></m:math>= the size of the second group
+</para>
+<para id="element-226"><m:math><m:mi>n</m:mi></m:math>= the size of the chosen sample.
+</para>
+<para id="element-227"><m:math><m:reln>
+<m:leq/>
+<m:mi>n</m:mi>
+<m:mrow>
+<m:mi>r</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:mrow>
+</m:reln></m:math></para>
+<para id="element-228">The mean is: <m:math>
+<m:mi>μ</m:mi><m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mi>r</m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi>r</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:mrow>
+</m:mfrac></m:math></para>
+<para id="element-229">The standard deviation is: <m:math><m:reln><m:eq/>
+<m:mi>σ</m:mi><m:msqrt><m:mfrac>
+<m:mrow>
+<m:mi>r</m:mi>
+<m:mi>b</m:mi>
+<m:mi>n</m:mi>
+<m:mo>(</m:mo>
+<m:mi>r</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mo>-</m:mo>
+<m:mi>n</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mrow>
+<m:mrow>
+<m:mrow>
+
+<m:msup>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>r</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mi>2</m:mi>
+
+</m:msup>
+
+</m:mrow>
+</m:mrow>
+
+
+<m:mo>(</m:mo>
+<m:mi>r</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+</m:mrow>
+</m:mfrac>
+
+</m:msqrt>
+
+</m:reln>
+</m:math></para></statement>
+</rule>
+
+<rule id="Possion" type="formula"><label>Formula</label><title>Poisson</title><statement id="id15561975">
+<para id="element-39"><m:math><m:mi>X</m:mi></m:math> ~ <m:math><m:mtext>P(μ)</m:mtext></m:math></para><para id="element-21"><m:math><m:mi>X</m:mi></m:math> = the number of occurrences in the interval of
+interest</para><para id="element-777"><m:math><m:mi>X</m:mi></m:math> takes on the values <m:math><m:mi>x</m:mi></m:math> = 0, 1, 2, 3, ...</para><para id="element-423">The mean <m:math><m:mi>μ</m:mi></m:math> is typically given. (<m:math><m:mi>λ</m:mi></m:math> is often used as
+the mean instead of <m:math><m:mi>μ</m:mi></m:math>.) When the Poisson is used
+to approximate the binomial, we use the binomial
+mean <m:math><m:mi>μ</m:mi> <m:mo>=</m:mo> <m:mi>n</m:mi><m:mi>p</m:mi></m:math>. <m:math><m:mi>n</m:mi></m:math> is the binomial number of trials.
+<m:math><m:mi>p</m:mi></m:math> = the probability of a success for each trial. This
+formula is valid when n is "large" and <m:math><m:mi>p</m:mi></m:math> "small" (a general rule is that <m:math><m:mi>n</m:mi></m:math> should be greater than or equal to <m:math><m:mn>20</m:mn></m:math> and <m:math><m:mi>p</m:mi></m:math>  should be less than or equal to <m:math><m:mn>0.05</m:mn></m:math>). If <m:math><m:mi>n</m:mi></m:math> is large enough and <m:math><m:mi>p</m:mi></m:math>
+is small enough then the Poisson approximates the
+binomial very well.  The variance is 
+<m:math>
+  <m:msup>
+       <m:mi>σ</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo>
+<m:mi>μ</m:mi>
+</m:math>
+and 
+the standard deviation is 
+<m:math>
+<m:mi>σ</m:mi>
+<m:mo>=</m:mo>
+<m:msqrt>
+<m:mi>μ</m:mi>
+</m:msqrt>
+</m:math>
+</para></statement>
+</rule>
+</content>
+</document>

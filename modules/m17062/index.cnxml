@@ -1,0 +1,655 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Facts About the F Distribution</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17062</md:content-id>
+  <md:title>Facts About the F Distribution</md:title>
+  <md:abstract>This module states the factors associated with F Distributions and provides students with some examples to help further understand the concept. Students will be given the opportunity to see F Distributions in action through participation in an optional classroom exercise.</md:abstract>
+  <md:uuid>70fac823-4e67-44af-9cc5-102fd3ede9be</md:uuid>
+</metadata>
+
+<content>
+    <list id="list-1" list-type="enumerated"><item>The curve is not symmetrical but skewed to the right.</item>
+<item>There is a different curve for each set of <m:math><m:mtext>dfs
+</m:mtext></m:math>.</item>
+<item>The F statistic is greater than or equal to zero.</item>
+<item>As the degrees of freedom for the numerator and for the denominator get larger,
+the curve approximates the normal.</item>
+<item>Other uses for the F distribution include comparing two variances and Two-Way
+Analysis of Variance. Comparing two variances is discussed at the end of the chapter.
+Two-Way Analysis is mentioned for your information only.</item></list>
+<para id="element-865"><figure id="anova_figs"><subfigure id="anova_facts1">
+     <media id="id5185835" alt="Nonsymmetrical F distribution curve skewed to the right, more values in the right tail and the peak is closer to the left. This curve is different from the graph on the right because of the different dfs."><image src="../../media/anova_facts1.png" mime-type="image/png" print-width="3in"/></media>
+ </subfigure>
+<subfigure id="anova_facts2">
+     <media id="id3431372" alt="Nonsymmetrical F distribution curve skewed to the right, more values in the right tail and the peak is closer to the left. This curve is different from the graph on the left because of the different dfs. Because its dfs are larger, it is closer in resemblance to a normal distribution curve."><image src="../../media/anova_facts2.png" mime-type="image/png" print-width="3in"/></media>
+ </subfigure></figure></para><example id="element-810"><para id="element-726"><emphasis>One-Way ANOVA:</emphasis> Four sororities took a random sample of
+sisters regarding their grade means for the past term. The results are shown below:
+</para><table id="table-1" summary="This table presents the grade averages for sororities with the first sorority in the first column, second in the second column, third in the third column, and fourth in the fourth column.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry namest="c1" nameend="c4" align="center">MEAN GRADES FOR FOUR SORORITIES</entry>
+</row>
+<row>
+<entry>Sorority 1</entry>
+<entry>Sorority 2</entry>
+<entry>Sorority 3</entry>
+<entry>Sorority 4</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">2.17</entry> 
+<entry align="center">2.63</entry> 
+<entry align="center">2.63</entry> 
+<entry align="center">3.79</entry>
+</row>
+<row>
+<entry align="center">1.85</entry> <entry align="center">1.77</entry> <entry align="center">3.78</entry> <entry align="center">3.45</entry>
+</row>
+<row>
+<entry align="center">2.83</entry>  <entry align="center">3.25</entry> <entry align="center">4.00</entry>  <entry align="center">3.08</entry>
+</row>
+<row>
+<entry align="center">1.69</entry>  <entry align="center">1.86</entry>  <entry align="center">2.55</entry>  <entry align="center">2.26</entry>
+</row>
+<row>
+<entry align="center">3.33</entry> <entry align="center">2.21</entry> <entry align="center">2.45</entry> <entry align="center">3.18</entry>
+</row>
+</tbody>
+
+
+
+
+</tgroup>
+</table><exercise id="element-508"><problem id="id3272914">
+		<para id="element-863">Using a significance level of 1%, is there a difference in mean grades among the
+sororities?  </para></problem>
+	<solution id="id3301468">
+		<para id="element-75">Let 
+<m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+</m:math>,
+<m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+</m:math>,
+<m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mn>3</m:mn>
+</m:msub>
+</m:math>,
+<m:math>
+<m:msub>
+<m:mi>μ</m:mi>
+<m:mn>4</m:mn>
+</m:msub>
+</m:math> be the population means of the sororities. Remember that the null
+hypothesis claims that the sorority groups are from the same normal distribution.
+The alternate hypothesis says that at least two of the sorority groups come from
+populations with different normal distributions. Notice that the four sample sizes are
+each size 5.  
+<newline/>
+<note id="eip-id1170641699184">This is an example of a <emphasis>balanced design</emphasis>, since each factor (i.e. Sorority) has the same number of observations.
+</note></para><para id="element-998"><m:math>
+		<m:msub>
+			<m:mi>H</m:mi>
+			<m:mi>o</m:mi>
+		</m:msub>
+		<m:mo>:</m:mo>
+		<m:msub>
+			<m:mi>μ</m:mi>
+			<m:mn>1</m:mn>
+		</m:msub>
+		<m:mo>=</m:mo>
+		<m:msub>
+			<m:mi>μ</m:mi>
+			<m:mn>2</m:mn>
+		</m:msub>
+		<m:mo>=</m:mo>
+		<m:msub>
+			<m:mi>μ</m:mi>
+			<m:mn>3</m:mn>
+		</m:msub>
+		<m:mo>=</m:mo>
+		<m:msub>
+			<m:mi>μ</m:mi>
+			<m:mn>4</m:mn>
+		</m:msub>
+		<m:mspace width="30pt"/>
+	</m:math>
+	</para><para id="element-309"><m:math>
+		<m:msub>
+			<m:mi>H</m:mi>
+			<m:mi>a</m:mi>
+		</m:msub>
+	</m:math>: Not all of the means 
+<m:math>
+		<m:msub>
+			<m:mi>μ</m:mi>
+			<m:mn>1</m:mn>
+		</m:msub>
+		<m:mo>,</m:mo>
+		<m:msub>
+			<m:mi>μ</m:mi>
+			<m:mn>2</m:mn>
+		</m:msub>
+		<m:mo>,</m:mo>
+		<m:msub>
+			<m:mi>μ</m:mi>
+			<m:mn>3</m:mn>
+		</m:msub>
+		<m:mo>,</m:mo>
+		<m:msub>
+			<m:mi>μ</m:mi>
+			<m:mn>4</m:mn>
+		</m:msub>
+	</m:math> are equal. </para><para id="element-958"><emphasis>Distribution for the test:</emphasis>
+	<m:math>
+		<m:msub>
+			<m:mi>F</m:mi>
+			<m:mrow>
+				<m:mn>3</m:mn>
+				<m:mo>,</m:mo>
+				<m:mn>16</m:mn>
+			</m:mrow>
+		</m:msub>
+	</m:math>
+</para><para id="element-673">where <m:math>
+		<m:mi>k</m:mi>
+		<m:mo>=</m:mo>
+		<m:mtext>4 groups</m:mtext></m:math> 
+and
+<m:math>
+		<m:mi>n</m:mi>
+		<m:mo>=</m:mo>
+		<m:mtext>20 samples in total</m:mtext>
+	</m:math>
+ </para><para id="element-925"><m:math><m:mi>df(num)</m:mi>
+		<m:mo>=</m:mo>
+		<m:mi>k</m:mi>
+		<m:mo>-</m:mo>
+		<m:mn>1</m:mn>
+		<m:mo>=</m:mo>
+		<m:mn>4</m:mn>
+		<m:mo>-</m:mo>
+		<m:mn>1</m:mn>
+		<m:mo>=</m:mo>
+		<m:mn>3</m:mn>
+ </m:math></para><para id="element-41"><m:math><m:mi>df(denom)</m:mi>
+		<m:mo>=</m:mo>
+		<m:mi>n</m:mi>
+		<m:mo>-</m:mo>
+		<m:mi>k</m:mi>
+		<m:mo>=</m:mo>
+		<m:mn>20</m:mn>
+		<m:mo>-</m:mo>
+		<m:mn>4</m:mn>
+		<m:mo>=</m:mo>
+		<m:mn>16</m:mn>
+	</m:math>
+ </para><para id="element-284"><emphasis>Calculate the test statistic:</emphasis>
+<m:math>
+<m:mi>F</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2.23</m:mn>
+</m:math> </para><para id="element-964"><emphasis>Graph:</emphasis> </para><para id="element-264"><figure id="anova_facts3"><media id="id4765799" alt="Nonsymmetrical F distribution curve with values of 0 and 2.23 on the x-axis representing the test statistic of sorority grade averages. A vertical upward line extends from 2.23 to the curve and the area to the right of this is equal to the p-value."><image src="../../media/anova_facts3.png" mime-type="image/png" print-width="4in"/></media></figure></para><para id="element-484"><emphasis>Probability statement:</emphasis> 
+<m:math>
+<m:mtext>p-value</m:mtext>
+<m:mo>=</m:mo>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>F</m:mi>
+<m:mo>&gt;</m:mo>
+<m:mn>2.23</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>0.1241</m:mn>
+</m:math> </para><para id="element-849"><emphasis>Compare 
+<m:math>
+		<m:mi>α</m:mi>
+	</m:math> and the <m:math>
+		<m:mi>p-value</m:mi>
+	</m:math>:</emphasis> 
+<m:math>
+		<m:mi>α</m:mi>
+		<m:mo>=</m:mo>
+		<m:mn>0.01</m:mn>
+		<m:mspace width="35pt"/>
+		<m:mtext>p-value</m:mtext>
+		<m:mo>=</m:mo>
+		<m:mn>0.1241</m:mn>
+		<m:mspace width="35pt"/>
+</m:math>
+<m:math>
+		<m:mi>α</m:mi>
+		<m:mo>&lt;</m:mo>
+		<m:mtext>p-value</m:mtext>
+</m:math></para><para id="element-119"><emphasis>Make a decision:</emphasis>
+ Since 
+<m:math>
+<m:mi>α</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mtext>p-value</m:mtext>
+</m:math>, you cannot reject 
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math>. </para><para id="element-483"><emphasis>Conclusion:</emphasis> There is not sufficient evidence to conclude that there is a
+difference among the mean grades for the sororities. </para><para id="element-171"><emphasis>TI-83+ or TI 84:</emphasis> Put the data into lists L1, L2, L3, and L4. Press <code>STAT</code> and
+arrow over to <code>TESTS</code>. Arrow down to <code>F:ANOVA</code>. Press <code>ENTER</code> and Enter
+(<code>L1,L2,L3,L4</code>). The F statistic is 2.2303 and the <m:math><m:mtext>p-value
+</m:mtext></m:math> is 0.1241.
+<m:math><m:mtext>df(numerator) = 3</m:mtext></m:math> (under <code>"Factor"</code>) and <m:math><m:mtext>df(denominator) = 16</m:mtext></m:math> (under <code>Error</code>). </para>
+	</solution>
+</exercise>
+</example><example id="element-349"><para id="element-149">A fourth grade class is studying the environment. One of the
+assignments is to grow bean plants in different soils. Tommy chose to grow his bean
+plants in soil found outside his classroom mixed with dryer lint. Tara chose to grow her
+bean plants in potting soil bought at the local nursery. Nick chose to grow his bean
+plants in soil from his mother's garden. No chemicals were used on the plants, only
+water. They were grown inside the classroom next to a large window. Each child
+grew 5 plants. At the end of the growing period, each plant was measured, producing
+the following data (in inches): 
+<table id="table-234" summary="This table presents Tommy's plant heights in inches in the first column, Tara's plant heights in inches in the second column, and Nick's plant heights in inches in the third column.">
+
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead valign="top">
+<row>
+<entry>Tommy's Plants</entry>
+<entry>Tara's Plants</entry>
+<entry>Nick's Plants</entry>
+</row>
+</thead>
+
+<tbody valign="top">
+<row>
+<entry align="center">24</entry>
+<entry align="center">25</entry>
+<entry align="center">23</entry>
+</row>
+<row>
+<entry align="center">21</entry>
+<entry align="center">31</entry>
+<entry align="center">27</entry>
+</row>
+<row>
+<entry align="center">23</entry>
+<entry align="center">23</entry>
+<entry align="center">22</entry>
+</row>
+<row>
+<entry align="center">30</entry>
+<entry align="center">20</entry>
+<entry align="center">30</entry>
+</row>
+<row>
+<entry align="center">23</entry>
+<entry align="center">28</entry>
+<entry align="center">20</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></para><exercise id="element-769"><problem id="id13000852">
+		<para id="element-952">Does it appear that the three media in which the bean plants were grown produce the
+same mean height? Test at a 3% level of significance.  </para></problem>
+	<solution id="id3319153">
+		<para id="element-501">This time, we will perform the calculations that lead to the F' statistic. Notice that
+each group has the same number of plants so we will use the formula
+
+
+<m:math>
+<m:mrow>
+<m:mi>F'</m:mi>
+<m:mo>=</m:mo>
+
+<m:mfrac>
+
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>⋅</m:mo>
+<m:msup>
+<m:mrow>
+<m:mo/>
+<m:msub>
+
+<m:mi>s</m:mi>
+
+<m:mstyle fontsize="8pt">
+<m:mrow>
+<m:mover><m:mi>x</m:mi><m:mo>_</m:mo></m:mover>
+</m:mrow>
+</m:mstyle>
+</m:msub>
+<m:mo/>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mo/>
+<m:msub>
+<m:msup>
+<m:mi>s</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mstyle fontsize="8pt">
+<m:mtext>pooled</m:mtext>
+</m:mstyle>
+</m:msub>
+<m:mo/>
+</m:mrow>
+
+</m:msup>
+</m:mrow>
+
+</m:mfrac>
+
+</m:mrow>
+</m:math>.
+		</para><para id="element-599">First, calculate the sample mean and sample variance of each group. </para>
+<table id="table-9634" summary="This table presents Tommy's plant heights in the first column, Tara's plant heights in the second column, and Nick's plant heights in the third column. The first row represents the sample mean and the second row represents the sample variance.">
+
+<tgroup cols="4"><colspec colnum="1" colname="header_c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+
+<thead valign="top">
+<row>
+<entry/>
+<entry>Tommy's Plants</entry>
+<entry>Tara's Plants</entry>
+<entry>Nick's Plants</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry>Sample Mean</entry>
+<entry align="center">24.2</entry>
+<entry align="center">25.4</entry>
+<entry align="center">24.4</entry>
+</row>
+<row>
+<entry>Sample Variance</entry>
+<entry align="center">11.7</entry>
+<entry align="center">18.3</entry>
+<entry align="center">16.3</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table><para id="element-566">Next, calculate the variance of the three group means (Calculate the variance of 24.2,
+25.4, and 24.4). <emphasis>Variance of the group means = 0.413</emphasis> = 
+ 
+<m:math><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false"/><m:msub><m:mi>s</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:mrow></m:mrow></m:mstyle></m:msub><m:mrow><m:msup><m:mo stretchy="false"/><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false"/><m:mrow/></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:math></para><para id="element-883">Then 
+<m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub>
+
+<m:mo>=</m:mo>
+
+<m:mi>n</m:mi>
+<m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false"/><m:msub><m:mi>s</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:mrow></m:mrow></m:mstyle></m:msub><m:mrow><m:msup><m:mo stretchy="false"/><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false"/><m:mrow/></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow>
+
+<m:mo>=</m:mo>
+<m:mo>(</m:mo>
+<m:mn>5</m:mn>
+<m:mo>)</m:mo>
+<m:mo>(</m:mo>
+<m:mn>0.413</m:mn>
+<m:mo>)</m:mo>
+</m:math> where <m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:math> is the sample size (number of plants
+each child grew). </para><para id="element-606">Calculate the mean of the three sample variances (Calculate the mean of 11.7,
+18.3, and 16.3). <emphasis>Mean of the sample variances = 15.433</emphasis> 
+
+<m:math>
+<m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false"/><m:msub>
+
+<m:msup>
+<m:mi>s</m:mi>
+<m:mstyle fontsize="8pt">
+<m:mn>2</m:mn></m:mstyle></m:msup>
+
+<m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>pooled</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mrow><m:msup><m:mo stretchy="false"/><m:mstyle fontsize="8pt"><m:mrow>
+
+</m:mrow></m:mstyle></m:msup><m:mo stretchy="false"/><m:mrow/></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( s rSub { size 8{ ital "pooled"} }  \)  rSup { size 8{2} } ={}} {}</m:annotation></m:semantics>
+</m:math>
+</para><para id="element-877">Then 
+<m:math>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+<m:mo>=</m:mo>
+
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false"/><m:msub>
+
+<m:msup>
+<m:mi>s</m:mi>
+<m:mstyle fontsize="8pt">
+<m:mn>2</m:mn>
+</m:mstyle>
+</m:msup>
+
+<m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>pooled</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mrow><m:msup><m:mo stretchy="false"/><m:mstyle fontsize="8pt"><m:mrow>
+
+</m:mrow></m:mstyle></m:msup><m:mo stretchy="false"/><m:mrow/></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( s rSub { size 8{ ital "pooled"} }  \)  rSup { size 8{2} } ={}} {}</m:annotation></m:semantics>
+
+<m:mo>=</m:mo>
+
+<m:mn>15.433</m:mn>
+</m:math>. </para><para id="element-649">The <m:math>
+<m:mi>F</m:mi>
+</m:math> statistic (or <m:math>
+<m:mi>F</m:mi>
+</m:math> ratio) is <m:math>
+<m:mi>F</m:mi>
+<m:mo>=</m:mo>
+
+
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>between</m:mtext>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi>MS</m:mi>
+<m:mtext>within</m:mtext>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+
+<m:mfrac>
+
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>⋅</m:mo>
+<m:msup>
+<m:mrow>
+<m:mo/>
+<m:msub>
+<m:mi>s</m:mi>
+<m:mstyle fontsize="8pt">
+<m:mrow>
+<m:mover><m:mi>x</m:mi><m:mo>_</m:mo></m:mover>
+</m:mrow>
+</m:mstyle>
+</m:msub>
+<m:mo/>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mo/>
+<m:msub>
+
+<m:msup>
+<m:mi>s</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+<m:mstyle fontsize="8pt">
+<m:mtext>pooled</m:mtext>
+</m:mstyle>
+</m:msub>
+<m:mo/>
+</m:mrow>
+
+</m:msup>
+</m:mrow>
+
+</m:mfrac>
+
+<m:mo>=</m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mn>5</m:mn>
+<m:mo>)</m:mo>
+<m:mo>⋅</m:mo>
+<m:mo>(</m:mo>
+<m:mn>0.413</m:mn>
+<m:mo>)</m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn>15.433</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>0.134</m:mn>
+</m:math> 
+
+</para><para id="element-81">The dfs for the numerator = <m:math>
+<m:mtext>the number of groups</m:mtext>
+<m:mo>-</m:mo> 
+<m:mn>1</m:mn>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+</m:math> </para><para id="element-691">The dfs for the denominator =
+<m:math>
+<m:mtext> the
+total number of samples</m:mtext>
+<m:mo>-</m:mo>
+<m:mtext>the number
+of groups</m:mtext>
+<m:mo>=</m:mo>
+<m:mn>15</m:mn>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+<m:mo>=</m:mo>
+<m:mn>12</m:mn>
+</m:math> </para><para id="element-174">The distribution for the test is <m:math>
+<m:msub>
+<m:mi>F</m:mi>
+<m:mrow>
+<m:mn>2</m:mn>
+<m:mo>,</m:mo>
+<m:mn>12</m:mn>
+</m:mrow>
+</m:msub>
+</m:math> and the F statistic is <m:math>
+<m:mi>F</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0.134</m:mn>
+</m:math> </para><para id="element-351">The p-value is 
+<m:math>
+<m:mi>P</m:mi>
+<m:mo>(</m:mo>
+<m:mi>F</m:mi>
+<m:mo>&gt;</m:mo>
+<m:mn>0.134</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>0.8759</m:mn>
+</m:math>. </para><para id="element-528"><emphasis>Decision:</emphasis> Since <m:math>
+<m:mi>α</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0.03</m:mn>
+</m:math>
+ and the <m:math>
+<m:mtext>p-value</m:mtext>
+<m:mo>=</m:mo>
+<m:mn>0.8759</m:mn>
+</m:math>, do not reject 
+<m:math>
+<m:msub>
+<m:mi>H</m:mi>
+<m:mi>o</m:mi>
+</m:msub>
+</m:math>. (Why?) </para><para id="element-886"><emphasis>Conclusion:</emphasis> With a 3% the level of significance, from the sample data, the evidence is
+not sufficient to conclude that the mean heights of the bean plants are  different.
+</para><para id="element-223">(This experiment was actually done by three classmates of the son of one of the
+authors.) </para>
+</solution>
+</exercise>
+
+
+
+<para id="element-824">Another fourth grader also grew bean plants but this time in a jelly-like mass. The
+heights were (in inches) 24, 28, 25, 30, and 32. </para>
+
+<exercise id="element-3252">
+<problem id="id6378299">
+<para id="element-146"><emphasis>Do a One-Way ANOVA test on the 4 groups.</emphasis> You may use your calculator or computer to
+perform the test. Are the heights of the bean plants different? Use a <link document="m17135">solution sheet</link>. </para></problem>
+<solution id="id15320576" print-placement="end">
+  <list id="element-foo" list-type="bulleted"><item><m:math><m:mi>F</m:mi></m:math> = 0.9496</item>
+   <item><m:math><m:mi>p-value</m:mi></m:math> = 0.4402</item>
+  </list><para id="element-bar">From the sample data, the evidence is
+not sufficient to conclude that the mean heights of the bean plants are  different.</para></solution>
+</exercise>
+
+
+
+</example><section id="element-866"><title>Optional Classroom Activity</title><para id="element-746">From the class, create four groups of the same size as follows: men under 22, men at least 22, women under 22, women at least 22. Have each member of
+each group record the number of states in the United States he or she has visited.
+Run an ANOVA test to determine if the average number of states visited in the four
+groups are the same. Test at a 1% level of significance. Use one of the <link document="m17135">solution sheets</link> at the end of the chapter (after the homework).
+</para></section>   
+  </content>
+  
+</document>

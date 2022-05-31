@@ -1,0 +1,576 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="review">
+  <title>Review</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16955</md:content-id>
+  <md:title>Review</md:title>
+  <md:abstract>Central Limit Theorem: Review is part of the collection col10555 written by Barbara Illowsky and Susan Dean. The module consists of review exercises.</md:abstract>
+  <md:uuid>489b75aa-cc47-4f5d-ae56-174e3319a71f</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="The Central Limit Theorem _review.pdf" strength="3">Download handout (.pdf)</link>
+      <link url="The Central Limit Theorem (review).doc" strength="3">Download handout (.doc)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="delete_me"><emphasis>The next three questions refer to the following information:</emphasis> 
+Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly.  We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.
+</para><exercise id="element-725"><problem id="id10684324">
+  <para id="element-386"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mstyle fontsize="12pt">
+					<m:mrow>
+						<m:mrow>
+							<m:mi>X</m:mi>
+						</m:mrow>
+					</m:mrow>
+				</m:mstyle>
+				<m:mrow/>
+			</m:mrow>
+			<m:annotation encoding="StarMath 5.0"> size 12{X "~" } {}</m:annotation>
+		</m:semantics>
+	</m:math> ~
+</para><list id="element-596" list-type="labeled-item" mark-suffix="."><item><label>A</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>U</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0,4</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{U \( 0,4 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>B</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>U</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>10</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>2</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{U \( "10",2 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>C</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>Exp</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "Exp" \( 2 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>D</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>N</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2,1</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{N \( 2,1 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list>
+</problem>
+
+<solution id="id11298039">
+  <para id="element-98">A</para>
+</solution>
+</exercise><exercise id="element-407"><problem id="id11298063">
+  <para id="element-498">The average wait time is:</para><list id="element-143" list-type="labeled-item" mark-suffix="."><item><label>A</label> 1 hour</item>
+<item><label>B</label> 2 hour</item>
+<item><label>C</label> 2.5 hour</item>
+<item><label>D</label> 4 hour</item></list>
+</problem>
+
+<solution id="id11298138">
+  <para id="element-117">B
+  </para>
+</solution>
+</exercise><exercise id="element-191"><problem id="id11298162">
+  <para id="element-285">Suppose that it is now past noon on a delivery day.  The probability that a person must wait at least  
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{1 {  {1}  over  {2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+     <emphasis> more </emphasis> hours is:</para><list id="element-700" list-type="labeled-item" mark-suffix="."><item><label>A</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>4</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {4} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>B</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>C</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>4</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {4} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>D</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>8</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {8} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list>
+</problem>
+
+<solution id="id11213161">
+  <para id="element-376">A</para>
+</solution>
+</exercise><exercise id="element-286"><problem id="id11213184">
+  <para id="element-412">Given: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mtext>~</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Exp</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X "~"  ital "Exp" \(  {  {1}  over  {3} }  \) } {}</m:annotation></m:semantics></m:math>.</para><list id="element-173" mark-suffix="." list-type="labeled-item"><item><label>a</label> Find 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( x&gt;1 \) } {}</m:annotation></m:semantics></m:math></item>
+<item><label>b</label> Calculate the minimum value for the upper quartile.</item>
+<item><label>c</label> Find 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P \( x= {  {1}  over  {3} }  \) } {}</m:annotation></m:semantics></m:math></item></list></problem>
+
+<solution id="id11212667">
+  <list id="element-527" list-type="labeled-item" mark-suffix="."><item><label>a</label> 0.7165</item>
+<item><label>b</label> 4.16</item>
+<item><label>c</label> 0</item></list>
+</solution>
+</exercise><exercise id="element-999"><problem id="id11212728">
+  <list id="element-216" list-type="bulleted"><item>40% of full-time students took 4 years to graduate</item>
+<item>30% of full-time students took 5 years to graduate</item>
+<item>20% of full-time students took 6 years to graduate</item>
+<item>10% of full-time students took 7 years to graduate</item>
+</list><para id="element-44">The expected time for full-time students to graduate is:
+
+</para><list id="element-1" list-type="labeled-item" mark-suffix="."><item><label>A</label> 4 years	</item>
+<item><label>B</label> 4.5 years	</item>
+<item><label>C</label> 5 years	</item>
+<item><label>D</label> 5.5 years	</item>
+</list>
+</problem>
+
+<solution id="id11212846">
+  <para id="element-995">C</para>
+</solution>
+</exercise><exercise id="element-256"><problem id="id11212870">
+  <para id="element-32">
+  Which of the following distributions is described by the following example?
+  </para>
+ <para id="element-33">
+Many people can run a short distance of under 2 miles, but as the distance increases, fewer people can run that far.
+</para><list id="element-73" list-type="labeled-item" mark-suffix="."><item><label>A</label> Binomial	</item>
+<item><label>B</label> Uniform	</item>
+<item><label>C</label> Exponential	</item>
+<item><label>D</label> Normal</item></list>
+</problem>
+
+<solution id="id7128021">
+  <para id="element-750">C</para>
+</solution>
+</exercise><exercise id="element-597"><problem id="id7128045">
+  <para id="element-783">The length of time to brush one’s teeth is generally thought to be exponentially distributed with a mean of 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>4</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {4} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     minutes.  Find the probability that a randomly selected person brushes his/her teeth less than 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>4</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {4} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     minutes.
+  </para><list id="element-329" list-type="labeled-item" mark-suffix="."><item><label>A</label> 0.5</item>
+<item><label>B</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>4</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {4} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>C</label> 0.43</item>
+<item><label>D</label> 0.63</item>
+</list>
+</problem>
+
+<solution id="id7128236">
+  <para id="element-233">D</para>
+</solution>
+</exercise><exercise id="element-146"><problem id="id7128260">
+  <para id="element-772">
+  Which distribution accurately describes the following situation?
+  </para>
+  <para id="element-773">
+The chance that a teenage boy regularly gives his mother a kiss goodnight (and he should!!) is about 20%.  Fourteen teenage boys are randomly surveyed.
+</para>
+  <para id="element-774">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation></m:semantics></m:math>the number of teenage boys that regularly give their mother a kiss goodnight
+</para><list id="element-283" list-type="labeled-item" mark-suffix="."><item><label>A</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>B</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>14</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>20</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{B \( "14",0 "." "20" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>B</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>8</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( 2 "." 8 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>C</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>N</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>8,2</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>24</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{N \( 2 "." 8,2 "." "24" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>D</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>Exp</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>20</m:mtext>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "Exp" \(  {  {1}  over  {0 "." "20"} }  \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list>
+</problem>
+
+<solution id="id11309508">
+  <para id="element-315">A</para>
+</solution>
+</exercise><exercise id="eip-142"><problem id="eip-id1164879802299">
+  <para id="eip-id1164884898070"><emphasis>Which distribution accurately describes the following situation?</emphasis>
+  </para>
+  <para id="eip-id1164882728761">A 2008 report on technology use states that approximately 20 percent of U.S. households have never sent an e-mail. (source: http://www.webguild.org/2008/05/20-percent-of-americans-have-never-used-email.php)    Suppose that we select a random sample of fourteen U.S. households .
+</para>
+  <para id="eip-id1164895534554"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X={}} {}</m:annotation></m:semantics></m:math>the number of households in a 2008 sample of 14 households that have never sent an email
+</para><list id="eip-id1164882661482" list-type="labeled-item" mark-suffix="."><item><label>A</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>B</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>14</m:mtext>
+                  <m:mi>,</m:mi>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>20</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{B \( "14",0 "." "20" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>B</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>8</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P \( 2 "." 8 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>C</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>N</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>8,2</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>24</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{N \( 2 "." 8,2 "." "24" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item>
+<item><label>D</label> 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>Exp</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>20</m:mtext>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "Exp" \(  {  {1}  over  {0 "." "20"} }  \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list>
+</problem>
+
+<solution id="id8811292">
+  <para id="eip-id1164895221621">A</para>
+</solution>
+</exercise><para id="eip-756">**Exercise 9 contributed by Roberta Bloom</para>   
+  </content>
+  
+</document>

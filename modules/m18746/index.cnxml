@@ -1,0 +1,92 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Additional Resources</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18746</md:content-id>
+  <md:title>Additional Resources</md:title>
+  <md:abstract>This module catalogs several of the resources available for teachers and students using the Collaborative Statistics (col10522) textbook and its derivatives.  This module provides links to the complementary teacher's guide, supplemental materials including video lectures and additional problem sets, accessibility information, collection version history and errata, and a list of related works and teachers who have adopted them for their courses.</md:abstract>
+  <md:uuid>b2e93b2a-7b7b-4fc9-b971-b01b354a2fe8</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/col10522/latest/" strength="3">View the Textbook Online</link>
+      <link url="http://cnx.org/content/col10547/latest/" strength="2">View the Teacher's Guide</link>
+      <link url="http://cnx.org/content/col10586/latest/" strength="2">Supplemental Materials</link>
+      <link url="http://cnx.org/content/m17360/latest/" strength="2">Version History</link>
+      <link url="http://cnx.org/content/m18261/latest/" strength="2">Textbook Adoption and Usage</link>
+      <link url="http://cnx.org/content/m17212/latest/" strength="2">Connexions Accessibility Features</link>
+      <link url="http://cnx.org/content/m17211/latest/" strength="2">Collaborative Statistics Accessibility Features</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <list id="eip-50"><title>Additional Resources Currently Available</title><item><link target-id="glossary-para">Glossary</link></item>
+<item><link target-id="view-online-para">View or Download This Textbook Online</link></item>
+<item><link target-id="teachers-guide-para">Collaborative Statistics Teacher's Guide</link></item>
+<item><link target-id="supplemental-para">Supplemental Materials</link></item>
+<item><link target-id="videolectures">Video Lectures</link></item>
+<item><link target-id="version-history-para">Version History</link></item>
+<item><link target-id="adoption-para">Textbook Adoption and Usage</link></item>
+<item><link target-id="additional-tech-para">Additional Technologies and Notes</link></item>
+<item><link target-id="accessibility-para">Accessibility and Section 508 Compliance</link></item>
+</list>
+
+<para id="element-392">The following section describes some additional resources for learners and educators.  These modules and collections are all available on the Connexions website (<link url="http://cnx.org/">http://cnx.org/</link>) and can be viewed online, downloaded, printed, or ordered as appropriate.</para>
+
+<para id="glossary-para"><title>Glossary</title>This module contains the entire glossary for the Collaborative Statistics textbook collection (col10522) since its initial release on 15 July 2008.  The glossary is located at <link document="m16129">http://cnx.org/content/m16129/latest/</link>.
+
+<newline/><newline/>
+Below are links to additional resources:
+<newline/>
+Link to the Statistics Glossary by Dr. Philip Stark, UC Berkeley
+<newline/><newline/>
+<cite><cite-title>http:// </cite-title></cite><link url="http://statistics.berkeley.edu/~stark/SticiGui/Text/gloss.htm"><cite><cite-title>statistics.berkeley.edu/~stark/SticiGui/Text/gloss.htm</cite-title></cite></link>
+
+<newline/><newline/>
+Link to Wikipedia
+<newline/><newline/>
+<cite><cite-title>http:// </cite-title></cite><link url="http://www.wikipedia.org/"><cite><cite-title>http://www.wikipedia.org/</cite-title></cite></link>
+<newline/>
+(Search on "Glossary of probability and statistics.")
+</para><para id="view-online-para"><title>View or Download This Textbook Online</title>The complete contents of this book are available at no cost on the Connexions website at <link document="col10522">http://cnx.org/content/col10522/latest/</link>.  Anybody can view this content free of charge either as an online e-book or a downloadable PDF file.  A low-cost printed version of this textbook is also available <link url="http://my.qoop.com/store/7064943342106149/7781159220340">here</link>.</para>
+
+<para id="teachers-guide-para"><title>Collaborative Statistics Teacher's Guide</title>A complementary Teacher's Guide for Collaborative statistics is available through Connexions at <link document="col10547">http://cnx.org/content/col10547/latest/</link>.  The Teacher's Guide includes suggestions for presenting concepts found throughout the book as well as recommended homework assignments.  A low-cost printed version of this textbook is also available <link url="http://my.qoop.com/store/7064943342106149/8791310589747">here</link>.</para>
+
+<para id="supplemental-para"><title>Supplemental Materials</title>This companion to Collaborative Statistics provides a number of additional resources for use by students and instructors based on the award winning <link url="http://sofia.fhda.edu/gallery/statistics/index.html">Elementary Statistics Sofia online course</link>, also by textbook authors Barbara Illowsky and Susan Dean. This content is designed to complement the textbook by providing video tutorials, course management materials, and sample problem sets. The Supplemental Materials collection can be found at <link document="col10586">http://cnx.org/content/col10586/latest/</link>.
+
+<list id="videolectures" list-type="bulleted">
+ <title>Video Lectures</title>
+ <item><link document="m17561">Video Lecture 1: Sampling and Data</link></item>
+ <item><link document="m17562">Video Lecture 2: Descriptive Statistics</link></item>
+ <item><link document="m17563">Video Lecture 3: Probability Topics</link></item>
+ <item><link document="m17565">Video Lecture 4: Discrete Distributions</link></item>
+ <item><link document="m17566">Video Lecture 5: Continuous Random Variables</link></item>
+ <item><link document="m17567">Video Lecture 6: The Normal Distribution</link></item>
+ <item><link document="m17568">Video Lecture 7: The Central Limit Theorem</link></item>
+ <item><link document="m17569">Video Lecture 8: Confidence Intervals</link></item>
+ <item><link document="m17570">Video Lecture 9: Hypothesis Testing with a Single Mean</link></item>
+ <item><link document="m17577">Video Lecture 10: Hypothesis Testing with Two Means</link></item>
+ <item><link document="m17571">Video Lecture 11: The Chi-Square Distribution</link></item>
+ <item><link document="m17572">Video Lecture 12: Linear Regression and Correlation</link></item>
+</list></para>
+
+<para id="version-history-para"><title>Version History</title>This module contains a listing of changes, updates, and corrections made to the Collaborative Statistics textbook collection (col10522) since its initial release on 15 July 2008.  The Version History is located at <link document="m17360">http://cnx.org/content/m17360/latest/</link>.</para>
+
+<para id="adoption-para"><title>Textbook Adoption and Usage</title>This module is designed to track the various derivations of the Collaborative Statistics textbook and its various companion resources, as well as keep track of educators who have adopted various versions for their courses.  New adopters are encouraged to provide their contact information and describe how they will use this book for their courses.  The goal is to provide a list that will allow educators using this book to collaborate, share ideas, and make suggestions for future development of this text.  The Adoption and Usage module is located at <link document="m18261">http://cnx.org/content/m18261/latest/</link>.</para>
+
+<para id="additional-tech-para"><title>Additional Technologies</title>In order to provide the most flexible learning resources possible, we invite collaboration from all instructors wishing to create customized versions of this content for use with other technologies. For instance, you may be interested in creating a set of instructions similar to this collection's calculator notes. If you would like to contribute to this collection, please use the contact the authors with any ideas or materials you have created.</para>
+
+<para id="accessibility-para"><title>Accessibility and Section 508 Compliance</title><list id="element-23523" list-type="bulleted"><item>For information on general Connexions accessibility features, please visit
+
+<link document="m17212">http://cnx.org/content/m17212/latest/</link>.</item>
+
+
+ <item>For information on accessibility features specific to the Collaborative Statistics textbook, please visit <link document="m17211">http://cnx.org/content/m17211/latest/</link>.</item>
+
+
+</list></para>   
+  </content>
+  
+</document>

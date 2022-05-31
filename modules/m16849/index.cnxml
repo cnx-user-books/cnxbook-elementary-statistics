@@ -1,0 +1,282 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Stem and Leaf Graphs (Stemplots), Line Graphs and Bar Graphs</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16849</md:content-id>
+  <md:title>Stem and Leaf Graphs (Stemplots), Line Graphs and Bar Graphs</md:title>
+  <md:abstract>This module introduces the use of stem-and-leaf graphs (stemplots), line graphs and bar graphs for describing a set of data visually.</md:abstract>
+  <md:uuid>7e6f917e-26ef-42ab-a731-f95e54b2671e</md:uuid>
+</metadata>
+
+<content>
+<para id="id6999853">One simple graph, the <emphasis>stem-and-leaf graph</emphasis> or <emphasis>stem plot</emphasis>, comes from the field of exploratory data analysis.It is a good choice when the data sets are small. To create the plot, divide each observation of data into a stem and a leaf. The leaf consists of a  <emphasis>final significant digit</emphasis>. For example, 23 has stem 2 and leaf 3. Four hundred thirty-two (432) has stem 43 and leaf 2. Five thousand four hundred thirty-two (5,432) has stem 543 and leaf 2. The decimal 9.3 has stem 9 and leaf 3. Write the stems in a vertical line from smallest the largest. Draw a vertical line to the right of the stems. Then write the leaves in increasing order next to their corresponding stem.</para><example id="element-696"><para id="element-948">For Susan Dean's spring pre-calculus class, scores for the first exam were as follows (smallest to largest):
+
+
+
+	</para><para id="id8531969"><list id="set-190" list-type="labeled-item" display="inline"><item>33</item><item>42</item><item>49</item><item>49</item><item>53</item><item>55</item><item>55</item><item>61</item><item>63</item><item>67</item><item>68</item><item>68</item><item>69</item><item>69</item><item>72</item><item>73</item><item>74</item><item>78</item><item>80</item><item>83</item><item>88</item><item>88</item><item>88</item><item>90</item><item>92</item><item>94</item><item>94</item><item>94</item><item>94</item><item>96</item><item>100</item></list></para><table id="element-185" summary="Table displaying stem in first column and leaf in second column for the values listed above."><title>Stem-and-Leaf Diagram</title>
+<tgroup cols="2"><thead>
+  <row>
+    <entry>Stem</entry>
+    <entry>Leaf</entry>
+  </row>
+</thead>
+
+<tbody>
+		<row>
+			<entry>3</entry>
+			<entry>3</entry>
+		</row>
+		<row>
+			<entry>4</entry>
+			<entry>299</entry>
+		</row>
+		<row>
+			<entry>5</entry>
+			<entry>355</entry>
+		</row>
+		<row>
+			<entry>6</entry>
+			<entry>1378899</entry>
+		</row>
+		<row>
+			<entry>7</entry>
+			<entry>2348</entry>
+		</row>
+		<row>
+			<entry>8</entry>
+			<entry>03888</entry>
+		</row>
+		<row>
+			<entry>9</entry>
+			<entry>0244446</entry>
+		</row>
+		<row>
+			<entry>10</entry>
+			<entry>0</entry>
+		</row>
+	</tbody>
+
+</tgroup>
+</table><para id="element-541">The stem plot shows that most scores fell in the 60s, 70s, 80s, and 90s.  Eight out of the 31 scores or approximately 26% of the scores were in the 90's or 100, a fairly high number of As.</para></example><para id="id8073584">The stem plot is a quick way to graph and gives an exact picture of the data. You want to look for an overall pattern and any outliers. An <term target-id="outlier">outlier</term> is an observation of data that does not fit the rest of the data. It is sometimes called an <emphasis>extreme value.</emphasis> When you graph an outlier, it will appear not to fit the pattern of the graph. Some outliers are due to mistakes (for example, writing down 50 instead of 500) while others may indicate that something unusual is happening. It takes some background information to explain outliers. In the example above, there were no outliers.</para><example id="element-798"><para id="element-443">Create a stem plot using the data: 
+	</para>
+
+<para id="element-4232"><list id="set-85" list-type="labeled-item" display="inline"><item>1.1</item><item>1.5</item><item>2.3</item><item>2.5</item><item>2.7</item><item>3.2</item><item>3.3</item><item>3.3</item><item>3.5</item><item>3.8</item><item>4.0</item><item>
+4.2</item><item>4.5</item><item>4.5</item><item>4.7</item><item>4.8</item><item>5.5</item><item>5.6</item><item>6.5</item><item>6.7</item><item>12.3</item></list></para>
+<para id="element-534">The data are the distance (in kilometers) from a home to the nearest supermarket. </para>
+<exercise id="element-6923">
+<problem id="id8567884">
+<list id="element-675" list-type="enumerated"><item>Are there any values that might possibly be outliers? </item>
+	<item>Do the data seem to have any concentration of values?</item>
+</list><note id="id8559724" type="Hint"><label>Hint</label>The leaves are to the right of the decimal.</note>
+</problem>
+<solution id="id8559734" print-placement="end">
+<para id="element-23523">The value 12.3 may be an outlier.  Values appear to concentrate at 3 and 4 kilometers.
+</para><table id="element-533" summary="This is a Stem-Leaf graph with stems 1, 2, 3, 4, 5, 6, 12 and leaves to the right of the decimal point.">
+<tgroup cols="2"><thead>
+  <row>
+    <entry>Stem</entry>
+    <entry>Leaf</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>1</entry>
+    <entry>1 5</entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>3 5 7</entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>2 3 3 5 8</entry>
+  </row>
+  <row>
+    <entry>4</entry>
+    <entry>0 2 5 5 7 8</entry>
+  </row>
+  <row>
+    <entry>5</entry>
+    <entry>5 6</entry>
+  </row>
+  <row>
+    <entry>6</entry>
+    <entry>5 7</entry>
+  </row>
+  <row>
+    <entry>7</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>8</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>9</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>10</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>11</entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>12</entry>
+    <entry>3</entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table></solution>
+</exercise></example><para id="eip-313">Another type of graph that is useful for specific data values is a <emphasis>line graph</emphasis>.  In the particular line graph shown in the example, the <emphasis>x-axis</emphasis> consists of <emphasis>data values</emphasis> and the <emphasis>y-axis</emphasis> consists of <emphasis>frequency points</emphasis>. The frequency points are connected. </para><example id="eip-324"><para id="eip-682">In a survey, 40 mothers were asked how many times per week a teenager must be reminded to do his/her chores.  The results are shown in the table and the line graph.
+</para><table id="eip-82" summary="The first column of the table consists of the number of times a teenager must be reminded to do his/her chores and the second column consists of frequency.">
+<tgroup cols="2"><thead>
+  <row>
+    <entry>Number of times 
+    teenager is reminded</entry>
+    <entry>Frequency</entry>
+  </row>
+</thead>
+
+<tbody>
+  <row>
+    <entry>0</entry><entry>2</entry>
+  </row>
+  <row>
+    <entry>1</entry><entry>5</entry>
+  </row>
+  <row>
+    <entry>2</entry><entry>8</entry>
+  </row>
+  <row>
+    <entry>3</entry><entry>14</entry>
+  </row>
+ <row>
+    <entry>4</entry><entry>7</entry>
+  </row>
+  <row>
+    <entry>5</entry><entry>4</entry>
+  </row> 
+  
+</tbody>
+
+
+
+
+</tgroup>
+</table><para id="eip-629"><media id="line_graph_teenager" alt="A line graph showing the number of times a teenager needs to be reminded to do chores on the x-axis and  frequency on the y-axis.">	   
+  <image src="../../media/desc_stats_line_graph_1.png" mime-type="image/png" print-width="4in"/></media>
+</para>
+
+</example>
+
+
+
+
+
+<para id="eip-136"><emphasis>Bar graphs</emphasis> consist of bars that are separated from each other.  The bars can be rectangles or they can be rectangular boxes and they can be vertical or horizontal. </para><para id="eip-75">The <emphasis>bar graph</emphasis> shown in <emphasis>Example 4</emphasis> has age groups  represented on the <emphasis>x-axis</emphasis> and proportions on the <emphasis>y-axis</emphasis>. </para><example id="eip-824"><para id="eip-666">By the end of 2011, in the United States, Facebook had over 146 million users.  The table shows three age groups, the number of users in each age group and the proportion (%) of users in each age group.
+
+<emphasis>Source: <cite><cite-title>http://www.kenburbary.com/2011/03/facebook-demographics-revisited-2011-statistics-2/</cite-title></cite></emphasis>
+</para><table id="eip-362" summary="The information is from Facebook. The first row of the table displays age groups, the second row displays number of Facebook users and the third row displays percentages.">
+<tgroup cols="3"><thead>
+  <row>
+    <entry>Age groups</entry>
+    <entry>Number of Facebook users</entry>
+    <entry>Proportion (%) of Facebook users</entry>
+  </row>
+</thead><tbody>
+  <row>
+    <entry>13 - 25</entry>
+    <entry>65,082,280</entry>
+    <entry>45%</entry>
+  </row>
+  <row>
+    <entry>26 - 44</entry>
+    <entry>53,300,200</entry>
+    <entry>36%</entry>
+  </row>
+  <row>
+    <entry>45 - 64</entry>
+    <entry>27,885,100</entry>
+    <entry>19%</entry>
+  </row>
+</tbody>
+
+
+
+
+</tgroup>
+</table><para id="eip-93"><media id="bar_graph_Facebook" alt="A bar graph showing age groups on the x-axis and percentages of Facebook users on the y-axis.">	   
+  <image src="../../media/desc_stats_bar_graph_3.png" mime-type="image/png" print-width="4in"/></media>
+</para>
+</example>
+
+<example id="eip-708"><para id="eip-655">The columns in the table below contain the race/ethnicity of U.S. Public Schools: High School Class of 2011, percentages for the Advanced Placement Examinee Population for that class and percentages for the Overall Student Population. The 3-dimensional graph shows the Race/Ethnicity of U.S. Public Schools (qualitative data)
+on the <emphasis>x-axis</emphasis> and Advanced Placement Examinee Population percentages on the <emphasis>y-axis</emphasis>. (<emphasis>Source: http://www.collegeboard.com</emphasis> and <emphasis> Source: http://apreport.collegeboard.org/goals-and-findings/promoting-equity</emphasis>)
+</para><table id="eip-794" summary="The table shows Race and Ethnicity in the first column, Advanced Placement Examinee Population in the second column and Overall Student Population in the third column.">
+<tgroup cols="3"><thead>
+  <row>
+    <entry>Race/Ethnicity</entry>
+    <entry>AP Examinee Population</entry>
+    <entry>Overall Student Population</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>1 = Asian, Asian American or Pacific Islander</entry>
+    <entry>10.3%</entry>
+    <entry>5.7%</entry>
+  </row>
+  <row>
+    <entry>2 = Black or African American</entry>
+    <entry>9.0%</entry>
+    <entry>14.7%</entry>
+  </row>
+  <row>
+    <entry>3 = Hispanic or Latino</entry>
+    <entry>17.0%</entry>
+    <entry>17.6%</entry>
+  </row>
+  <row>
+     <entry>4 = American Indian or Alaska Native</entry>
+     <entry>0.6%</entry>
+     <entry>1.1%</entry>
+  </row>
+  <row>
+    <entry>5 = White</entry>
+    <entry>57.1%</entry>
+    <entry>59.2%</entry>
+  </row>
+   <row>
+    <entry>6 = Not reported/other</entry>
+    <entry>6.0%</entry>
+    <entry>1.7%</entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table><para id="eip-908"><media id="bar_graph_Ap_Examinee" alt="A bar graph showing race and ethnicity on the x-axis and percentages of AP examinees on the y-axis.">	   
+  <image src="../../media/desc_stats_bar_graph_4.png" mime-type="image/png" print-width="4in"/></media></para>
+</example>
+
+<para id="eip-557">Go to <link url="http://nces.ed.gov/pubs2011/2011015_5.pdf">Outcomes of Education Figure 22</link> for an example of a bar graph that shows unemployment rates of persons 25 years and older for 2009.</para><note id="id8560040">This book contains instructions for constructing a <emphasis>histogram</emphasis> and a <emphasis>box plot</emphasis> for the TI-83+ and TI-84 calculators.  You can find additional instructions for using these calculators on the <link url="http://education.ti.com/educationportal/sites/US/sectionHome/support.html">Texas Instruments (TI) website</link>.</note>
+  </content>
+
+<glossary>
+
+<definition id="outlier">
+    <term>Outlier</term>
+    <meaning id="id1171166689919">
+   An observation that does not fit the rest of the data.
+    </meaning>
+  </definition>
+
+
+
+
+</glossary>
+  
+</document>

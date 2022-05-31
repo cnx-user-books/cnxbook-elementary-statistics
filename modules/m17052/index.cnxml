@@ -1,0 +1,107 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Notation</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m17052</md:content-id>
+  <md:title>Notation</md:title>
+  <md:abstract>This module provides an overview of Chi-Square Distribution Notation as a part of Collaborative Statistics collection (col10522) by Barbara Illowsky and Susan Dean.</md:abstract>
+  <md:uuid>835564a0-e584-468a-8776-96e6635e068d</md:uuid>
+</metadata>
+  <content>
+    <para id="element-364">The notation for the chi-square distribution is:</para><para id="element-712"><m:math>
+<m:msup>
+<m:mi>χ</m:mi>
+<m:mn>2</m:mn>
+</m:msup></m:math> ~
+<m:math>
+<m:msubsup>
+<m:mi>χ</m:mi>
+<m:mtext>df</m:mtext>
+<m:mn>2</m:mn>
+</m:msubsup>
+</m:math></para><para id="element-567">where <m:math>
+<m:mi>df</m:mi>
+<m:mo>=</m:mo>
+</m:math> degrees of freedom depend on how chi-square is being used. (If you want to
+practice calculating chi-square probabilities then use 
+<m:math>
+<m:mi>df</m:mi>
+<m:mo>=</m:mo>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+</m:math>. The degrees of freedom
+for the three major uses are each calculated differently.)</para><para id="element-734">For the 
+<m:math>
+<m:msup>
+<m:mi>χ</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> distribution, the population mean is 
+<m:math>
+<m:mi>μ</m:mi>
+<m:mo>=</m:mo>
+<m:mi>df</m:mi>
+</m:math> and the population
+standard deviation is 
+<m:math>
+<m:mi>σ</m:mi>
+<m:mo>=</m:mo>
+<m:msqrt>
+<m:mn>2</m:mn>
+<m:mo>⋅</m:mo>
+
+<m:mi>df</m:mi>
+</m:msqrt>
+</m:math>.</para><para id="element-797">The random variable is shown as 
+<m:math>
+<m:msup>
+<m:mi>χ</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> but may be any upper case letter.</para><para id="element-468">The random variable for a chi-square distribution with 
+<m:math>
+<m:mi>k</m:mi>
+</m:math> degrees of freedom is the
+sum of<emphasis> <m:math>
+<m:mi>k</m:mi>
+</m:math> </emphasis> independent, squared standard normal variables.</para><para id="element-708"><m:math>
+<m:msup>
+<m:mi>χ</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>Z</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>Z</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mo>...</m:mo>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>Z</m:mi>
+<m:mi>k</m:mi>
+</m:msub>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math></para>   
+  </content>
+  
+</document>
