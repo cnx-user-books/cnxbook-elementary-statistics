@@ -17,15 +17,15 @@ or it may be due to chance. A hypothesis test can help determine if a difference
 the estimated proportions 
 <m:math>
 <m:mo>(</m:mo>
- <m:msub>
+ <m:mmultiscripts>
  <m:mi>P</m:mi>
  <m:mi>A</m:mi><m:mo>'</m:mo>
- </m:msub>
+ </m:mmultiscripts>
 <m:mo>−</m:mo>
- <m:msub>
+ <m:mmultiscripts>
 <m:mi>P</m:mi>
 <m:mi>B</m:mi><m:mo>'</m:mo>
-</m:msub>
+</m:mmultiscripts>
 <m:mo>)</m:mo>
 </m:math> reflects a difference in the population proportions.</para><para id="element-330">The difference of two proportions follows an approximate normal distribution. Generally,
 the null hypothesis states that the two proportions are the same. That is, 

@@ -804,7 +804,6 @@ However, if the population effect size is small it is not unlikely that <m:math>
 </m:mrow>
 
 <m:mrow>
-<m:msup>
 <m:mrow>
 <m:mo/>
 <m:msub>
@@ -824,7 +823,7 @@ However, if the population effect size is small it is not unlikely that <m:math>
 <m:mo/>
 </m:mrow>
 
-</m:msup>
+
 </m:mrow>
 
 </m:mfrac>

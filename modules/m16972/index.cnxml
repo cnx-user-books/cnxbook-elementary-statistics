@@ -513,12 +513,7 @@
         </m:semantics>
       </m:math>
      are mutually exclusive events, 
-      <m:math>
-        <m:semantics>
-          <m:mrow/>
-          <m:annotation encoding="StarMath 5.0">{}</m:annotation>
-        </m:semantics>
-      </m:math>
+      
       <m:math>
         <m:semantics>
           <m:mrow>

@@ -342,7 +342,6 @@ each group has the same number of plants so we will use the formula
 </m:mrow>
 
 <m:mrow>
-<m:msup>
 <m:mrow>
 <m:mo/>
 <m:msub>
@@ -357,7 +356,7 @@ each group has the same number of plants so we will use the formula
 <m:mo/>
 </m:mrow>
 
-</m:msup>
+
 </m:mrow>
 
 </m:mfrac>
@@ -517,7 +516,6 @@ each child grew). </para><para id="element-606">Calculate the mean of the three 
 </m:mrow>
 
 <m:mrow>
-<m:msup>
 <m:mrow>
 <m:mo/>
 <m:msub>
@@ -534,7 +532,7 @@ each child grew). </para><para id="element-606">Calculate the mean of the three 
 <m:mo/>
 </m:mrow>
 
-</m:msup>
+
 </m:mrow>
 
 </m:mfrac>

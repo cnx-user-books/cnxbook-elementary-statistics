@@ -53,7 +53,7 @@ State the null and alternative hypotheses.
         <m:semantics>
           <m:mtable>
             <m:mtr>
-              <m:mrow>
+              <m:mtd>
                 <m:msub>
                   <m:mi>H</m:mi>
                   <m:mstyle fontsize="8pt">
@@ -90,7 +90,7 @@ State the null and alternative hypotheses.
                   <m:mrow/>
                 </m:mrow>
                 <m:mrow/>
-              </m:mrow>
+              </m:mtd>
             </m:mtr>
             <m:mtr>
               <m:mstyle fontsize="12pt">
@@ -110,7 +110,7 @@ State the null and alternative hypotheses.
         <m:semantics>
           <m:mtable>
             <m:mtr>
-              <m:mrow>
+              <m:mtd>
                 <m:msub>
                   <m:mi>H</m:mi>
                   <m:mstyle fontsize="8pt">
@@ -147,7 +147,7 @@ State the null and alternative hypotheses.
                   <m:mrow/>
                 </m:mrow>
                 <m:mrow/>
-              </m:mrow>
+              </m:mtd>
             </m:mtr>
             <m:mtr>
               <m:mstyle fontsize="12pt">
